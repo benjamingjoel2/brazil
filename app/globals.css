@@ -97,10 +97,15 @@ html.lenis body {
   .t-mega {
     font-family: var(--font-display);
     font-weight: 800;
-    font-size: clamp(3.25rem, 13.5vw, 15rem);
+    font-size: 13.5vw;
     line-height: 0.88;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+  }
+  @media (min-width: 768px) {
+    .t-mega {
+      font-size: 9.4vw;
+    }
   }
   .t-wordmark {
     font-family: var(--font-display);
