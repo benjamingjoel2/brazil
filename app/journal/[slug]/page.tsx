@@ -53,7 +53,7 @@ export default async function PostPage({ params }: PageProps<"/journal/[slug]">)
         </div>
         <div className="mx-auto mt-16 max-w-[68ch] border-t-2 border-forest/15 pt-8">
           <ButtonLink href="/plan">Plan with us</ButtonLink>
-          <h2 className="t-label mt-12 text-forest/60">More from the journal</h2>
+          <h2 className="t-label mt-12 text-forest/75">More from the journal</h2>
           <ul className="mt-4 space-y-3">
             {others.map((o) => (
               <li key={o.slug}>

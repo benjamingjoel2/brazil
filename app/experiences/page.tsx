@@ -52,7 +52,7 @@ export default function ExperiencesPage() {
               <p className="mt-5 flex flex-wrap items-center gap-2 text-sm font-semibold text-coral-deep">
                 When: {e.when} {e.verify && <Verify note={e.verifyNote} />}
               </p>
-              {e.verify && e.verifyNote && <p className="mt-1 text-xs text-ink/60">{e.verifyNote}</p>}
+              {e.verify && e.verifyNote && <p className="mt-1 text-xs text-ink/70">{e.verifyNote}</p>}
               <div className="mt-6 space-y-4">
                 <LinkList items={destinationLinks(e.destinations)} />
                 <LinkList items={journeyLinks(e.journeys)} />

@@ -29,22 +29,30 @@ export function VideoPlayer({
   const reduce = useReducedMotion();
   const [userPaused, setUserPaused] = useState<boolean | null>(null);
   const [inView, setInView] = useState(false);
+  // Only attach the source once the video comes near the viewport (hero loads at once).
+  const [load, setLoad] = useState(priority);
   const paused = userPaused ?? !!reduce;
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const io = new IntersectionObserver(([e]) => setInView(e.isIntersecting), { rootMargin: "200px" });
+    const io = new IntersectionObserver(
+      ([e]) => {
+        setInView(e.isIntersecting);
+        if (e.isIntersecting) setLoad(true);
+      },
+      { rootMargin: "50% 0px" },
+    );
     io.observe(el);
     return () => io.disconnect();
   }, []);
 
   useEffect(() => {
     const el = ref.current;
-    if (!el || !media.src) return;
+    if (!el || !media.src || !load) return;
     if (inView && active && !paused) el.play().catch(() => {});
     else el.pause();
-  }, [inView, active, paused, media.src]);
+  }, [inView, active, paused, media.src, load]);
 
   if (!media.src) {
     return (
@@ -61,14 +69,14 @@ export function VideoPlayer({
       <video
         ref={ref}
         className={clsx("absolute inset-0 h-full w-full object-cover", className)}
-        poster={media.poster || undefined}
+        poster={media.poster ? `/_next/image?url=${encodeURIComponent(media.poster)}&w=1920&q=75` : undefined}
         muted
         loop
         playsInline
-        preload={priority ? "auto" : "metadata"}
+        preload={priority ? "auto" : "none"}
         aria-label={media.alt}
+        src={load ? media.src : undefined}
       >
-        <source src={media.src} type="video/mp4" />
         {media.captions && <track kind="captions" src={media.captions} srcLang="en" label="English" />}
       </video>
       {showControl && (

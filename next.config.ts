@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com", pathname: "/photo-**", search: "" },
-      { protocol: "https", hostname: "images.pexels.com", pathname: "/**" },
+      { protocol: "https", hostname: "images.pexels.com", pathname: "/videos/**" },
     ],
     qualities: [60, 75, 85],
     formats: ["image/avif", "image/webp"],

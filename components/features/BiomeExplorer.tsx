@@ -96,7 +96,7 @@ export function BiomeExplorer({ links }: { links: Record<BiomeSlug, { where: Lin
           </g>
           <path d={brazilMap.outline} fill="none" stroke="var(--color-forest)" strokeOpacity="0.4" strokeWidth="2.5" />
         </svg>
-        <p className="mt-2 text-xs text-ink/60">Simplified map; biome boundaries are approximate (after IBGE).</p>
+        <p className="mt-2 text-xs text-ink/70">Simplified map; biome boundaries are approximate (after IBGE).</p>
 
         <div className="mt-6" role="group" aria-label="Biomes">
           <ul className="flex flex-wrap gap-2">
@@ -141,11 +141,11 @@ export function BiomeExplorer({ links }: { links: Record<BiomeSlug, { where: Lin
 
             <dl className="mt-8 grid gap-6">
               <div>
-                <dt className="t-label mb-2 text-forest/60">What it looks like</dt>
+                <dt className="t-label mb-2 text-forest/75">What it looks like</dt>
                 <dd>{b.landscape}</dd>
               </div>
               <div>
-                <dt className="t-label mb-2 text-forest/60">What lives there</dt>
+                <dt className="t-label mb-2 text-forest/75">What lives there</dt>
                 <dd>
                   <ul className="flex flex-wrap gap-2">
                     {b.wildlife.map((w) => (
@@ -157,7 +157,7 @@ export function BiomeExplorer({ links }: { links: Record<BiomeSlug, { where: Lin
                 </dd>
               </div>
               <div>
-                <dt className="t-label mb-2 flex items-center gap-2 text-forest/60">
+                <dt className="t-label mb-2 flex items-center gap-2 text-forest/75">
                   Best months <Verify />
                 </dt>
                 <dd>
@@ -165,13 +165,13 @@ export function BiomeExplorer({ links }: { links: Record<BiomeSlug, { where: Lin
                 </dd>
               </div>
               <div>
-                <dt className="t-label mb-2 text-forest/60">Where we go</dt>
+                <dt className="t-label mb-2 text-forest/75">Where we go</dt>
                 <dd>
                   <LinkList items={links[b.slug].where} />
                 </dd>
               </div>
               <div>
-                <dt className="t-label mb-2 text-forest/60">Journeys</dt>
+                <dt className="t-label mb-2 text-forest/75">Journeys</dt>
                 <dd>
                   <LinkList items={links[b.slug].journeys} />
                 </dd>

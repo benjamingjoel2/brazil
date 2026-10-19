@@ -73,7 +73,7 @@ export default async function JourneyPage({ params }: PageProps<"/journeys/[slug
             ]}
           />
           <CurrencySwitcher className="mt-6" />
-          <p className="mt-3 text-xs text-ink/60">Per person sharing, excluding international flights. Indicative exchange rates.</p>
+          <p className="mt-3 text-xs text-ink/70">Per person sharing, excluding international flights. Indicative exchange rates.</p>
         </Reveal>
       </section>
 

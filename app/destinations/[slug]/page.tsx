@@ -61,7 +61,7 @@ export default async function DestinationPage({ params }: PageProps<"/destinatio
           )}
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
             <div>
-              <h2 className="t-label mb-3 text-forest/60">What to eat</h2>
+              <h2 className="t-label mb-3 text-forest/75">What to eat</h2>
               <ul className="space-y-1.5">
                 {d.eat.map((x) => (
                   <li key={x} className="flex gap-2">
@@ -72,7 +72,7 @@ export default async function DestinationPage({ params }: PageProps<"/destinatio
               </ul>
             </div>
             <div>
-              <h2 className="t-label mb-3 text-forest/60">Music of the region</h2>
+              <h2 className="t-label mb-3 text-forest/75">Music of the region</h2>
               <ul className="flex flex-wrap gap-2">
                 {d.music.map((x) => (
                   <li key={x} className="rounded-pill bg-sand px-3 py-1 text-sm">

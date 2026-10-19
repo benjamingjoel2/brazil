@@ -86,7 +86,7 @@ export function WaterToggle({
                   month === i + 1 && "ring-2 ring-gold ring-offset-2 ring-offset-off",
                 )}
               />
-              <span className={clsx("mt-1 block text-[0.65rem] font-semibold", on ? "text-forest" : "text-ink/45")}>{m.slice(0, 1)}<span className="hidden sm:inline">{m.slice(1)}</span></span>
+              <span className={clsx("mt-1 block text-[0.65rem] font-semibold", on ? "text-forest" : "text-ink/65")}>{m.slice(0, 1)}<span className="hidden sm:inline">{m.slice(1)}</span></span>
             </li>
           );
         })}
@@ -131,11 +131,11 @@ export function WaterToggle({
             </ul>
             <div className="mt-6 space-y-4">
               <div>
-                <p className="t-label mb-2 text-forest/60">Where to stay</p>
+                <p className="t-label mb-2 text-forest/75">Where to stay</p>
                 <LinkList items={links[p.id].stays} />
               </div>
               <div>
-                <p className="t-label mb-2 text-forest/60">Journeys</p>
+                <p className="t-label mb-2 text-forest/75">Journeys</p>
                 <LinkList items={links[p.id].journeys} />
               </div>
             </div>
