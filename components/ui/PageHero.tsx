@@ -30,7 +30,7 @@ export function PageHero({
       <div className="absolute inset-0 bg-linear-to-b from-ink/50 via-ink/15 to-forest-deep/85" />
       <SunArcs className="absolute -bottom-6 left-1/2 w-[110vw] max-w-none -translate-x-1/2 opacity-25" rings={6} />
       <div className="px-gutter relative pb-[max(2.5rem,5vw)] pt-[calc(var(--header-h)+3rem)]">
-        {label && <p className="t-label mb-4 text-gold">{label}</p>}
+        {label && <p className="t-label mb-4 inline-flex rounded-pill bg-ink/45 px-3 py-1.5 text-gold backdrop-blur-sm">{label}</p>}
         <h1 className="t-h1 max-w-5xl">
           <RiseWords text={title} />
         </h1>
