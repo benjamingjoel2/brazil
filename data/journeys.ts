@@ -25,7 +25,7 @@ export const journeys: Journey[] = [
       {
         day: "Day 1",
         title: "Hello, Rio",
-        body: "A driver meets you at the airport and takes the coast road into the city. Settle into your hillside room in Santa Teresa, then wander down for a first caipirinha with the bay below you.",
+        body: "A driver meets you at the airport and takes the coast road into the city. Settle into your hillside room in Santa Teresa, then wander down for a first cold coconut with the bay below you.",
         place: "rio-de-janeiro",
       },
       {
