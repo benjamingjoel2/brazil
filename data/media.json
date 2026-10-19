@@ -1,1 +1,822 @@
-{ "images": {}, "videos": {} }
+{
+ "images": {
+  "sunrise-atlantic": {
+   "src": "https://images.unsplash.com/photo-1704446343752-e2b949f3db5b",
+   "alt": "Low sun glowing over the Atlantic from the beach at João Pessoa",
+   "credit": "thiago japyassu / Unsplash",
+   "page": "https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-on-a-cloudy-day-sfKSGTshh9g",
+   "approx": false,
+   "note": "João Pessoa faces east; Unsplash title says 'setting' but tags include sunrise"
+  },
+  "brazil-joy-people": {
+   "src": "https://images.unsplash.com/photo-1778236313375-c80768b13495",
+   "alt": "Performers in colourful costumes dancing in a street parade on Avenida Paulista",
+   "credit": "Renata Moraes / Unsplash",
+   "page": "https://unsplash.com/photos/people-in-colorful-costumes-dancing-in-a-street-parade-b8DRsg_ixmc",
+   "approx": false,
+   "note": "São Paulo"
+  },
+  "ponta-do-seixas": {
+   "src": "https://images.unsplash.com/photo-1732216467230-42ce323767a8",
+   "alt": "Aerial view of the beaches and reefs of the João Pessoa coast",
+   "credit": "Hugo Fabricio / Unsplash",
+   "page": "https://unsplash.com/photos/an-aerial-view-of-a-beach-and-ocean-KrN8za0E0h0",
+   "approx": true,
+   "note": "João Pessoa coastline; not confirmed to be Ponta do Seixas itself"
+  },
+  "forest-canopy": {
+   "src": "https://images.unsplash.com/photo-1695729812323-b0d9e3f2f97e",
+   "alt": "Dense green canopy of Brazil's Atlantic Forest",
+   "credit": "Caio Arbulu / Unsplash",
+   "page": "https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-1ILN2Z67LaM",
+   "approx": false,
+   "note": "From 'mata atlântica' search"
+  },
+  "music-street": {
+   "src": "https://images.unsplash.com/photo-1611093672757-bcd5044ca065",
+   "alt": "Percussionists drumming through the streets of Pelourinho, Salvador",
+   "credit": "Woton Campos / Unsplash",
+   "page": "https://unsplash.com/photos/people-playing-musical-instruments-on-street-during-daytime-bwfsh7gpqms",
+   "approx": false,
+   "note": ""
+  },
+  "food-feijoada": {
+   "src": "https://images.unsplash.com/photo-1709114107937-6dec855d9ab5",
+   "alt": "A table set with Brazilian lunch dishes: meats, rice and sides",
+   "credit": "thiago japyassu / Unsplash",
+   "page": "https://unsplash.com/photos/a-table-topped-with-plates-of-food-and-bowls-of-food-Z2YnKo17mlI",
+   "approx": true,
+   "note": "Tagged Brazilian food / pork; not explicitly feijoada"
+  },
+  "food-bahian": {
+   "src": "https://images.unsplash.com/photo-1562967915-daced602d43d",
+   "alt": "A tray of shrimp, rice and seafood at a Brazilian beach restaurant",
+   "credit": "Léo Roza / Unsplash",
+   "page": "https://unsplash.com/photos/tray-of-cooked-food-WhPrQKb3Tjs",
+   "approx": true,
+   "note": "Brazilian coastal seafood (Guriri, Espírito Santo); not moqueca/acarajé specifically"
+  },
+  "market-fruit": {
+   "src": "https://images.unsplash.com/photo-1668548205385-da1bdd1a0459",
+   "alt": "Fruit and vegetable stalls at a Brazilian street market",
+   "credit": "Giovanna Gomes / Unsplash",
+   "page": "https://unsplash.com/photos/a-market-with-vegetables-and-fruits-jsSLum7gtTU",
+   "approx": false,
+   "note": "From 'feira brasil' search"
+  },
+  "capoeira": {
+   "src": "https://images.unsplash.com/photo-1583166614297-a97b68d5cead",
+   "alt": "Capoeira in the streets of Pelourinho, Salvador",
+   "credit": "Nigel SB Photography / Unsplash",
+   "page": "https://unsplash.com/photos/a-group-of-people-that-are-standing-in-the-street-me2X2pfRhXU",
+   "approx": false,
+   "note": ""
+  },
+  "forro-dance": {
+   "src": "https://images.unsplash.com/photo-1779037805819-ad14ead830c7",
+   "alt": "A forró pé-de-serra band with zabumba, pífanos and triangle playing to a street crowd at São João de Caruaru",
+   "credit": "Karla Vidal / Unsplash",
+   "page": "https://unsplash.com/photos/S3IofpFsZSQ",
+   "approx": true,
+   "note": "Shows a forró band and crowd, not couples dancing"
+  },
+  "rio": {
+   "src": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325",
+   "alt": "Aerial view of Rio de Janeiro between mountains and sea",
+   "credit": "Agustin Diaz Gargiulo / Unsplash",
+   "page": "https://unsplash.com/photos/aerial-photography-of-cityscape-near-sea-7F65HDP0-E0",
+   "approx": false,
+   "note": ""
+  },
+  "paraty": {
+   "src": "https://images.unsplash.com/photo-1623194417728-adf641357d41",
+   "alt": "Cobblestone street with café tables in Paraty's historic centre",
+   "credit": "Gilberto Olimpio / Unsplash",
+   "page": "https://unsplash.com/photos/Voxlac0w_6I",
+   "approx": false,
+   "note": ""
+  },
+  "ilha-grande": {
+   "src": "https://images.unsplash.com/photo-1660252473255-eab525b5f07c",
+   "alt": "A quiet beach backed by forested hills on Ilha Grande",
+   "credit": "Tutz Dias / Unsplash",
+   "page": "https://unsplash.com/photos/a-beach-with-trees-and-a-hill-in-the-background-bw-BNrhNqTY",
+   "approx": false,
+   "note": ""
+  },
+  "sao-paulo": {
+   "src": "https://images.unsplash.com/photo-1764444218574-d7458950bf4c",
+   "alt": "São Paulo skyline at sunset",
+   "credit": "Caroline Badran / Unsplash",
+   "page": "https://unsplash.com/photos/city-skyline-with-tall-buildings-at-sunset-uKj1kHUb1Gc",
+   "approx": false,
+   "note": ""
+  },
+  "ouro-preto": {
+   "src": "https://images.unsplash.com/photo-1615510025370-0b4c08637106",
+   "alt": "Colonial houses and churches across the hills of Ouro Preto",
+   "credit": "Tchelo Veiga / Unsplash",
+   "page": "https://unsplash.com/photos/white-and-brown-concrete-houses-on-mountain-GOZKF3826Qc",
+   "approx": false,
+   "note": ""
+  },
+  "inhotim": {
+   "src": "https://images.unsplash.com/photo-1671594491022-267577f840d4",
+   "alt": "A row of brightly coloured art structures in the gardens of Inhotim",
+   "credit": "Mario Gogh / Unsplash",
+   "page": "https://unsplash.com/photos/a-row-of-brightly-colored-structures-in-a-park-WundcmQD3sk",
+   "approx": false,
+   "note": ""
+  },
+  "salvador": {
+   "src": "https://images.unsplash.com/photo-1787156154351-70adc350fcac",
+   "alt": "Cobblestone street leading to a blue church in Salvador",
+   "credit": "José Maldonado / Unsplash",
+   "page": "https://unsplash.com/photos/cobblestone-street-and-church-in-salvador-cBCA8qjKIXs",
+   "approx": false,
+   "note": ""
+  },
+  "trancoso": {
+   "src": "https://images.unsplash.com/photo-1660324815806-c0d68f2880e1",
+   "alt": "The little white church on the Quadrado in Trancoso",
+   "credit": "J. Balla Photography / Unsplash",
+   "page": "https://unsplash.com/photos/a-white-building-with-a-cross-on-top-TI0DOhKfn0k",
+   "approx": false,
+   "note": ""
+  },
+  "itacare": {
+   "src": "https://images.unsplash.com/photo-1733590733972-af566d10d1f8",
+   "alt": "Sandy beach with palm trees and forested hills at Itacaré",
+   "credit": "Matheus Oliveira / Unsplash",
+   "page": "https://unsplash.com/photos/a-sandy-beach-with-palm-trees-and-a-mountain-in-the-background-tbGWi-bSd5U",
+   "approx": false,
+   "note": ""
+  },
+  "boipeba": {
+   "src": "https://images.unsplash.com/photo-1674658100632-e553a6045e3e",
+   "alt": "Aerial view of Boipeba island's beach and reef",
+   "credit": "Victor Ataide / Unsplash",
+   "page": "https://unsplash.com/photos/an-aerial-view-of-a-tropical-island-with-a-beach-tJuf3dEZXt8",
+   "approx": false,
+   "note": ""
+  },
+  "chapada-diamantina": {
+   "src": "https://images.unsplash.com/photo-1723033481526-5050488585cb",
+   "alt": "A hiker photographing the mesas of Chapada Diamantina",
+   "credit": "Otacilio Maia / Unsplash",
+   "page": "https://unsplash.com/photos/a-person-taking-a-picture-of-some-mountains-SdM64cc3bNg",
+   "approx": false,
+   "note": ""
+  },
+  "recife": {
+   "src": "https://images.unsplash.com/photo-1667314200608-9823df705cc2",
+   "alt": "The river running through Recife",
+   "credit": "thiago japyassu / Unsplash",
+   "page": "https://unsplash.com/photos/a-river-running-through-a-city-tHyPsGoFhmA",
+   "approx": false,
+   "note": ""
+  },
+  "olinda": {
+   "src": "https://images.unsplash.com/photo-1621945956653-54642cf7b301",
+   "alt": "Colourful colonial houses in Olinda",
+   "credit": "Secret Travel Guide / Unsplash",
+   "page": "https://unsplash.com/photos/blue-yellow-and-red-concrete-houses-under-white-clouds-during-daytime-DPrvrpPijkU",
+   "approx": false,
+   "note": ""
+  },
+  "fernando-de-noronha": {
+   "src": "https://images.unsplash.com/photo-1614722860207-909e0e8dfd99",
+   "alt": "Green-topped rock formations rising from the blue sea at Fernando de Noronha",
+   "credit": "Ze Paulo / Unsplash",
+   "page": "https://unsplash.com/photos/brown-and-green-rock-formation-on-blue-sea-under-white-clouds-and-blue-sky-during-daytime-h-UU2PnN5a0",
+   "approx": false,
+   "note": ""
+  },
+  "joao-pessoa": {
+   "src": "https://images.unsplash.com/photo-1733057424920-7cf49b177b79",
+   "alt": "Aerial view of a sandy beach in João Pessoa",
+   "credit": "Hugo Fabricio / Unsplash",
+   "page": "https://unsplash.com/photos/an-aerial-view-of-a-sandy-beach-and-ocean-fWLvGmKZHQU",
+   "approx": false,
+   "note": ""
+  },
+  "lencois-maranhenses": {
+   "src": "https://images.unsplash.com/photo-1650623598032-4fddce25b34f",
+   "alt": "White dunes and blue lagoons of Lençóis Maranhenses National Park",
+   "credit": "gabriel xu / Unsplash",
+   "page": "https://unsplash.com/photos/a-sandy-beach-with-a-body-of-water-in-the-background-with-lencois-maranhenses-national-park-in-the-background-lpv2x4ZQETQ",
+   "approx": false,
+   "note": ""
+  },
+  "jericoacoara": {
+   "src": "https://images.unsplash.com/photo-1693927193025-71dcd241608e",
+   "alt": "Sunset over the sea at Jericoacoara with people in the water",
+   "credit": "Mario Nardy / Unsplash",
+   "page": "https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-people-in-the-water-tObibbMxoBM",
+   "approx": false,
+   "note": ""
+  },
+  "amazon-manaus": {
+   "src": "https://images.unsplash.com/photo-1520464399004-1f1e8e938bb3",
+   "alt": "Manaus seen from above at golden hour",
+   "credit": "Tadeu Jnr / Unsplash",
+   "page": "https://unsplash.com/photos/birds-eye-view-photography-of-cityscape-during-golden-hour-Bon37uihsec",
+   "approx": false,
+   "note": ""
+  },
+  "anavilhanas": {
+   "src": "https://images.unsplash.com/photo-1769794142260-c4115835231a",
+   "alt": "Rainforest bordering a wide, calm Amazonian river",
+   "credit": "Rohit Tandon / Unsplash",
+   "page": "https://unsplash.com/photos/lush-green-rainforest-bordering-a-wide-calm-river-hDqlONspQIY",
+   "approx": true,
+   "note": "South American rainforest river; location not stated, not confirmed Anavilhanas"
+  },
+  "mamiraua": {
+   "src": "https://images.unsplash.com/photo-1600753822622-f37337da2d19",
+   "alt": "A man paddling a wooden canoe on a forest lake in the Amazon",
+   "credit": "Stephanie Morcinek / Unsplash",
+   "page": "https://unsplash.com/photos/man-in-brown-boat-on-lake-during-daytime-eJAJcErhh5s",
+   "approx": true,
+   "note": "Amazon near Manaus (Tupana), not Mamirauá"
+  },
+  "pantanal": {
+   "src": "https://images.unsplash.com/photo-1695154613084-36b07b70a12f",
+   "alt": "A jabiru stork (tuiuiú) flying low over the Paraguay River in the Pantanal",
+   "credit": "Filipe Sizilio / Unsplash",
+   "page": "https://unsplash.com/photos/a-white-bird-flies-over-water-with-green-trees-af01KMl1Tm8",
+   "approx": false,
+   "note": ""
+  },
+  "bonito": {
+   "src": "https://images.unsplash.com/photo-1670500991077-6dafd6dc8c8e",
+   "alt": "Aerial view of the clear Rio Sucuri winding through forest near Bonito",
+   "credit": "Paulo Freitas / Unsplash",
+   "page": "https://unsplash.com/photos/a-river-winding-through-a-forest-cv9_7yqwKzE",
+   "approx": false,
+   "note": ""
+  },
+  "iguacu": {
+   "src": "https://images.unsplash.com/photo-1657386363865-f30779784410",
+   "alt": "Iguaçu Falls cascading through green forest",
+   "credit": "Nadine Marfurt / Unsplash",
+   "page": "https://unsplash.com/photos/iguazu-falls-with-trees-and-bushes-6l2S5R4TUnc",
+   "approx": false,
+   "note": ""
+  },
+  "florianopolis": {
+   "src": "https://images.unsplash.com/photo-1669761151628-20999598357a",
+   "alt": "Swimmers at a beach in Florianópolis",
+   "credit": "will dornelles / Unsplash",
+   "page": "https://unsplash.com/photos/a-beach-with-people-swimming-YMncnCs7qQ4",
+   "approx": false,
+   "note": ""
+  },
+  "biome-amazon": {
+   "src": "https://images.unsplash.com/photo-1769794305664-cfb57957246f",
+   "alt": "A calm blackwater river reflecting dense Amazon rainforest",
+   "credit": "Rohit Tandon / Unsplash",
+   "page": "https://unsplash.com/photos/a-serene-river-flows-through-a-lush-green-jungle-eSFEX5L-_GU",
+   "approx": true,
+   "note": "South American rainforest river (Amazon river search); location not stated. Vertical image"
+  },
+  "biome-cerrado": {
+   "src": "https://images.unsplash.com/photo-1662997677426-2225712f97cd",
+   "alt": "Cerrado savanna with twisted trees and shrubs",
+   "credit": "Charles Betito Filho / Unsplash",
+   "page": "https://unsplash.com/photos/a-landscape-with-trees-and-bushes-vwC-S_RiKpA",
+   "approx": false,
+   "note": "From 'cerrado' search"
+  },
+  "biome-atlantic-forest": {
+   "src": "https://images.unsplash.com/photo-1604410207931-ffb5f22846d9",
+   "alt": "Forest-covered mountains of the Atlantic Forest",
+   "credit": "Vinicius Bustamante / Unsplash",
+   "page": "https://unsplash.com/photos/green-trees-on-mountain-under-blue-sky-during-daytime--orMxi3Ob7c",
+   "approx": false,
+   "note": "From 'mata atlântica' search"
+  },
+  "biome-caatinga": {
+   "src": "https://images.unsplash.com/photo-1621864477850-00df3ceb7411",
+   "alt": "A lone green tree in the dry caatinga scrubland",
+   "credit": "Cassio Dourado / Unsplash",
+   "page": "https://unsplash.com/photos/green-tree-on-brown-field-under-blue-sky-during-daytime-Gr2zdVNMD7E",
+   "approx": false,
+   "note": "From 'caatinga' search"
+  },
+  "biome-pantanal": {
+   "src": "https://images.unsplash.com/photo-1598568536940-ce8d1bc05b1a",
+   "alt": "Gallery forest along a Pantanal river near Poconé",
+   "credit": "Nathalia Segato / Unsplash",
+   "page": "https://unsplash.com/photos/green-trees-beside-body-of-water-during-daytime-Z7qNoZ-nsJc",
+   "approx": false,
+   "note": ""
+  },
+  "biome-pampa": {
+   "src": "https://images.unsplash.com/photo-1720545327835-0b1c1beda9c3",
+   "alt": "Rolling grassland and a pond in rural Rio Grande do Sul",
+   "credit": "Márcia Dezen / Unsplash",
+   "page": "https://unsplash.com/photos/a-field-of-grass-with-a-lake-in-the-distance-ujRz1EORtVQ",
+   "approx": true,
+   "note": "Rural Santo Ângelo/RS grassland; not explicitly labelled pampa"
+  },
+  "jaguar": {
+   "src": "https://images.unsplash.com/photo-1618741976098-8abd62493372",
+   "alt": "A jaguar in the Pantanal",
+   "credit": "David Waite / Unsplash",
+   "page": "https://unsplash.com/photos/_D9fMBbCWGA",
+   "approx": false,
+   "note": "Pantanal, Brazil"
+  },
+  "giant-otter": {
+   "src": "https://images.unsplash.com/photo-1618741975775-c350bdd5d3bb",
+   "alt": "A giant river otter swimming in the Pantanal",
+   "credit": "David Waite / Unsplash",
+   "page": "https://unsplash.com/photos/seal-on-water-during-daytime-gUWNmCVBTF4",
+   "approx": false,
+   "note": "Unsplash title says 'seal'; description says giant river otter, Pantanal"
+  },
+  "caiman": {
+   "src": "https://images.unsplash.com/photo-1618741975816-a8e0237b6633",
+   "alt": "Close-up of a yacare caiman in the Pantanal",
+   "credit": "David Waite / Unsplash",
+   "page": "https://unsplash.com/photos/black-crocodile-in-close-up-photography-euquelL3lkw",
+   "approx": false,
+   "note": ""
+  },
+  "hyacinth-macaw": {
+   "src": "https://images.unsplash.com/photo-1509116453669-0baa67ef9073",
+   "alt": "A pair of hyacinth macaws at their tree-hole nest in the Pantanal",
+   "credit": "Roi Dimor / Unsplash",
+   "page": "https://unsplash.com/photos/two-small-beaked-blue-bird-in-tree-trunk-AEQ-166CWY8",
+   "approx": false,
+   "note": ""
+  },
+  "toucan": {
+   "src": "https://images.unsplash.com/photo-1654034695280-4bfaea0debcc",
+   "alt": "A toucan perched on a palm leaf",
+   "credit": "WILLIAN REIS / Unsplash",
+   "page": "https://unsplash.com/photos/a-toucan-sitting-on-top-of-a-palm-leaf-XnhNjLhqcGw",
+   "approx": false,
+   "note": ""
+  },
+  "capybara": {
+   "src": "https://images.unsplash.com/photo-1764757610699-a60df4827aab",
+   "alt": "A capybara walking across a grassy field in Campo Grande",
+   "credit": "Fernando Santos / Unsplash",
+   "page": "https://unsplash.com/photos/a-capybara-walks-across-a-grassy-field-_n_7elGdEzA",
+   "approx": false,
+   "note": ""
+  },
+  "sea-turtle": {
+   "src": "https://images.unsplash.com/photo-1747792859506-cc578572ba80",
+   "alt": "A sea turtle crawling onto a sandy beach",
+   "credit": "Mirna Wabi-Sabi / Unsplash",
+   "page": "https://unsplash.com/photos/xDwgE24m9vQ",
+   "approx": true,
+   "note": "Found via 'sea turtle brazil' search; location not confirmed"
+  },
+  "amazon-flooded-forest": {
+   "src": "https://images.unsplash.com/photo-1700753618948-79f177a3b19e",
+   "alt": "A man paddling a canoe through Amazon forest waters near Manaus",
+   "credit": "gustavo nacht / Unsplash",
+   "page": "https://unsplash.com/photos/a-man-in-a-red-and-white-boat-on-a-river-4qft5c4rtvU",
+   "approx": true,
+   "note": "Amazon canoe near Manaus; high-water season not confirmed"
+  },
+  "amazon-river-beach": {
+   "src": "https://images.unsplash.com/photo-1597629045088-b7569b5a6691",
+   "alt": "A boat on the sandy shore at Alter do Chão at sunset",
+   "credit": "Matheus Sousa / Unsplash",
+   "page": "https://unsplash.com/photos/AvcLPU3XUSI",
+   "approx": false,
+   "note": "Alter do Chão river beach, Tapajós"
+  },
+  "pantanal-wet": {
+   "src": "https://images.unsplash.com/photo-1604970747673-3b173ce8e2c7",
+   "alt": "Sunrise over flooded Pantanal waters and trees near Poconé",
+   "credit": "Nathalia Segato / Unsplash",
+   "page": "https://unsplash.com/photos/body-of-water-near-trees-during-sunset-v4ynva2rNVc",
+   "approx": true,
+   "note": "Pantanal water and trees at dawn; no wading birds"
+  },
+  "pantanal-dry": {
+   "src": "https://images.unsplash.com/photo-1618741974846-97fdcfba6031",
+   "alt": "A jaguar walking along a sandy Pantanal riverbank",
+   "credit": "David Waite / Unsplash",
+   "page": "https://unsplash.com/photos/leopard-walking-on-brown-sand-during-daytime-z8aDr5TUJko",
+   "approx": true,
+   "note": "Dry sandy riverbank with jaguar; season not stated"
+  },
+  "stay-river-lodge": {
+   "src": "https://images.unsplash.com/photo-1677114603445-0baea88a9af6",
+   "alt": "A wooden house on a lake at the edge of the Amazon rainforest near Manaus",
+   "credit": "Marcus Dall Col / Unsplash",
+   "page": "https://unsplash.com/photos/a-house-sitting-on-top-of-a-lake-next-to-a-forest-t4dT8tPAAe0",
+   "approx": true,
+   "note": "Lakeside house in the Amazon; not confirmed to be a lodge"
+  },
+  "stay-fazenda": {
+   "src": "https://images.unsplash.com/photo-1584829874683-ae549291daa6",
+   "alt": "A red-and-white farmhouse among trees in the Brazilian countryside",
+   "credit": "Eliane Diniz / Unsplash",
+   "page": "https://unsplash.com/photos/red-and-white-house-near-green-trees-under-white-sky-during-daytime-DGgACYhlCMA",
+   "approx": true,
+   "note": "From 'fazenda brasil' search; not confirmed a guest fazenda"
+  },
+  "stay-pousada-beach": {
+   "src": "https://images.unsplash.com/photo-1760068475547-5f3d3eda789e",
+   "alt": "Poolside loungers and a hammock at a beach pousada in Praia do Forte",
+   "credit": "Alef Morais / Unsplash",
+   "page": "https://unsplash.com/photos/-ClrDD3PDEM",
+   "approx": false,
+   "note": "Praia do Forte, Bahia"
+  },
+  "stay-boutique-rio": {
+   "src": "https://images.unsplash.com/photo-1534339195754-f27a1b33240d",
+   "alt": "A white-and-teal colonial house in Santa Teresa, Rio",
+   "credit": "Gláuber Sampaio / Unsplash",
+   "page": "https://unsplash.com/photos/white-and-teal-concrete-house-at-daytime-YqUYtnzi6JU",
+   "approx": true,
+   "note": "Exterior from 'Santa Teresa Rio' search; not a specific hotel"
+  },
+  "stay-colonial-pousada": {
+   "src": "https://images.unsplash.com/photo-1623194449160-ac37c56ce618",
+   "alt": "A whitewashed colonial building with palm trees in Paraty",
+   "credit": "Gilberto Olimpio / Unsplash",
+   "page": "https://unsplash.com/photos/white-and-red-concrete-building-near-green-palm-tree-during-daytime-VRDc8Q1kwPY",
+   "approx": false,
+   "note": ""
+  },
+  "stay-jungle-room": {
+   "src": "https://images.unsplash.com/photo-1635188033457-337dccee19fe",
+   "alt": "A guest house tucked into lush green forest",
+   "credit": "Rodolfo Rossi / Unsplash",
+   "page": "https://unsplash.com/photos/a-house-in-the-middle-of-a-lush-green-forest-hKusZ_5FtMw",
+   "approx": true,
+   "note": "Guest house in Canela (RS) forest, not the Amazon"
+  },
+  "stay-hammock-veranda": {
+   "src": "https://images.unsplash.com/photo-1741899366204-0d71d5ecff27",
+   "alt": "A hammock on a porch overlooking a green valley",
+   "credit": "Brooke Balentine / Unsplash",
+   "page": "https://unsplash.com/photos/a-hammock-on-a-porch-overlooks-a-green-vista-zTVGO4IUmJg",
+   "approx": true,
+   "note": "Generic; location not confirmed Brazil"
+  },
+  "guide-walk": {
+   "src": "https://images.unsplash.com/photo-1741874021696-b1a6404c2921",
+   "alt": "A small group hiking through green fields towards the mountains of Roraima",
+   "credit": "Dieny Portinanni / Unsplash",
+   "page": "https://unsplash.com/photos/people-hike-through-a-green-field-near-mountains-8xDqG5ZTFmY",
+   "approx": false,
+   "note": "Roraima, Brazil"
+  },
+  "small-plane": {
+   "src": "https://images.unsplash.com/photo-1527964997039-9be573f0fca2",
+   "alt": "A small white propeller plane in the Amazonas sky",
+   "credit": "Tadeu Jnr / Unsplash",
+   "page": "https://unsplash.com/photos/white-monoplane-at-daytime-kAzSa_azENM",
+   "approx": false,
+   "note": "Tagged Amazonas / Manaus"
+  },
+  "binoculars-wildlife": {
+   "src": "https://images.unsplash.com/photo-1675246198306-9ba2a1aee6de",
+   "alt": "A man looking through binoculars in the woods",
+   "credit": "Annie Spratt / Unsplash",
+   "page": "https://unsplash.com/photos/a-man-looking-through-binoculars-in-the-woods-RR5w4xq4GGA",
+   "approx": true,
+   "note": "Generic, not Brazil"
+  },
+  "cooking-together": {
+   "src": "https://images.unsplash.com/photo-1692673234613-12edb8d9f7af",
+   "alt": "Friends gathered around a big pot on the stove at a festa junina in São Paulo",
+   "credit": "francisco monteiro / Unsplash",
+   "page": "https://unsplash.com/photos/a-group-of-people-standing-around-a-pot-on-top-of-a-stove-gvnLpZ8w8TM",
+   "approx": true,
+   "note": "Festa junina cooking scene, not a cooking class"
+  },
+  "phone-chat": {
+   "src": "https://images.unsplash.com/photo-1595986630530-969786b19b4d",
+   "alt": "A woman laughing while looking at her smartphone",
+   "credit": "Ghen Mar Cuaño / Unsplash",
+   "page": "https://unsplash.com/photos/woman-laughing-at-smartphone-R6dSBkz32B8",
+   "approx": true,
+   "note": "Generic, not Brazil"
+  },
+  "carnival-rio-sambadrome": {
+   "src": "https://images.unsplash.com/photo-1772499924314-3731617b057e",
+   "alt": "A dancer in an elaborate feathered costume at a samba-school parade",
+   "credit": "Henry Rodrigues / Unsplash",
+   "page": "https://unsplash.com/photos/woman-in-elaborate-feathered-costume-at-a-festival-pK6CvvDZlEk",
+   "approx": true,
+   "note": "Porto Alegre's sambadrome (Porto Seco), not Rio"
+  },
+  "carnival-salvador": {
+   "src": "https://images.unsplash.com/photo-1611093672757-bcd5044ca065",
+   "alt": "Percussion groups drumming through Pelourinho, Salvador",
+   "credit": "Woton Campos / Unsplash",
+   "page": "https://unsplash.com/photos/people-playing-musical-instruments-on-street-during-daytime-bwfsh7gpqms",
+   "approx": true,
+   "note": "Same photo as music-street; Pelourinho street percussion, not confirmed carnival"
+  },
+  "carnival-olinda": {
+   "src": "https://images.unsplash.com/photo-1729559021360-02fecdcff529",
+   "alt": "Colourful frevo umbrellas hanging overhead in Olinda",
+   "credit": "Ederval Rocha / Unsplash",
+   "page": "https://unsplash.com/photos/a-bunch-of-colorful-umbrellas-hanging-from-a-ceiling-pDi96k6_4Og",
+   "approx": true,
+   "note": "Olinda frevo umbrellas; no giant puppets (bonecos) found on Unsplash"
+  },
+  "carnival-bloco-street": {
+   "src": "https://images.unsplash.com/photo-1588172561695-a9eed1db3441",
+   "alt": "A crowd celebrating at a Rio de Janeiro street carnival bloco",
+   "credit": "Ferran Feixas / Unsplash",
+   "page": "https://unsplash.com/photos/group-of-people-gathering-on-street-cCIVkw4K27A",
+   "approx": false,
+   "note": "Rio Carnival 2020"
+  },
+  "carnival-costume": {
+   "src": "https://images.unsplash.com/photo-1735837131977-a1ddcc5bf86d",
+   "alt": "Close-up of a Caboclo de Lança's vivid costume at Recife Carnival",
+   "credit": "Karla Vidal / Unsplash",
+   "page": "https://unsplash.com/photos/a-close-up-of-a-colorful-stuffed-animal-908XkN6FVqk",
+   "approx": false,
+   "note": "Unsplash title is wrong ('stuffed animal'); caption confirms Caboclo de Lança, Recife Carnival"
+  },
+  "festa-junina": {
+   "src": "https://images.unsplash.com/photo-1779037805855-81d0f0c1b876",
+   "alt": "Crowds under paper flags and lanterns at São João de Caruaru",
+   "credit": "Karla Vidal / Unsplash",
+   "page": "https://unsplash.com/photos/pY4BV9olyvE",
+   "approx": false,
+   "note": ""
+  },
+  "parintins": {
+   "src": "https://images.unsplash.com/photo-1767979350591-c0cbba0e52b5",
+   "alt": "Dancers in colourful folk-festival costumes performing on stage",
+   "credit": "janilson furtado / Unsplash",
+   "page": "https://unsplash.com/photos/dancers-in-colorful-festival-costumes-perform-on-stage-yJwzfoxvR14",
+   "approx": true,
+   "note": "Brazilian folk festival on stage; location unknown, not confirmed Parintins/boi-bumbá"
+  },
+  "pantanal-dawn": {
+   "src": "https://images.unsplash.com/photo-1604970747673-3b173ce8e2c7",
+   "alt": "Pink sunrise over still Pantanal water near Poconé",
+   "credit": "Nathalia Segato / Unsplash",
+   "page": "https://unsplash.com/photos/body-of-water-near-trees-during-sunset-v4ynva2rNVc",
+   "approx": false,
+   "note": "Same photo as pantanal-wet; caption 'Sunrise in South Pantanal'"
+  },
+  "pantanal-boat": {
+   "src": "https://images.unsplash.com/photo-1560637466-40cb7702c419",
+   "alt": "A small boat on calm water at golden hour",
+   "credit": "Juliana e Mariana Amorim / Unsplash",
+   "page": "https://unsplash.com/photos/boat-on-calm-body-of-water-during-golden-hour-ajCvTPpULG0",
+   "approx": true,
+   "note": "Found via 'pantanal sunset' search, tagged Brazil; location not stated"
+  },
+  "pantanal-hammock": {
+   "src": "https://images.unsplash.com/photo-1594490623134-e8b61024cd8c",
+   "alt": "A girl relaxing in a green hammock outdoors",
+   "credit": "Antonio Silveira Neto / Unsplash",
+   "page": "https://unsplash.com/photos/girl-in-green-hammock-during-daytime-MmJzRHi4uQA",
+   "approx": true,
+   "note": "Generic hammock scene; location not stated"
+  },
+  "pantanal-golden-hour": {
+   "src": "https://images.unsplash.com/photo-1695154613069-70196e2d3e00",
+   "alt": "Trees silhouetted against a blazing sunset over the Paraguay River",
+   "credit": "Filipe Sizilio / Unsplash",
+   "page": "https://unsplash.com/photos/silhouetted-trees-against-a-vibrant-sunset-sky-YKnT21x1YUc",
+   "approx": false,
+   "note": "Rio Paraguai, Corumbá"
+  },
+  "night-stars": {
+   "src": "https://images.unsplash.com/photo-1623547536827-a429fcdebb8a",
+   "alt": "The Milky Way over the countryside of São Paulo state",
+   "credit": "Diego Vieira / Unsplash",
+   "page": "https://unsplash.com/photos/the-night-sky-with-stars-and-the-milky-5q0EDWA-yHQ",
+   "approx": false,
+   "note": "Serra Negra, SP"
+  },
+  "beach-umbrellas": {
+   "src": "https://images.unsplash.com/photo-1760045824937-4c4c5e6d948c",
+   "alt": "Aerial view of a tropical beach dotted with umbrellas",
+   "credit": "Manu Camargo / Unsplash",
+   "page": "https://unsplash.com/photos/aerial-view-of-a-tropical-beach-with-umbrellas-and-waves-eJUL9_sFB2M",
+   "approx": false,
+   "note": "From 'beach umbrellas brazil' search"
+  },
+  "caipirinha-or-coffee": {
+   "src": "https://images.unsplash.com/photo-1555366792-1aeb1899bd14",
+   "alt": "Pouring hot water for a filtered Brazilian coffee",
+   "credit": "Heloísa Vilicic / Unsplash",
+   "page": "https://unsplash.com/photos/kettle-pouring-on-cup-pNy_HLlFDBk",
+   "approx": true,
+   "note": "From 'brazilian coffee' search; generic pour-over"
+  },
+  "coconut-water": {
+   "src": "https://images.unsplash.com/photo-1761576881090-a3253f7e53dc",
+   "alt": "A fresh green coconut with a straw on a beach overlooking the ocean",
+   "credit": "Merve Kalafat Yılmaz / Unsplash",
+   "page": "https://unsplash.com/photos/fresh-coconut-with-straw-on-beach-overlooking-ocean-InHbSXYP-9g",
+   "approx": true,
+   "note": "Location not confirmed Brazil"
+  },
+  "portrait-guide": {
+   "src": "https://images.unsplash.com/photo-1694185749841-b501fc75faa9",
+   "alt": "Portrait of Vitor, a smiling fisherman from Camburi das Pedras",
+   "credit": "Nando Martins / Unsplash",
+   "page": "https://unsplash.com/photos/a-man-with-a-mustache-smiles-at-the-camera-JDqK1K2Iu28",
+   "approx": false,
+   "note": "Ubatuba, SP; vertical 4:5"
+  },
+  "team-1": {
+   "src": "https://images.unsplash.com/photo-1539915241481-221dbe87ee2a",
+   "alt": "A man laughing, Belo Horizonte",
+   "credit": "Mateus Elias / Unsplash",
+   "page": "https://unsplash.com/photos/laughing-man-wearing-black-shirt-and-white-collared-shirt-t7LqtKA8178",
+   "approx": false,
+   "note": ""
+  },
+  "team-2": {
+   "src": "https://images.unsplash.com/photo-1562012962-5da0c554dac3",
+   "alt": "A young woman laughing on a city balcony",
+   "credit": "Carol Magalhães / Unsplash",
+   "page": "https://unsplash.com/photos/XVMFlo2_4zc",
+   "approx": false,
+   "note": "From 'smiling woman brazil' search"
+  },
+  "team-3": {
+   "src": "https://images.unsplash.com/photo-1648478445898-ae81dfa8701b",
+   "alt": "A smiling woman with long hair, João Pessoa",
+   "credit": "Rany Lops / Unsplash",
+   "page": "https://unsplash.com/photos/a-woman-with-long-hair-wearing-a-blue-shirt-Okc3KMVX16s",
+   "approx": false,
+   "note": ""
+  },
+  "team-4": {
+   "src": "https://images.unsplash.com/photo-1704749301600-29be53d0f534",
+   "alt": "An older Brazilian woman in glasses smiling into the distance",
+   "credit": "Felipe Queiroz Alves / Unsplash",
+   "page": "https://unsplash.com/photos/an-older-woman-wearing-glasses-looking-off-into-the-distance-krgx98Ycd0c",
+   "approx": false,
+   "note": ""
+  },
+  "team-5": {
+   "src": "https://images.unsplash.com/photo-1710357956769-232ef8e9e1aa",
+   "alt": "A man in a yellow hoodie smiling at the camera",
+   "credit": "Mike Santos / Unsplash",
+   "page": "https://unsplash.com/photos/a-man-in-a-yellow-hoodie-smiling-at-the-camera-L86XoLxEd-I",
+   "approx": false,
+   "note": "From 'smiling man brazil' search"
+  },
+  "snorkel-clear-river": {
+   "src": "https://images.unsplash.com/photo-1711752314895-6bb2dfd11dae",
+   "alt": "Fish swimming in the crystal-clear Rio Sucuri, Mato Grosso do Sul",
+   "credit": "Azzedine Rouichi / Unsplash",
+   "page": "https://unsplash.com/photos/a-fish-that-is-swimming-in-some-water-RGnxXTdZ3po",
+   "approx": false,
+   "note": "Underwater in Rio Sucuri, Bonito region; no snorkeler visible"
+  },
+  "diving": {
+   "src": "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
+   "alt": "Two scuba divers underwater",
+   "credit": "Sebastian Pena Lambarri / Unsplash",
+   "page": "https://unsplash.com/photos/two-people-scuba-diving-underwater-7i5HMCGupVw",
+   "approx": true,
+   "note": "Generic, not Brazil"
+  },
+  "surfing": {
+   "src": "https://images.unsplash.com/photo-1609365635149-140e86f6b88a",
+   "alt": "A surfer riding a wave in Brazil",
+   "credit": "Gabriel Bezerra / Unsplash",
+   "page": "https://unsplash.com/photos/man-surfing-on-sea-waves-during-daytime-MC_140p5d9k",
+   "approx": false,
+   "note": "From 'surf brazil' search"
+  },
+  "iguacu-walkway": {
+   "src": "https://images.unsplash.com/photo-1541686826972-068336f11d45",
+   "alt": "Visitors at a viewpoint looking at the falls at Foz do Iguaçu",
+   "credit": "Guilherme Madaleno / Unsplash",
+   "page": "https://unsplash.com/photos/people-looking-at-large-waterfall-O-rlY0RW9vU",
+   "approx": false,
+   "note": "Foz do Iguaçu; elevated viewing walkway visible at the falls"
+  },
+  "colonial-church": {
+   "src": "https://images.unsplash.com/photo-1573998375492-5fc9afb06408",
+   "alt": "A white baroque church in Ouro Preto",
+   "credit": "Raphael Fernandes / Unsplash",
+   "page": "https://unsplash.com/photos/white-and-brown-concrete-church-bpBMKzzLq70",
+   "approx": false,
+   "note": ""
+  },
+  "journal-beyond-rio": {
+   "src": "https://images.unsplash.com/photo-1623194449288-1effc7baf29a",
+   "alt": "People strolling the historic streets of Paraty",
+   "credit": "Gilberto Olimpio / Unsplash",
+   "page": "https://unsplash.com/photos/people-walking-on-street-during-daytime-2e6qccw499s",
+   "approx": false,
+   "note": ""
+  },
+  "journal-carnival": {
+   "src": "https://images.unsplash.com/photo-1772499924314-7512e63d3966",
+   "alt": "A carnival dancer in an elaborate costume with Brazilian flags",
+   "credit": "Henry Rodrigues / Unsplash",
+   "page": "https://unsplash.com/photos/woman-in-elaborate-costume-with-brazilian-flags-u5yadfSau-o",
+   "approx": false,
+   "note": "Porto Alegre carnival"
+  },
+  "journal-amazon-water": {
+   "src": "https://images.unsplash.com/photo-1757975411800-83c5c4a1514d",
+   "alt": "A lone tree standing in calm, shallow water at Alter do Chão",
+   "credit": "Victor Del Prete / Unsplash",
+   "page": "https://unsplash.com/photos/JmXrxPEBhgs",
+   "approx": false,
+   "note": ""
+  },
+  "journal-sunrise": {
+   "src": "https://images.unsplash.com/photo-1767151176585-42f588f86091",
+   "alt": "A fisherman casting a line at sunrise over the ocean",
+   "credit": "Sara Gomes / Unsplash",
+   "page": "https://unsplash.com/photos/fisherman-casting-line-at-sunrise-over-the-ocean-_xuPsmcQEko",
+   "approx": true,
+   "note": "Location not stated"
+  }
+ },
+ "videos": {
+  "hero-sunrise": {
+   "src": "https://videos.pexels.com/video-files/13299023/13299023-hd_1920_1080_30fps.mp4",
+   "poster": "https://images.pexels.com/videos/13299023/4k-brasil-drone-florianopolis-13299023.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "Drone shot of sunrise over a Florianópolis beach with gentle waves and boats",
+   "credit": "Matheus De Moraes Gugelmim / Pexels",
+   "page": "https://www.pexels.com/video/drone-video-of-a-sunrise-at-the-beach-in-florianopolis-brazil-13299023/",
+   "approx": false,
+   "note": "1920x1080, 14s, 10.7MB. Florianópolis, Brazil"
+  },
+  "hero-amazon-mist": {
+   "src": "https://videos.pexels.com/video-files/19366764/19366764-hd_1920_1080_30fps.mp4",
+   "poster": "https://images.pexels.com/videos/19366764/autumn-mood-forest-cloud-forest-costa-rica-dense-fogg-19366764.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "Mist drifting through dense tropical rainforest",
+   "credit": "Florian Delée / Pexels",
+   "page": "https://www.pexels.com/video/fog-tropic-jungle-latin-america-19366764/",
+   "approx": true,
+   "note": "1920x1080, 13s, 8.8MB. Latin American cloud forest (poster filename says Costa Rica), not the Amazon"
+  },
+  "biomes-canopy": {
+   "src": "https://videos.pexels.com/video-files/35969886/15251196_1280_720_30fps.mp4",
+   "poster": "https://images.pexels.com/videos/35969886/agua-amazonia-brasil-floresta-35969886.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "Aerial flight over Amazon rainforest and a winding river",
+   "credit": "MELQUIZEDEQUE ALMEIDA / Pexels",
+   "page": "https://www.pexels.com/video/stunning-aerial-view-of-amazon-rainforest-river-35969886/",
+   "approx": false,
+   "note": "1280x720, 41s, 17.0MB (1080p is 36MB: https://videos.pexels.com/video-files/35969886/15251197_1920_1080_30fps.mp4). Amazon, Brazil"
+  },
+  "day-dawn": {
+   "src": "https://videos.pexels.com/video-files/36721628/15563258_1920_1080_30fps.mp4",
+   "poster": "https://images.pexels.com/videos/36721628/pexels-photo-36721628.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "Egrets wading in calm golden water at sunrise",
+   "credit": "정규송 Nui MALAMA / Pexels",
+   "page": "https://www.pexels.com/video/serene-egrets-at-sunrise-in-tranquil-water-36721628/",
+   "approx": true,
+   "note": "1920x1080, 13s, 21.7MB. Location not stated; not Brazil-confirmed"
+  },
+  "day-river": {
+   "src": "https://videos.pexels.com/video-files/34357690/14555202_1920_1080_24fps.mp4",
+   "poster": "https://images.pexels.com/videos/34357690/afternoon-amazonas-boats-craft-34357690.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "Bow of a wooden boat gliding along a calm forest river",
+   "credit": "Richard Monteiro / Pexels",
+   "page": "https://www.pexels.com/video/scenic-boat-journey-on-tranquil-river-34357690/",
+   "approx": true,
+   "note": "1920x1080, 11s, 13.7MB. Poster filename says 'amazonas'; filming location not stated. Alt with wildlife: capybaras by a river https://videos.pexels.com/video-files/12340339/12340339-hd_1920_1080_30fps.mp4 (8.8MB, Mario Luis Buonfiglio, pexels.com/video/capybaras-by-river-12340339/)"
+  },
+  "day-midday": {
+   "src": "https://videos.pexels.com/video-files/33802790/14347265_1920_1080_30fps.mp4",
+   "poster": "https://images.pexels.com/videos/33802790/pexels-photo-33802790.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "Colourful hammocks hanging under a shady tree on a sandy beach",
+   "credit": "João Pavese / Pexels",
+   "page": "https://www.pexels.com/video/outdoor-relaxation-hammocks-under-shady-trees-33802790/",
+   "approx": true,
+   "note": "1920x1080, 5s, 9.0MB. Location not stated (looks like Northeast Brazil)"
+  },
+  "day-golden": {
+   "src": "https://videos.pexels.com/video-files/32460656/13844463_1920_1080_30fps.mp4",
+   "poster": "https://images.pexels.com/videos/32460656/amazon-forest-river-ra-os-32460656.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "A man silhouetted on a boat travelling down an Amazon river at sunset",
+   "credit": "Andrés Miranda / Pexels",
+   "page": "https://www.pexels.com/video/silhouette-of-man-boating-at-amazon-sunset-32460656/",
+   "approx": true,
+   "note": "1920x1080, 13s, 10.9MB. Amazon at sunset (country not stated), not the Pantanal; no big cat"
+  },
+  "day-night": {
+   "src": "https://videos.pexels.com/video-files/18358235/18358235-hd_1920_1080_24fps.mp4",
+   "poster": "https://images.pexels.com/videos/18358235/astronomy-astrophotography-at-the-beach-beach-life-18358235.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "alt": "Timelapse of the Milky Way wheeling over a calm beach",
+   "credit": "Luz Calor Som / Pexels",
+   "page": "https://www.pexels.com/video/timelapse-of-the-starry-milky-way-seen-from-the-beach-18358235/",
+   "approx": true,
+   "note": "1920x1080, 7s, 3.8MB. Location not stated"
+  }
+ }
+}

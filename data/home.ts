@@ -171,7 +171,7 @@ export const likeALocal = {
 export const portraitQuote = {
   quote:
     "People come for the jaguar. They remember the morning the whole river turned pink, my uncle singing on the boat, and the fish we caught for lunch. The jaguar is the reason. Brazil is the story.",
-  name: "Ana Paula Ferraz",
+  name: "Zé Andrade",
   role: "Pantanal guide",
   placeholder: true,
   image: img("portrait-guide", "Portrait of a local guide in warm evening light"),
