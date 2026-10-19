@@ -12,7 +12,7 @@ export const brand = {
     offWhite: "#FFF8EF",
     sand: "#F3E0C3",
     coral: "#FF6A4D",
-    coralDeep: "#C2401F",
+    coralDeep: "#A63516",
     gold: "#F7B32B",
     atlantic: "#0A4F8C",
     forest: "#0E3B2C",

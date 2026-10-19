@@ -104,8 +104,10 @@ export function StaySlider({ stays, label = "Stays" }: { stays: Stay[]; label?: 
             }}
             aria-label={`Show ${x.name}`}
             aria-current={i === index}
-            className={`h-2.5 rounded-full transition-all ${i === index ? "w-8 bg-coral" : "w-2.5 bg-forest/25 hover:bg-forest/50"}`}
-          />
+            className="group grid h-6 min-w-6 place-items-center"
+          >
+            <span className={`block h-2.5 rounded-full transition-all ${i === index ? "w-8 bg-coral" : "w-2.5 bg-forest/30 group-hover:bg-forest/60"}`} />
+          </button>
         ))}
       </div>
     </div>

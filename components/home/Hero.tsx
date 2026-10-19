@@ -5,22 +5,16 @@ import { useRef } from "react";
 import { hero } from "@/data/home";
 import { VideoPlayer } from "@/components/ui/VideoPlayer";
 import { SunArcs } from "@/components/ui/SunArcs";
+import { Img } from "@/components/ui/Img";
 
+/** Letters rise like the sun. Pure CSS (compositor-only), so it costs no main-thread time. */
 function RiseLetters({ word, delay = 0 }: { word: string; delay?: number }) {
-  const reduce = useReducedMotion();
-  if (reduce) return <span className="block">{word}</span>;
   return (
     <span className="block overflow-hidden pb-[0.06em]" aria-hidden>
       {word.split("").map((ch, i) => (
-        <motion.span
-          key={i}
-          className="inline-block"
-          initial={{ y: "105%", rotate: 6 }}
-          animate={{ y: "0%", rotate: 0 }}
-          transition={{ type: "spring", stiffness: 60, damping: 14, delay: delay + i * 0.045 }}
-        >
+        <span key={i} className="rise-letter inline-block" style={{ animationDelay: `${delay + i * 0.03}s` }}>
           {ch}
-        </motion.span>
+        </span>
       ))}
     </span>
   );
@@ -36,6 +30,8 @@ export function Hero() {
   return (
     <section ref={ref} id="sol-nascente" aria-labelledby="hero-title" className="relative h-svh min-h-[34rem] overflow-hidden bg-forest text-off">
       <motion.div className="absolute inset-0" style={{ scale: videoScale }}>
+        {/* Poster as a priority image: paints fast (good LCP) and sits under the video. */}
+        {hero.video.poster && <Img media={{ src: hero.video.poster, alt: "" }} priority sizes="100vw" quality={60} />}
         <VideoPlayer media={hero.video} priority controlsClassName="right-[var(--gutter)] top-[calc(var(--header-h)+0.5rem)]" />
       </motion.div>
       {/* Warm dawn wash + legibility gradient */}
@@ -59,8 +55,8 @@ export function Hero() {
         </div>
         <h1 id="hero-title" className="t-mega flex flex-wrap justify-between gap-x-[3vw]">
           <span className="sr-only">Sol Nascente: private journeys across Brazil</span>
-          <RiseLetters word={hero.titleTop} delay={0.2} />
-          <RiseLetters word={hero.titleBottom} delay={0.45} />
+          <RiseLetters word={hero.titleTop} delay={0.05} />
+          <RiseLetters word={hero.titleBottom} delay={0.15} />
         </h1>
       </motion.div>
     </section>

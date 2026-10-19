@@ -15,7 +15,7 @@ function BiomeCard({ b }: { b: (typeof biomes)[number] }) {
     <Link href={`/biomes#${b.slug}`} className="group block border-t-2 border-forest/15 pt-4">
       <p className="flex items-center gap-2">
         <span aria-hidden className="h-3 w-3 rounded-full" style={{ background: b.color }} />
-        <span className="t-label text-forest/60">{b.area}</span>
+        <span className="t-label text-forest/75">{b.area}</span>
       </p>
       <h3 className="t-h3 mt-2 text-forest transition-colors group-hover:text-coral-deep">{b.name}</h3>
       <p className="mt-2 text-sm text-ink/80">{b.short}.</p>

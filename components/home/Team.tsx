@@ -70,7 +70,7 @@ export function Team() {
                         {m.bio.map((p, j) => (
                           <p key={j}>{p}</p>
                         ))}
-                        <p className="t-label text-forest/60">Based in {m.base}</p>
+                        <p className="t-label text-forest/75">Based in {m.base}</p>
                       </div>
                     </div>
                   </div>

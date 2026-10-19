@@ -37,7 +37,7 @@ export default function BiomesPage() {
         <ol className="grid gap-x-10 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
           {biomes.map((b, i) => (
             <Reveal as="li" key={b.slug} delay={(i % 3) * 0.06} className="border-t-2 border-forest/15 pt-5">
-              <p className="t-label flex items-center gap-2 text-forest/60">
+              <p className="t-label flex items-center gap-2 text-forest/75">
                 <span aria-hidden className="h-3 w-3 rounded-full" style={{ background: b.color }} />
                 {b.area} · Best {b.bestMonths.map(rangeLabel).join(" & ")}
               </p>

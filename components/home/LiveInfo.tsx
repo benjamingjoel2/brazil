@@ -22,7 +22,7 @@ function RioClock({ now }: { now: Date | null }) {
         <span className="sr-only">:</span>
         {m}
       </time>{" "}
-      <span className="text-forest/55">(GMT−3)</span>
+      <span className="text-forest/75">(GMT−3)</span>
     </span>
   );
 }
@@ -49,7 +49,7 @@ export function LiveInfo() {
           label: "First light today",
           value: (
             <span>
-              <span className="tabular-nums">{sunrise}</span> <span className="text-forest/55">at Ponta do Seixas</span>
+              <span className="tabular-nums">{sunrise}</span> <span className="text-forest/75">at Ponta do Seixas</span>
             </span>
           ),
         },

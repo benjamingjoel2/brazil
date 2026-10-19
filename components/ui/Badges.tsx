@@ -5,7 +5,7 @@ export function Verify({ note, className }: { note?: string; className?: string 
   return (
     <span
       className={clsx(
-        "inline-flex items-center gap-1 rounded-pill border border-current px-2 py-0.5 align-middle text-[0.65rem] font-semibold uppercase tracking-wider opacity-80",
+        "inline-flex items-center gap-1 rounded-pill border border-current px-2 py-0.5 align-middle text-[0.65rem] font-semibold uppercase tracking-wider",
         className,
       )}
       title={note ?? "Verify before relying on this"}
