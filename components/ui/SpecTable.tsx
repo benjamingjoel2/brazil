@@ -21,7 +21,7 @@ export function SpecTable({
             tone === "dark" ? "border-forest/20" : "border-off/25",
           )}
         >
-          <dt className={clsx("t-label", tone === "dark" ? "text-forest/60" : "text-off/65")}>{r.label}</dt>
+          <dt className={clsx("t-label", tone === "dark" ? "text-forest/80" : "text-off/80")}>{r.label}</dt>
           <dd className={clsx("font-medium", tone === "dark" ? "text-forest" : "text-off")}>{r.value}</dd>
         </div>
       ))}

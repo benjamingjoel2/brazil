@@ -8,7 +8,7 @@
   --color-sand: #f3e0c3;
   --color-sand-deep: #e8cfa6;
   --color-coral: #ff6a4d;
-  --color-coral-deep: #c2401f;
+  --color-coral-deep: #a63516;
   --color-gold: #f7b32b;
   --color-atlantic: #0a4f8c;
   --color-atlantic-deep: #07355f;
@@ -97,10 +97,16 @@ html.lenis body {
   .t-mega {
     font-family: var(--font-display);
     font-weight: 800;
-    font-size: clamp(3.25rem, 13.5vw, 15rem);
+    font-size: 12.2vw;
     line-height: 0.88;
+    white-space: nowrap;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+  }
+  @media (min-width: 768px) {
+    .t-mega {
+      font-size: 9.4vw;
+    }
   }
   .t-wordmark {
     font-family: var(--font-display);
@@ -204,6 +210,19 @@ html.lenis body {
     padding-left: 1rem;
     font-size: 1.2rem;
   }
+}
+
+@keyframes rise-letter {
+  from {
+    transform: translate3d(0, 105%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.rise-letter {
+  animation: rise-letter 0.9s var(--ease-sun) both;
+  will-change: transform;
 }
 
 @layer utilities {

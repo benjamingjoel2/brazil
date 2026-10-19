@@ -1,7 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion, type HTMLMotionProps } from "framer-motion";
-import type { ReactNode } from "react";
+import { motion, useInView, useReducedMotion, type HTMLMotionProps } from "framer-motion";
+import { useRef, type ReactNode } from "react";
 
 const rise = {
   hidden: { opacity: 0, y: 56, scale: 0.98 },
@@ -27,7 +27,11 @@ export function Reveal({
   const Comp = motion[as] as typeof motion.div;
   if (reduce) {
     const Static = as;
-    return <Static className={className}>{children}</Static>;
+    return (
+      <Static className={className} id={rest.id}>
+        {children}
+      </Static>
+    );
   }
   return (
     <Comp
@@ -44,7 +48,7 @@ export function Reveal({
   );
 }
 
-/** Splits a line into words that rise one after another. */
+/** Splits a line into words that rise one after another once the line scrolls into view. */
 export function RiseWords({
   text,
   className,
@@ -57,20 +61,23 @@ export function RiseWords({
   delay?: number;
 }) {
   const reduce = useReducedMotion();
+  const ref = useRef<HTMLSpanElement>(null);
+  // Observe the wrapper, not the words: hidden words sit outside their clipping box.
+  const inView = useInView(ref, { once: true, amount: 0.2 });
   if (reduce) return <span className={className}>{text}</span>;
   return (
-    <span className={className} aria-label={text}>
+    <span ref={ref} className={className}>
+      <span className="sr-only">{text}</span>
       {text.split(" ").map((w, i) => (
         <span key={i} aria-hidden className="inline-block overflow-hidden pb-[0.08em] align-bottom">
           <motion.span
             className="inline-block"
             initial={{ y: "110%" }}
-            whileInView={{ y: "0%" }}
-            viewport={{ once: true, amount: 0.6 }}
+            animate={inView ? { y: "0%" } : { y: "110%" }}
             transition={{ type: "spring", stiffness: 80, damping: 15, delay: delay + i * stagger }}
           >
             {w}
-            {" "}
+            {"\u00A0"}
           </motion.span>
         </span>
       ))}

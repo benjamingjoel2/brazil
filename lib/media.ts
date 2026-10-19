@@ -7,11 +7,15 @@ type Manifest = {
 };
 const m = manifest as unknown as Manifest;
 
-/** Empty src renders as a branded gradient placeholder in <Img>. */
+/**
+ * Looks up a photo. The manifest alt (written from the actual photo) wins over the
+ * caller's alt, which only describes the intended subject. Missing keys render as a
+ * branded gradient placeholder in <Img>.
+ */
 export function img(key: string, alt?: string): Media {
   const found = m.images[key];
   if (!found) return { src: "", alt: alt ?? key.replace(/-/g, " ") };
-  return { src: found.src, alt: alt ?? found.alt, credit: found.credit, page: found.page, approx: found.approx };
+  return { src: found.src, alt: found.alt || alt || key, credit: found.credit, page: found.page, approx: found.approx };
 }
 
 export function video(key: string, captions?: string): VideoMedia {
