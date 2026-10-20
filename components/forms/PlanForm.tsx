@@ -20,7 +20,7 @@ import { Verify } from "@/components/ui/Badges";
 import { SunMark } from "@/components/ui/SunMark";
 import { buttonClass } from "@/components/ui/Button";
 
-const field = "w-full rounded-2xl border-2 border-forest/20 bg-off px-4 py-3 text-ink outline-none transition focus:border-forest";
+const field = "w-full border-2 border-forest/20 bg-off px-4 py-3 text-ink outline-none transition focus:border-forest";
 const labelCls = "mb-2 block font-semibold text-forest";
 
 function Group({ legend, children, hint }: { legend: string; children: ReactNode; hint?: string }) {
@@ -64,7 +64,7 @@ function MonthNotes({ month }: { month: number | null }) {
   if (m === 6) notes.push(<>{festivals.festaJunina.label} and {festivals.parintins.label}</>);
   if (inRange(m, { from: 6, to: 9 })) notes.push(<>Lençóis Maranhenses lagoons usually at their fullest</>);
   return (
-    <div className="mt-3 rounded-2xl bg-sand/70 p-4 text-sm" aria-live="polite">
+    <div className="mt-3 bg-sand/70 p-4 text-sm" aria-live="polite">
       <p className="t-label mb-2 flex items-center gap-2 text-forest/70">
         In {monthNames[m - 1]} <Verify />
       </p>
@@ -148,7 +148,7 @@ export function PlanForm() {
 
   if (status === "done") {
     return (
-      <div ref={doneRef} tabIndex={-1} className="bg-waves rounded-[2.5rem] bg-forest p-10 text-center text-off outline-none md:p-16" role="status">
+      <div ref={doneRef} tabIndex={-1} className="bg-waves bg-forest p-10 text-center text-off outline-none md:p-16" role="status">
         <SunMark className="mx-auto h-12 w-auto text-off" />
         <p className="t-h1 mt-6">Obrigado.</p>
         <p className="t-lead mt-4">We&apos;ll be in touch soon.</p>
@@ -167,7 +167,7 @@ export function PlanForm() {
   return (
     <form onSubmit={onSubmit} noValidate={false} className="grid gap-10" aria-describedby={errors.form ? "form-error" : undefined}>
       {context && (
-        <p className="rounded-2xl bg-sand/70 px-4 py-3 text-sm">
+        <p className="bg-sand/70 px-4 py-3 text-sm">
           You&apos;re asking about <strong>{context.split(": ")[1].replace(/-/g, " ")}</strong>. We&apos;ll include it in your plan.
         </p>
       )}

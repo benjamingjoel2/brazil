@@ -29,7 +29,6 @@ export function Values() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] });
   const inset = useTransform(scrollYProgress, [0, 0.25], ["12%", "0%"]);
   const insetTop = useTransform(scrollYProgress, [0, 0.25], ["22%", "0%"]);
-  const radius = useTransform(scrollYProgress, [0, 0.25], ["50% 50% 2rem 2rem / 40% 40% 2rem 2rem", "0% 0% 0rem 0rem / 0% 0% 0rem 0rem"]);
   const titleOpacity = useTransform(scrollYProgress, [0.15, 0.27], [1, 0]);
   const arcsScale = useTransform(scrollYProgress, [0.2, 1], [0.7, 1.3]);
 
@@ -65,7 +64,7 @@ export function Values() {
           Values
         </motion.h2>
         <motion.div
-          style={{ left: inset, right: inset, top: insetTop, bottom: 0, borderRadius: radius }}
+          style={{ left: inset, right: inset, top: insetTop, bottom: 0 }}
           className="absolute overflow-hidden bg-forest"
         >
           <Img media={valuesImage} sizes="100vw" />

@@ -36,8 +36,8 @@ export function Team() {
                   transition={transition}
                   key={m.name}
                   className={clsx(
-                    "overflow-hidden rounded-t-[999px] rounded-b-[1.5rem] bg-sand",
-                    isOpen && "col-span-2 rounded-t-[2rem] md:col-span-3",
+                    "overflow-hidden bg-sand",
+                    isOpen && "col-span-2 md:col-span-3",
                   )}
                 >
                   <div className={clsx("grid", isOpen && "md:grid-cols-[1fr_1.4fr]")}>

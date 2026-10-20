@@ -56,12 +56,12 @@ export default async function JourneyPage({ params }: PageProps<"/journeys/[slug
       <section aria-label="Overview" className="px-gutter py-section grid gap-12 lg:grid-cols-[1.3fr_1fr]">
         <Reveal>
           <p className="t-lead text-ink/90">{j.summary}</p>
-          <div className="mt-10 rounded-[2rem] bg-atlantic p-6 text-off md:p-8">
+          <div className="mt-10 bg-atlantic p-6 text-off md:p-8">
             <p className="t-label text-gold">How you travel</p>
             <p className="mt-3 leading-relaxed text-off/90">{j.howYouTravel}</p>
           </div>
         </Reveal>
-        <Reveal delay={0.1} className="rounded-[2rem] bg-sand/70 p-6 md:p-8">
+        <Reveal delay={0.1} className="bg-sand/70 p-6 md:p-8">
           <SpecTable
             rows={[
               { label: "Length", value: `${j.nights} nights` },
@@ -133,7 +133,7 @@ export default async function JourneyPage({ params }: PageProps<"/journeys/[slug
       </section>
 
       <section className="px-gutter pb-section">
-        <div className="bg-waves rounded-[2.5rem] bg-forest p-8 text-off md:p-14">
+        <div className="bg-waves bg-forest p-8 text-off md:p-14">
           <h2 className="t-h2 max-w-3xl">Make it yours</h2>
           <p className="t-lead mt-4 max-w-2xl text-off/85">
             Change the pace, swap a stay, add a few nights on a beach. Tell us what you&apos;d love and we&apos;ll shape this journey around you.

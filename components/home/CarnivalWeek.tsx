@@ -101,7 +101,7 @@ export function CarnivalWeek() {
         data-lenis-prevent-wheel
       >
         {days.map((d, i) => (
-          <li key={d.date} className="group relative h-[34rem] w-[82vw] shrink-0 snap-start overflow-hidden rounded-t-[999px] rounded-b-[1.5rem] bg-forest text-off sm:w-[24rem] md:h-[38rem]">
+          <li key={d.date} className="group relative h-[34rem] w-[82vw] shrink-0 snap-start overflow-hidden bg-forest text-off sm:w-[24rem] md:h-[38rem]">
             <Img media={d.image} sizes="(min-width: 640px) 24rem, 82vw" className="transition-transform duration-700 group-hover:scale-105" />
             <div className="absolute inset-0 bg-linear-to-b from-ink/30 via-ink/20 to-ink/85" />
             <div className="absolute inset-x-0 top-[22%] px-6 text-center">
@@ -113,7 +113,7 @@ export function CarnivalWeek() {
             </div>
             <div className="absolute inset-x-0 bottom-0 space-y-3 p-6 text-sm">
               <p className="text-off/90">{d.happening}</p>
-              <p className="rounded-2xl bg-off/12 p-3 text-off backdrop-blur-sm">
+              <p className="bg-off/12 p-3 text-off backdrop-blur-sm">
                 <span className="t-label mb-1 block text-gold">How we&apos;d spend it</span>
                 {d.ourWay}
               </p>

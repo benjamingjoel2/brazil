@@ -58,7 +58,7 @@ export default function ResponsibleTravelPage() {
             </Reveal>
           ))}
         </ol>
-        <div className="mt-20 rounded-[2rem] bg-sand p-8 md:p-12">
+        <div className="mt-20 bg-sand p-8 md:p-12">
           <p className="t-lead max-w-3xl text-forest">Questions about how we work, or ideas for how we could do better? We&apos;d genuinely love to hear them.</p>
           <ButtonLink href="/plan" className="mt-6">
             Talk to us

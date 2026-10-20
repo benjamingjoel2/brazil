@@ -7,8 +7,8 @@ import { getBiome } from "@/data/biomes";
 
 export function JourneyCard({ j }: { j: Journey }) {
   return (
-    <Link href={`/journeys/${j.slug}`} className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] bg-sand/70 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-forest/10">
-      <div className="relative aspect-[4/3] overflow-hidden rounded-t-[999px]">
+    <Link href={`/journeys/${j.slug}`} className="group flex h-full flex-col overflow-hidden bg-sand/70 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-forest/10">
+      <div className="relative aspect-[4/3] overflow-hidden">
         <Img media={j.image} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="transition-transform duration-700 group-hover:scale-105" />
       </div>
       <div className="flex flex-1 flex-col gap-3 p-6">
@@ -26,7 +26,7 @@ export function JourneyCard({ j }: { j: Journey }) {
 export function DestinationCard({ d }: { d: Destination }) {
   const biome = getBiome(d.biome);
   return (
-    <Link href={`/destinations/${d.slug}`} className="group relative block aspect-[3/4] overflow-hidden rounded-t-[999px] rounded-b-[1.5rem] bg-forest text-off">
+    <Link href={`/destinations/${d.slug}`} className="group relative block aspect-[3/4] overflow-hidden bg-forest text-off">
       <Img media={d.image} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="transition-transform duration-700 group-hover:scale-105" />
       <div className="absolute inset-0 bg-linear-to-t from-ink/85 via-ink/10 to-transparent" />
       <div className="absolute inset-x-0 bottom-0 p-5">
@@ -43,7 +43,7 @@ export function DestinationCard({ d }: { d: Destination }) {
 export function ExperienceCard({ e }: { e: Experience }) {
   return (
     <Link href={`/experiences#${e.slug}`} className="group block">
-      <div className="relative aspect-square overflow-hidden rounded-full">
+      <div className="relative aspect-square overflow-hidden">
         <Img media={e.image} sizes="(min-width: 1024px) 20vw, 50vw" className="transition-transform duration-700 group-hover:scale-105" />
       </div>
       <h3 className="t-h4 mt-4 text-forest group-hover:text-coral-deep">{e.name}</h3>
@@ -55,7 +55,7 @@ export function ExperienceCard({ e }: { e: Experience }) {
 export function StayCard({ s }: { s: Stay }) {
   return (
     <Link href={`/stays#${s.slug}`} className="group block">
-      <div className="arch-top relative aspect-[4/5] overflow-hidden">
+      <div className="relative aspect-[4/5] overflow-hidden">
         <Img media={s.images[0]} sizes="(min-width: 1024px) 25vw, 50vw" className="transition-transform duration-700 group-hover:scale-105" />
       </div>
       <p className="t-label mt-4 text-coral-deep">{s.type}</p>

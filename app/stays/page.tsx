@@ -31,11 +31,11 @@ export default function StaysPage() {
         </p>
       </PageHero>
       <div className="px-gutter py-section grid gap-24">
-        {stays.map((s, i) => {
+        {stays.map((s) => {
           const dest = getDestination(s.destination);
           return (
             <Reveal as="article" key={s.slug} id={s.slug} className="grid scroll-mt-28 gap-8 lg:grid-cols-[1.5fr_1fr_0.7fr] lg:gap-10">
-              <div className={`relative aspect-[4/3] overflow-hidden rounded-[2rem] ${i % 2 ? "rounded-tl-[10rem]" : "rounded-tr-[10rem]"}`}>
+              <div className="relative aspect-[4/3] overflow-hidden">
                 <Img media={s.images[0]} sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
               <div className="flex flex-col gap-5">
@@ -64,7 +64,7 @@ export default function StaysPage() {
                   Plan a stay here
                 </ButtonLink>
               </div>
-              <div className="relative hidden aspect-[3/4] self-end overflow-hidden rounded-t-[999px] rounded-b-[1.25rem] lg:block">
+              <div className="relative hidden aspect-[3/4] self-end overflow-hidden lg:block">
                 <Img media={s.images[1]} sizes="18vw" />
               </div>
             </Reveal>
