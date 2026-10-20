@@ -44,7 +44,7 @@ export default function CarnivalPage() {
         <div className="grid gap-16">
           {carnivalCities.map((c, i) => (
             <Reveal key={c.slug} as="article" className="grid scroll-mt-28 gap-8 md:grid-cols-[1fr_1.4fr] md:items-start" id={c.slug}>
-              <div className={`relative aspect-[4/3] overflow-hidden rounded-[2rem] ${i % 2 ? "rounded-tl-[10rem] md:order-2" : "rounded-tr-[10rem]"}`}>
+              <div className={`relative aspect-[4/3] overflow-hidden ${i % 2 ? "md:order-2" : ""}`}>
                 <Img media={c.image} sizes="(min-width: 768px) 40vw, 100vw" />
               </div>
               <div>
@@ -93,7 +93,7 @@ export default function CarnivalPage() {
                 href: "/destinations/amazon",
               },
             ].map(({ f, image, body, href }) => (
-              <Reveal key={f.label} as="article" className="overflow-hidden rounded-[2rem] bg-off">
+              <Reveal key={f.label} as="article" className="overflow-hidden bg-off">
                 <div className="relative aspect-[16/9]">
                   <Img media={image} sizes="(min-width: 768px) 50vw, 100vw" />
                 </div>

@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { motion, useReducedMotion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import clsx from "clsx";
 import { sunriseCoast } from "@/data/sunrise-coast";
 import { brazilMap, project } from "@/lib/map";
 import { formatTime, sunTimes } from "@/lib/solar";
@@ -87,7 +86,7 @@ export function SunriseCoastStory({ destinationNames }: { destinationNames: Reco
               viewport={{ once: true, amount: 0.3 }}
               transition={{ type: "spring", stiffness: 70, damping: 16 }}
             >
-              <div className={clsx("relative aspect-[4/3] overflow-hidden rounded-[2rem]", i % 2 ? "rounded-tl-[12rem]" : "rounded-tr-[12rem]")}>
+              <div className="relative aspect-[4/3] overflow-hidden">
                 <Img media={s.image} sizes="(min-width: 1024px) 55vw, 100vw" />
                 <div className="absolute left-4 top-4 rounded-pill bg-off/90 px-4 py-2 text-sm font-semibold text-forest backdrop-blur">
                   {String(i + 1).padStart(2, "0")} · {s.state}

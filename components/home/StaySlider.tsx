@@ -61,7 +61,7 @@ export function StaySlider({ stays, label = "Stays" }: { stays: Stay[]; label?: 
             transition={{ type: "spring", stiffness: 90, damping: 18 }}
             className="grid gap-6 lg:grid-cols-[1.6fr_1.2fr_0.8fr] lg:gap-10"
           >
-            <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] rounded-tr-[10rem]">
+            <div className="relative aspect-[4/3] overflow-hidden">
               <Img media={s.images[0]} sizes="(min-width: 1024px) 45vw, 100vw" />
             </div>
             <div className="flex flex-col gap-6">
@@ -86,7 +86,7 @@ export function StaySlider({ stays, label = "Stays" }: { stays: Stay[]; label?: 
                 ]}
               />
             </div>
-            <div className="relative hidden aspect-[3/4] self-end overflow-hidden rounded-t-[999px] rounded-b-[1.25rem] lg:block">
+            <div className="relative hidden aspect-[3/4] self-end overflow-hidden lg:block">
               <Img media={s.images[1]} sizes="20vw" />
             </div>
           </motion.article>

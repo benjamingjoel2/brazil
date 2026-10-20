@@ -93,7 +93,7 @@ export function WaterToggle({
       </ol>
 
       <div className="grid gap-8 lg:grid-cols-[1.3fr_1fr]">
-        <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] rounded-tl-[12rem] bg-forest">
+        <div className="relative aspect-[4/3] overflow-hidden bg-forest">
           <AnimatePresence initial={false}>
             <motion.div
               key={p.id}

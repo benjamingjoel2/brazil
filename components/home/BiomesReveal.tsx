@@ -29,7 +29,6 @@ export function BiomesReveal() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] });
   const w = useTransform(scrollYProgress, [0, 0.75], ["34%", "100%"]);
   const h = useTransform(scrollYProgress, [0, 0.75], ["46%", "100%"]);
-  const radius = useTransform(scrollYProgress, [0, 0.75], ["999px 999px 28px 28px", "0px 0px 0px 0px"]);
   const subOpacity = useTransform(scrollYProgress, [0.55, 0.8], [0, 1]);
   const left = biomes.slice(0, 3);
   const right = biomes.slice(3);
@@ -47,7 +46,7 @@ export function BiomesReveal() {
             <h2 id="biomes-title" className="t-mega pointer-events-none absolute text-forest">
               {biomesSection.heading}
             </h2>
-            <motion.div style={{ width: w, height: h, borderRadius: radius }} className="relative z-10 overflow-hidden bg-forest">
+            <motion.div style={{ width: w, height: h }} className="relative z-10 overflow-hidden bg-forest">
               <VideoPlayer media={biomesSection.video} />
               <div className="absolute inset-0 bg-linear-to-t from-forest/70 via-transparent to-transparent" />
               <motion.p
@@ -70,7 +69,7 @@ export function BiomesReveal() {
               </Reveal>
             ))}
           </div>
-          <Reveal className="arch-top relative order-first aspect-[3/4] overflow-hidden lg:order-none">
+          <Reveal className="relative order-first aspect-[3/4] overflow-hidden lg:order-none">
             <Img media={biomesSection.image} sizes="(min-width: 1024px) 35vw, 100vw" />
           </Reveal>
           <div className="grid content-between gap-8">

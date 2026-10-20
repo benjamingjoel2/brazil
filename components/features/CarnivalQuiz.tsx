@@ -46,7 +46,7 @@ export function CarnivalQuiz({ journeyTitles }: { journeyTitles: Record<string, 
     : { initial: { opacity: 0, y: 40 }, animate: { opacity: 1, y: 0 }, exit: { opacity: 0, y: -30 } };
 
   return (
-    <div ref={box} tabIndex={-1} className="rounded-[2.5rem] bg-forest p-6 text-off outline-none md:p-12" aria-live="polite">
+    <div ref={box} tabIndex={-1} className="bg-forest p-6 text-off outline-none md:p-12" aria-live="polite">
       <div className="mb-8 flex items-center justify-between gap-4">
         <ol className="flex gap-2" aria-label="Progress">
           {carnivalQuiz.map((q, i) => (
@@ -78,7 +78,7 @@ export function CarnivalQuiz({ journeyTitles }: { journeyTitles: Record<string, 
                   type="button"
                   onClick={() => answer(i)}
                   className={clsx(
-                    "group flex min-h-28 items-end justify-between rounded-[1.5rem] border-2 border-off/25 p-5 text-left text-lg font-semibold transition",
+                    "group flex min-h-28 items-end justify-between border-2 border-off/25 p-5 text-left text-lg font-semibold transition",
                     "hover:-translate-y-1 hover:border-gold hover:bg-off hover:text-forest",
                     answers[step] === i && "border-gold",
                   )}
@@ -99,7 +99,7 @@ export function CarnivalQuiz({ journeyTitles }: { journeyTitles: Record<string, 
         ) : (
           <motion.div key="result" {...anim} transition={{ type: "spring", stiffness: 90, damping: 18 }}>
             <div className="grid gap-8 lg:grid-cols-[1fr_1.2fr]">
-              <div className="arch-top relative aspect-[4/5] overflow-hidden">
+              <div className="relative aspect-[4/5] overflow-hidden">
                 <Img media={winner.image} sizes="(min-width: 1024px) 40vw, 100vw" />
               </div>
               <div>

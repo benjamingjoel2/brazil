@@ -17,7 +17,6 @@ export function PantanalStory() {
   const reduce = useReducedMotion();
   const { scrollYProgress } = useScroll({ target: root, offset: ["start end", "start start"] });
   const inset = useTransform(scrollYProgress, [0.2, 1], [reduce ? "0%" : "8%", "0%"]);
-  const radius = useTransform(scrollYProgress, [0.2, 1], reduce ? ["0px", "0px"] : ["999px 999px 0px 0px", "0px 0px 0px 0px"]);
 
   useEffect(() => {
     const io = new IntersectionObserver(
@@ -38,7 +37,7 @@ export function PantanalStory() {
     <section id="a-day" ref={root} aria-labelledby="a-day-title" className="relative bg-forest-deep text-off">
       {/* Sticky video layer */}
       <div className="sticky top-0 -mb-[100svh] h-svh overflow-hidden" aria-hidden={false}>
-        <motion.div style={{ left: inset, right: inset, borderRadius: radius }} className="absolute inset-y-0 overflow-hidden">
+        <motion.div style={{ left: inset, right: inset }} className="absolute inset-y-0 overflow-hidden">
           {stages.map((s, i) => (
             <div
               key={s.title}

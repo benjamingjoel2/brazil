@@ -38,7 +38,7 @@ export default function ExperiencesPage() {
       <div className="px-gutter py-section grid gap-24">
         {experiences.map((e, i) => (
           <Reveal as="article" key={e.slug} id={e.slug} className="grid scroll-mt-28 items-center gap-8 md:grid-cols-2 md:gap-14">
-            <div className={`relative aspect-square overflow-hidden ${i % 2 ? "rounded-[2rem] rounded-tl-[50%] md:order-2" : "rounded-[2rem] rounded-tr-[50%]"}`}>
+            <div className={`relative aspect-square overflow-hidden ${i % 2 ? "md:order-2" : ""}`}>
               <Img media={e.image} sizes="(min-width: 768px) 50vw, 100vw" />
             </div>
             <div>

@@ -25,7 +25,7 @@ export default function AboutPage() {
         image={img("ponta-do-seixas", "Sunrise at Ponta do Seixas, the easternmost point of the Americas")}
       />
       <section className="px-gutter py-section grid gap-12 lg:grid-cols-[1fr_1.2fr]">
-        <Reveal className="arch-top relative aspect-[4/5] overflow-hidden">
+        <Reveal className="relative aspect-[4/5] overflow-hidden">
           <Img media={img("brazil-joy-people", "Friends laughing together in a Brazilian street")} sizes="(min-width: 1024px) 40vw, 100vw" />
         </Reveal>
         <Reveal delay={0.1} className="prose-sol self-center">
@@ -69,7 +69,7 @@ export default function AboutPage() {
         <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
           {team.map((m) => (
             <li key={m.name}>
-              <div className="relative aspect-[3/4] overflow-hidden rounded-t-[999px] rounded-b-[1.25rem]">
+              <div className="relative aspect-[3/4] overflow-hidden">
                 <Img media={m.photo} sizes="(min-width: 1024px) 20vw, 50vw" />
               </div>
               <h3 className="t-h4 mt-4 text-forest">{m.name}</h3>
