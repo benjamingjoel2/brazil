@@ -30,7 +30,7 @@ export default function JournalPage() {
           {sorted.map((p, i) => (
             <Reveal as="li" key={p.slug} delay={(i % 2) * 0.08}>
               <Link href={`/journal/${p.slug}`} className="group block">
-                <div className={`relative aspect-[16/10] overflow-hidden rounded-[2rem] ${i % 2 ? "rounded-tl-[8rem]" : "rounded-tr-[8rem]"}`}>
+                <div className="relative aspect-[16/10] overflow-hidden">
                   <Img media={p.image} sizes="(min-width: 768px) 50vw, 100vw" className="transition-transform duration-700 group-hover:scale-105" />
                 </div>
                 <p className="t-label mt-5 text-coral-deep">

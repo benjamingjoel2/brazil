@@ -20,9 +20,7 @@ export function IncludedStack() {
             style={{ top: `calc(var(--header-h) + ${i * 3.25}rem)`, zIndex: i + 1 }}
           >
             <article
-              className={`grid gap-5 rounded-t-[2rem] border-t-2 border-forest/15 px-1 py-6 md:min-h-[60vh] md:grid-cols-[1fr_2fr_1fr] md:px-6 ${
-                i % 2 ? "bg-sand" : "bg-off"
-              }`}
+              className={`grid gap-5 border-t-2 border-forest/15 px-1 py-6 md:min-h-[60vh] md:grid-cols-[1fr_2fr_1fr] md:px-6 ${i % 2 ? "bg-sand" : "bg-off"}`}
             >
               <div className="flex items-start justify-between gap-4 md:flex-col md:justify-start">
                 <h4 className="t-h3 text-forest">{item.title}</h4>
@@ -36,7 +34,7 @@ export function IncludedStack() {
                   ))}
                 </ol>
               </div>
-              <div className="relative mx-auto aspect-[4/3] w-full max-w-md overflow-hidden rounded-t-[999px] rounded-b-[1.25rem] md:aspect-[4/5] md:max-w-sm">
+              <div className="relative mx-auto aspect-[4/3] w-full max-w-md overflow-hidden md:aspect-[4/5] md:max-w-sm">
                 <Img media={item.image} sizes="(min-width: 768px) 30vw, 100vw" />
               </div>
               <p className="text-ink/85 md:pt-1">{item.body}</p>

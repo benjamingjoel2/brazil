@@ -223,7 +223,7 @@ function MenuPanel({ open, onClose, isHome }: { open: boolean; onClose: () => vo
               </li>
             </ul>
           </div>
-          <div className="arch-top relative mt-auto hidden aspect-[4/3] overflow-hidden lg:block">
+          <div className="relative mt-auto hidden aspect-[4/3] overflow-hidden lg:block">
             {image.src && <Image src={image.src} alt="" fill sizes="30vw" className="object-cover" />}
             <div className="absolute inset-0 bg-linear-to-t from-forest/80 to-transparent" />
             <p className="absolute bottom-4 left-5 flex items-center gap-2 font-display font-bold">

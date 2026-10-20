@@ -17,7 +17,7 @@ export function About() {
       </header>
 
       <div className="grid gap-5 lg:grid-cols-[3fr_1fr]">
-        <Reveal className="relative min-h-[28rem] overflow-hidden rounded-[2rem] rounded-tl-[12rem] bg-forest lg:min-h-[38rem]">
+        <Reveal className="relative min-h-[28rem] overflow-hidden bg-forest lg:min-h-[38rem]">
           <Img media={about.image} sizes="(min-width: 1024px) 75vw, 100vw" />
           <div className="absolute inset-0 bg-linear-to-tr from-forest/85 via-forest/30 to-transparent" />
           <p className="absolute bottom-6 left-6 right-6 max-w-xl text-[0.95rem] leading-relaxed text-off md:bottom-10 md:left-10">
@@ -25,7 +25,7 @@ export function About() {
           </p>
         </Reveal>
 
-        <Reveal delay={0.15} className="flex flex-col justify-between gap-8 rounded-[2rem] bg-sand/60 p-6">
+        <Reveal delay={0.15} className="flex flex-col justify-between gap-8 bg-sand/60 p-6">
           <BrazilMiniMap className="mx-auto w-full max-w-[18rem]" />
           <LiveInfo />
         </Reveal>

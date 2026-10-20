@@ -62,7 +62,7 @@ export function FaqList({ items, idPrefix = "faq" }: { items: FaqItem[]; idPrefi
                           initial={reduce ? false : { rotate: 0, y: 30 }}
                           animate={{ rotate: -5, y: 0 }}
                           transition={{ type: "spring", stiffness: 80, damping: 14 }}
-                          className="arch-top relative z-10 aspect-[4/5] w-[65%] overflow-hidden shadow-xl shadow-forest/15"
+                          className="relative z-10 aspect-[4/5] w-[65%] overflow-hidden shadow-xl shadow-forest/15"
                         >
                           <Img media={f.images[0]} sizes="25vw" />
                         </motion.div>
@@ -70,7 +70,7 @@ export function FaqList({ items, idPrefix = "faq" }: { items: FaqItem[]; idPrefi
                           initial={reduce ? false : { rotate: 0, y: 60 }}
                           animate={{ rotate: 5, y: 0 }}
                           transition={{ type: "spring", stiffness: 70, damping: 14, delay: 0.08 }}
-                          className="relative -mt-[30%] ml-auto aspect-square w-[48%] overflow-hidden rounded-full shadow-xl shadow-forest/15"
+                          className="relative -mt-[30%] ml-auto aspect-square w-[48%] overflow-hidden shadow-xl shadow-forest/15"
                         >
                           <Img media={f.images[1]} sizes="20vw" />
                         </motion.div>

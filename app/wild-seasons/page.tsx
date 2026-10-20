@@ -33,7 +33,7 @@ export default function WildSeasonsPage() {
             }}
           />
         ))}
-        <div className="rounded-[2rem] bg-sand p-8 md:p-12">
+        <div className="bg-sand p-8 md:p-12">
           <p className="t-lead max-w-3xl text-forest">
             Months are typical ranges, not promises. Rivers and rains vary from year to year, so we check levels with our lodge partners before every trip.
           </p>

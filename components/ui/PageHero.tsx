@@ -22,9 +22,7 @@ export function PageHero({
 }) {
   return (
     <header
-      className={`relative isolate flex flex-col justify-end overflow-hidden rounded-b-[2.5rem] bg-forest text-off md:rounded-b-[5rem] ${
-        short ? "min-h-[62svh]" : "min-h-[86svh]"
-      }`}
+      className={`relative isolate flex flex-col justify-end overflow-hidden bg-forest text-off ${ short ? "min-h-[62svh]" : "min-h-[86svh]" }`}
     >
       <Img media={image} priority sizes="100vw" />
       <div className="absolute inset-0 bg-linear-to-b from-ink/50 via-ink/15 to-forest-deep/85" />

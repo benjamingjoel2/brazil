@@ -21,7 +21,6 @@
 
   --radius-pill: 999px;
   --radius-soft: 1.25rem;
-  --radius-arch: 50% 50% 1.25rem 1.25rem / 28% 28% 1.25rem 1.25rem;
 
   --ease-rise: cubic-bezier(0.22, 1.2, 0.36, 1);
   --ease-sun: cubic-bezier(0.16, 1, 0.3, 1);
@@ -153,13 +152,6 @@ html.lenis body {
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-  }
-
-  .arch {
-    border-radius: var(--radius-arch);
-  }
-  .arch-top {
-    border-radius: 999px 999px 1.25rem 1.25rem;
   }
 
   /* Portuguese pavement waves (Copacabana-style), as a subtle background. */

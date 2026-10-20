@@ -26,7 +26,7 @@ export function BackToTop() {
       aria-label="Back to top"
       tabIndex={show ? 0 : -1}
       className={clsx(
-        "group fixed bottom-4 left-4 z-30 grid h-12 w-12 place-items-center overflow-hidden rounded-full bg-gold text-ink shadow-lg shadow-forest/20 transition-all duration-700 ease-(--ease-sun) md:bottom-6 md:left-6 md:h-14 md:w-14",
+        "group fixed bottom-4 left-4 z-30 grid h-12 w-12 place-items-center overflow-hidden bg-forest text-off transition-all duration-700 ease-(--ease-sun) md:bottom-6 md:left-6 md:h-14 md:w-14",
         show ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-24 opacity-0",
       )}
     >

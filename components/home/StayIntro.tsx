@@ -15,10 +15,10 @@ export function StayIntro() {
         </Reveal>
       </header>
       <div className="grid items-start gap-5 md:grid-cols-[1fr_2fr_1fr]">
-        <Reveal className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] rounded-br-[5rem] md:aspect-square">
+        <Reveal className="relative aspect-[4/5] overflow-hidden md:aspect-square">
           <Img media={stayIntro.images[0]} sizes="(min-width: 768px) 25vw, 100vw" />
         </Reveal>
-        <Reveal delay={0.1} className="arch-top relative aspect-[3/4] overflow-hidden">
+        <Reveal delay={0.1} className="relative aspect-[3/4] overflow-hidden">
           <Img media={stayIntro.images[1]} sizes="(min-width: 768px) 50vw, 100vw" />
         </Reveal>
         <Reveal delay={0.2} className="flex h-full flex-col justify-end gap-6">

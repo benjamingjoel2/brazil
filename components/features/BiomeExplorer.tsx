@@ -129,7 +129,7 @@ export function BiomeExplorer({ links }: { links: Record<BiomeSlug, { where: Lin
             exit={reduce ? { opacity: 0 } : { opacity: 0, y: -20 }}
             transition={{ type: "spring", stiffness: 100, damping: 18 }}
           >
-            <div className="arch-top relative aspect-[4/3] overflow-hidden">
+            <div className="relative aspect-[4/3] overflow-hidden">
               <Img media={b.image} sizes="(min-width: 1024px) 45vw, 100vw" />
             </div>
             <p className="t-label mt-6 flex items-center gap-2 text-coral-deep">
