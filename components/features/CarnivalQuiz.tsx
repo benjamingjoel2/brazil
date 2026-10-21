@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { AnimatePresence, m as motion, useReducedMotion } from "framer-motion";
 import { useRef, useState } from "react";
 import clsx from "clsx";
 import { carnivalCities, carnivalQuiz } from "@/data/carnival";

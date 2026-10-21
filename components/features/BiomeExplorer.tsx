@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { AnimatePresence, m as motion, useReducedMotion } from "framer-motion";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
 import { biomes } from "@/data/biomes";

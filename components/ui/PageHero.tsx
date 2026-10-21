@@ -24,7 +24,7 @@ export function PageHero({
     <header
       className={`relative isolate flex flex-col justify-end overflow-hidden bg-forest text-off ${ short ? "min-h-[62svh]" : "min-h-[86svh]" }`}
     >
-      <Img media={image} priority sizes="100vw" />
+      <Img media={image} priority sizes="100vw" quality={60} />
       <div className="absolute inset-0 bg-linear-to-b from-ink/50 via-ink/15 to-forest-deep/85" />
       <SunArcs className="absolute -bottom-6 left-1/2 w-[110vw] max-w-none -translate-x-1/2 opacity-25" rings={6} />
       <div className="px-gutter relative pb-[max(2.5rem,5vw)] pt-[calc(var(--header-h)+3rem)]">

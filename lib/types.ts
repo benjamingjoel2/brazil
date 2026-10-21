@@ -19,6 +19,8 @@ export type Media = {
 
 export type VideoMedia = {
   src: string;
+  /** Lighter file for phones (optional). */
+  srcMobile?: string;
   poster: string;
   alt: string;
   credit?: string;
