@@ -19,6 +19,10 @@ export type Media = {
 
 export type VideoMedia = {
   src: string;
+  /** Lighter file for phones (optional). */
+  srcMobile?: string;
+  /** CSS object-position for narrow crops, e.g. "80% 50%" keeps a subject on the right in view. */
+  focus?: string;
   poster: string;
   alt: string;
   credit?: string;

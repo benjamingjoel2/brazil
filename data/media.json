@@ -747,76 +747,76 @@
  },
  "videos": {
   "hero-sunrise": {
-   "src": "https://videos.pexels.com/video-files/13299023/13299023-hd_1920_1080_30fps.mp4",
-   "poster": "https://images.pexels.com/videos/13299023/4k-brasil-drone-florianopolis-13299023.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "src": "/media/video/hero-sunrise-720.mp4",
+   "poster": "/media/video/hero-sunrise.jpg",
    "alt": "Drone shot of sunrise over a Florianópolis beach with gentle waves and boats",
    "credit": "Matheus De Moraes Gugelmim / Pexels",
    "page": "https://www.pexels.com/video/drone-video-of-a-sunrise-at-the-beach-in-florianopolis-brazil-13299023/",
    "approx": false,
-   "note": "1920x1080, 14s, 10.7MB. Florianópolis, Brazil"
-  },
-  "hero-amazon-mist": {
-   "src": "https://videos.pexels.com/video-files/19366764/19366764-hd_1920_1080_30fps.mp4",
-   "poster": "https://images.pexels.com/videos/19366764/autumn-mood-forest-cloud-forest-costa-rica-dense-fogg-19366764.jpeg?auto=compress&cs=tinysrgb&w=1920",
-   "alt": "Mist drifting through dense tropical rainforest",
-   "credit": "Florian Delée / Pexels",
-   "page": "https://www.pexels.com/video/fog-tropic-jungle-latin-america-19366764/",
-   "approx": true,
-   "note": "1920x1080, 13s, 8.8MB. Latin American cloud forest (poster filename says Costa Rica), not the Amazon"
+   "note": "1920x1080, 14s, 10.7MB. Florianópolis, Brazil",
+   "srcMobile": "/media/video/hero-sunrise-540.mp4"
   },
   "biomes-canopy": {
-   "src": "https://videos.pexels.com/video-files/35969886/15251196_1280_720_30fps.mp4",
-   "poster": "https://images.pexels.com/videos/35969886/agua-amazonia-brasil-floresta-35969886.jpeg?auto=compress&cs=tinysrgb&w=1920",
+   "src": "/media/video/biomes-canopy-720.mp4",
+   "poster": "/media/video/biomes-canopy.jpg",
    "alt": "Aerial flight over Amazon rainforest and a winding river",
    "credit": "MELQUIZEDEQUE ALMEIDA / Pexels",
    "page": "https://www.pexels.com/video/stunning-aerial-view-of-amazon-rainforest-river-35969886/",
    "approx": false,
-   "note": "1280x720, 41s, 17.0MB (1080p is 36MB: https://videos.pexels.com/video-files/35969886/15251197_1920_1080_30fps.mp4). Amazon, Brazil"
+   "note": "1280x720, 41s, 17.0MB (1080p is 36MB: https://videos.pexels.com/video-files/35969886/15251197_1920_1080_30fps.mp4). Amazon, Brazil",
+   "srcMobile": "/media/video/biomes-canopy-540.mp4"
   },
   "day-dawn": {
-   "src": "https://videos.pexels.com/video-files/36721628/15563258_1920_1080_30fps.mp4",
-   "poster": "https://images.pexels.com/videos/36721628/pexels-photo-36721628.jpeg?auto=compress&cs=tinysrgb&w=1920",
-   "alt": "Egrets wading in calm golden water at sunrise",
-   "credit": "정규송 Nui MALAMA / Pexels",
-   "page": "https://www.pexels.com/video/serene-egrets-at-sunrise-in-tranquil-water-36721628/",
-   "approx": true,
-   "note": "1920x1080, 13s, 21.7MB. Location not stated; not Brazil-confirmed"
+   "src": "/media/video/pantanal-dawn-720.mp4",
+   "srcMobile": "/media/video/pantanal-dawn-540.mp4",
+   "poster": "/media/video/pantanal-dawn.jpg",
+   "alt": "Pink sunrise over still Pantanal water near Poconé",
+   "credit": "Nathalia Segato / Unsplash",
+   "page": "https://unsplash.com/photos/body-of-water-near-trees-during-sunset-v4ynva2rNVc",
+   "approx": false,
+   "note": "Pantanal photo, gently animated (slow zoom/pan) with scripts/photo-to-loop.sh."
   },
   "day-river": {
-   "src": "https://videos.pexels.com/video-files/34357690/14555202_1920_1080_24fps.mp4",
-   "poster": "https://images.pexels.com/videos/34357690/afternoon-amazonas-boats-craft-34357690.jpeg?auto=compress&cs=tinysrgb&w=1920",
-   "alt": "Bow of a wooden boat gliding along a calm forest river",
-   "credit": "Richard Monteiro / Pexels",
-   "page": "https://www.pexels.com/video/scenic-boat-journey-on-tranquil-river-34357690/",
-   "approx": true,
-   "note": "1920x1080, 11s, 13.7MB. Poster filename says 'amazonas'; filming location not stated. Alt with wildlife: capybaras by a river https://videos.pexels.com/video-files/12340339/12340339-hd_1920_1080_30fps.mp4 (8.8MB, Mario Luis Buonfiglio, pexels.com/video/capybaras-by-river-12340339/)"
+   "src": "/media/video/pantanal-river-720.mp4",
+   "srcMobile": "/media/video/pantanal-river-540.mp4",
+   "poster": "/media/video/pantanal-river.jpg",
+   "alt": "A giant river otter swimming in the Pantanal",
+   "credit": "David Waite / Unsplash",
+   "page": "https://unsplash.com/photos/seal-on-water-during-daytime-gUWNmCVBTF4",
+   "approx": false,
+   "note": "Pantanal photo, gently animated (slow zoom/pan) with scripts/photo-to-loop.sh."
   },
   "day-midday": {
-   "src": "https://videos.pexels.com/video-files/33802790/14347265_1920_1080_30fps.mp4",
-   "poster": "https://images.pexels.com/videos/33802790/pexels-photo-33802790.jpeg?auto=compress&cs=tinysrgb&w=1920",
-   "alt": "Colourful hammocks hanging under a shady tree on a sandy beach",
-   "credit": "João Pavese / Pexels",
-   "page": "https://www.pexels.com/video/outdoor-relaxation-hammocks-under-shady-trees-33802790/",
-   "approx": true,
-   "note": "1920x1080, 5s, 9.0MB. Location not stated (looks like Northeast Brazil)"
+   "src": "/media/video/pantanal-midday-720.mp4",
+   "srcMobile": "/media/video/pantanal-midday-540.mp4",
+   "poster": "/media/video/pantanal-midday.jpg",
+   "alt": "A pair of hyacinth macaws at their tree-hole nest in the Pantanal",
+   "credit": "Roi Dimor / Unsplash",
+   "page": "https://unsplash.com/photos/two-small-beaked-blue-bird-in-tree-trunk-AEQ-166CWY8",
+   "approx": false,
+   "note": "Pantanal photo, gently animated (slow zoom/pan) with scripts/photo-to-loop.sh.",
+   "focus": "62% 50%"
   },
   "day-golden": {
-   "src": "https://videos.pexels.com/video-files/32460656/13844463_1920_1080_30fps.mp4",
-   "poster": "https://images.pexels.com/videos/32460656/amazon-forest-river-ra-os-32460656.jpeg?auto=compress&cs=tinysrgb&w=1920",
-   "alt": "A man silhouetted on a boat travelling down an Amazon river at sunset",
-   "credit": "Andrés Miranda / Pexels",
-   "page": "https://www.pexels.com/video/silhouette-of-man-boating-at-amazon-sunset-32460656/",
-   "approx": true,
-   "note": "1920x1080, 13s, 10.9MB. Amazon at sunset (country not stated), not the Pantanal; no big cat"
+   "src": "/media/video/pantanal-golden-720.mp4",
+   "srcMobile": "/media/video/pantanal-golden-540.mp4",
+   "poster": "/media/video/pantanal-golden.jpg",
+   "alt": "A jaguar in the Pantanal",
+   "credit": "David Waite / Unsplash",
+   "page": "https://unsplash.com/photos/_D9fMBbCWGA",
+   "approx": false,
+   "note": "Pantanal photo, gently animated (slow zoom/pan) with scripts/photo-to-loop.sh.",
+   "focus": "82% 50%"
   },
   "day-night": {
-   "src": "https://videos.pexels.com/video-files/18358235/18358235-hd_1920_1080_24fps.mp4",
-   "poster": "https://images.pexels.com/videos/18358235/astronomy-astrophotography-at-the-beach-beach-life-18358235.jpeg?auto=compress&cs=tinysrgb&w=1920",
-   "alt": "Timelapse of the Milky Way wheeling over a calm beach",
-   "credit": "Luz Calor Som / Pexels",
-   "page": "https://www.pexels.com/video/timelapse-of-the-starry-milky-way-seen-from-the-beach-18358235/",
+   "src": "/media/video/pantanal-night-720.mp4",
+   "srcMobile": "/media/video/pantanal-night-540.mp4",
+   "poster": "/media/video/pantanal-night.jpg",
+   "alt": "The Milky Way over the countryside of São Paulo state",
+   "credit": "Diego Vieira / Unsplash",
+   "page": "https://unsplash.com/photos/the-night-sky-with-stars-and-the-milky-5q0EDWA-yHQ",
    "approx": true,
-   "note": "1920x1080, 7s, 3.8MB. Location not stated"
+   "note": "Brazil night sky (Serra Negra, SP), not the Pantanal; gently animated still."
   }
  }
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { sunriseCoast } from "@/data/sunrise-coast";
 import { brazilMap, project } from "@/lib/map";

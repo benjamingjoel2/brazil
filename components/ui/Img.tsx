@@ -35,7 +35,7 @@ export function Img({
       fill
       sizes={sizes}
       quality={quality}
-      priority={priority}
+      preload={priority}
       className={clsx("object-cover", className)}
     />
   );

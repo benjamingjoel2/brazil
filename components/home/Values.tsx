@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion, useScroll, useTransform, type MotionValue } from "framer-motion";
+import { m as motion, useReducedMotion, useScroll, useTransform, type MotionValue } from "framer-motion";
 import { useRef } from "react";
 import { values, valuesImage } from "@/data/home";
 import { Img } from "@/components/ui/Img";
