@@ -767,54 +767,56 @@
    "srcMobile": "/media/video/biomes-canopy-540.mp4"
   },
   "day-dawn": {
-   "src": "/media/video/day-dawn-720.mp4",
-   "srcMobile": "/media/video/day-dawn-540.mp4",
-   "poster": "/media/video/day-dawn.jpg",
-   "alt": "Blue-and-yellow macaws taking off from a bare tree at first light",
-   "credit": "Christopher Borges / Pexels",
-   "page": "https://www.pexels.com/video/captivating-macaws-flying-in-the-wild-30049204/",
-   "approx": true,
-   "note": "Brazil footage; location not confirmed as the Pantanal (no free verified Pantanal video found). Replace with own footage."
+   "src": "/media/video/pantanal-dawn-720.mp4",
+   "srcMobile": "/media/video/pantanal-dawn-540.mp4",
+   "poster": "/media/video/pantanal-dawn.jpg",
+   "alt": "Pink sunrise over still Pantanal water near Poconé",
+   "credit": "Nathalia Segato / Unsplash",
+   "page": "https://unsplash.com/photos/body-of-water-near-trees-during-sunset-v4ynva2rNVc",
+   "approx": false,
+   "note": "Pantanal photo, gently animated (slow zoom/pan) with scripts/photo-to-loop.sh."
   },
   "day-river": {
-   "src": "/media/video/day-river-720.mp4",
-   "srcMobile": "/media/video/day-river-540.mp4",
-   "poster": "/media/video/day-river.jpg",
-   "alt": "View from a boat moving along a wide, calm Brazilian river lined with forest",
-   "credit": "Victor Silva / Pexels",
-   "page": "https://www.pexels.com/video/scenic-boat-view-of-brazilian-waters-34786887/",
-   "approx": true,
-   "note": "Brazil footage; location not confirmed as the Pantanal (no free verified Pantanal video found). Replace with own footage."
+   "src": "/media/video/pantanal-river-720.mp4",
+   "srcMobile": "/media/video/pantanal-river-540.mp4",
+   "poster": "/media/video/pantanal-river.jpg",
+   "alt": "A giant river otter swimming in the Pantanal",
+   "credit": "David Waite / Unsplash",
+   "page": "https://unsplash.com/photos/seal-on-water-during-daytime-gUWNmCVBTF4",
+   "approx": false,
+   "note": "Pantanal photo, gently animated (slow zoom/pan) with scripts/photo-to-loop.sh."
   },
   "day-midday": {
-   "src": "/media/video/day-midday-720.mp4",
-   "srcMobile": "/media/video/day-midday-540.mp4",
-   "poster": "/media/video/day-midday.jpg",
-   "alt": "A group of capybaras resting together on a riverbank below green forest",
-   "credit": "Mario Luis Buonfiglio / Pexels",
-   "page": "https://www.pexels.com/video/capybaras-by-river-12340298/",
-   "approx": true,
-   "note": "Brazil footage; location not confirmed as the Pantanal (no free verified Pantanal video found). Replace with own footage."
+   "src": "/media/video/pantanal-midday-720.mp4",
+   "srcMobile": "/media/video/pantanal-midday-540.mp4",
+   "poster": "/media/video/pantanal-midday.jpg",
+   "alt": "A pair of hyacinth macaws at their tree-hole nest in the Pantanal",
+   "credit": "Roi Dimor / Unsplash",
+   "page": "https://unsplash.com/photos/two-small-beaked-blue-bird-in-tree-trunk-AEQ-166CWY8",
+   "approx": false,
+   "note": "Pantanal photo, gently animated (slow zoom/pan) with scripts/photo-to-loop.sh.",
+   "focus": "62% 50%"
   },
   "day-golden": {
-   "src": "/media/video/day-golden-720.mp4",
-   "srcMobile": "/media/video/day-golden-540.mp4",
-   "poster": "/media/video/day-golden.jpg",
-   "alt": "Drone view of the sun setting over flat plains and winding rivers",
-   "credit": "Christopher Borges / Pexels",
-   "page": "https://www.pexels.com/video/stunning-sunset-over-serene-landscape-34398652/",
-   "approx": true,
-   "note": "Brazil footage; location not confirmed as the Pantanal (no free verified Pantanal video found). Replace with own footage."
+   "src": "/media/video/pantanal-golden-720.mp4",
+   "srcMobile": "/media/video/pantanal-golden-540.mp4",
+   "poster": "/media/video/pantanal-golden.jpg",
+   "alt": "A jaguar in the Pantanal",
+   "credit": "David Waite / Unsplash",
+   "page": "https://unsplash.com/photos/_D9fMBbCWGA",
+   "approx": false,
+   "note": "Pantanal photo, gently animated (slow zoom/pan) with scripts/photo-to-loop.sh.",
+   "focus": "82% 50%"
   },
   "day-night": {
-   "src": "/media/video/day-night-720.mp4",
-   "poster": "/media/video/day-night.jpg",
-   "alt": "Timelapse of the Milky Way wheeling over a calm beach",
-   "credit": "Luz Calor Som / Pexels",
-   "page": "https://www.pexels.com/video/timelapse-of-the-starry-milky-way-seen-from-the-beach-18358235/",
+   "src": "/media/video/pantanal-night-720.mp4",
+   "srcMobile": "/media/video/pantanal-night-540.mp4",
+   "poster": "/media/video/pantanal-night.jpg",
+   "alt": "The Milky Way over the countryside of São Paulo state",
+   "credit": "Diego Vieira / Unsplash",
+   "page": "https://unsplash.com/photos/the-night-sky-with-stars-and-the-milky-5q0EDWA-yHQ",
    "approx": true,
-   "note": "1920x1080, 7s, 3.8MB. Location not stated",
-   "srcMobile": "/media/video/day-night-540.mp4"
+   "note": "Brazil night sky (Serra Negra, SP), not the Pantanal; gently animated still."
   }
  }
 }

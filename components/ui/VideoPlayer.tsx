@@ -102,6 +102,7 @@ export function VideoPlayer({
       <video
         ref={ref}
         className={clsx("absolute inset-0 h-full w-full object-cover", className)}
+        style={media.focus ? { objectPosition: media.focus } : undefined}
         poster={near && media.poster && !priority ? posterUrl(media.poster) : undefined}
         muted
         loop
