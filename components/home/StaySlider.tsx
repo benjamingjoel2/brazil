@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { AnimatePresence, m as motion, useReducedMotion } from "framer-motion";
 import { useState } from "react";
 import type { Stay } from "@/lib/types";
 import { Img } from "@/components/ui/Img";

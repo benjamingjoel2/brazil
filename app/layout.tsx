@@ -10,8 +10,8 @@ import { SmoothScroll } from "@/components/layout/SmoothScroll";
 import { CurrencyProvider } from "@/components/ui/Currency";
 import { JsonLd, organizationJsonLd } from "@/lib/seo";
 
-const display = Unbounded({ variable: "--font-unbounded", subsets: ["latin", "latin-ext"], display: "swap" });
-const body = Figtree({ variable: "--font-figtree", subsets: ["latin", "latin-ext"], display: "swap" });
+const display = Unbounded({ variable: "--font-unbounded", subsets: ["latin"], display: "swap" });
+const body = Figtree({ variable: "--font-figtree", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),

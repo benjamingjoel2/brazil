@@ -5,10 +5,25 @@ import { useReducedMotion } from "framer-motion";
 import clsx from "clsx";
 import type { VideoMedia } from "@/lib/types";
 
+/** Poster through the image optimiser, so it arrives as AVIF/WebP at a sensible size. */
+function posterUrl(src: string) {
+  return `/_next/image?url=${encodeURIComponent(src)}&w=1200&q=60`;
+}
+
+/** True when the visitor asked to save data (Chrome/Android "Lite mode"). */
+function prefersSaveData() {
+  const c = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+  return !!c?.saveData;
+}
+
 /**
  * Ambient background video. Muted, looped and inline; plays only while on screen
- * (and only when `active`), never autoplays under reduced motion, and always has a
- * visible pause/play control (WCAG 2.2.2).
+ * (and only when `active`), never autoplays under reduced motion or save-data, and
+ * always has a visible pause/play control (WCAG 2.2.2).
+ *
+ * Loading is lazy: the source (and poster) attach only near the viewport, and a
+ * `priority` video waits until the page has finished loading so it never competes
+ * with the first paint. Phones get the lighter `srcMobile` file.
  */
 export function VideoPlayer({
   media,
@@ -29,30 +44,48 @@ export function VideoPlayer({
   const reduce = useReducedMotion();
   const [userPaused, setUserPaused] = useState<boolean | null>(null);
   const [inView, setInView] = useState(false);
-  // Only attach the source once the video comes near the viewport (hero loads at once).
-  const [load, setLoad] = useState(priority);
-  const paused = userPaused ?? !!reduce;
+  const [near, setNear] = useState(false);
+  const [pageReady, setPageReady] = useState(!priority);
+  const [src, setSrc] = useState<string | null>(null);
+  const [saveData, setSaveData] = useState(false);
+  const paused = userPaused ?? (!!reduce || saveData);
+  // Don't download anything the visitor won't see play, unless they press play.
+  const load = near && pageReady && (!paused || userPaused === false);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+    setSrc(window.matchMedia("(max-width: 767px)").matches && media.srcMobile ? media.srcMobile : media.src);
+    setSaveData(prefersSaveData());
     const io = new IntersectionObserver(
       ([e]) => {
         setInView(e.isIntersecting);
-        if (e.isIntersecting) setLoad(true);
+        if (e.isIntersecting) setNear(true);
       },
       { rootMargin: "50% 0px" },
     );
     io.observe(el);
     return () => io.disconnect();
-  }, []);
+  }, [media.src, media.srcMobile]);
+
+  useEffect(() => {
+    if (pageReady) return;
+    const go = () => {
+      const idle = (window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
+      if (idle) idle(() => setPageReady(true), { timeout: 2500 });
+      else setTimeout(() => setPageReady(true), 800);
+    };
+    if (document.readyState === "complete") go();
+    else window.addEventListener("load", go, { once: true });
+    return () => window.removeEventListener("load", go);
+  }, [pageReady]);
 
   useEffect(() => {
     const el = ref.current;
-    if (!el || !media.src || !load) return;
+    if (!el || !src || !load) return;
     if (inView && active && !paused) el.play().catch(() => {});
     else el.pause();
-  }, [inView, active, paused, media.src, load]);
+  }, [inView, active, paused, src, load]);
 
   if (!media.src) {
     return (
@@ -69,13 +102,14 @@ export function VideoPlayer({
       <video
         ref={ref}
         className={clsx("absolute inset-0 h-full w-full object-cover", className)}
-        poster={media.poster ? `/_next/image?url=${encodeURIComponent(media.poster)}&w=1920&q=75` : undefined}
+        style={media.focus ? { objectPosition: media.focus } : undefined}
+        poster={near && media.poster && !priority ? posterUrl(media.poster) : undefined}
         muted
         loop
         playsInline
-        preload={priority ? "auto" : "none"}
+        preload={load ? "auto" : "none"}
         aria-label={media.alt}
-        src={load ? media.src : undefined}
+        src={load && src ? src : undefined}
       >
         {media.captions && <track kind="captions" src={media.captions} srcLang="en" label="English" />}
       </video>

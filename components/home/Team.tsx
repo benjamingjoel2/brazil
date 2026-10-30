@@ -1,6 +1,6 @@
 "use client";
 
-import { LayoutGroup, motion, useReducedMotion } from "framer-motion";
+import { LayoutGroup, m as motion, useReducedMotion } from "framer-motion";
 import { useState } from "react";
 import clsx from "clsx";
 import { team } from "@/data/team";

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useInView, useReducedMotion, type HTMLMotionProps } from "framer-motion";
+import { m as motion, useInView, useReducedMotion, type HTMLMotionProps } from "framer-motion";
 import { useRef, type ReactNode } from "react";
 
 const rise = {
