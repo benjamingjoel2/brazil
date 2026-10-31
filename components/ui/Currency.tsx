@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import { currencies, defaultCurrency, type CurrencyCode } from "@/config/currency";
+import { intlLocale } from "@/lib/locale";
 
 const Ctx = createContext<{ code: CurrencyCode; setCode: (c: CurrencyCode) => void }>({
   code: defaultCurrency,
@@ -33,7 +34,7 @@ export function useCurrency() {
 export function formatPrice(usd: number, code: CurrencyCode) {
   const c = currencies[code];
   const value = Math.round((usd * c.rate) / 50) * 50;
-  return new Intl.NumberFormat(c.locale, { style: "currency", currency: code, maximumFractionDigits: 0 }).format(value);
+  return new Intl.NumberFormat(intlLocale, { style: "currency", currency: code, maximumFractionDigits: 0 }).format(value);
 }
 
 /** "From $4,200" in the visitor's chosen currency. Rates are indicative. */

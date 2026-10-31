@@ -1,6 +1,15 @@
 import type { Destination } from "@/lib/types";
 import { img } from "@/lib/media";
 
+/** Display names for the regions (the keys are identifiers; only the values are copy). */
+export const regionLabel: Record<Destination["region"], string> = {
+  Northeast: "Northeast",
+  North: "North",
+  "Central-West": "Central-West",
+  Southeast: "Southeast",
+  South: "South",
+};
+
 /** Sixteen places we plan journeys around. Seasonal facts and fees carry `verify`. */
 export const destinations: Destination[] = [
   {

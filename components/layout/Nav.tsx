@@ -10,6 +10,8 @@ import { homeAnchors, pageLinks, site } from "@/config/site";
 import { Logo, SunMark } from "@/components/ui/SunMark";
 import { buttonClass } from "@/components/ui/Button";
 import { img } from "@/lib/media";
+import { homePath, locale } from "@/lib/locale";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 /** Anchor id currently in the middle of the viewport (homepage only). */
 function useActiveSection(enabled: boolean) {
@@ -31,7 +33,7 @@ function useActiveSection(enabled: boolean) {
 
 export function Nav() {
   const pathname = usePathname();
-  const isHome = pathname === "/";
+  const isHome = pathname === homePath;
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const active = useActiveSection(isHome);
@@ -51,7 +53,7 @@ export function Nav() {
   }
 
   const solid = scrolled || open;
-  const anchorHref = (id: string) => (isHome ? `#${id}` : `/#${id}`);
+  const anchorHref = (id: string) => (isHome ? `#${id}` : `${homePath}#${id}`);
 
   return (
     <>
@@ -69,11 +71,12 @@ export function Nav() {
         )}
       >
         <nav aria-label="Main" className="px-gutter flex h-(--header-h) items-center justify-between gap-6">
-          <Link href={isHome ? "#sol-nascente" : "/"} aria-label="Sol Nascente, home" className="shrink-0">
+          <Link href={isHome ? "#sol-nascente" : homePath} aria-label="Sol Nascente, home" className="shrink-0">
             <Logo tone={solid && !open ? "dark" : "light"} />
           </Link>
 
-          <ul className="hidden items-center gap-x-[1.6vw] xl:flex">
+          {/* French, German and Spanish labels run longer, so the inline links start one breakpoint later. */}
+          <ul className={clsx("hidden items-center gap-x-[1.6vw]", locale === "en" ? "xl:flex" : "2xl:flex")}>
             {(isHome ? homeAnchors.map((a) => ({ href: anchorHref(a.id), label: a.label, id: a.id })) : pageLinks.slice(0, 7).map((p) => ({ ...p, id: p.href }))).map(
               (l) => {
                 const isActive = isHome ? active === l.id : pathname.startsWith(l.href);
@@ -82,7 +85,7 @@ export function Nav() {
                     <Link
                       href={l.href}
                       aria-current={isActive ? (isHome ? "location" : "page") : undefined}
-                      className="group relative flex items-center gap-1.5 py-2 text-[0.8125rem] font-medium"
+                      className={clsx("group relative flex items-center gap-1.5 py-2 text-[0.8125rem] font-medium", locale !== "en" && "whitespace-nowrap")}
                     >
                       <span
                         aria-hidden
@@ -102,6 +105,7 @@ export function Nav() {
           </ul>
 
           <div className="flex items-center gap-2">
+            <LanguageSwitcher className="hidden md:flex" />
             <button
               type="button"
               onClick={() => setOpen((o) => !o)}
@@ -175,7 +179,7 @@ function MenuPanel({ open, onClose, isHome }: { open: boolean; onClose: () => vo
             {homeAnchors.map((a) => (
               <li key={a.id}>
                 <Link
-                  href={isHome ? `#${a.id}` : `/#${a.id}`}
+                  href={isHome ? `#${a.id}` : `${homePath}#${a.id}`}
                   onClick={onClose}
                   className="font-display text-[clamp(1.6rem,4.2vw,2.75rem)] font-bold leading-tight transition-colors hover:text-gold"
                 >
@@ -205,6 +209,10 @@ function MenuPanel({ open, onClose, isHome }: { open: boolean; onClose: () => vo
             <Link href="/plan" onClick={onClose} className={buttonClass("sun")}>
               Plan with us <span aria-hidden>→</span>
             </Link>
+          </div>
+          <div>
+            <p className="t-label mb-2 text-gold">Language</p>
+            <LanguageSwitcher className="text-base" onNavigate={onClose} />
           </div>
           <div>
             <p className="t-label mb-2 text-gold">Write to us</p>
