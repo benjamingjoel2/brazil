@@ -2,6 +2,7 @@ import Link from "next/link";
 import { homeAnchors, legalLinks, pageLinks, site } from "@/config/site";
 import { SunArcs } from "@/components/ui/SunArcs";
 import { CurrencySwitcher } from "@/components/ui/Currency";
+import { homePath } from "@/lib/locale";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -30,7 +31,7 @@ export function Footer() {
               {homeAnchors.map((a) => (
                 <li key={a.id}>
                   <Link
-                    href={`/#${a.id}`}
+                    href={`${homePath}#${a.id}`}
                     className="group inline-flex items-center gap-2 font-display text-lg font-semibold transition-colors hover:text-gold"
                   >
                     <span aria-hidden className="h-2 w-2 scale-0 rounded-full bg-gold transition-transform group-hover:scale-100" />

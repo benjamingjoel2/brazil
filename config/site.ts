@@ -1,8 +1,6 @@
 /** Site-wide settings: URLs, navigation and contact. */
 export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://solnascente.tourground.com",
-  defaultLocale: "en",
-  locales: ["en"] as const, // add "pt" when Portuguese copy is ready
   contact: {
     email: "solnascente@tourground.com",
     /** Business address: Cubo Itaú, São Paulo (source: cubo.itau). */

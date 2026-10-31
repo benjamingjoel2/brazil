@@ -7,6 +7,7 @@ import { Img } from "@/components/ui/Img";
 import { SpecTable } from "@/components/ui/SpecTable";
 import { Placeholder } from "@/components/ui/Badges";
 import { ButtonLink } from "@/components/ui/Button";
+import { stayTypeLabel } from "@/data/stays";
 
 export function StaySlider({ stays, label = "Stays" }: { stays: Stay[]; label?: string }) {
   const [index, setIndex] = useState(0);
@@ -66,7 +67,7 @@ export function StaySlider({ stays, label = "Stays" }: { stays: Stay[]; label?: 
             </div>
             <div className="flex flex-col gap-6">
               <div>
-                <p className="t-label mb-2 text-coral-deep">{s.type}</p>
+                <p className="t-label mb-2 text-coral-deep">{stayTypeLabel[s.type]}</p>
                 <h3 className="t-h2 text-forest">
                   {s.name} <Placeholder label="example" className="ml-1 align-middle" />
                 </h3>
@@ -78,7 +79,7 @@ export function StaySlider({ stays, label = "Stays" }: { stays: Stay[]; label?: 
               <SpecTable
                 className="mt-auto"
                 rows={[
-                  { label: "Type", value: s.type },
+                  { label: "Type", value: stayTypeLabel[s.type] },
                   { label: "Setting", value: s.setting },
                   { label: "Rooms", value: s.rooms },
                   { label: "Guests", value: s.guests },

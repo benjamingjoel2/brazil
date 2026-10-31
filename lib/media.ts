@@ -1,5 +1,6 @@
 import type { Media, VideoMedia } from "./types";
 import manifest from "@/data/media.json";
+import { locale } from "./locale";
 
 type Manifest = {
   images: Record<string, Media & { note?: string }>;
@@ -21,7 +22,7 @@ export function img(key: string, alt?: string): Media {
 export function video(key: string, captions?: string): VideoMedia {
   const found = m.videos[key];
   if (!found) return { src: "", poster: "", alt: key.replace(/-/g, " "), captions };
-  return { ...found, captions: captions ?? `/captions/${key}.vtt` };
+  return { ...found, captions: captions ?? (locale === "en" ? `/captions/${key}.vtt` : `/captions/${locale}/${key}.vtt`) };
 }
 
 export function allCredits() {

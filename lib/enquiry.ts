@@ -33,6 +33,8 @@ export const enquirySchema = z.object({
   contact: z.enum(contactOptions),
   notes: z.string().max(4000).optional(),
   context: z.string().max(200).optional(),
+  /** Language of the form the visitor used (options and messages are in that language). */
+  locale: z.enum(["en", "fr", "de", "es"]).default("en"),
   /** Honeypot: must stay empty. */
   website: z.string().max(0).optional(),
 });

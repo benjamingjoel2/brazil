@@ -31,15 +31,29 @@ Homepage sections are in `components/home/`, interactive features (biome explore
 - **Contact**: one public address, solnascente@tourground.com; business address Cubo Itaú, Alameda Vicente Pinzon, 54, Vila Olímpia, São Paulo – SP, 04547-130 (source: cubo.itau). By owner decision there is no phone, WhatsApp, social links, Cadastur number, team section, reviews or guest quotes.
 - **Stays** are examples of the kind of place (marked "example"); the actual property is named in each proposal.
 - **Legal pages** (`/legal/terms`, `/legal/privacy`, `/legal/cookies`) are complete; have a lawyer review them.
-- **Languages**: FR/DE/ES versions are not built yet.
+- **Languages**: French, German and Spanish translations were written for this build; have a native speaker of each read them before launch (especially the legal pages).
 - **Verify** (marked with a "verify" badge on the site): visas, health advice, Noronha fees, Carnival/Festa Junina/Parintins dates, water seasons and best months, Lençóis lagoon season.
 - **Media**: stock media from free-licence libraries (no credit lines on the site; sources are kept in `data/media.json`). Videos are self-hosted (720p desktop / 540p mobile) via `scripts/encode-video.sh`. "A Day in the Pantanal" uses real Pantanal photos (Poconé sunrise, giant otter, hyacinth macaws, jaguar) gently animated with `scripts/photo-to-loop.sh`, plus a Brazilian night sky (Serra Negra, SP): no free, verifiable Pantanal *video* was found. Replace with your own footage.
 - **Currency** rates in `config/currency.ts` are indicative placeholders.
 - Set `NEXT_PUBLIC_SITE_URL` for canonical URLs, sitemap and Open Graph.
 
-## Internationalisation
+## Languages
 
-English only for now. All copy sits in typed data files and `config`, not in components, so adding Portuguese means adding translated data (e.g. `data/pt/…`), adding `"pt"` to `site.locales`, and moving routes under an `app/[locale]` segment.
+English (default) at the current URLs; French, German and Spanish under `/fr/`, `/de/` and `/es/`. Every page is pre-rendered in all four; no translation code ships to the browser.
+
+| What | Where |
+| --- | --- |
+| English source routes | `app/(en)/` (route group, its own root layout with `<html lang>`) |
+| Generated locales | `app/fr`, `app/de`, `app/es` and `.i18n/<locale>/` (git-ignored), written by `scripts/i18n-build.mjs` before `dev` and `build` |
+| Translations (English string → translation) | `i18n/fr.json`, `i18n/de.json`, `i18n/es.json` |
+| Translated journal posts | `i18n/content/<locale>/journal/*.mdx` |
+| Translated video captions | `public/captions/<locale>/*.vtt` |
+| Locale constants (`locale`, `homePath`, Intl/OG locale) | `lib/locale.ts` (rewritten per locale by `scripts/i18n.config.mjs`) |
+| Language selector (EN · FR · DE · ES) | `components/layout/LanguageSwitcher.tsx`, in the header (tablet and up) and the menu panel |
+| hreflang, canonical, sitemap | `languageAlternates()` in `lib/seo.tsx`, `app/sitemap.ts` |
+| Unmatched URLs | `app/global-not-found.tsx` |
+
+When you change English copy: `npm run i18n:extract` refreshes `i18n/strings.json`, `npm run i18n:missing -- --list` shows what has no translation yet (place names and Portuguese terms are left as they are on purpose), then add the translations to the three JSON files. Values that act as identifiers (region and stay-type keys, enquiry option values) keep English keys with translated labels (`regionLabel`, `stayTypeLabel`); the enquiry API validates against the visitor's language (`app/api/enquiry/route.ts`) and records `locale` with each enquiry.
 
 ## Notes
 
