@@ -1,11 +1,11 @@
 import type { Stay } from "@/lib/types";
 import { img } from "@/lib/media";
 
-/** Placeholder stays: invented names and details until partner properties are confirmed. */
+/** Example stays: the kind of place we choose in each region. The actual property is named in your proposal. */
 export const stays: Stay[] = [
   {
     slug: "casa-rio-negro",
-    name: "Casa Rio Negro",
+    name: "A river lodge in the Anavilhanas",
     type: "River lodge",
     setting: "Black-water channels of the Anavilhanas archipelago",
     rooms: "12 bungalows",
@@ -22,7 +22,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "flutuante-mamiraua",
-    name: "Flutuante Mamirauá",
+    name: "A floating lodge in Mamirauá",
     type: "Eco-lodge",
     setting: "Floating in the flooded várzea forest of the Mamirauá reserve",
     rooms: "10 floating cabins",
@@ -39,7 +39,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "fazenda-tuiuiu",
-    name: "Fazenda Tuiuiú",
+    name: "A fazenda in the northern Pantanal",
     type: "Fazenda",
     setting: "Northern Pantanal, just off the Transpantaneira",
     rooms: "14 rooms",
@@ -56,7 +56,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "fazenda-ipe-amarelo",
-    name: "Fazenda Ipê Amarelo",
+    name: "A fazenda in the southern Pantanal",
     type: "Fazenda",
     setting: "Open grasslands and gallery forest of the southern Pantanal",
     rooms: "8 rooms",
@@ -73,7 +73,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "pousada-mare-mansa",
-    name: "Pousada Maré Mansa",
+    name: "A clifftop pousada in Trancoso",
     type: "Beach pousada",
     setting: "On the cliffs above the beach, a short walk from Trancoso's Quadrado",
     rooms: "9 casas",
@@ -90,7 +90,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "pousada-coqueiral",
-    name: "Pousada Coqueiral",
+    name: "A beach pousada on Boipeba",
     type: "Beach pousada",
     setting: "Under coconut palms on a quiet beach on Boipeba",
     rooms: "7 bungalows",
@@ -107,7 +107,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "casa-santa-teresa",
-    name: "Casa Santa Teresa",
+    name: "A hillside house in Santa Teresa",
     type: "Boutique hotel",
     setting: "A hillside mansion in Santa Teresa, above the bay",
     rooms: "11 rooms",
@@ -124,7 +124,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "solar-das-pedras",
-    name: "Solar das Pedras",
+    name: "A townhouse pousada in Paraty",
     type: "Colonial pousada",
     setting: "A whitewashed townhouse in Paraty's historic centre",
     rooms: "10 rooms",
@@ -141,7 +141,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "casa-do-ouro",
-    name: "Casa do Ouro",
+    name: "A colonial house in Ouro Preto",
     type: "Colonial pousada",
     setting: "An eighteenth-century house in the hills of Ouro Preto",
     rooms: "8 rooms",
@@ -158,7 +158,7 @@ export const stays: Stay[] = [
   },
   {
     slug: "pousada-dos-ventos",
-    name: "Pousada dos Ventos",
+    name: "A beach pousada in Jericoacoara",
     type: "Beach pousada",
     setting: "On a sandy lane in Jericoacoara, near the sunset dune",
     rooms: "12 rooms",

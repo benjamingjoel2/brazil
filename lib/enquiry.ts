@@ -10,7 +10,7 @@ export const budgetOptions = [
   "US$9,000+ per person",
   "Not sure yet",
 ] as const;
-export const contactOptions = ["Email", "WhatsApp", "Phone"] as const;
+export const contactOptions = ["Email", "Phone call"] as const;
 export const biomeOptions = ["Amazon", "Cerrado", "Atlantic Forest", "Caatinga", "Pantanal", "Pampa"] as const;
 
 /** Shared by the form and the API route. */

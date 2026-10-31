@@ -37,14 +37,8 @@ export const organizationJsonLd = {
   description: brand.description,
   url: site.url,
   email: site.contact.email,
-  telephone: site.contact.phone,
   areaServed: { "@type": "Country", name: "Brazil" },
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "João Pessoa",
-    addressRegion: "PB",
-    addressCountry: "BR",
-  },
+  address: { "@type": "PostalAddress", ...site.contact.postalAddress },
 };
 
 export function JsonLd({ data }: { data: object }) {

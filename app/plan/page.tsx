@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Suspense } from "react";
 import { PlanForm } from "@/components/forms/PlanForm";
 import { PageHero } from "@/components/ui/PageHero";
@@ -23,13 +24,8 @@ export default function PlanPage() {
       />
       <section className="px-gutter py-section grid gap-12 lg:grid-cols-[1fr_2.2fr]">
         <aside className="lg:sticky lg:top-[calc(var(--header-h)+2rem)] lg:self-start">
-          <p className="t-lead text-forest">Prefer to talk?</p>
+          <p className="t-lead text-forest">Prefer to write?</p>
           <ul className="mt-4 space-y-2 text-ink/85">
-            <li>
-              <a className="underline underline-offset-4 hover:text-coral-deep" href={site.contact.whatsappLink}>
-                WhatsApp {site.contact.whatsapp}
-              </a>
-            </li>
             <li>
               <a className="underline underline-offset-4 hover:text-coral-deep" href={`mailto:${site.contact.email}`}>
                 {site.contact.email}
@@ -37,7 +33,7 @@ export default function PlanPage() {
             </li>
           </ul>
           <p className="mt-6 text-sm text-ink/65">
-            We use your details only to plan your trip and reply to you. See our <a href="/legal#privacy" className="underline">privacy notes</a>.
+            We use your details only to plan your trip and reply to you. See our <Link href="/legal/privacy" className="underline">privacy policy</Link>.
           </p>
         </aside>
         <Suspense fallback={<p>Loading the form…</p>}>

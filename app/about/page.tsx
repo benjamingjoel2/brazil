@@ -1,9 +1,7 @@
-import { team } from "@/data/team";
 import { values } from "@/data/home";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
 import { Img } from "@/components/ui/Img";
-import { Placeholder } from "@/components/ui/Badges";
 import { ButtonLink } from "@/components/ui/Button";
 import { SunArcs } from "@/components/ui/SunArcs";
 import { pageMeta } from "@/lib/seo";
@@ -43,7 +41,7 @@ export default function AboutPage() {
           <p>
             Every journey is private and planned from scratch with a specialist who has been there, usually many times. We arrange
             the internal flights, the transfers and the boats, and choose small stays with big settings. On the ground, you&apos;re
-            with local English-speaking guides. And your specialist stays on WhatsApp while you travel.
+            with local English-speaking guides. And your specialist stays a message away while you travel.
           </p>
         </Reveal>
       </section>
@@ -62,25 +60,7 @@ export default function AboutPage() {
       </section>
 
       <section className="px-gutter py-section">
-        <div className="mb-10 flex flex-wrap items-center gap-3">
-          <h2 className="t-h2 text-forest">The team</h2>
-          <Placeholder label="placeholder team" />
-        </div>
-        <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
-          {team.map((m) => (
-            <li key={m.name}>
-              <div className="relative aspect-[3/4] overflow-hidden">
-                <Img media={m.photo} sizes="(min-width: 1024px) 20vw, 50vw" />
-              </div>
-              <h3 className="t-h4 mt-4 text-forest">{m.name}</h3>
-              <p className="text-sm text-ink/75">
-                {m.role} · {m.base}
-              </p>
-              <p className="mt-2 text-sm text-ink/85">{m.intro}</p>
-            </li>
-          ))}
-        </ul>
-        <div className="mt-16 flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-3">
           <ButtonLink href="/plan">Plan with us</ButtonLink>
           <ButtonLink href="/responsible-travel" variant="outline">
             How we travel

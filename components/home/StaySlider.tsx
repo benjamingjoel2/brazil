@@ -68,7 +68,7 @@ export function StaySlider({ stays, label = "Stays" }: { stays: Stay[]; label?: 
               <div>
                 <p className="t-label mb-2 text-coral-deep">{s.type}</p>
                 <h3 className="t-h2 text-forest">
-                  {s.name} <Placeholder className="ml-1 align-middle" />
+                  {s.name} <Placeholder label="example" className="ml-1 align-middle" />
                 </h3>
               </div>
               <p className="text-ink/85">{s.description}</p>
