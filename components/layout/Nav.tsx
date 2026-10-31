@@ -207,21 +207,10 @@ function MenuPanel({ open, onClose, isHome }: { open: boolean; onClose: () => vo
             </Link>
           </div>
           <div>
-            <p className="t-label mb-2 text-gold">Elsewhere</p>
-            <ul className="flex flex-wrap gap-x-5 gap-y-1 text-sm text-off/80">
-              {site.socials.map((s) => (
-                <li key={s.label}>
-                  <a href={s.href} className="hover:text-off">
-                    {s.label}
-                  </a>
-                </li>
-              ))}
-              <li>
-                <a href={site.contact.whatsappLink} className="hover:text-off">
-                  WhatsApp
-                </a>
-              </li>
-            </ul>
+            <p className="t-label mb-2 text-gold">Write to us</p>
+            <a href={`mailto:${site.contact.email}`} className="text-sm text-off/80 hover:text-off">
+              {site.contact.email}
+            </a>
           </div>
           <div className="relative mt-auto hidden aspect-[4/3] overflow-hidden lg:block">
             {image.src && <Image src={image.src} alt="" fill sizes="30vw" className="object-cover" />}

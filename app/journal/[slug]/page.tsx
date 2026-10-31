@@ -32,7 +32,7 @@ export default async function PostPage({ params }: PageProps<"/journal/[slug]">)
           headline: p.title,
           description: p.description,
           datePublished: p.date,
-          author: { "@type": "Person", name: p.author },
+          author: { "@type": "Organization", name: p.author },
           url: `${site.url}/journal/${p.slug}`,
         }}
       />

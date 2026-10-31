@@ -14,18 +14,13 @@ export function Footer() {
       <div className="px-gutter relative flex min-h-[inherit] flex-col justify-between gap-16 pb-6 pt-10">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.1fr_0.9fr_1fr_1fr]">
           <address className="not-italic text-sm leading-relaxed text-off/85">
-            <p className="font-semibold text-off">{site.contact.companyName}</p>
+            <p className="font-semibold text-off">Sol Nascente</p>
             {site.contact.address.map((l) => (
               <p key={l}>{l}</p>
             ))}
-            <p className="mt-3">{site.contact.cadastur}</p>
             <p className="mt-3">
               <a href={`mailto:${site.contact.email}`} className="underline-offset-4 hover:underline">
                 {site.contact.email}
-              </a>
-              <br />
-              <a href={site.contact.whatsappLink} className="underline-offset-4 hover:underline">
-                WhatsApp {site.contact.whatsapp}
               </a>
             </p>
           </address>
@@ -64,15 +59,6 @@ export function Footer() {
           </nav>
 
           <div className="flex flex-col gap-6 text-sm lg:items-end lg:text-right">
-            <ul className="space-y-1.5">
-              {site.socials.map((s) => (
-                <li key={s.label}>
-                  <a href={s.href} className="text-off/85 hover:text-off">
-                    {s.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
             <div>
               <p className="t-label mb-2 text-off/70">Show prices in</p>
               <CurrencySwitcher tone="light" />
@@ -97,11 +83,6 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link href="/legal#credits" className="hover:text-off">
-                  Photo &amp; video credits
-                </Link>
-              </li>
             </ul>
           </div>
         </div>

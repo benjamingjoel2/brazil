@@ -60,7 +60,7 @@ export function StayCard({ s }: { s: Stay }) {
       </div>
       <p className="t-label mt-4 text-coral-deep">{s.type}</p>
       <h3 className="t-h4 mt-1 text-forest">
-        {s.name} <Placeholder className="ml-1" />
+        {s.name} <Placeholder label="example" className="ml-1" />
       </h3>
       <p className="mt-1 text-sm text-ink/80">{s.setting}</p>
     </Link>
