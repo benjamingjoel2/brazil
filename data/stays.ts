@@ -1,5 +1,15 @@
-import type { Stay } from "@/lib/types";
+import type { Stay, StayType } from "@/lib/types";
 import { img } from "@/lib/media";
+
+/** Display names for stay types (the keys are identifiers; only the values are copy). */
+export const stayTypeLabel: Record<StayType, string> = {
+  "River lodge": "River lodge",
+  Fazenda: "Fazenda",
+  "Beach pousada": "Beach pousada",
+  "Boutique hotel": "Boutique hotel",
+  "Colonial pousada": "Colonial pousada",
+  "Eco-lodge": "Eco-lodge",
+};
 
 /** Example stays: the kind of place we choose in each region. The actual property is named in your proposal. */
 export const stays: Stay[] = [

@@ -4,6 +4,7 @@ import { Img } from "./Img";
 import { Price } from "./Currency";
 import { Placeholder } from "./Badges";
 import { getBiome } from "@/data/biomes";
+import { stayTypeLabel } from "@/data/stays";
 
 export function JourneyCard({ j }: { j: Journey }) {
   return (
@@ -13,7 +14,7 @@ export function JourneyCard({ j }: { j: Journey }) {
       </div>
       <div className="flex flex-1 flex-col gap-3 p-6">
         <p className="t-label text-coral-deep">
-          {j.nights} nights · {j.internalFlights} internal flight{j.internalFlights === 1 ? "" : "s"}
+          {j.nights} nights · {j.internalFlights} {j.internalFlights === 1 ? "internal flight" : "internal flights"}
         </p>
         <h3 className="t-h4 text-forest">{j.title}</h3>
         <p className="text-sm text-ink/80">{j.tagline}</p>
@@ -58,7 +59,7 @@ export function StayCard({ s }: { s: Stay }) {
       <div className="relative aspect-[4/5] overflow-hidden">
         <Img media={s.images[0]} sizes="(min-width: 1024px) 25vw, 50vw" className="transition-transform duration-700 group-hover:scale-105" />
       </div>
-      <p className="t-label mt-4 text-coral-deep">{s.type}</p>
+      <p className="t-label mt-4 text-coral-deep">{stayTypeLabel[s.type]}</p>
       <h3 className="t-h4 mt-1 text-forest">
         {s.name} <Placeholder label="example" className="ml-1" />
       </h3>

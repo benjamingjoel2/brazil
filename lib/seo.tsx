@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import { brand } from "@/config/brand";
 import { site } from "@/config/site";
+import { locale, locales, ogLocale, pathIn, splitPath } from "@/lib/locale";
+
+/** hreflang alternates for a page: en, fr, de, es and x-default (English). */
+export function languageAlternates(path: string): Record<string, string> {
+  const base = splitPath(path)[1];
+  return { ...Object.fromEntries(locales.map((l) => [l, pathIn(l, base)])), "x-default": base };
+}
 
 export function pageMeta({
   title,
@@ -16,12 +23,13 @@ export function pageMeta({
   return {
     title,
     description,
-    alternates: { canonical: path },
+    alternates: { canonical: path, languages: languageAlternates(path) },
     openGraph: {
       title: `${title} · ${brand.name}`,
       description,
       url: path,
       siteName: brand.name,
+      locale: ogLocale,
       type: "website",
       ...(image ? { images: [{ url: image, width: 1200, height: 630 }] } : {}),
     },
@@ -34,6 +42,7 @@ export const organizationJsonLd = {
   "@type": "TravelAgency",
   name: brand.name,
   slogan: brand.promise,
+  inLanguage: locale,
   description: brand.description,
   url: site.url,
   email: site.contact.email,

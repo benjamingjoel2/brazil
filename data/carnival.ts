@@ -138,6 +138,8 @@ export function carnivalWeek(): CarnivalDay[] {
 }
 
 const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const WEEKDAYS_SHORT = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const MONTHS_SHORT = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 /**
@@ -151,9 +153,9 @@ export function formatCarnivalDate(
   const d = new Date(`${iso}T12:00:00Z`);
   const month = MONTHS[d.getUTCMonth()];
   const parts = [
-    opts.weekday ? (opts.weekday === "short" ? WEEKDAYS[d.getUTCDay()].slice(0, 3) : WEEKDAYS[d.getUTCDay()]) : "",
+    opts.weekday ? (opts.weekday === "short" ? WEEKDAYS_SHORT[d.getUTCDay()] : WEEKDAYS[d.getUTCDay()]) : "",
     String(d.getUTCDate()),
-    opts.month === "long" ? month : month.slice(0, 3),
+    opts.month === "long" ? month : MONTHS_SHORT[d.getUTCMonth()],
     opts.year ? String(d.getUTCFullYear()) : "",
   ];
   return parts.filter(Boolean).join(" ");

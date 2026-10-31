@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useReducedMotion } from "framer-motion";
 import clsx from "clsx";
+import { locale, localeNames } from "@/lib/locale";
 import type { VideoMedia } from "@/lib/types";
 
 /** Poster through the image optimiser, so it arrives as AVIF/WebP at a sensible size. */
@@ -111,7 +112,7 @@ export function VideoPlayer({
         aria-label={media.alt}
         src={load && src ? src : undefined}
       >
-        {media.captions && <track kind="captions" src={media.captions} srcLang="en" label="English" />}
+        {media.captions && <track kind="captions" src={media.captions} srcLang={locale} label={localeNames[locale].name} />}
       </video>
       {showControl && (
         <button
