@@ -2,6 +2,11 @@ import type { NextConfig } from "next";
 import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      { source: "/legal", destination: "/legal/terms", permanent: true },
+    ];
+  },
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   turbopack: {
     rules: {

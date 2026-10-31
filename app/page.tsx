@@ -8,9 +8,6 @@ import { BiomesReveal } from "@/components/home/BiomesReveal";
 import { CarnivalWeek } from "@/components/home/CarnivalWeek";
 import { PantanalStory } from "@/components/home/PantanalStory";
 import { LikeALocal } from "@/components/home/LikeALocal";
-import { PortraitQuote } from "@/components/home/PortraitQuote";
-import { Team } from "@/components/home/Team";
-import { Words } from "@/components/home/Words";
 import { Faq } from "@/components/home/Faq";
 import { stays } from "@/data/stays";
 import { faq } from "@/data/faq";
@@ -46,9 +43,6 @@ export default function Home() {
       <CarnivalWeek />
       <PantanalStory />
       <LikeALocal />
-      <PortraitQuote />
-      <Team />
-      <Words />
       <Faq items={faq} />
     </>
   );

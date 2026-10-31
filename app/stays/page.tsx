@@ -27,7 +27,7 @@ export default function StaysPage() {
         image={img("stay-pousada-beach", "A beach pousada with hammocks under palm trees")}
       >
         <p className="text-sm text-off/80">
-          <Placeholder label="placeholder names" /> Stay names below are placeholders until partner agreements are confirmed.
+          <Placeholder label="examples" /> These are examples of the places we choose. We name the actual property in your proposal.
         </p>
       </PageHero>
       <div className="px-gutter py-section grid gap-24">
@@ -42,7 +42,7 @@ export default function StaysPage() {
                 <div>
                   <p className="t-label text-coral-deep">{s.type}</p>
                   <h2 className="t-h2 mt-1 text-forest">
-                    {s.name} <Placeholder className="ml-1" />
+                    {s.name} <Placeholder label="example" className="ml-1" />
                   </h2>
                   {dest && (
                     <Link href={`/destinations/${dest.slug}`} className="mt-1 inline-block text-sm font-semibold text-atlantic underline-offset-4 hover:underline">

@@ -76,7 +76,7 @@ export const included = {
       image: img("cooking-together", "Hands preparing a Bahian dish together"),
     },
     {
-      title: "Your specialist on WhatsApp",
+      title: "Your specialist, a message away",
       body: "The person who planned your trip stays with you while you travel. A question at midnight? A change of plan at noon? Send a message.",
       image: img("phone-chat", "A phone in hand on a sunny terrace"),
     },
@@ -168,21 +168,3 @@ export const likeALocal = {
   ],
 };
 
-export const portraitQuote = {
-  quote:
-    "People come for the jaguar. They remember the morning the whole river turned pink, my uncle singing on the boat, and the fish we caught for lunch. The jaguar is the reason. Brazil is the story.",
-  name: "Zé Andrade",
-  role: "Pantanal guide",
-  placeholder: true,
-  image: img("portrait-guide", "Portrait of a local guide in warm evening light"),
-};
-
-export const wordsSection = {
-  heading: "Words",
-  note: "Placeholder reviews for layout only. Real guest words will replace these.",
-};
-
-export const teamSection = {
-  heading: "The team",
-  subtitle: "Specialists who plan your journey, and the guides who make it sing.",
-};

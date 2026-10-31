@@ -28,9 +28,12 @@ Homepage sections are in `components/home/`, interactive features (biome explore
 
 ## Before launch
 
-- **Placeholders**: stay names, team, reviews, portrait quote, company name/address/Cadastur, booking terms and privacy text. All are flagged in the UI.
+- **Contact**: one public address, solnascente@tourground.com; business address Cubo Itaú, Alameda Vicente Pinzon, 54, Vila Olímpia, São Paulo – SP, 04547-130 (source: cubo.itau). By owner decision there is no phone, WhatsApp, social links, Cadastur number, team section, reviews or guest quotes.
+- **Stays** are examples of the kind of place (marked "example"); the actual property is named in each proposal.
+- **Legal pages** (`/legal/terms`, `/legal/privacy`, `/legal/cookies`) are complete; have a lawyer review them.
+- **Languages**: FR/DE/ES versions are not built yet.
 - **Verify** (marked with a "verify" badge on the site): visas, health advice, Noronha fees, Carnival/Festa Junina/Parintins dates, water seasons and best months, Lençóis lagoon season.
-- **Media**: placeholder Unsplash/Pexels media (credited at `/legal#credits`). Videos are self-hosted (720p desktop / 540p mobile) via `scripts/encode-video.sh`. "A Day in the Pantanal" uses real Pantanal photos (Poconé sunrise, giant otter, hyacinth macaws, jaguar) gently animated with `scripts/photo-to-loop.sh`, plus a Brazilian night sky (Serra Negra, SP): no free, verifiable Pantanal *video* was found. Replace with your own footage.
+- **Media**: stock media from free-licence libraries (no credit lines on the site; sources are kept in `data/media.json`). Videos are self-hosted (720p desktop / 540p mobile) via `scripts/encode-video.sh`. "A Day in the Pantanal" uses real Pantanal photos (Poconé sunrise, giant otter, hyacinth macaws, jaguar) gently animated with `scripts/photo-to-loop.sh`, plus a Brazilian night sky (Serra Negra, SP): no free, verifiable Pantanal *video* was found. Replace with your own footage.
 - **Currency** rates in `config/currency.ts` are indicative placeholders.
 - Set `NEXT_PUBLIC_SITE_URL` for canonical URLs, sitemap and Open Graph.
 

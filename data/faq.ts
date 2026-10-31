@@ -24,7 +24,7 @@ export const faq: FaqItem[] = [
     q: "Is Brazil safe to travel?",
     a: [
       "The places we send you are welcoming and well travelled, and you'll have guides and drivers who know them intimately. Like any big country, Brazil asks for some common sense in its cities: carry what you need for the day, keep your phone out of sight on busy streets, and use the transfers we arrange at night.",
-      "We brief you on each destination before you go, and your specialist is on WhatsApp throughout.",
+      "We brief you on each destination before you go, and your specialist is a message away throughout.",
     ],
     images: [img("salvador", "Colourful colonial buildings in Salvador"), img("guide-walk", "A guide with a small group")],
   },
@@ -90,10 +90,9 @@ export const faq: FaqItem[] = [
   {
     q: "How do deposits and cancellations work?",
     a: [
-      "Placeholder: a deposit secures your journey, with the balance due before travel. Cancellation terms depend on your lodges and flights, and we'll explain them clearly before you book.",
-      "We strongly recommend comprehensive travel insurance from the moment you book. Full booking terms will be published here.",
+      "A deposit secures your journey, with the balance due before travel. Cancellation terms depend on your lodges and flights, and we explain them clearly in your proposal. See our booking terms for the details.",
+      "Comprehensive travel insurance is a condition of booking, so arrange it as soon as you book.",
     ],
-    verify: "Placeholder terms. Final terms to be confirmed.",
     images: [img("stay-pousada-beach", "A beach pousada"), img("sunrise-atlantic", "Sunrise over the sea")],
   },
 ];
