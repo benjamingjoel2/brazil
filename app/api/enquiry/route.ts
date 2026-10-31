@@ -24,7 +24,7 @@ export async function POST(request: Request) {
   const { website: _honeypot, ...enquiry } = parsed.data;
   void _honeypot;
   console.log("[enquiry]", JSON.stringify({ receivedAt: new Date().toISOString(), ...enquiry }));
-  // TODO: send to the CRM (e.g. HubSpot/Pipedrive) and notify the team on WhatsApp/email.
+  // TODO: send to the CRM (e.g. HubSpot/Pipedrive) and notify the team by email.
 
   return Response.json({ ok: true });
 }

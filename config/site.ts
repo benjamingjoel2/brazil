@@ -1,23 +1,20 @@
-/** Site-wide settings: URLs, navigation, contact and legal placeholders. */
+/** Site-wide settings: URLs, navigation and contact. */
 export const site = {
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://solnascente.example",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://solnascente.tourground.com",
   defaultLocale: "en",
   locales: ["en"] as const, // add "pt" when Portuguese copy is ready
   contact: {
-    // TODO: replace every placeholder below before launch.
-    companyName: "Sol Nascente Viagens Ltda. (placeholder)",
-    address: ["Rua do Sol Nascente, 000 (placeholder)", "João Pessoa – PB", "Brazil"],
-    cadastur: "Cadastur nº 00.000000.00-0 (placeholder)",
-    email: "hello@solnascente.example",
-    phone: "+55 83 0000-0000",
-    whatsapp: "+55 83 00000-0000",
-    whatsappLink: "https://wa.me/5583000000000",
+    email: "solnascente@tourground.com",
+    /** Business address: Cubo Itaú, São Paulo (source: cubo.itau). */
+    address: ["Cubo Itaú", "Alameda Vicente Pinzon, 54, Vila Olímpia", "São Paulo – SP, 04547-130", "Brazil"],
+    postalAddress: {
+      streetAddress: "Cubo Itaú, Alameda Vicente Pinzon, 54, Vila Olímpia",
+      addressLocality: "São Paulo",
+      addressRegion: "SP",
+      postalCode: "04547-130",
+      addressCountry: "BR",
+    },
   },
-  socials: [
-    { label: "Instagram", href: "#" },
-    { label: "YouTube", href: "#" },
-    { label: "Spotify playlists", href: "#" },
-  ],
 } as const;
 
 /** Anchor menu for the one-page homepage. Order matches the page. */
@@ -29,8 +26,6 @@ export const homeAnchors = [
   { id: "carnival", label: "Carnival" },
   { id: "a-day", label: "A Day" },
   { id: "like-a-local", label: "Like a Local" },
-  { id: "team", label: "Team" },
-  { id: "words", label: "Words" },
   { id: "faq", label: "FAQ" },
 ] as const;
 
@@ -50,7 +45,7 @@ export const pageLinks = [
 ] as const;
 
 export const legalLinks = [
-  { href: "/legal#terms", label: "Booking terms" },
-  { href: "/legal#privacy", label: "Privacy" },
-  { href: "/legal#cookies", label: "Cookies" },
+  { href: "/legal/terms", label: "Booking terms" },
+  { href: "/legal/privacy", label: "Privacy policy" },
+  { href: "/legal/cookies", label: "Cookie policy" },
 ] as const;
