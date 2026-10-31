@@ -19,6 +19,7 @@ import type { Month } from "@/lib/types";
 import { Verify } from "@/components/ui/Badges";
 import { SunMark } from "@/components/ui/SunMark";
 import { buttonClass } from "@/components/ui/Button";
+import { locale } from "@/lib/locale";
 
 const field = "w-full border-2 border-forest/20 bg-off px-4 py-3 text-ink outline-none transition focus:border-forest";
 const labelCls = "mb-2 block font-semibold text-forest";
@@ -123,6 +124,7 @@ export function PlanForm() {
       notes: fd.get("notes") || undefined,
       context: context || undefined,
       website: fd.get("website") || undefined,
+      locale,
     };
     setStatus("sending");
     setErrors({});

@@ -1,3 +1,4 @@
+import { intlLocale } from "./locale";
 /**
  * Sunrise and sunset from the NOAA General Solar Position equations
  * (https://gml.noaa.gov/grad/solcalc/solareqns.PDF). Accurate to about a minute,
@@ -54,5 +55,5 @@ export function seixasSunrise(now = new Date()) {
 }
 
 export function formatTime(d: Date, timeZone: string, opts: Intl.DateTimeFormatOptions = {}) {
-  return new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone, ...opts }).format(d);
+  return new Intl.DateTimeFormat(intlLocale, { hour: "2-digit", minute: "2-digit", hour12: false, timeZone, ...opts }).format(d);
 }

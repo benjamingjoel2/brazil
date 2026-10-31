@@ -4,7 +4,7 @@ export const monthNames = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",
 ] as const;
-export const monthShort = monthNames.map((m) => m.slice(0, 3));
+export const monthShort = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 export function inRange(month: Month, r: MonthRange) {
   return r.from <= r.to ? month >= r.from && month <= r.to : month >= r.from || month <= r.to;

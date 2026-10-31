@@ -1,0 +1,4662 @@
+{
+ "About us": [
+  "app/(en)/about/page.tsx:11"
+ ],
+ "Sol Nascente plans private journeys across Brazil, from first light at Ponta do Seixas to the waterfalls of Iguaçu.": [
+  "app/(en)/about/page.tsx:12"
+ ],
+ "About": [
+  "app/(en)/about/page.tsx:20",
+  "components/features/CarnivalQuiz.tsx:142",
+  "config/site.ts:41"
+ ],
+ "Brazil, from first light": [
+  "app/(en)/about/page.tsx:21"
+ ],
+ "The sun rises in Brazil before anywhere else in the Americas. We like to think it's in a hurry to get here. So are we, every time.": [
+  "app/(en)/about/page.tsx:22"
+ ],
+ "Sunrise at Ponta do Seixas, the easternmost point of the Americas": [
+  "app/(en)/about/page.tsx:23"
+ ],
+ "Friends laughing together in a Brazilian street": [
+  "app/(en)/about/page.tsx:27"
+ ],
+ "Why sol nascente?": [
+  "app/(en)/about/page.tsx:30"
+ ],
+ "Sol nascente means rising sun. Every morning, the first sunrise in the Americas lands on Ponta do Seixas in Paraíba, the easternmost point of the continent&apos;s mainland. It felt like the right name for a company that wants you to see Brazil fresh, as if for the first time.": [
+  "app/(en)/about/page.tsx:32"
+ ],
+ "Brazil is enormous and wildly varied. It&apos;s easy to spend a fortnight on planes and in queues and still miss the things that make it extraordinary. We help you see the right parts, at the right time, with the right people.": [
+  "app/(en)/about/page.tsx:37"
+ ],
+ "How we work": [
+  "app/(en)/about/page.tsx:40"
+ ],
+ "Every journey is private and planned from scratch with a specialist who has been there, usually many times. We arrange the internal flights, the transfers and the boats, and choose small stays with big settings. On the ground, you&apos;re with local English-speaking guides. And your specialist stays a message away while you travel.": [
+  "app/(en)/about/page.tsx:42"
+ ],
+ "Plan with us": [
+  "app/(en)/about/page.tsx:64",
+  "app/(en)/biomes/page.tsx:55",
+  "app/(en)/destinations/[slug]/page.tsx:123"
+ ],
+ "How we travel": [
+  "app/(en)/about/page.tsx:66"
+ ],
+ "The Six Biomes of Brazil": [
+  "app/(en)/biomes/page.tsx:13"
+ ],
+ "Amazon, Cerrado, Atlantic Forest, Caatinga, Pantanal and Pampa: explore Brazil's six biomes, what lives there, the best months and where we go.": [
+  "app/(en)/biomes/page.tsx:15"
+ ],
+ "Six biomes, one country": [
+  "app/(en)/biomes/page.tsx:24"
+ ],
+ "Brazil is six countries wearing one flag": [
+  "app/(en)/biomes/page.tsx:25"
+ ],
+ "Rainforest, savanna, coastal forest, dry forest, wetland and grassland. Tap a biome to see what it looks like, what lives there and when to go.": [
+  "app/(en)/biomes/page.tsx:26"
+ ],
+ "Mist over the rainforest canopy at dawn": [
+  "app/(en)/biomes/page.tsx:27"
+ ],
+ "Biome explorer": [
+  "app/(en)/biomes/page.tsx:29"
+ ],
+ "All six at a glance": [
+  "app/(en)/biomes/page.tsx:35"
+ ],
+ "· Best": [
+  "app/(en)/biomes/page.tsx:42"
+ ],
+ "Wild Seasons: high water or low?": [
+  "app/(en)/biomes/page.tsx:53",
+  "app/(en)/wild-seasons/page.tsx:10"
+ ],
+ "Find out more": [
+  "app/(en)/carnival/page.tsx:107"
+ ],
+ "Which Carnival is right for you?": [
+  "app/(en)/carnival/page.tsx:14",
+  "content/journal/index.ts:18"
+ ],
+ "Rio, Salvador, Olinda and Recife, or a quiet escape: take our short Carnival quiz and get an honest guide to crowds, costs and how to do it well. Plus Festa Junina and Parintins.": [
+  "app/(en)/carnival/page.tsx:16"
+ ],
+ "Carnival": [
+  "app/(en)/carnival/page.tsx:27",
+  "components/forms/PlanForm.tsx:62",
+  "components/home/CarnivalWeek.tsx:61"
+ ],
+ "Watch it, or dance in it?": [
+  "app/(en)/carnival/page.tsx:31"
+ ],
+ "Rio's Carnival is a show. Salvador's is a street party. Olinda's is a whole town in costume. Answer four quick questions and we'll point you to yours.": [
+  "app/(en)/carnival/page.tsx:32"
+ ],
+ "Carnival revellers in bright costumes": [
+  "app/(en)/carnival/page.tsx:33"
+ ],
+ "Carnival chooser": [
+  "app/(en)/carnival/page.tsx:36",
+  "config/site.ts:35"
+ ],
+ "Every Carnival, honestly": [
+  "app/(en)/carnival/page.tsx:42"
+ ],
+ "Crowds": [
+  "app/(en)/carnival/page.tsx:56",
+  "components/features/CarnivalQuiz.tsx:115"
+ ],
+ "Costs": [
+  "app/(en)/carnival/page.tsx:60",
+  "components/features/CarnivalQuiz.tsx:119"
+ ],
+ "Not the only party in town": [
+  "app/(en)/carnival/page.tsx:76"
+ ],
+ "Carnival gets the headlines. In June, the Northeast lights bonfires for São João, and deep in the Amazon a whole island splits into red and blue.": [
+  "app/(en)/carnival/page.tsx:79"
+ ],
+ "Festa Junina with bunting, bonfires and forró dancing": [
+  "app/(en)/carnival/page.tsx:85"
+ ],
+ "Bunting, bonfires, corn in every form imaginable and forró until dawn. Campina Grande and Caruaru host vast, joyful celebrations, with quadrilha dances in costume. Less glitter than Carnival, more heart.": [
+  "app/(en)/carnival/page.tsx:86"
+ ],
+ "Parintins festival performers in a vast arena": [
+  "app/(en)/carnival/page.tsx:91"
+ ],
+ "On an island in the Amazon, two rival groups, Garantido (red) and Caprichoso (blue), stage enormous boi-bumbá performances: giant puppets, Amazonian legends and drums you feel in your ribs. Reached by plane or riverboat from Manaus.": [
+  "app/(en)/carnival/page.tsx:92"
+ ],
+ "Best months": [
+  "app/(en)/destinations/[slug]/page.tsx:101",
+  "components/features/BiomeExplorer.tsx:161"
+ ],
+ "Water season": [
+  "app/(en)/destinations/[slug]/page.tsx:111"
+ ],
+ "High water or low? →": [
+  "app/(en)/destinations/[slug]/page.tsx:114"
+ ],
+ "Where to stay": [
+  "app/(en)/destinations/[slug]/page.tsx:130",
+  "components/features/WaterToggle.tsx:134"
+ ],
+ "Things we love here": [
+  "app/(en)/destinations/[slug]/page.tsx:142"
+ ],
+ "Journeys": [
+  "app/(en)/destinations/[slug]/page.tsx:153",
+  "app/(en)/journeys/page.tsx:19",
+  "app/(en)/journeys/page.tsx:10"
+ ],
+ "into tailor-made journeys. Tell us how long you have and we&apos;ll suggest the best way to fit it in.": [
+  "app/(en)/destinations/[slug]/page.tsx:164"
+ ],
+ "We build": [
+  "app/(en)/destinations/[slug]/page.tsx:164"
+ ],
+ "About this destination": [
+  "app/(en)/destinations/[slug]/page.tsx:53"
+ ],
+ "What to eat": [
+  "app/(en)/destinations/[slug]/page.tsx:65"
+ ],
+ "Music of the region": [
+  "app/(en)/destinations/[slug]/page.tsx:76"
+ ],
+ "State": [
+  "app/(en)/destinations/[slug]/page.tsx:91"
+ ],
+ "Biome": [
+  "app/(en)/destinations/[slug]/page.tsx:93"
+ ],
+ "Destinations": [
+  "app/(en)/destinations/page.tsx:10",
+  "config/site.ts:33"
+ ],
+ "Rio, Bahia, the Amazon, the Pantanal, Lençóis Maranhenses, Iguaçu and more: sixteen places we know and love across Brazil.": [
+  "app/(en)/destinations/page.tsx:12"
+ ],
+ "Where the sun rises first: warm seas, Afro-Brazilian culture, dunes and the country's most joyful music.": [
+  "app/(en)/destinations/page.tsx:18"
+ ],
+ "The Amazon: rivers the size of seas and a forest that makes its own weather.": [
+  "app/(en)/destinations/page.tsx:19"
+ ],
+ "Wetlands and clear rivers: the Pantanal and Bonito.": [
+  "app/(en)/destinations/page.tsx:20"
+ ],
+ "Rio's mountains, colonial towns, gold-rush churches and São Paulo's appetite.": [
+  "app/(en)/destinations/page.tsx:21"
+ ],
+ "Waterfalls, surf, island lagoons and the wide skies of the Pampa.": [
+  "app/(en)/destinations/page.tsx:22"
+ ],
+ "Where we go": [
+  "app/(en)/destinations/page.tsx:29",
+  "components/features/BiomeExplorer.tsx:168"
+ ],
+ "Sixteen Brazils we know by heart": [
+  "app/(en)/destinations/page.tsx:30"
+ ],
+ "From the easternmost point of the Americas to the waterfalls on the Argentine border. Each one with its own food, its own music and its own best months.": [
+  "app/(en)/destinations/page.tsx:31"
+ ],
+ "Freshwater lagoons between white dunes in Lençóis Maranhenses": [
+  "app/(en)/destinations/page.tsx:32"
+ ],
+ "Jaguar safaris, Amazon river lodges, snorkelling Bonito's clear rivers, Carnival, capoeira, forró nights, Bahian cooking and more.": [
+  "app/(en)/experiences/page.tsx:14"
+ ],
+ "Experiences": [
+  "app/(en)/experiences/page.tsx:22",
+  "app/(en)/experiences/page.tsx:12",
+  "app/(en)/journeys/[slug]/page.tsx:114"
+ ],
+ "The moments people talk about for years": [
+  "app/(en)/experiences/page.tsx:23"
+ ],
+ "Floating above fish in a river clear as glass. A forró night where nobody minds that you can't dance yet. A jaguar on a sandbank at golden hour.": [
+  "app/(en)/experiences/page.tsx:24"
+ ],
+ "Snorkelling over fish in a crystal-clear river in Bonito": [
+  "app/(en)/experiences/page.tsx:25"
+ ],
+ "Experiences on this page": [
+  "app/(en)/experiences/page.tsx:27"
+ ],
+ "When:": [
+  "app/(en)/experiences/page.tsx:53"
+ ],
+ "More from the journal": [
+  "app/(en)/journal/[slug]/page.tsx:57"
+ ],
+ "Stories and honest advice for travelling in Brazil, from the Amazon's water seasons to choosing your Carnival.": [
+  "app/(en)/journal/page.tsx:12"
+ ],
+ "Journal": [
+  "app/(en)/journal/page.tsx:23",
+  "app/(en)/journal/page.tsx:11",
+  "config/site.ts:40"
+ ],
+ "Notes from first light": [
+  "app/(en)/journal/page.tsx:24"
+ ],
+ "Stories, seasons and honest advice from the people who plan our journeys.": [
+  "app/(en)/journal/page.tsx:25"
+ ],
+ "Drummers playing in the street": [
+  "app/(en)/journal/page.tsx:26"
+ ],
+ "Where you&apos;ll stay": [
+  "app/(en)/journeys/[slug]/page.tsx:101"
+ ],
+ "Places on this journey": [
+  "app/(en)/journeys/[slug]/page.tsx:126"
+ ],
+ "Make it yours": [
+  "app/(en)/journeys/[slug]/page.tsx:138"
+ ],
+ "Change the pace, swap a stay, add a few nights on a beach. Tell us what you&apos;d love and we&apos;ll shape this journey around you.": [
+  "app/(en)/journeys/[slug]/page.tsx:140"
+ ],
+ "You might also love": [
+  "app/(en)/journeys/[slug]/page.tsx:150"
+ ],
+ "From, per person sharing": [
+  "app/(en)/journeys/[slug]/page.tsx:50"
+ ],
+ "Journey · {0} nights": [
+  "app/(en)/journeys/[slug]/page.tsx:53"
+ ],
+ "Overview": [
+  "app/(en)/journeys/[slug]/page.tsx:57"
+ ],
+ "How you travel": [
+  "app/(en)/journeys/[slug]/page.tsx:61"
+ ],
+ "Length": [
+  "app/(en)/journeys/[slug]/page.tsx:68"
+ ],
+ "Price": [
+  "app/(en)/journeys/[slug]/page.tsx:69"
+ ],
+ "Biomes": [
+  "app/(en)/journeys/[slug]/page.tsx:70",
+  "components/features/BiomeExplorer.tsx:101",
+  "data/home.ts:88"
+ ],
+ "Internal flights": [
+  "app/(en)/journeys/[slug]/page.tsx:71"
+ ],
+ "Best time": [
+  "app/(en)/journeys/[slug]/page.tsx:72"
+ ],
+ "Good for": [
+  "app/(en)/journeys/[slug]/page.tsx:73"
+ ],
+ "Per person sharing, excluding international flights. Indicative exchange rates.": [
+  "app/(en)/journeys/[slug]/page.tsx:77"
+ ],
+ "Day by day": [
+  "app/(en)/journeys/[slug]/page.tsx:83"
+ ],
+ "Eight private journeys across Brazil, from jaguars in the Pantanal to Carnival done properly. Every one tailored to you.": [
+  "app/(en)/journeys/page.tsx:11"
+ ],
+ "Start here, then make it yours": [
+  "app/(en)/journeys/page.tsx:20"
+ ],
+ "Eight journeys we love, each a starting point. We'll change the pace, the places and the stays until it fits you exactly.": [
+  "app/(en)/journeys/page.tsx:21"
+ ],
+ "The falls at Iguaçu in full flow": [
+  "app/(en)/journeys/page.tsx:22"
+ ],
+ "All journeys": [
+  "app/(en)/journeys/page.tsx:24"
+ ],
+ "Prices are per person sharing, excluding international flights. Brazil is big, so most journeys include internal flights; we say how many, honestly.": [
+  "app/(en)/journeys/page.tsx:27"
+ ],
+ "%s · {0}": [
+  "app/(en)/layout.tsx:19"
+ ],
+ "Privacy policy": [
+  "app/(en)/legal/[slug]/page.tsx:101",
+  "config/site.ts:47"
+ ],
+ "How {0} collects, uses and protects the personal information you share when you plan a journey.": [
+  "app/(en)/legal/[slug]/page.tsx:102"
+ ],
+ "What we collect when you enquire, why, who else handles it, how long we keep it, and your rights.": [
+  "app/(en)/legal/[slug]/page.tsx:103"
+ ],
+ "Who we are": [
+  "app/(en)/legal/[slug]/page.tsx:106"
+ ],
+ "plans private, tailor-made journeys in Brazil and is responsible for the personal information described here. Our address is": [
+  "app/(en)/legal/[slug]/page.tsx:108"
+ ],
+ ". You can contact us about privacy at": [
+  "app/(en)/legal/[slug]/page.tsx:109"
+ ],
+ "What we collect": [
+  "app/(en)/legal/[slug]/page.tsx:111"
+ ],
+ "When you send an enquiry we collect what you choose to give us: your name and email address, a phone number if you add one, your travel month and length of trip, the number of adults and children and the children&apos;s ages, your interests, pace, preferred stays, budget range and anything you write in your notes.": [
+  "app/(en)/legal/[slug]/page.tsx:113"
+ ],
+ "If you go on to book, we also collect what is needed to arrange your journey, such as passport details, dates of birth, dietary and mobility needs, insurance details and emergency contacts. Please share health information only when it is needed for your trip, and with the agreement of the people it concerns.": [
+  "app/(en)/legal/[slug]/page.tsx:118"
+ ],
+ "How we use it": [
+  "app/(en)/legal/[slug]/page.tsx:122"
+ ],
+ "To reply to your enquiry and prepare proposals (steps you ask us to take before a contract).": [
+  "app/(en)/legal/[slug]/page.tsx:124"
+ ],
+ "To book and run your journey (performance of our contract with you).": [
+  "app/(en)/legal/[slug]/page.tsx:125"
+ ],
+ "To keep the records the law requires and protect our legal rights (legal obligation and legitimate interests).": [
+  "app/(en)/legal/[slug]/page.tsx:126"
+ ],
+ "We do not sell your data, and we do not use it for advertising or automated decisions.": [
+  "app/(en)/legal/[slug]/page.tsx:128"
+ ],
+ "Who we share it with": [
+  "app/(en)/legal/[slug]/page.tsx:129"
+ ],
+ "Only the suppliers needed to deliver your journey (lodges, hotels, airlines, transport companies and guides), and the service providers that help us run our business, such as email and website hosting. Each receives only what it needs. Some are in Brazil or other countries outside your own; where the law requires it, we use appropriate safeguards for these transfers.": [
+  "app/(en)/legal/[slug]/page.tsx:131"
+ ],
+ "How long we keep it": [
+  "app/(en)/legal/[slug]/page.tsx:135"
+ ],
+ "Enquiries that do not lead to a booking are kept for up to two years and then deleted. Booking records are kept for as long as tax and accounting law requires.": [
+  "app/(en)/legal/[slug]/page.tsx:137"
+ ],
+ "Your rights": [
+  "app/(en)/legal/[slug]/page.tsx:140"
+ ],
+ "Under Brazil&apos;s LGPD and, where they apply, the UK and EU GDPR, you can ask to access, correct, delete or receive a copy of your data, object to or restrict how we use it, and withdraw consent at any time. Write to": [
+  "app/(en)/legal/[slug]/page.tsx:142"
+ ],
+ "and we will reply within one month. You can also complain to the data protection authority in your country (in Brazil, the ANPD).": [
+  "app/(en)/legal/[slug]/page.tsx:143"
+ ],
+ "Security": [
+  "app/(en)/legal/[slug]/page.tsx:146"
+ ],
+ "We use reputable providers, encrypted connections and limited access to keep your data safe. No system is perfectly secure, but we take care to protect what you share with us.": [
+  "app/(en)/legal/[slug]/page.tsx:148"
+ ],
+ "Cookies": [
+  "app/(en)/legal/[slug]/page.tsx:151"
+ ],
+ ". We may update this policy from time to time; the date above shows when it last changed.": [
+  "app/(en)/legal/[slug]/page.tsx:153"
+ ],
+ "cookie policy": [
+  "app/(en)/legal/[slug]/page.tsx:153"
+ ],
+ "See our": [
+  "app/(en)/legal/[slug]/page.tsx:153"
+ ],
+ "Cookie policy": [
+  "app/(en)/legal/[slug]/page.tsx:160",
+  "config/site.ts:48"
+ ],
+ "The cookies and browser storage the {0} website uses, and how to control them.": [
+  "app/(en)/legal/[slug]/page.tsx:161"
+ ],
+ "This site keeps things simple: no advertising, tracking or analytics cookies.": [
+  "app/(en)/legal/[slug]/page.tsx:162"
+ ],
+ "What cookies are": [
+  "app/(en)/legal/[slug]/page.tsx:165"
+ ],
+ "Cookies and similar browser storage are small pieces of information a website saves on your device so it can remember something about your visit.": [
+  "app/(en)/legal/[slug]/page.tsx:167"
+ ],
+ "Booking terms": [
+  "app/(en)/legal/[slug]/page.tsx:17",
+  "config/site.ts:46"
+ ],
+ "What this website uses": [
+  "app/(en)/legal/[slug]/page.tsx:170"
+ ],
+ "): when you choose a currency for prices, your browser remembers it so prices show in that currency next time. It stays on your device until you clear it and is never sent to us.": [
+  "app/(en)/legal/[slug]/page.tsx:173"
+ ],
+ "(local storage, key": [
+  "app/(en)/legal/[slug]/page.tsx:173"
+ ],
+ "Currency preference": [
+  "app/(en)/legal/[slug]/page.tsx:173"
+ ],
+ "We set no cookies, and we use no advertising, tracking or analytics tools.": [
+  "app/(en)/legal/[slug]/page.tsx:178"
+ ],
+ "The enquiry form": [
+  "app/(en)/legal/[slug]/page.tsx:179"
+ ],
+ "The terms on which {0} plans and arranges private, tailor-made journeys in Brazil.": [
+  "app/(en)/legal/[slug]/page.tsx:18"
+ ],
+ "When you send an enquiry, your answers are sent to us once. We do not set a cookie to do this.": [
+  "app/(en)/legal/[slug]/page.tsx:180"
+ ],
+ "Third-party content": [
+  "app/(en)/legal/[slug]/page.tsx:181"
+ ],
+ "Photographs and films load from our image and video delivery providers. Your browser sends them your IP address to fetch the files; they set no cookies through this website. Our hosting provider keeps standard server logs (such as IP address, browser type and the pages requested) for security.": [
+  "app/(en)/legal/[slug]/page.tsx:183"
+ ],
+ "Consent and how to withdraw it": [
+  "app/(en)/legal/[slug]/page.tsx:187"
+ ],
+ "The currency setting is strictly necessary to give you the display you asked for, so it does not need consent. You can clear it at any time in your browser settings (usually under privacy or site data); prices then show in US dollars again. If we ever add analytics or other non-essential cookies, we will ask for your consent first and update this policy.": [
+  "app/(en)/legal/[slug]/page.tsx:189"
+ ],
+ "How a journey goes from first enquiry to coming home, and what you and we can expect of each other.": [
+  "app/(en)/legal/[slug]/page.tsx:19"
+ ],
+ "Contact": [
+  "app/(en)/legal/[slug]/page.tsx:193"
+ ],
+ "Questions about this policy:": [
+  "app/(en)/legal/[slug]/page.tsx:195"
+ ],
+ "About these terms": [
+  "app/(en)/legal/[slug]/page.tsx:22"
+ ],
+ "Sunrise over the Atlantic": [
+  "app/(en)/legal/[slug]/page.tsx:220",
+  "app/(en)/plan/page.tsx:23",
+  "app/(en)/sunrise-coast/page.tsx:23"
+ ],
+ "Legal": [
+  "app/(en)/legal/[slug]/page.tsx:220"
+ ],
+ "Last updated": [
+  "app/(en)/legal/[slug]/page.tsx:223"
+ ],
+ ". They form the contract between us and the person who books on behalf of everyone travelling (&ldquo;you&rdquo;). Please read them before you confirm a booking.": [
+  "app/(en)/legal/[slug]/page.tsx:24"
+ ],
+ "(&ldquo;we&rdquo;, &ldquo;us&rdquo;),": [
+  "app/(en)/legal/[slug]/page.tsx:24"
+ ],
+ "These terms apply to every journey planned and arranged by": [
+  "app/(en)/legal/[slug]/page.tsx:24"
+ ],
+ "Enquiries and proposals": [
+  "app/(en)/legal/[slug]/page.tsx:28"
+ ],
+ "Sending an enquiry is free and commits you to nothing. We reply with ideas and, when you are ready, a written proposal showing the itinerary, what is included and the price for your dates. Prices on this website are guide prices that show what a journey usually costs from, per person. Your proposal is the price that applies. Proposals reflect availability when we write them; lodges, flights and guides are not held until you book.": [
+  "app/(en)/legal/[slug]/page.tsx:30"
+ ],
+ "Confirming a booking": [
+  "app/(en)/legal/[slug]/page.tsx:35"
+ ],
+ "Your booking is confirmed when you accept our written proposal and we receive the deposit stated in it. We then send you a booking confirmation. Please check every name and date on it and tell us straight away if anything is wrong.": [
+  "app/(en)/legal/[slug]/page.tsx:37"
+ ],
+ "Deposit and balance": [
+  "app/(en)/legal/[slug]/page.tsx:40"
+ ],
+ "The deposit secures your journey and lets us commit to lodges, flights and other services, some of which are non-refundable once paid. The balance is due by the date shown in your proposal and confirmation. If it is not paid on time, we may treat the booking as cancelled by you, and the cancellation terms below apply.": [
+  "app/(en)/legal/[slug]/page.tsx:42"
+ ],
+ "Changes you make": [
+  "app/(en)/legal/[slug]/page.tsx:46"
+ ],
+ "Tell us in writing if you would like to change your journey and we will do our best to help. Changes depend on availability and may involve supplier charges and an administration cost, which we confirm before making them.": [
+  "app/(en)/legal/[slug]/page.tsx:48"
+ ],
+ "If you cancel": [
+  "app/(en)/legal/[slug]/page.tsx:51"
+ ],
+ "You can cancel at any time by writing to us. Cancellation charges rise as your departure date gets closer and reflect the costs that we and our suppliers cannot recover. The charges that apply to your journey are set out in your proposal and confirmation. Services already paid on non-refundable terms cannot be refunded.": [
+  "app/(en)/legal/[slug]/page.tsx:53"
+ ],
+ "If we change or cancel": [
+  "app/(en)/legal/[slug]/page.tsx:57"
+ ],
+ "We rarely need to change a confirmed journey, but sometimes must. If we make a significant change or cancel for a reason other than non-payment, we will tell you as soon as possible and offer a comparable alternative or a refund of the money you have paid us for the affected services. We are not responsible for changes caused by events beyond our control, such as extreme weather, river levels, natural disasters, strikes, closures or government action.": [
+  "app/(en)/legal/[slug]/page.tsx:59"
+ ],
+ "Passports, visas and health": [
+  "app/(en)/legal/[slug]/page.tsx:64"
+ ],
+ "You are responsible for holding a valid passport, any visa or electronic travel authorisation you need, and for meeting health and vaccination requirements, including those for the Amazon and the Pantanal. We give general guidance in good faith, but rules change: check them with the relevant embassy and your doctor before you travel.": [
+  "app/(en)/legal/[slug]/page.tsx:66"
+ ],
+ "Travel insurance": [
+  "app/(en)/legal/[slug]/page.tsx:70"
+ ],
+ "Comprehensive travel insurance is a condition of booking. It should cover cancellation, medical treatment, emergency evacuation (including from remote areas) and repatriation, and the activities you plan. Please send us your policy details before you travel.": [
+  "app/(en)/legal/[slug]/page.tsx:72"
+ ],
+ "During your journey": [
+  "app/(en)/legal/[slug]/page.tsx:75"
+ ],
+ "Please follow the reasonable instructions of guides and suppliers, respect local laws and customs, and look after your belongings. We may end the journey of anyone whose behaviour puts others at risk, without a refund.": [
+  "app/(en)/legal/[slug]/page.tsx:77"
+ ],
+ "Our responsibility": [
+  "app/(en)/legal/[slug]/page.tsx:80"
+ ],
+ "We plan your journey with care and choose suppliers we trust. We accept responsibility for the services we agree to provide, as far as the law allows. We are not liable for losses that were not foreseeable, for anything caused by you or by third parties unconnected with your journey, or for events beyond our control. Nothing in these terms limits liability that cannot be limited by law.": [
+  "app/(en)/legal/[slug]/page.tsx:82"
+ ],
+ "Complaints": [
+  "app/(en)/legal/[slug]/page.tsx:87"
+ ],
+ "If something is not right during your journey, tell your guide or contact us straight away so we can try to put it right there and then. If it is not resolved, write to": [
+  "app/(en)/legal/[slug]/page.tsx:89"
+ ],
+ "31 October 2026": [
+  "app/(en)/legal/[slug]/page.tsx:9"
+ ],
+ "within 28 days of your return and we will reply in full.": [
+  "app/(en)/legal/[slug]/page.tsx:90"
+ ],
+ "Governing law": [
+  "app/(en)/legal/[slug]/page.tsx:92"
+ ],
+ "These terms are governed by the law that applies to the contract between you and us. Nothing in them affects your statutory rights as a consumer in your country of residence.": [
+  "app/(en)/legal/[slug]/page.tsx:94"
+ ],
+ "This path hasn&apos;t seen the sun yet": [
+  "app/(en)/not-found.tsx:10"
+ ],
+ "The page you&apos;re looking for has wandered off, probably to the beach. Let&apos;s get you back.": [
+  "app/(en)/not-found.tsx:11"
+ ],
+ "Back to first light": [
+  "app/(en)/not-found.tsx:13"
+ ],
+ "See our journeys": [
+  "app/(en)/not-found.tsx:15"
+ ],
+ "Private journeys across Brazil": [
+  "app/(en)/opengraph-image.tsx:30",
+  "config/brand.ts:8"
+ ],
+ "Sol Nascente": [
+  "app/(en)/opengraph-image.tsx:31",
+  "components/layout/Footer.tsx:18",
+  "components/ui/SunMark.tsx:30"
+ ],
+ "Sol Nascente: Brazil, from first light": [
+  "app/(en)/opengraph-image.tsx:4"
+ ],
+ "Where you'll stay": [
+  "app/(en)/page.tsx:40"
+ ],
+ "Tell us when and how you like to travel, and a Brazil specialist will design a private journey around you.": [
+  "app/(en)/plan/page.tsx:11"
+ ],
+ "Let's plan your Brazil": [
+  "app/(en)/plan/page.tsx:21"
+ ],
+ "A few questions, then a real person who knows Brazil takes it from here. The more you tell us, the better it gets.": [
+  "app/(en)/plan/page.tsx:22"
+ ],
+ "Prefer to write?": [
+  "app/(en)/plan/page.tsx:27"
+ ],
+ "privacy policy": [
+  "app/(en)/plan/page.tsx:36"
+ ],
+ "We use your details only to plan your trip and reply to you. See our": [
+  "app/(en)/plan/page.tsx:36"
+ ],
+ "Loading the form…": [
+  "app/(en)/plan/page.tsx:39"
+ ],
+ "How we travel in Brazil: local guides and local money, ethical wildlife viewing, community visits run by and for communities, and no poverty tourism.": [
+  "app/(en)/responsible-travel/page.tsx:10"
+ ],
+ "Local people, local money": [
+  "app/(en)/responsible-travel/page.tsx:16"
+ ],
+ "We work with guides, drivers, cooks, boatmen and lodge owners who were born in the places we send you. We pay fairly and promptly, and we choose locally owned stays wherever we can.": [
+  "app/(en)/responsible-travel/page.tsx:17"
+ ],
+ "Wildlife on its own terms": [
+  "app/(en)/responsible-travel/page.tsx:20"
+ ],
+ "No baiting, no feeding, no chasing. Our Pantanal guides keep a respectful distance from jaguars and limit boats at each sighting. In the Amazon, we never offer animal handling or photos with captive wildlife. If an animal changes its behaviour because of us, we're too close.": [
+  "app/(en)/responsible-travel/page.tsx:21"
+ ],
+ "Community visits, done right": [
+  "app/(en)/responsible-travel/page.tsx:24"
+ ],
+ "When you visit a riverside community, a quilombo or an Indigenous-led project, it is because the community has chosen to host visitors, sets the terms and keeps the income. You come as a guest, not a spectator.": [
+  "app/(en)/responsible-travel/page.tsx:25"
+ ],
+ "No poverty tourism. Ever.": [
+  "app/(en)/responsible-travel/page.tsx:28"
+ ],
+ "We don't run favela tours as entertainment, and we never present people's lives as a sight to see. If you'd like to understand a city more deeply, we'll introduce you to community-led cultural projects, music schools and kitchens where your visit supports the people who run them.": [
+  "app/(en)/responsible-travel/page.tsx:29"
+ ],
+ "Fewer, longer, better": [
+  "app/(en)/responsible-travel/page.tsx:32"
+ ],
+ "Brazil is enormous, and flying is part of seeing it. We plan routes that avoid unnecessary flights, encourage longer stays in fewer places, and favour lodges that protect the land around them.": [
+  "app/(en)/responsible-travel/page.tsx:33"
+ ],
+ "Leave it better": [
+  "app/(en)/responsible-travel/page.tsx:36"
+ ],
+ "Wherever we can, we choose lodges, guides and community hosts who look after the land and the people around them. If you would like to support a conservation or community project in a region you visit, ask us and we'll help you find one that suits.": [
+  "app/(en)/responsible-travel/page.tsx:37"
+ ],
+ "Responsible travel": [
+  "app/(en)/responsible-travel/page.tsx:46",
+  "app/(en)/responsible-travel/page.tsx:8",
+  "config/site.ts:42"
+ ],
+ "Raiz: travelling from the roots": [
+  "app/(en)/responsible-travel/page.tsx:47"
+ ],
+ "The best of Brazil is its people and its wild places. Our job is to make sure your journey is good for both.": [
+  "app/(en)/responsible-travel/page.tsx:48"
+ ],
+ "A local guide leading a small group along a forest trail": [
+  "app/(en)/responsible-travel/page.tsx:49",
+  "data/home.ts:61"
+ ],
+ "Questions about how we work, or ideas for how we could do better? We&apos;d genuinely love to hear them.": [
+  "app/(en)/responsible-travel/page.tsx:62"
+ ],
+ "Talk to us": [
+  "app/(en)/responsible-travel/page.tsx:64"
+ ],
+ "Amazon river lodges, Pantanal fazendas, beach pousadas in Bahia, boutique hotels in Rio and colonial pousadas in Paraty and Minas Gerais.": [
+  "app/(en)/stays/page.tsx:16"
+ ],
+ "Stays": [
+  "app/(en)/stays/page.tsx:24",
+  "app/(en)/stays/page.tsx:14",
+  "components/home/StaySlider.tsx:12"
+ ],
+ "Places that feel like where you are": [
+  "app/(en)/stays/page.tsx:25"
+ ],
+ "Small, characterful and run by people who love them. We choose for the setting first: the river, the plain, the beach, the cobbled street.": [
+  "app/(en)/stays/page.tsx:26"
+ ],
+ "A beach pousada with hammocks under palm trees": [
+  "app/(en)/stays/page.tsx:27"
+ ],
+ "These are examples of the places we choose. We name the actual property in your proposal.": [
+  "app/(en)/stays/page.tsx:30"
+ ],
+ "examples": [
+  "app/(en)/stays/page.tsx:30"
+ ],
+ "example": [
+  "app/(en)/stays/page.tsx:45",
+  "components/home/StaySlider.tsx:72",
+  "components/ui/Cards.tsx:64"
+ ],
+ "Type": [
+  "app/(en)/stays/page.tsx:56",
+  "components/home/StaySlider.tsx:82"
+ ],
+ "Setting": [
+  "app/(en)/stays/page.tsx:57",
+  "components/home/StaySlider.tsx:83"
+ ],
+ "Rooms": [
+  "app/(en)/stays/page.tsx:58",
+  "components/home/StaySlider.tsx:84"
+ ],
+ "Guests": [
+  "app/(en)/stays/page.tsx:59",
+  "components/home/StaySlider.tsx:85"
+ ],
+ "Best for": [
+  "app/(en)/stays/page.tsx:60",
+  "components/home/StaySlider.tsx:86"
+ ],
+ "Plan a stay here": [
+  "app/(en)/stays/page.tsx:64",
+  "components/home/StaySlider.tsx:77"
+ ],
+ "Follow the sunrise down Brazil's Atlantic coast, from Ponta do Seixas in Paraíba through Pernambuco, Bahia and Rio to Santa Catarina.": [
+  "app/(en)/sunrise-coast/page.tsx:11"
+ ],
+ "The Sunrise Coast": [
+  "app/(en)/sunrise-coast/page.tsx:20",
+  "app/(en)/sunrise-coast/page.tsx:9"
+ ],
+ "Follow the first light south": [
+  "app/(en)/sunrise-coast/page.tsx:21"
+ ],
+ "Every morning, the sun lands on Ponta do Seixas first, then runs down more than 7,000 kilometres of Brazilian coast. Here's where we'd stand to watch it.": [
+  "app/(en)/sunrise-coast/page.tsx:22"
+ ],
+ "Sunrise stops": [
+  "app/(en)/sunrise-coast/page.tsx:25"
+ ],
+ "Want to wake up for one of these? We know which balcony to put you on.": [
+  "app/(en)/sunrise-coast/page.tsx:28"
+ ],
+ "The Amazon and the Pantanal change completely with the water. See what high and low water mean for canoeing, trails, jaguars and birds, with typical months.": [
+  "app/(en)/wild-seasons/page.tsx:12"
+ ],
+ "Wild Seasons": [
+  "app/(en)/wild-seasons/page.tsx:20",
+  "config/site.ts:36"
+ ],
+ "Same forest, two different trips": [
+  "app/(en)/wild-seasons/page.tsx:21"
+ ],
+ "In the wet season, you canoe through the treetops of the Amazon. In the dry season, you walk beneath them. Toggle the water and see how everything changes.": [
+  "app/(en)/wild-seasons/page.tsx:22"
+ ],
+ "Canoe gliding between flooded trees in the Amazon": [
+  "app/(en)/wild-seasons/page.tsx:23",
+  "data/water-seasons.ts:29"
+ ],
+ "Months are typical ranges, not promises. Rivers and rains vary from year to year, so we check levels with our lodge partners before every trip.": [
+  "app/(en)/wild-seasons/page.tsx:38"
+ ],
+ "What it looks like": [
+  "components/features/BiomeExplorer.tsx:144"
+ ],
+ "What lives there": [
+  "components/features/BiomeExplorer.tsx:148"
+ ],
+ "Map of Brazil's six biomes. Choose a biome.": [
+  "components/features/BiomeExplorer.tsx:53"
+ ],
+ "ArrowDown": [
+  "components/features/BiomeExplorer.tsx:55"
+ ],
+ "ArrowRight": [
+  "components/features/BiomeExplorer.tsx:55",
+  "components/home/StaySlider.tsx:29"
+ ],
+ "ArrowUp": [
+  "components/features/BiomeExplorer.tsx:59"
+ ],
+ "ArrowLeft": [
+  "components/features/BiomeExplorer.tsx:59",
+  "components/home/StaySlider.tsx:30"
+ ],
+ "Enter": [
+  "components/features/BiomeExplorer.tsx:83"
+ ],
+ "Simplified map; biome boundaries are approximate (after IBGE).": [
+  "components/features/BiomeExplorer.tsx:99"
+ ],
+ "Your Carnival": [
+  "components/features/CarnivalQuiz.tsx:106"
+ ],
+ "What it&apos;s like": [
+  "components/features/CarnivalQuiz.tsx:111"
+ ],
+ "How to do it well": [
+  "components/features/CarnivalQuiz.tsx:123"
+ ],
+ "See the journey": [
+  "components/features/CarnivalQuiz.tsx:138"
+ ],
+ "A close second:": [
+  "components/features/CarnivalQuiz.tsx:147"
+ ],
+ "Progress": [
+  "components/features/CarnivalQuiz.tsx:51"
+ ],
+ "Question": [
+  "components/features/CarnivalQuiz.tsx:55"
+ ],
+ "Start again": [
+  "components/features/CarnivalQuiz.tsx:65"
+ ],
+ "← Back": [
+  "components/features/CarnivalQuiz.tsx:95"
+ ],
+ ", moments after Ponta do Seixas": [
+  "components/features/SunriseCoastStory.tsx:100"
+ ],
+ ", {0} min after Ponta do Seixas": [
+  "components/features/SunriseCoastStory.tsx:100"
+ ],
+ "America/Sao_Paulo": [
+  "components/features/SunriseCoastStory.tsx:27",
+  "components/home/LiveInfo.tsx:14"
+ ],
+ "Map of Brazil's Atlantic coast with the five sunrise stops": [
+  "components/features/SunriseCoastStory.tsx:45"
+ ],
+ "· Sunrise today": [
+  "components/features/SunriseCoastStory.tsx:99"
+ ],
+ "Right now, typically:": [
+  "components/features/WaterToggle.tsx:45"
+ ],
+ "Something went wrong. Please try again.": [
+  "components/forms/PlanForm.tsx:139"
+ ],
+ "We couldn't send that. Please check your connection and try again.": [
+  "components/forms/PlanForm.tsx:146"
+ ],
+ "Obrigado.": [
+  "components/forms/PlanForm.tsx:155"
+ ],
+ "We&apos;ll be in touch soon.": [
+  "components/forms/PlanForm.tsx:156"
+ ],
+ "A Brazil specialist will read your notes and reply within two working days, by your preferred contact method.": [
+  "components/forms/PlanForm.tsx:157"
+ ],
+ ". We&apos;ll include it in your plan.": [
+  "components/forms/PlanForm.tsx:173"
+ ],
+ "You&apos;re asking about": [
+  "components/forms/PlanForm.tsx:173"
+ ],
+ "When and how long": [
+  "components/forms/PlanForm.tsx:178"
+ ],
+ "When would you like to travel?": [
+  "components/forms/PlanForm.tsx:181"
+ ],
+ "Choose a month": [
+  "components/forms/PlanForm.tsx:196"
+ ],
+ "Flexible": [
+  "components/forms/PlanForm.tsx:201"
+ ],
+ "Year": [
+  "components/forms/PlanForm.tsx:206"
+ ],
+ "Days": [
+  "components/forms/PlanForm.tsx:214"
+ ],
+ "Have you been to Brazil before?": [
+  "components/forms/PlanForm.tsx:220"
+ ],
+ "First time in Brazil": [
+  "components/forms/PlanForm.tsx:222",
+  "lib/enquiry.ts:21"
+ ],
+ "Returning": [
+  "components/forms/PlanForm.tsx:223",
+  "lib/enquiry.ts:21"
+ ],
+ "What you love": [
+  "components/forms/PlanForm.tsx:229"
+ ],
+ "Choose as many as you like.": [
+  "components/forms/PlanForm.tsx:230"
+ ],
+ "Interests": [
+  "components/forms/PlanForm.tsx:230"
+ ],
+ "Not sure? Leave these blank and we'll suggest.": [
+  "components/forms/PlanForm.tsx:237"
+ ],
+ "Biomes you're curious about": [
+  "components/forms/PlanForm.tsx:237"
+ ],
+ "Pace": [
+  "components/forms/PlanForm.tsx:244"
+ ],
+ "Stay style": [
+  "components/forms/PlanForm.tsx:251"
+ ],
+ "Who&apos;s travelling": [
+  "components/forms/PlanForm.tsx:261"
+ ],
+ "Adults": [
+  "components/forms/PlanForm.tsx:264"
+ ],
+ "Children": [
+  "components/forms/PlanForm.tsx:268"
+ ],
+ "Children&apos;s ages": [
+  "components/forms/PlanForm.tsx:272"
+ ],
+ "e.g. 7 and 10": [
+  "components/forms/PlanForm.tsx:273"
+ ],
+ "Budget, excluding international flights": [
+  "components/forms/PlanForm.tsx:277"
+ ],
+ "Choose a range": [
+  "components/forms/PlanForm.tsx:280"
+ ],
+ "How to reach you": [
+  "components/forms/PlanForm.tsx:291"
+ ],
+ "Name": [
+  "components/forms/PlanForm.tsx:294"
+ ],
+ "Email": [
+  "components/forms/PlanForm.tsx:299",
+  "lib/enquiry.ts:13"
+ ],
+ "Phone (optional)": [
+  "components/forms/PlanForm.tsx:304"
+ ],
+ "Preferred contact": [
+  "components/forms/PlanForm.tsx:307"
+ ],
+ "Anything else?": [
+  "components/forms/PlanForm.tsx:316"
+ ],
+ "Special occasions, dream moments, things you'd rather avoid…": [
+  "components/forms/PlanForm.tsx:317"
+ ],
+ "Leave this empty": [
+  "components/forms/PlanForm.tsx:321"
+ ],
+ "Please check the highlighted fields.": [
+  "components/forms/PlanForm.tsx:334"
+ ],
+ "Send to a specialist": [
+  "components/forms/PlanForm.tsx:339"
+ ],
+ "Sending…": [
+  "components/forms/PlanForm.tsx:339"
+ ],
+ "No payment, no obligation. We reply within two working days.": [
+  "components/forms/PlanForm.tsx:341"
+ ],
+ "Amazon:": [
+  "components/forms/PlanForm.tsx:56"
+ ],
+ "Pantanal:": [
+  "components/forms/PlanForm.tsx:57"
+ ],
+ "Lençóis Maranhenses lagoons usually at their fullest": [
+  "components/forms/PlanForm.tsx:66"
+ ],
+ "In": [
+  "components/forms/PlanForm.tsx:70"
+ ],
+ "end end": [
+  "components/home/BiomesReveal.tsx:29",
+  "components/home/Values.tsx:29"
+ ],
+ "start start": [
+  "components/home/BiomesReveal.tsx:29",
+  "components/home/Hero.tsx:26",
+  "components/home/PantanalStory.tsx:18"
+ ],
+ "Explore the six biomes": [
+  "components/home/BiomesReveal.tsx:84"
+ ],
+ "High water or low?": [
+  "components/home/BiomesReveal.tsx:86"
+ ],
+ "Rio": [
+  "components/home/BrazilMiniMap.tsx:22"
+ ],
+ "Ponta do Seixas": [
+  "components/home/BrazilMiniMap.tsx:27",
+  "lib/solar.ts:10"
+ ],
+ "Map of Brazil marking Ponta do Seixas, the easternmost point, and Rio de Janeiro": [
+  "components/home/BrazilMiniMap.tsx:9"
+ ],
+ "Day": [
+  "components/home/CarnivalWeek.tsx:109"
+ ],
+ "How we&apos;d spend it": [
+  "components/home/CarnivalWeek.tsx:117"
+ ],
+ "Find your Carnival": [
+  "components/home/CarnivalWeek.tsx:71"
+ ],
+ "Next day": [
+  "components/home/CarnivalWeek.tsx:78"
+ ],
+ "Previous day": [
+  "components/home/CarnivalWeek.tsx:78"
+ ],
+ "Carnival week, one card per day": [
+  "components/home/CarnivalWeek.tsx:94"
+ ],
+ "FAQ": [
+  "components/home/Faq.tsx:107",
+  "config/site.ts:27"
+ ],
+ "changes over time, so check it against official sources before you travel.": [
+  "components/home/Faq.tsx:110"
+ ],
+ "Good questions, honest answers. Anything marked": [
+  "components/home/Faq.tsx:110"
+ ],
+ "end start": [
+  "components/home/Hero.tsx:26"
+ ],
+ "Sol Nascente: private journeys across Brazil": [
+  "components/home/Hero.tsx:57"
+ ],
+ "Item {0} of {1}": [
+  "components/home/IncludedStack.tsx:27"
+ ],
+ "(GMT−3)": [
+  "components/home/LiveInfo.tsx:25"
+ ],
+ "America/Fortaleza": [
+  "components/home/LiveInfo.tsx:42",
+  "lib/solar.ts:13"
+ ],
+ "Brazil": [
+  "components/home/LiveInfo.tsx:47",
+  "lib/seo.tsx:49",
+  "data/home.ts:10"
+ ],
+ "Country": [
+  "components/home/LiveInfo.tsx:47"
+ ],
+ "First light today": [
+  "components/home/LiveInfo.tsx:49"
+ ],
+ "at Ponta do Seixas": [
+  "components/home/LiveInfo.tsx:52"
+ ],
+ "Time in Rio": [
+  "components/home/LiveInfo.tsx:56"
+ ],
+ "Amazon": [
+  "components/home/LiveInfo.tsx:58",
+  "lib/enquiry.ts:14",
+  "data/biomes.ts:8"
+ ],
+ "Typical water season; levels vary each year.": [
+  "components/home/LiveInfo.tsx:61"
+ ],
+ "Pantanal": [
+  "components/home/LiveInfo.tsx:66",
+  "lib/enquiry.ts:14",
+  "data/biomes.ts:80"
+ ],
+ "Typical season; rains vary each year.": [
+  "components/home/LiveInfo.tsx:69"
+ ],
+ "start end": [
+  "components/home/PantanalStory.tsx:18"
+ ],
+ "Stages of the day": [
+  "components/home/PantanalStory.tsx:55"
+ ],
+ "Live it on": [
+  "components/home/PantanalStory.tsx:67"
+ ],
+ "All our stays": [
+  "components/home/StayIntro.tsx:27"
+ ],
+ "Show {0}": [
+  "components/home/StaySlider.tsx:106"
+ ],
+ "Next stay": [
+  "components/home/StaySlider.tsx:43"
+ ],
+ "Previous stay": [
+  "components/home/StaySlider.tsx:43"
+ ],
+ "Choose a stay": [
+  "components/home/StaySlider.tsx:97"
+ ],
+ "Values": [
+  "components/home/Values.tsx:64",
+  "components/home/Values.tsx:41",
+  "config/site.ts:21"
+ ],
+ "Back to top": [
+  "components/layout/BackToTop.tsx:26"
+ ],
+ "Homepage sections": [
+  "components/layout/Footer.tsx:29"
+ ],
+ "Explore": [
+  "components/layout/Footer.tsx:45",
+  "components/layout/Nav.tsx:192",
+  "components/layout/Nav.tsx:115"
+ ],
+ "Plan with us →": [
+  "components/layout/Footer.tsx:56"
+ ],
+ "Show prices in": [
+  "components/layout/Footer.tsx:64"
+ ],
+ "Sol": [
+  "components/layout/Footer.tsx:72",
+  "data/home.ts:6"
+ ],
+ "Nascente": [
+  "components/layout/Footer.tsx:73",
+  "data/home.ts:7"
+ ],
+ "Sol Nascente. Brazil, from first light.": [
+  "components/layout/Footer.tsx:77"
+ ],
+ "Language": [
+  "components/layout/LanguageSwitcher.tsx:14",
+  "components/layout/Nav.tsx:213"
+ ],
+ "Menu": [
+  "components/layout/Nav.tsx:115",
+  "components/layout/Nav.tsx:115"
+ ],
+ "Close": [
+  "components/layout/Nav.tsx:115"
+ ],
+ "Escape": [
+  "components/layout/Nav.tsx:141"
+ ],
+ "Tab": [
+  "components/layout/Nav.tsx:142"
+ ],
+ "Site menu": [
+  "components/layout/Nav.tsx:168"
+ ],
+ "The homepage": [
+  "components/layout/Nav.tsx:176"
+ ],
+ "On this page": [
+  "components/layout/Nav.tsx:176"
+ ],
+ "Tell us when and how you like to travel. A Brazil specialist replies within two working days.": [
+  "components/layout/Nav.tsx:206"
+ ],
+ "Write to us": [
+  "components/layout/Nav.tsx:217"
+ ],
+ "Brazil, from first light.": [
+  "components/layout/Nav.tsx:226",
+  "config/brand.ts:7"
+ ],
+ "Skip to content": [
+  "components/layout/Nav.tsx:64"
+ ],
+ "Main": [
+  "components/layout/Nav.tsx:73"
+ ],
+ "Sol Nascente, home": [
+  "components/layout/Nav.tsx:74"
+ ],
+ "Verify before relying on this": [
+  "components/ui/Badges.tsx:11"
+ ],
+ "Map of Brazil showing {0}": [
+  "components/ui/BrazilPin.tsx:7"
+ ],
+ "internal flights": [
+  "components/ui/Cards.tsx:17"
+ ],
+ "internal flight": [
+  "components/ui/Cards.tsx:17"
+ ],
+ "nights ·": [
+  "components/ui/Cards.tsx:17"
+ ],
+ "per person": [
+  "components/ui/Currency.tsx:41"
+ ],
+ "From": [
+  "components/ui/Currency.tsx:45"
+ ],
+ "Currency": [
+  "components/ui/Currency.tsx:54"
+ ],
+ "Pause background video": [
+  "components/ui/VideoPlayer.tsx:125"
+ ],
+ "Play background video": [
+  "components/ui/VideoPlayer.tsx:125"
+ ],
+ "50% 0px": [
+  "components/ui/VideoPlayer.tsx:66"
+ ],
+ "Sol Nascente plans private journeys across Brazil: the Amazon and the Pantanal, the beaches of Bahia and the dunes of Maranhão, Rio, Iguaçu, and the music and food that tie it all together.": [
+  "config/brand.ts:10"
+ ],
+ "Unbounded": [
+  "config/brand.ts:22"
+ ],
+ "Figtree": [
+  "config/brand.ts:23"
+ ],
+ "Dates calculated from Easter Sunday 28 March 2027. Verify yearly with official city programmes.": [
+  "config/carnival.ts:11"
+ ],
+ "Festa Junina (São João)": [
+  "config/carnival.ts:17"
+ ],
+ "Campina Grande, Caruaru and across the Northeast": [
+  "config/carnival.ts:18"
+ ],
+ "Throughout June, peaking around 23–24 June": [
+  "config/carnival.ts:19"
+ ],
+ "Parintins Folklore Festival": [
+  "config/carnival.ts:23"
+ ],
+ "Parintins, Amazonas": [
+  "config/carnival.ts:24"
+ ],
+ "Last weekend of June (2027 dates to be confirmed)": [
+  "config/carnival.ts:25"
+ ],
+ "A Day": [
+  "config/site.ts:25"
+ ],
+ "Like a Local": [
+  "config/site.ts:26"
+ ],
+ "Six Biomes": [
+  "config/site.ts:34"
+ ],
+ "Sunrise Coast": [
+  "config/site.ts:37"
+ ],
+ "solnascente@tourground.com": [
+  "config/site.ts:5"
+ ],
+ "São Paulo – SP, 04547-130": [
+  "config/site.ts:7"
+ ],
+ "Alameda Vicente Pinzon, 54, Vila Olímpia": [
+  "config/site.ts:7"
+ ],
+ "Cubo Itaú": [
+  "config/site.ts:7"
+ ],
+ "Cubo Itaú, Alameda Vicente Pinzon, 54, Vila Olímpia": [
+  "config/site.ts:9"
+ ],
+ "Rio is a wonderful place to start, and a terrible place to stop. How to plan a first trip that shows you the rest of Brazil.": [
+  "content/journal/index.ts:10"
+ ],
+ "Colourful colonial buildings in Salvador's Pelourinho": [
+  "content/journal/index.ts:13"
+ ],
+ "Rio's is a show, Salvador's is a street party and Olinda's is a whole town in costume. An honest guide to choosing.": [
+  "content/journal/index.ts:19"
+ ],
+ "Giant puppets in Olinda's Carnival": [
+  "content/journal/index.ts:22"
+ ],
+ "Amazon in high water or low?": [
+  "content/journal/index.ts:27"
+ ],
+ "The Amazon rises and falls by around ten metres a year. Here's what that means for your trip.": [
+  "content/journal/index.ts:28"
+ ],
+ "Canoe in the flooded forest of the Amazon": [
+  "content/journal/index.ts:31"
+ ],
+ "Where the sun rises first": [
+  "content/journal/index.ts:36"
+ ],
+ "A reef, a lighthouse and the first sunrise of the Americas: Ponta do Seixas, and the story behind our name.": [
+  "content/journal/index.ts:37"
+ ],
+ "First light at Ponta do Seixas": [
+  "content/journal/index.ts:40"
+ ],
+ "Brazil beyond Rio": [
+  "content/journal/index.ts:9"
+ ],
+ "About 49% of Brazil": [
+  "data/biomes.ts:10"
+ ],
+ "About 2% of Brazil": [
+  "data/biomes.ts:100",
+  "data/biomes.ts:82"
+ ],
+ "Rolling grasslands in Brazil's far south, shared with Uruguay and Argentina. Cowboy culture, chimarrão tea passed from hand to hand, and a horizon that goes on for days.": [
+  "data/biomes.ts:102"
+ ],
+ "Open grassland, low hills, wetlands and estâncias (ranches), with vineyards in the nearby Serra Gaúcha.": [
+  "data/biomes.ts:104"
+ ],
+ "Burrowing owls": [
+  "data/biomes.ts:105"
+ ],
+ "Southern screamers": [
+  "data/biomes.ts:105"
+ ],
+ "Pampas deer": [
+  "data/biomes.ts:105"
+ ],
+ "Rheas": [
+  "data/biomes.ts:105",
+  "data/biomes.ts:33"
+ ],
+ "Spring to autumn, roughly Oct–Apr. Winters are cool and can be cold.": [
+  "data/biomes.ts:107"
+ ],
+ "Rolling green grasslands of the Pampa under big skies": [
+  "data/biomes.ts:111"
+ ],
+ "The largest tropical rainforest on Earth, laced with rivers that rise and fall by ten metres a year. In the wet season, you canoe through the treetops. In the dry season, you walk beneath them.": [
+  "data/biomes.ts:12"
+ ],
+ "Black-water and white-water rivers, flooded várzea and igapó forest, river beaches that appear only when the water drops, and a canopy so thick that noon looks like dusk.": [
+  "data/biomes.ts:14"
+ ],
+ "Sloths": [
+  "data/biomes.ts:15"
+ ],
+ "Toucans and macaws": [
+  "data/biomes.ts:15"
+ ],
+ "Howler monkeys": [
+  "data/biomes.ts:15"
+ ],
+ "Pink river dolphins": [
+  "data/biomes.ts:15"
+ ],
+ "Year-round. High water roughly Mar–Jul for canoeing the flooded forest; low water roughly Sep–Dec for trails and river beaches.": [
+  "data/biomes.ts:17"
+ ],
+ "Rainforest river winding through the Amazon": [
+  "data/biomes.ts:21"
+ ],
+ "The savanna that waters a continent": [
+  "data/biomes.ts:27"
+ ],
+ "About 24% of Brazil": [
+  "data/biomes.ts:28"
+ ],
+ "The world's most biodiverse savanna: twisted trees, red earth, table mountains and springs so clear they look like glass. Several of South America's great rivers begin here.": [
+  "data/biomes.ts:30"
+ ],
+ "Grassland and gnarled woodland, sandstone plateaus, canyons, waterfalls and the crystal rivers of Bonito, where you float above fish as if they were in an aquarium.": [
+  "data/biomes.ts:32"
+ ],
+ "Armadillos": [
+  "data/biomes.ts:33"
+ ],
+ "Red-and-green macaws": [
+  "data/biomes.ts:33"
+ ],
+ "Giant anteaters": [
+  "data/biomes.ts:33"
+ ],
+ "Maned wolves": [
+  "data/biomes.ts:33"
+ ],
+ "Dry season, roughly Apr–Oct, brings the clearest water in Bonito and easier trails in the Chapadas.": [
+  "data/biomes.ts:35"
+ ],
+ "Cerrado savanna with table mountains at sunset": [
+  "data/biomes.ts:39"
+ ],
+ "The coast's green mountains": [
+  "data/biomes.ts:45"
+ ],
+ "About 13% of Brazil": [
+  "data/biomes.ts:46"
+ ],
+ "The forest that drapes Brazil's coastal mountains, from the Northeast to the South. Most Brazilians live within it, and it still hides waterfalls, monkeys and beaches you reach by boat.": [
+  "data/biomes.ts:48"
+ ],
+ "Steep green mountains falling into the sea, bays dotted with islands, colonial towns, and the thundering curtain of Iguaçu Falls on the border with Argentina.": [
+  "data/biomes.ts:50"
+ ],
+ "Sea turtles on nearby coasts": [
+  "data/biomes.ts:51"
+ ],
+ "Coatis": [
+  "data/biomes.ts:51"
+ ],
+ "Toucans": [
+  "data/biomes.ts:51"
+ ],
+ "Golden lion tamarins": [
+  "data/biomes.ts:51"
+ ],
+ "Lovely year-round. Shoulder months avoid the summer rains and crowds of Dec–Feb.": [
+  "data/biomes.ts:53"
+ ],
+ "Green mountains of the Atlantic Forest above the sea": [
+  "data/biomes.ts:57"
+ ],
+ "The dry forest that blooms overnight": [
+  "data/biomes.ts:63"
+ ],
+ "About 10% of Brazil": [
+  "data/biomes.ts:64"
+ ],
+ "Found only in Brazil, the Caatinga is a white-barked dry forest across the Northeast's interior. It looks asleep for months, then turns green within days of the first rain.": [
+  "data/biomes.ts:66"
+ ],
+ "Thorny scrub and cacti, rock formations, sertão villages and the windswept coast where dunes meet the sea at Jericoacoara.": [
+  "data/biomes.ts:68"
+ ],
+ "Hummingbirds": [
+  "data/biomes.ts:69",
+  "data/biomes.ts:51"
+ ],
+ "Tegus": [
+  "data/biomes.ts:69"
+ ],
+ "Seriemas": [
+  "data/biomes.ts:69"
+ ],
+ "Rock cavies": [
+  "data/biomes.ts:69"
+ ],
+ "Lear's macaws (in the far interior)": [
+  "data/biomes.ts:69"
+ ],
+ "Jericoacoara's windy season runs roughly Jul–Jan; the interior greens up after rains around Feb–May.": [
+  "data/biomes.ts:71"
+ ],
+ "Dry Caatinga scrub under a wide blue sky": [
+  "data/biomes.ts:75"
+ ],
+ "The wetland where wildlife shows up": [
+  "data/biomes.ts:81"
+ ],
+ "The largest tropical wetland on Earth and the best place on the planet to see a wild jaguar. The plains flood each wet season and drain each dry season, and the animals follow the water.": [
+  "data/biomes.ts:84"
+ ],
+ "Open floodplains, gallery forest, palm islands and slow rivers, crossed by the dirt-and-bridges Transpantaneira road and dotted with cattle fazendas.": [
+  "data/biomes.ts:86"
+ ],
+ "Caimans": [
+  "data/biomes.ts:87",
+  "data/biomes.ts:15"
+ ],
+ "Jabiru storks": [
+  "data/biomes.ts:87"
+ ],
+ "Capybaras": [
+  "data/biomes.ts:87"
+ ],
+ "Hyacinth macaws": [
+  "data/biomes.ts:87"
+ ],
+ "Giant otters": [
+  "data/biomes.ts:87",
+  "data/biomes.ts:15"
+ ],
+ "Jaguars": [
+  "data/biomes.ts:87"
+ ],
+ "Dry season, roughly Jul–Oct, is classic jaguar time. The wet season, roughly Dec–Mar, floods the plains with birds and green.": [
+  "data/biomes.ts:89"
+ ],
+ "The rainforest that makes its own weather": [
+  "data/biomes.ts:9"
+ ],
+ "Flooded plains of the Pantanal with palm trees": [
+  "data/biomes.ts:93"
+ ],
+ "Big skies and gaúcho country": [
+  "data/biomes.ts:99"
+ ],
+ "The greatest show on Earth, with a street party on every corner.": [
+  "data/carnival.ts:10"
+ ],
+ "Sunday parade": [
+  "data/carnival.ts:101"
+ ],
+ "Rio's Special Group samba schools parade through the night in the Sambódromo. Salvador's circuits run from afternoon to dawn.": [
+  "data/carnival.ts:102"
+ ],
+ "A late, lazy lunch, a nap you'll thank us for, then good seats for the parade with a guide who explains what the judges see.": [
+  "data/carnival.ts:103"
+ ],
+ "A samba school float lit up at night": [
+  "data/carnival.ts:104"
+ ],
+ "Monday, second night": [
+  "data/carnival.ts:107"
+ ],
+ "The second night of Rio's Special Group parade, and Salvador's Afro blocos at full strength.": [
+  "data/carnival.ts:108"
+ ],
+ "Morning on the beach, afternoon with a percussion workshop, evening in a camarote above the Salvador circuit.": [
+  "data/carnival.ts:109"
+ ],
+ "Drummers of an Afro bloco in Salvador": [
+  "data/carnival.ts:110"
+ ],
+ "Fat Tuesday": [
+  "data/carnival.ts:113"
+ ],
+ "The last full day of Carnival. Olinda's lanes are at their liveliest; everyone is in costume, including the dog.": [
+  "data/carnival.ts:114"
+ ],
+ "Costumes on. We join a small bloco with a brass band, then end the night with a rooftop view of the town.": [
+  "data/carnival.ts:115"
+ ],
+ "Revellers in bright costumes and glitter": [
+  "data/carnival.ts:116"
+ ],
+ "Ash Wednesday": [
+  "data/carnival.ts:119"
+ ],
+ "Two worlds at once. In the Sambódromo, the top samba schools parade for over an hour each: thousands of dancers, drummers and floats the size of buildings, judged like an Olympic event. Outside, hundreds of street blocos take over the neighbourhoods from morning, each with its own music, costume theme and crowd.": [
+  "data/carnival.ts:12"
+ ],
+ "Officially, Carnival ends at midday. Unofficially, a few blocos refuse to go home. Then the country sleeps.": [
+  "data/carnival.ts:120"
+ ],
+ "A slow breakfast, a swim and a transfer to somewhere quiet: an island, a fazenda or a forest lodge to recover in.": [
+  "data/carnival.ts:121"
+ ],
+ "A hammock on a quiet veranda": [
+  "data/carnival.ts:122"
+ ],
+ "Huge. The biggest blocos draw hundreds of thousands of people, and the city is full for the week. The smaller neighbourhood blocos in Santa Teresa or Laranjeiras feel friendlier.": [
+  "data/carnival.ts:14"
+ ],
+ "Saturday": [
+  "data/carnival.ts:140"
+ ],
+ "Friday": [
+  "data/carnival.ts:140"
+ ],
+ "Thursday": [
+  "data/carnival.ts:140"
+ ],
+ "Wednesday": [
+  "data/carnival.ts:140"
+ ],
+ "Tuesday": [
+  "data/carnival.ts:140"
+ ],
+ "Monday": [
+  "data/carnival.ts:140"
+ ],
+ "Sunday": [
+  "data/carnival.ts:140"
+ ],
+ "Sat": [
+  "data/carnival.ts:141"
+ ],
+ "Fri": [
+  "data/carnival.ts:141"
+ ],
+ "Thu": [
+  "data/carnival.ts:141"
+ ],
+ "Wed": [
+  "data/carnival.ts:141"
+ ],
+ "Tue": [
+  "data/carnival.ts:141"
+ ],
+ "Mon": [
+  "data/carnival.ts:141"
+ ],
+ "Sun": [
+  "data/carnival.ts:141"
+ ],
+ "The most expensive Carnival. Hotels charge premium week-long packages, and Sambódromo seats range from bleachers to private boxes. Book many months ahead.": [
+  "data/carnival.ts:16"
+ ],
+ "Do you want to watch, or dance in the street?": [
+  "data/carnival.ts:168"
+ ],
+ "Watch the spectacle": [
+  "data/carnival.ts:170"
+ ],
+ "Dance in the street": [
+  "data/carnival.ts:171"
+ ],
+ "Honestly? Neither": [
+  "data/carnival.ts:172"
+ ],
+ "Big city or historic town?": [
+  "data/carnival.ts:177"
+ ],
+ "Big city energy": [
+  "data/carnival.ts:179"
+ ],
+ "Watch one night of the Special Group parade from a good seat. Stay until dawn.": [
+  "data/carnival.ts:18"
+ ],
+ "Cobbles and churches": [
+  "data/carnival.ts:180"
+ ],
+ "Somewhere wild": [
+  "data/carnival.ts:181"
+ ],
+ "Days or nights?": [
+  "data/carnival.ts:186"
+ ],
+ "Days, in the sunshine": [
+  "data/carnival.ts:188"
+ ],
+ "Nights, until sunrise": [
+  "data/carnival.ts:189"
+ ],
+ "Choose two or three smaller blocos, not the giant ones.": [
+  "data/carnival.ts:19"
+ ],
+ "Early nights, early mornings": [
+  "data/carnival.ts:190"
+ ],
+ "How do you feel about crowds?": [
+  "data/carnival.ts:195"
+ ],
+ "The more the merrier": [
+  "data/carnival.ts:197"
+ ],
+ "Fine, with a quiet place to retreat to": [
+  "data/carnival.ts:198"
+ ],
+ "Rather not": [
+  "data/carnival.ts:199"
+ ],
+ "Stay in a neighbourhood you can walk home in; traffic stops for the parties.": [
+  "data/carnival.ts:20"
+ ],
+ "Wear a simple costume. Everybody does, and nobody takes it seriously.": [
+  "data/carnival.ts:21"
+ ],
+ "Samba school dancers and floats in Rio's Sambódromo": [
+  "data/carnival.ts:25"
+ ],
+ "Salvador": [
+  "data/carnival.ts:29",
+  "data/journeys.ts:337"
+ ],
+ "The biggest street party on the planet, powered by Afro-Brazilian rhythm.": [
+  "data/carnival.ts:30"
+ ],
+ "No stadium here: the party moves. Trios elétricos, trucks stacked with speakers and a band on top, roll slowly along the seafront and through the old centre, and the crowd moves with them. The Afro blocos, drum groups like Olodum and Ilê Aiyê, are the soul of it.": [
+  "data/carnival.ts:32"
+ ],
+ "Intense, joyful and very dense along the circuits. You can follow a trio inside the roped-off area with an abadá (a group T-shirt), or watch from a camarote, an elevated lounge with food, drink and a breather.": [
+  "data/carnival.ts:34"
+ ],
+ "Mid to high. Abadás and camarote passes vary a lot by artist and night. Old-town pousadas fill up early.": [
+  "data/carnival.ts:36"
+ ],
+ "Spend one night in a camarote and one following a trio with an abadá.": [
+  "data/carnival.ts:38"
+ ],
+ "Hear an Afro bloco rehearse in the Pelourinho before the big days.": [
+  "data/carnival.ts:39"
+ ],
+ "Leave valuables in the hotel and carry a little cash in a front pocket.": [
+  "data/carnival.ts:40"
+ ],
+ "Escape to an island beach for a day of rest.": [
+  "data/carnival.ts:41"
+ ],
+ "Crowds following a music truck through Salvador during Carnival": [
+  "data/carnival.ts:45"
+ ],
+ "Olinda & Recife": [
+  "data/carnival.ts:49"
+ ],
+ "A whole colonial town in costume, dancing frevo up and down the hills.": [
+  "data/carnival.ts:50"
+ ],
+ "Olinda's Carnival is free, on foot and gloriously homemade. Giant puppets, the bonecos gigantes, sway through cobbled lanes, brass bands play frevo at a sprint, and maracatu drums shake the churches. Down the hill, Recife hosts Galo da Madrugada, one of the largest single carnival parades in the world, on Saturday morning.": [
+  "data/carnival.ts:52"
+ ],
+ "Packed lanes and steep hills, but the mood is neighbourly. Mornings are calmer; afternoons are joyful chaos.": [
+  "data/carnival.ts:54"
+ ],
+ "Lower than Rio or Salvador for the party itself, which is free. Rooms in Olinda's old town are few, so book early or stay in Recife.": [
+  "data/carnival.ts:56"
+ ],
+ "Stay in or near Olinda's historic centre so you can walk.": [
+  "data/carnival.ts:58"
+ ],
+ "Wear good shoes. The hills are steep and the cobbles are older than your country, probably.": [
+  "data/carnival.ts:59"
+ ],
+ "Catch Galo da Madrugada on Saturday, then retreat to Olinda for the rest.": [
+  "data/carnival.ts:60"
+ ],
+ "Learn three frevo steps. Your calves will forgive you eventually.": [
+  "data/carnival.ts:61"
+ ],
+ "Giant puppets dancing through the colonial streets of Olinda": [
+  "data/carnival.ts:65"
+ ],
+ "A quieter escape": [
+  "data/carnival.ts:69"
+ ],
+ "All the sunshine, none of the speakers.": [
+  "data/carnival.ts:70"
+ ],
+ "Carnival week is a national holiday, and not everybody wants to dance through it. Head for the Pantanal, the Amazon, or a beach far from the circuits, where the only parade is a line of capybaras.": [
+  "data/carnival.ts:72"
+ ],
+ "Some Brazilian beach towns fill up with holidaymakers, so we choose carefully: wild places, small lodges and islands without party scenes.": [
+  "data/carnival.ts:74"
+ ],
+ "Holiday-week prices apply in popular beach towns; wildlife lodges are steadier. Flights still book up, so plan early.": [
+  "data/carnival.ts:76"
+ ],
+ "Pick a place where Carnival isn't the point: the Amazon or a remote pousada.": [
+  "data/carnival.ts:78"
+ ],
+ "Fly before Friday and back after Ash Wednesday to avoid peak travel days.": [
+  "data/carnival.ts:79"
+ ],
+ "If curiosity wins, add one day of a small-town Carnival as a taster.": [
+  "data/carnival.ts:80"
+ ],
+ "A quiet beach pousada with hammocks and palm trees": [
+  "data/carnival.ts:83"
+ ],
+ "Opening night": [
+  "data/carnival.ts:89"
+ ],
+ "Rio de Janeiro": [
+  "data/carnival.ts:9",
+  "data/destinations.ts:44",
+  "data/destinations.ts:19"
+ ],
+ "The keys of the city are handed to King Momo, and the first street parties start as soon as offices close.": [
+  "data/carnival.ts:90"
+ ],
+ "Arrive early, settle in, and ease in with a neighbourhood bloco and a long dinner. The marathon starts tomorrow.": [
+  "data/carnival.ts:91"
+ ],
+ "A neighbourhood street bloco at dusk": [
+  "data/carnival.ts:92"
+ ],
+ "Saturday of the giants": [
+  "data/carnival.ts:95"
+ ],
+ "Recife's Galo da Madrugada fills the old centre from morning. In Rio, blocos everywhere; in Salvador, the trios start rolling.": [
+  "data/carnival.ts:96"
+ ],
+ "In Pernambuco, we place you on a balcony above the Galo, then up the hill to Olinda for frevo till sunset.": [
+  "data/carnival.ts:97"
+ ],
+ "Frevo dancers with colourful umbrellas": [
+  "data/carnival.ts:98"
+ ],
+ "South": [
+  "data/destinations.ts:10"
+ ],
+ "April to October is dry, sunny and cool at night. Holy Week in Ouro Preto, with streets carpeted in coloured sawdust, is unforgettable but busy.": [
+  "data/destinations.ts:100"
+ ],
+ "Pão de queijo, warm from the oven": [
+  "data/destinations.ts:102"
+ ],
+ "Feijão tropeiro": [
+  "data/destinations.ts:103"
+ ],
+ "Frango com quiabo with angu": [
+  "data/destinations.ts:104"
+ ],
+ "Canastra cheese with doce de leite": [
+  "data/destinations.ts:105"
+ ],
+ "Tutu de feijão with crackling": [
+  "data/destinations.ts:106"
+ ],
+ "Aged cachaça from Salinas": [
+  "data/destinations.ts:107"
+ ],
+ "Choro": [
+  "data/destinations.ts:109",
+  "data/destinations.ts:83",
+  "data/destinations.ts:58"
+ ],
+ "Clube da Esquina": [
+  "data/destinations.ts:109"
+ ],
+ "Baroque church towers above the rooftops of Ouro Preto": [
+  "data/destinations.ts:113"
+ ],
+ "Salvador & the Bahia coast": [
+  "data/destinations.ts:118"
+ ],
+ "Drums in the old town, dendê in the pan, and a coastline that takes its time.": [
+  "data/destinations.ts:121"
+ ],
+ "Salvador was Brazil's first capital and remains its African heart. In the Pelourinho, pastel facades lean over streets where Olodum's drums rehearse on a Tuesday night and the smell of acarajé frying in palm oil drifts round every corner. Then the coast unspools south: Boipeba, an island where the traffic is a tractor and the tide sets the timetable; Itacaré, where surf beaches hide at the bottom of forest trails; and Trancoso, whose grassy square of painted houses ends at a church and a cliff above the sea. Bring nothing you need to hurry for.": [
+  "data/destinations.ts:123"
+ ],
+ "September to March is sunniest. April to July brings more rain, especially in Salvador, though showers are often short and the water stays warm all year.": [
+  "data/destinations.ts:126"
+ ],
+ "Moqueca baiana with dendê and coconut milk": [
+  "data/destinations.ts:128"
+ ],
+ "Acarajé from a baiana's stall": [
+  "data/destinations.ts:129"
+ ],
+ "Vatapá and caruru": [
+  "data/destinations.ts:130"
+ ],
+ "Bobó de camarão": [
+  "data/destinations.ts:131"
+ ],
+ "Cocada, toasted and chewy": [
+  "data/destinations.ts:132"
+ ],
+ "Afoxé": [
+  "data/destinations.ts:134"
+ ],
+ "Samba-reggae": [
+  "data/destinations.ts:134"
+ ],
+ "Axé": [
+  "data/destinations.ts:134"
+ ],
+ "Pastel-coloured colonial houses in Salvador's Pelourinho": [
+  "data/destinations.ts:138"
+ ],
+ "Chapada Diamantina": [
+  "data/destinations.ts:143"
+ ],
+ "Bahia": [
+  "data/destinations.ts:145",
+  "data/destinations.ts:120",
+  "data/sunrise-coast.ts:25"
+ ],
+ "Table mountains, diamond-miners' towns and a waterfall that blows back up into the sky.": [
+  "data/destinations.ts:146"
+ ],
+ "Diamonds brought the prospectors; the views kept everyone else. Lençóis, the old mining town at the edge of the national park, is all cobbles, music and porch lamps. Beyond it rise flat-topped mesas, red-water rivers stained by tannins, and the Cachoeira da Fumaça, a plunge of more than 300 metres that the wind often catches and lifts back up as mist. Climb Morro do Pai Inácio for sunset, swim in caves lit by a single shaft of sunlight, and if your legs are willing, walk the Vale do Pati, staying with families in the valley.": [
+  "data/destinations.ts:148"
+ ],
+ "April to October is driest and best for hiking. The famous sunbeam in Poço Encantado and Poço Azul appears roughly April to September, depending on the sun's angle.": [
+  "data/destinations.ts:151"
+ ],
+ "Poço Encantado/Poço Azul light-beam months and cave access rules.": [
+  "data/destinations.ts:153"
+ ],
+ "Godó de banana, the miners' green-banana stew": [
+  "data/destinations.ts:155"
+ ],
+ "Carne de sol with pirão": [
+  "data/destinations.ts:156"
+ ],
+ "Beiju from the cassava mill": [
+  "data/destinations.ts:157"
+ ],
+ "Homemade fruit liqueurs": [
+  "data/destinations.ts:158"
+ ],
+ "Requeijão on warm bread": [
+  "data/destinations.ts:159"
+ ],
+ "Reisado": [
+  "data/destinations.ts:161"
+ ],
+ "Samba de roda": [
+  "data/destinations.ts:161",
+  "data/destinations.ts:134"
+ ],
+ "Flat-topped mesas of the Chapada Diamantina at sunset": [
+  "data/destinations.ts:165"
+ ],
+ "Recife & Olinda": [
+  "data/destinations.ts:170"
+ ],
+ "Frevo, maracatu and a hilltop town that paints itself every colour going.": [
+  "data/destinations.ts:173"
+ ],
+ "Recife is a city of bridges and rivers, with a restored old quarter and a music scene that refuses to sit still: this is where manguebeat was born, mixing maracatu drums with rock guitars. Up the coast, Olinda tumbles down its hill in a jumble of yellow, blue and pink, with churches at every turn and artists' studios with their doors propped open. At Carnival, giant papier-mâché puppets dance through those steep streets and the whole town joins in. The rest of the year, it's the loveliest place in Brazil to drink a coffee and look at the sea.": [
+  "data/destinations.ts:175"
+ ],
+ "September to March is dry and breezy. April to July is the rainy season, but it is also when the São João festivals take over inland Pernambuco in June.": [
+  "data/destinations.ts:178"
+ ],
+ "Bolo de rolo, rolled thinner than paper": [
+  "data/destinations.ts:180"
+ ],
+ "Cartola: fried banana, melted cheese, cinnamon sugar": [
+  "data/destinations.ts:181"
+ ],
+ "Tapioca fresh off the griddle in Olinda": [
+  "data/destinations.ts:182"
+ ],
+ "Carne de sol with macaxeira": [
+  "data/destinations.ts:183"
+ ],
+ "Caldinho de feijão at the bar counter": [
+  "data/destinations.ts:184"
+ ],
+ "Manguebeat": [
+  "data/destinations.ts:186"
+ ],
+ "Maracatu": [
+  "data/destinations.ts:186"
+ ],
+ "Frevo": [
+  "data/destinations.ts:186"
+ ],
+ "Colourful colonial houses on the hills of Olinda": [
+  "data/destinations.ts:190"
+ ],
+ "Fernando de Noronha": [
+  "data/destinations.ts:195"
+ ],
+ "Pernambuco": [
+  "data/destinations.ts:197",
+  "data/destinations.ts:172",
+  "data/sunrise-coast.ts:16"
+ ],
+ "Twenty-one islands, one road, and more dolphins than cars.": [
+  "data/destinations.ts:198"
+ ],
+ "A city that wakes up on the beach and goes to bed in a samba bar.": [
+  "data/destinations.ts:20"
+ ],
+ "Three hundred and fifty kilometres out into the Atlantic, Noronha is what happens when a country decides to protect something properly. Most of the archipelago is a marine national park, visitor numbers are limited, and every visitor pays a daily environmental fee plus a national park fee. The reward is water so clear you can count the fish from the cliff above Baía do Sancho, spinner dolphins leaping at dawn, and turtles grazing in the shallows. Book early, pack light, and plan to spend most of your time underwater.": [
+  "data/destinations.ts:200"
+ ],
+ "August to February is drier, with the clearest water for diving. March to July brings more rain. Big winter swells reach the northern beaches roughly December to March.": [
+  "data/destinations.ts:203"
+ ],
+ "Daily TPA environmental fee, national park (PARNAMAR) ticket price and validity, and visitor limits.": [
+  "data/destinations.ts:205"
+ ],
+ "Fish of the day grilled in banana leaf": [
+  "data/destinations.ts:207"
+ ],
+ "Fish moqueca": [
+  "data/destinations.ts:208"
+ ],
+ "Tapioca with coalho cheese": [
+  "data/destinations.ts:209"
+ ],
+ "Caldinho de peixe at sundown": [
+  "data/destinations.ts:210"
+ ],
+ "Ice-cold coconut water by the beach": [
+  "data/destinations.ts:211"
+ ],
+ "Coco": [
+  "data/destinations.ts:213",
+  "data/destinations.ts:186"
+ ],
+ "Twin rock pinnacles above the clear water of Fernando de Noronha": [
+  "data/destinations.ts:217"
+ ],
+ "Granite mountains drop straight into the Atlantic, and eight million people have arranged their lives around the view. Mornings belong to the beach: a swim at Ipanema, a cold coconut, a game of altinha that nobody ever seems to win. Afternoons climb into the Tijuca Forest, one of the largest urban rainforests on Earth. And when the light turns gold behind Two Brothers mountain, the whole of Arpoador stops to applaud the sunset. Really. They clap.": [
+  "data/destinations.ts:22"
+ ],
+ "João Pessoa & Ponta do Seixas": [
+  "data/destinations.ts:222"
+ ],
+ "Paraíba": [
+  "data/destinations.ts:224",
+  "data/sunrise-coast.ts:7"
+ ],
+ "The first sunrise in the Americas, and a saxophone to say goodbye to the day.": [
+  "data/destinations.ts:225"
+ ],
+ "At Ponta do Seixas, the easternmost point of the American mainland, the sun reaches the continent before it reaches anywhere else. Be there for it: a handful of early walkers, a lighthouse on the bluff, and the Atlantic turning from grey to gold. João Pessoa itself is a green, easy-going city with reef pools offshore that appear at low tide. Come evening, head to Praia do Jacaré on the river, where a saxophonist has long played Ravel's Boléro from a boat as the sun goes down. The sunrise was free. So is this.": [
+  "data/destinations.ts:227"
+ ],
+ "September to March is sunny and dry. The rainy months, roughly April to July, include June, when nearby Campina Grande throws one of Brazil's biggest São João festivals.": [
+  "data/destinations.ts:230"
+ ],
+ "Carne de sol with macaxeira and butter": [
+  "data/destinations.ts:232"
+ ],
+ "Cuscuz nordestino for breakfast": [
+  "data/destinations.ts:233"
+ ],
+ "Grilled coalho cheese on the beach": [
+  "data/destinations.ts:234"
+ ],
+ "Rubacão, Paraíba's rice-and-beans feast": [
+  "data/destinations.ts:235"
+ ],
+ "Tapioca with coconut": [
+  "data/destinations.ts:236"
+ ],
+ "Ciranda": [
+  "data/destinations.ts:238",
+  "data/destinations.ts:186"
+ ],
+ "Coco de roda": [
+  "data/destinations.ts:238"
+ ],
+ "Calm sea and coconut palms along the João Pessoa shore": [
+  "data/destinations.ts:242"
+ ],
+ "Lençóis Maranhenses": [
+  "data/destinations.ts:247",
+  "data/journeys.ts:243"
+ ],
+ "Maranhão": [
+  "data/destinations.ts:249"
+ ],
+ "April to June and August to October: warm, clearer skies, fewer crowds. December to March is hot, humid and gloriously busy, with Carnival in February or early March.": [
+  "data/destinations.ts:25"
+ ],
+ "White dunes as far as you can see, and rainwater lagoons in every hollow.": [
+  "data/destinations.ts:250"
+ ],
+ "From the air it looks like someone left bedsheets drying on the coast, which is roughly what the name means. Up close, the Lençóis Maranhenses is a national park of pure white dunes, and after the first half of the year's rains, thousands of blue and green lagoons fill the valleys between them. You swim in water warm as a bath, walk barefoot along ridges of sand, and watch the dunes turn pink at dusk. Stay in Barreirinhas for easy access, or out in Atins, where the kitesurfers and the quiet live.": [
+  "data/destinations.ts:252"
+ ],
+ "The lagoons are typically fullest from about June to September, after the rains of January to June. By November many have dried up. Rainfall varies year to year.": [
+  "data/destinations.ts:255"
+ ],
+ "Lagoon levels depend on that year's rainfall; confirm before booking each season.": [
+  "data/destinations.ts:257"
+ ],
+ "Arroz de cuxá with sorrel and dried shrimp": [
+  "data/destinations.ts:259"
+ ],
+ "Juçara, Maranhão's name for açaí, served with fish": [
+  "data/destinations.ts:260"
+ ],
+ "Torta de camarão": [
+  "data/destinations.ts:261"
+ ],
+ "Grilled fresh fish in Atins": [
+  "data/destinations.ts:262"
+ ],
+ "Guaraná Jesus, the pink soda of São Luís": [
+  "data/destinations.ts:263"
+ ],
+ "Cacuriá": [
+  "data/destinations.ts:265"
+ ],
+ "Reggae maranhense": [
+  "data/destinations.ts:265"
+ ],
+ "Tambor de crioula": [
+  "data/destinations.ts:265"
+ ],
+ "Bumba-meu-boi": [
+  "data/destinations.ts:265"
+ ],
+ "White dunes and blue rainwater lagoons in Lençóis Maranhenses": [
+  "data/destinations.ts:269"
+ ],
+ "Saturday feijoada with all the trimmings": [
+  "data/destinations.ts:27"
+ ],
+ "Jericoacoara": [
+  "data/destinations.ts:274",
+  "data/journeys.ts:231"
+ ],
+ "Ceará": [
+  "data/destinations.ts:276"
+ ],
+ "Sandy streets, a sunset dune and a wind that never quite stops.": [
+  "data/destinations.ts:277"
+ ],
+ "Jeri sits inside a national park at the end of the road, then a bit further: the last stretch is crossed by 4x4 over the dunes. The village streets are sand, the lamps are low, and in the evening everybody climbs the big dune to watch the sun drop into the sea. By day, there's the stone arch of Pedra Furada, hammocks strung right in the water at Lagoa do Paraíso, and kites dotting the horizon in the windy months. By night, there's forró, and nobody is allowed to sit it out.": [
+  "data/destinations.ts:279"
+ ],
+ "Biscoito Globo and iced mate on the sand": [
+  "data/destinations.ts:28"
+ ],
+ "July to January is dry and windy, which kitesurfers love. February to June is the rainy season, greener and quieter, and the inland lagoons fill.": [
+  "data/destinations.ts:282"
+ ],
+ "Kitesurf wind season and the village's daily environmental tax.": [
+  "data/destinations.ts:284"
+ ],
+ "Tapioca from the evening street stalls": [
+  "data/destinations.ts:286"
+ ],
+ "Baião de dois": [
+  "data/destinations.ts:287"
+ ],
+ "Peixada cearense": [
+  "data/destinations.ts:288"
+ ],
+ "Grilled coalho cheese with molasses": [
+  "data/destinations.ts:289"
+ ],
+ "Pastel and fresh sugar-cane juice at a street market": [
+  "data/destinations.ts:29"
+ ],
+ "Fresh caju and cajuína": [
+  "data/destinations.ts:290"
+ ],
+ "Repente": [
+  "data/destinations.ts:292"
+ ],
+ "Xote": [
+  "data/destinations.ts:292",
+  "data/destinations.ts:238"
+ ],
+ "Baião": [
+  "data/destinations.ts:292"
+ ],
+ "Forró pé-de-serra": [
+  "data/destinations.ts:292"
+ ],
+ "Sunset over the dunes and sea at Jericoacoara": [
+  "data/destinations.ts:296"
+ ],
+ "Bolinho de bacalhau in a botequim": [
+  "data/destinations.ts:30"
+ ],
+ "The Amazon: Manaus, Anavilhanas & Mamirauá": [
+  "data/destinations.ts:301"
+ ],
+ "Amazonas": [
+  "data/destinations.ts:303"
+ ],
+ "In the wet season, you canoe through the treetops. In the dry season, you walk beneath them.": [
+  "data/destinations.ts:304"
+ ],
+ "Manaus is a port city of two million in the middle of the forest, with an opera house built on rubber money and a fish market that will rearrange your idea of what a fish can look like. Upriver on the Rio Negro, the Anavilhanas archipelago scatters hundreds of islands across black water that is calm, warm and blessedly short on mosquitoes. Further west, a flight and a boat ride away, the Mamirauá reserve protects flooded várzea forest where local communities run the lodges and share the income. Pink dolphins surface beside the canoe. Howler monkeys open the morning. The river decides the rest.": [
+  "data/destinations.ts:306"
+ ],
+ "Grilled fish with farofa at a beach kiosk": [
+  "data/destinations.ts:31"
+ ],
+ "Year-round, in two different moods. High water, roughly April to July, lets you paddle through flooded forest. Low water, roughly September to December, reveals river beaches and forest trails.": [
+  "data/destinations.ts:310"
+ ],
+ "River levels vary by year; Mamirauá lodge seasonal closures.": [
+  "data/destinations.ts:312"
+ ],
+ "Tacacá, with jambu leaves that make your lips tingle": [
+  "data/destinations.ts:314"
+ ],
+ "Pirarucu, the giant of the river, salted or fresh": [
+  "data/destinations.ts:315"
+ ],
+ "Grilled tambaqui ribs": [
+  "data/destinations.ts:316"
+ ],
+ "X-caboquinho: tucumã and coalho in a roll": [
+  "data/destinations.ts:317"
+ ],
+ "Unsweetened açaí, served the local way with fish": [
+  "data/destinations.ts:318"
+ ],
+ "Forró": [
+  "data/destinations.ts:320",
+  "data/destinations.ts:238",
+  "data/destinations.ts:213"
+ ],
+ "Carimbó": [
+  "data/destinations.ts:320"
+ ],
+ "Toada": [
+  "data/destinations.ts:320"
+ ],
+ "Boi-bumbá": [
+  "data/destinations.ts:320"
+ ],
+ "Black-water channels between forested islands of the Anavilhanas": [
+  "data/destinations.ts:324"
+ ],
+ "The Pantanal": [
+  "data/destinations.ts:329",
+  "data/water-seasons.ts:49"
+ ],
+ "Bossa nova": [
+  "data/destinations.ts:33"
+ ],
+ "Mato Grosso & Mato Grosso do Sul": [
+  "data/destinations.ts:331"
+ ],
+ "Jaguars in the Pantanal don't keep appointments. But in the dry season, they're rarely late.": [
+  "data/destinations.ts:332"
+ ],
+ "The Pantanal is the world's largest tropical wetland, and it lives by one rule: in the wet season the water spreads, in the dry season it gathers, and the animals follow. By August the rivers of the north are lined with caimans, capybaras graze like cattle, and jaguars patrol the banks in daylight. You travel the Transpantaneira, a dirt road of more than a hundred wooden bridges, and sleep on working fazendas where cowboys still drive cattle on horseback. Bring binoculars. You will use them before breakfast.": [
+  "data/destinations.ts:334"
+ ],
+ "July to October is the dry season and the best time for jaguars and concentrated wildlife. The wet season, roughly December to March, floods the plains: beautiful, green and better by boat.": [
+  "data/destinations.ts:338"
+ ],
+ "Water levels and jaguar-boat season vary yearly.": [
+  "data/destinations.ts:340"
+ ],
+ "Pacu ribs, fried crisp": [
+  "data/destinations.ts:342"
+ ],
+ "Mojica de pintado": [
+  "data/destinations.ts:343"
+ ],
+ "Farofa de banana": [
+  "data/destinations.ts:345"
+ ],
+ "Chipa and sopa paraguaia": [
+  "data/destinations.ts:346"
+ ],
+ "Ice-cold tereré": [
+  "data/destinations.ts:347"
+ ],
+ "Viola caipira": [
+  "data/destinations.ts:349",
+  "data/destinations.ts:109"
+ ],
+ "Siriri": [
+  "data/destinations.ts:349"
+ ],
+ "Rasqueado": [
+  "data/destinations.ts:349"
+ ],
+ "Flooded grasslands and gallery forest of the Pantanal": [
+  "data/destinations.ts:353"
+ ],
+ "Bonito": [
+  "data/destinations.ts:358",
+  "data/journeys.ts:407"
+ ],
+ "Mato Grosso do Sul": [
+  "data/destinations.ts:360"
+ ],
+ "Rivers so clear you float above the fish like a cloud.": [
+  "data/destinations.ts:361"
+ ],
+ "Bonito's limestone filters its springs until they run as clear as air. You put on a mask, lie face-down in the current of the Rio da Prata or the Sucuri, and drift with shoals of piraputanga and dourado while the riverbed scrolls past beneath you. Every attraction caps its daily visitors and must be booked through a licensed agency, which is exactly why the water stays this way. Add a blue-lit cave, a sinkhole full of red-and-green macaws, and a town that goes to bed early because tomorrow is another river.": [
+  "data/destinations.ts:363"
+ ],
+ "Year-round. The water is usually clearest in the drier months, about May to September; heavy summer rain can cloud some rivers for a day or two.": [
+  "data/destinations.ts:366"
+ ],
+ "Daily visitor limits and booking rules for each attraction.": [
+  "data/destinations.ts:368"
+ ],
+ "Sugarloaf Mountain and Guanabara Bay at golden hour": [
+  "data/destinations.ts:37"
+ ],
+ "Pacu and pintado, grilled or in a stew": [
+  "data/destinations.ts:370"
+ ],
+ "Sopa paraguaia, which is actually a cornbread": [
+  "data/destinations.ts:371"
+ ],
+ "Chipa from the bakery": [
+  "data/destinations.ts:372"
+ ],
+ "Arroz carreteiro": [
+  "data/destinations.ts:373",
+  "data/destinations.ts:344"
+ ],
+ "Tereré in the shade": [
+  "data/destinations.ts:374"
+ ],
+ "Polca paraguaia": [
+  "data/destinations.ts:376"
+ ],
+ "Snorkeller floating above fish in a crystal-clear Bonito river": [
+  "data/destinations.ts:380"
+ ],
+ "Iguaçu Falls": [
+  "data/destinations.ts:385",
+  "data/journeys.ts:401"
+ ],
+ "Paraná": [
+  "data/destinations.ts:387"
+ ],
+ "Two hundred and seventy-five waterfalls, two countries, one very wet afternoon.": [
+  "data/destinations.ts:388"
+ ],
+ "You hear Iguaçu before you see it, a low roar that comes up through the soles of your feet. The falls run nearly three kilometres along the border between Brazil and Argentina, and each side tells the story differently. From Brazil you get the panorama: the whole horseshoe spread before you, and a walkway out into the spray. From Argentina you get the close-up: catwalks across the river to the lip of the Devil's Throat, where the water simply disappears. Do both. Bring a dry bag. Toucans and coatis will be watching.": [
+  "data/destinations.ts:390"
+ ],
+ "Year-round. December to March brings the biggest volume of water and the most heat; May to September is cooler and drier, with clearer views.": [
+  "data/destinations.ts:393"
+ ],
+ "Churrasco done properly, by the slow fire": [
+  "data/destinations.ts:395"
+ ],
+ "Grilled pintado from the Paraná river": [
+  "data/destinations.ts:396"
+ ],
+ "Chipa and sopa paraguaia from across the border": [
+  "data/destinations.ts:397"
+ ],
+ "Empanadas and dulce de leche on the Argentine side": [
+  "data/destinations.ts:398"
+ ],
+ "Guarânia": [
+  "data/destinations.ts:400",
+  "data/destinations.ts:376"
+ ],
+ "Sertanejo": [
+  "data/destinations.ts:400",
+  "data/destinations.ts:376",
+  "data/destinations.ts:83"
+ ],
+ "Iguaçu Falls thundering through rainforest under a rainbow": [
+  "data/destinations.ts:404"
+ ],
+ "Florianópolis & the South": [
+  "data/destinations.ts:409"
+ ],
+ "Santa Catarina & Rio Grande do Sul": [
+  "data/destinations.ts:411"
+ ],
+ "An island of forty-odd beaches, oysters at sunset, and gaúcho country beyond.": [
+  "data/destinations.ts:412"
+ ],
+ "Florianópolis is an island city with more beaches than weekends: surf breaks on the east, calm bays on the north, and dunes and lagoons in between. Azorean settlers left behind little fishing villages, lace-makers and the oyster farms of Ribeirão da Ilha, where dinner comes out of the water in front of your table. Further south, the Atlantic Forest gives way to the Pampa, the rolling grasslands of Rio Grande do Sul, where gaúchos still ride, mate gourds are passed hand to hand, and the vineyards of the Serra Gaúcha make some of Brazil's best wine.": [
+  "data/destinations.ts:414"
+ ],
+ "December to March for beach weather. July to November for southern right whales off the coast around Garopaba. Winters are cool, and the Serra can see frost.": [
+  "data/destinations.ts:417"
+ ],
+ "Southern right whale season and watching regulations.": [
+  "data/destinations.ts:419"
+ ],
+ "Paraty & Ilha Grande": [
+  "data/destinations.ts:42"
+ ],
+ "Oysters from Ribeirão da Ilha": [
+  "data/destinations.ts:421"
+ ],
+ "Sequência de camarão, shrimp in every style": [
+  "data/destinations.ts:422"
+ ],
+ "Tainha, the winter mullet": [
+  "data/destinations.ts:423"
+ ],
+ "Gaúcho churrasco on the open fire": [
+  "data/destinations.ts:424"
+ ],
+ "Chimarrão, the bitter mate of the South": [
+  "data/destinations.ts:425"
+ ],
+ "Vanerão": [
+  "data/destinations.ts:427"
+ ],
+ "Música nativista": [
+  "data/destinations.ts:427"
+ ],
+ "Chamamé": [
+  "data/destinations.ts:427",
+  "data/destinations.ts:400",
+  "data/destinations.ts:376"
+ ],
+ "Boi-de-mamão": [
+  "data/destinations.ts:427"
+ ],
+ "Lagoon and beaches of Florianópolis seen from the hills": [
+  "data/destinations.ts:431"
+ ],
+ "Cobblestones that flood with the tide, and an island with no cars at all.": [
+  "data/destinations.ts:45"
+ ],
+ "Paraty was built for gold, then forgotten, and the forgetting saved it. Its whitewashed streets are paved with uneven stones designed to let the spring tides wash through, so wear sensible shoes and look up at the coloured doorframes. Out in the bay, a wooden schooner will take you to a different cove for every hour of the day. Ilha Grande, a few hours along the coast, has no roads for cars, just forest trails, howler monkeys and Lopes Mendes, a long curve of sand you reach on foot.": [
+  "data/destinations.ts:47"
+ ],
+ "March to May and September to November for calm seas and mild days. Summer is hot with afternoon storms; winter is cooler but often bright.": [
+  "data/destinations.ts:50"
+ ],
+ "Azul-marinho, the caiçara fish stew with green banana": [
+  "data/destinations.ts:52"
+ ],
+ "Small-batch cachaça from the hills behind town": [
+  "data/destinations.ts:53"
+ ],
+ "Shrimp straight off the boat": [
+  "data/destinations.ts:54"
+ ],
+ "Banana-da-terra fried in the pan": [
+  "data/destinations.ts:55"
+ ],
+ "Pastel de camarão at the quayside": [
+  "data/destinations.ts:56"
+ ],
+ "Folia de Reis": [
+  "data/destinations.ts:58"
+ ],
+ "Samba": [
+  "data/destinations.ts:58",
+  "data/destinations.ts:33"
+ ],
+ "Ciranda caiçara": [
+  "data/destinations.ts:58"
+ ],
+ "Northeast": [
+  "data/destinations.ts:6"
+ ],
+ "Whitewashed colonial houses and fishing boats in Paraty": [
+  "data/destinations.ts:62"
+ ],
+ "São Paulo": [
+  "data/destinations.ts:69",
+  "data/destinations.ts:67",
+  "config/site.ts:10"
+ ],
+ "North": [
+  "data/destinations.ts:7"
+ ],
+ "Twenty-two million people, and every one of them has a favourite restaurant.": [
+  "data/destinations.ts:70"
+ ],
+ "São Paulo does not try to charm you. It feeds you instead. This is the biggest city in the southern hemisphere, with the largest Japanese community outside Japan, Italian bakeries older than most countries' parliaments, and Lebanese, Korean and Bolivian neighbourhoods that cook like they mean it. Between meals there is the MASP museum floating on its red pillars, Ibirapuera Park on a Sunday, and street art climbing whole tower blocks. Give it two days and it gives you a whole new idea of Brazil.": [
+  "data/destinations.ts:72"
+ ],
+ "Year-round. April to September is drier and cooler; summer brings warm afternoon downpours that pass as quickly as they arrive.": [
+  "data/destinations.ts:75"
+ ],
+ "Mortadella sandwich at the Mercado Municipal": [
+  "data/destinations.ts:77"
+ ],
+ "Virado à paulista on a Monday": [
+  "data/destinations.ts:78"
+ ],
+ "Pizza, Sunday-night style": [
+  "data/destinations.ts:79"
+ ],
+ "Central-West": [
+  "data/destinations.ts:8"
+ ],
+ "Coxinha from a corner padaria": [
+  "data/destinations.ts:80"
+ ],
+ "Japanese-Brazilian cooking in Liberdade": [
+  "data/destinations.ts:81"
+ ],
+ "Rap nacional": [
+  "data/destinations.ts:83"
+ ],
+ "Samba paulista": [
+  "data/destinations.ts:83"
+ ],
+ "São Paulo skyline stretching to the horizon": [
+  "data/destinations.ts:87"
+ ],
+ "Southeast": [
+  "data/destinations.ts:9"
+ ],
+ "Minas Gerais": [
+  "data/destinations.ts:94",
+  "data/destinations.ts:92"
+ ],
+ "Baroque gold on the hills, contemporary art in the garden, cheese bread at every stop.": [
+  "data/destinations.ts:95"
+ ],
+ "Minas has no coastline and doesn't miss it. In the eighteenth century the hills gave up so much gold that towns like Ouro Preto and Tiradentes filled with churches dressed in it, and the sculptor Aleijadinho carved prophets in soapstone that still stare down the valley at Congonhas. An hour from Belo Horizonte, Inhotim turns the story around: contemporary art pavilions set in a vast botanical garden. In between, people here will feed you until you surrender. It is a point of pride.": [
+  "data/destinations.ts:97"
+ ],
+ "Part martial art, part dance, part conversation, all to the sound of the berimbau.": [
+  "data/experiences.ts:100"
+ ],
+ "Capoeira was developed by enslaved Africans in Brazil and grew up in Bahia, where it is still taught in academies across Salvador. In a roda, two players move in a circle of musicians and singers, feinting, spinning and answering each other's moves, while the berimbau sets the tempo.\n\nWe arrange time with a respected mestre: watch a roda, hear the history from people who carry it, and try a few moves yourself if you're brave. Classes are run by local teachers, and your visit supports their academy directly.": [
+  "data/experiences.ts:102"
+ ],
+ "Year-round; classes and rodas run most days.": [
+  "data/experiences.ts:105"
+ ],
+ "Two capoeira players in a roda with musicians": [
+  "data/experiences.ts:106"
+ ],
+ "At the end of the Transpantaneira, the rivers around Porto Jofre hold one of the densest jaguar populations known. In the dry season the cats hunt caimans and capybaras along the banks in broad daylight, and guides on the water share sightings by radio, so a quiet morning can turn into a front-row seat in minutes.\n\nWe use small boats with experienced guides who keep a respectful distance and switch off the engine when a cat is resting. Expect long, sunny hours on the river, giant otters, hyacinth macaws and kingfishers by the dozen. And, if the river is kind, a jaguar strolling along the sand as though you weren't there.": [
+  "data/experiences.ts:11"
+ ],
+ "Samba & forró nights": [
+  "data/experiences.ts:110"
+ ],
+ "Where the band sits round a table and the whole room knows the words.": [
+  "data/experiences.ts:111"
+ ],
+ "In Rio and São Paulo, the best samba happens in a roda: musicians around a table playing classics everyone sings along to, beer arriving without being asked for. In the Northeast, the soundtrack switches to forró, an accordion, a triangle and a zabumba drum, and couples dancing close and quick in Recife, Salvador or under the stars in Jericoacoara.\n\nWe take you where locals go, with a guide who knows the musicians and doesn't mind showing you the basic steps. No stage shows, no dinner theatre. Just a good night out, Brazilian style.": [
+  "data/experiences.ts:113"
+ ],
+ "Year-round; many rodas happen on particular weeknights, and we time it for you.": [
+  "data/experiences.ts:116"
+ ],
+ "Musicians playing samba around a table at night": [
+  "data/experiences.ts:117"
+ ],
+ "Cooking Bahian food": [
+  "data/experiences.ts:121"
+ ],
+ "Dendê, coconut and a family kitchen that has fed Salvador for generations.": [
+  "data/experiences.ts:122"
+ ],
+ "Bahian cooking carries West African roots in every pot: palm oil, dried shrimp, coconut milk and okra, turned into moqueca, vatapá, caruru and the black-eyed-pea fritters called acarajé. Start at the São Joaquim market with your cook, picking out fish, peppers and herbs.\n\nThen cook together in a home kitchen, learning the order things go into the clay pot and the stories behind each dish. Lunch is what you made, at a long table, with plenty for seconds. Our hosts set their own fees and are paid directly.": [
+  "data/experiences.ts:124"
+ ],
+ "Year-round.": [
+  "data/experiences.ts:127"
+ ],
+ "Clay pot of moqueca with coconut, palm oil and fresh herbs": [
+  "data/experiences.ts:128"
+ ],
+ "Diving Fernando de Noronha": [
+  "data/experiences.ts:132"
+ ],
+ "Brazil's clearest water, with turtles, rays and reef sharks for company.": [
+  "data/experiences.ts:133"
+ ],
+ "Noronha is the best diving in Brazil. Volcanic walls, shipwrecks and caverns drop into warm Atlantic water with visibility that can reach 30 metres or more. Turtles are almost guaranteed, and you may meet eagle rays, nurse sharks and reef sharks, with spinner dolphins often escorting the boat home.\n\nBeginners can try a first dive with an instructor; certified divers can join small-group boats to the outer sites. Snorkellers are just as happy at Baía do Sancho or Praia do Leão. Visitor numbers are limited, and all visitors pay a daily environmental fee plus a national park fee, so book early.": [
+  "data/experiences.ts:135"
+ ],
+ "Year-round; visibility is usually best from about August to February.": [
+  "data/experiences.ts:138"
+ ],
+ "Best July to October, in the dry season; sightings are possible from about May to November.": [
+  "data/experiences.ts:14"
+ ],
+ "TPA daily fee, national park ticket price, visitor limits and dive-site permits.": [
+  "data/experiences.ts:140"
+ ],
+ "Diver with a sea turtle in clear blue water off Noronha": [
+  "data/experiences.ts:141"
+ ],
+ "The colonial towns of Minas": [
+  "data/experiences.ts:145"
+ ],
+ "Gold-rush churches, soapstone prophets and the best cheese bread in Brazil.": [
+  "data/experiences.ts:146"
+ ],
+ "Ouro Preto spills over steep hills, its baroque churches lined with gold from the eighteenth-century rush. Down the road, Congonhas has Aleijadinho's twelve soapstone prophets, and Tiradentes is a jewel box of a town with cobbled streets, a train pulled by an old steam engine on weekends, and kitchens that take Minas cooking very seriously.\n\nWe travel with a local historian who can explain the art, the gold and the enslaved people who mined it, without skipping the hard parts. Then we eat: tutu, feijão tropeiro, frango com quiabo, and doce de leite to finish.": [
+  "data/experiences.ts:148"
+ ],
+ "Year-round; April to October is dry and sunny. Holy Week in Ouro Preto is spectacular but busy.": [
+  "data/experiences.ts:151"
+ ],
+ "Baroque church facade on a cobbled square in Minas Gerais": [
+  "data/experiences.ts:152"
+ ],
+ "Inhotim": [
+  "data/experiences.ts:156"
+ ],
+ "World-class contemporary art scattered across a vast botanical garden.": [
+  "data/experiences.ts:157"
+ ],
+ "In Brumadinho, about an hour and a half from Belo Horizonte, Inhotim is one of the world's largest open-air contemporary art collections: pavilions and outdoor works by Brazilian and international artists set among lakes, palms and thousands of plant species.\n\nIt's big, so we plan your route with you, with electric carts for the longer stretches and time to sit with the pieces that stop you in your tracks. Give it at least a full day; two is better.": [
+  "data/experiences.ts:159"
+ ],
+ "Jaguar-boat season depends on water levels each year.": [
+  "data/experiences.ts:16"
+ ],
+ "Year-round; check opening days, as the park is closed on some weekdays.": [
+  "data/experiences.ts:162"
+ ],
+ "Opening days, hours and ticket prices.": [
+  "data/experiences.ts:164"
+ ],
+ "Contemporary art pavilion among gardens at Inhotim": [
+  "data/experiences.ts:165"
+ ],
+ "Surfing & kitesurfing": [
+  "data/experiences.ts:169"
+ ],
+ "Jaguar on a riverbank watched from a small boat": [
+  "data/experiences.ts:17"
+ ],
+ "Gentle beach breaks for beginners, serious swell for the rest, and wind for the kites.": [
+  "data/experiences.ts:170"
+ ],
+ "Brazil has a long coastline and a lot of surf. Itacaré in Bahia hides friendly breaks at the bottom of forest trails; Florianópolis has beaches facing every direction, so somewhere usually works; Rio surfs at Arpoador and Prainha, and Noronha gets powerful swells in its summer for experienced surfers.\n\nIf you prefer the wind, Jericoacoara and Atins are among the world's great kitesurfing spots. We book lessons with certified local instructors, from your first wobbly stand-up to downwinders along the coast.": [
+  "data/experiences.ts:172"
+ ],
+ "Year-round somewhere. Kitesurf season in Ceará and Maranhão is roughly July to January.": [
+  "data/experiences.ts:182"
+ ],
+ "Kite wind season and Noronha swell season.": [
+  "data/experiences.ts:184"
+ ],
+ "Surfer riding a wave off a Brazilian beach": [
+  "data/experiences.ts:185"
+ ],
+ "Amazon river lodges": [
+  "data/experiences.ts:21"
+ ],
+ "Sleep on the river, wake to howler monkeys, and travel the forest by canoe.": [
+  "data/experiences.ts:22"
+ ],
+ "We choose lodges that are small, well run and rooted in the river communities around them. On the Rio Negro, black water means fewer mosquitoes and long, glassy reflections; in the Mamirauá reserve, a floating lodge sits in várzea forest that floods by many metres each year, and local families guide, cook and share in the income.\n\nDays follow the light: a dawn paddle while the forest wakes, a guided walk to learn which tree cures a headache and which one you should not lean on, an afternoon swim, a night outing with a torch for caimans and tree frogs. The river sets the programme, and it changes completely between high and low water.": [
+  "data/experiences.ts:24"
+ ],
+ "Year-round. High water roughly April to July; low water roughly September to December.": [
+  "data/experiences.ts:27"
+ ],
+ "River levels vary by year; some lodges close for part of the low-water season.": [
+  "data/experiences.ts:29"
+ ],
+ "Wooden river lodge on stilts above the Rio Negro": [
+  "data/experiences.ts:30"
+ ],
+ "Snorkelling Bonito's clear rivers": [
+  "data/experiences.ts:34"
+ ],
+ "Float face-down through spring water so clear the fish look suspended in air.": [
+  "data/experiences.ts:35"
+ ],
+ "Bonito's limestone filters its springs into rivers of startling clarity. On the Rio da Prata or the Sucuri, you put on a wetsuit and mask, slip into the current and simply drift, with shoals of piraputanga and golden dourado turning beneath you and green aquatic gardens swaying on the bed.\n\nThere's no swimming to speak of, which makes it wonderful for children and nervous swimmers. Every site limits the number of visitors per day and must be booked through a licensed local agency, and sunscreen and touching the riverbed are off-limits. It's strict, and it works: the water is as clear now as it was decades ago.": [
+  "data/experiences.ts:37"
+ ],
+ "Year-round; often clearest from May to September. Heavy summer rain can cloud some rivers briefly.": [
+  "data/experiences.ts:40"
+ ],
+ "Daily visitor caps, minimum ages and agency booking rules per site.": [
+  "data/experiences.ts:42"
+ ],
+ "Snorkeller drifting above fish in a clear Bonito river": [
+  "data/experiences.ts:43"
+ ],
+ "Swimming the Lençóis lagoons": [
+  "data/experiences.ts:47"
+ ],
+ "Walk barefoot over white dunes to rainwater lagoons as warm as a bath.": [
+  "data/experiences.ts:48"
+ ],
+ "Each year the rains of the first half of the year fill the hollows between the dunes of the Lençóis Maranhenses with thousands of freshwater lagoons, blue, green and impossibly clear against the white sand. From Barreirinhas or Atins, a 4x4 takes you to the edge of the park, and then it's all on foot.\n\nSwim, float, walk the ridges and stay for sunset, when the dunes go pink and the wind smooths away your footprints. A short scenic flight shows you the scale of it. As the dry season goes on, the lagoons shrink and many disappear, so timing really matters here.": [
+  "data/experiences.ts:50"
+ ],
+ "Lagoons are typically fullest around June to September, varying with that year's rainfall.": [
+  "data/experiences.ts:53"
+ ],
+ "Lagoon levels change each season; confirm before booking.": [
+  "data/experiences.ts:55"
+ ],
+ "Swimmers in a blue lagoon among white dunes": [
+  "data/experiences.ts:56"
+ ],
+ "Iguaçu from both sides": [
+  "data/experiences.ts:60"
+ ],
+ "The panorama from Brazil, the close-up from Argentina. You need both.": [
+  "data/experiences.ts:61"
+ ],
+ "On the Brazilian side, a trail follows the gorge and the view keeps widening until you're on a walkway out over the river, with the whole horseshoe of falls around you and spray drifting across like weather. It is the best place to understand the scale of Iguaçu.\n\nThe Argentine side is where you get close. A little forest train and a series of catwalks take you across the upper river to the edge of the Devil's Throat, where half the river drops away beneath your feet. Your guide handles the border crossing; bring your passport, a light rain jacket and a sense of awe.": [
+  "data/experiences.ts:63"
+ ],
+ "Year-round. Highest water usually December to March; clearer, cooler days May to September.": [
+  "data/experiences.ts:66"
+ ],
+ "Park opening hours, entry fees and border requirements for both sides.": [
+  "data/experiences.ts:68"
+ ],
+ "Walkway leading out into the spray of Iguaçu Falls": [
+  "data/experiences.ts:69"
+ ],
+ "Rio's Carnival is a show. Salvador's is a street party. Olinda's is a whole town in costume. Choose wisely.": [
+  "data/experiences.ts:74"
+ ],
+ "Rio's samba schools parade through the Sambadrome in a spectacle a year in the making, while hundreds of street blocos fill the neighbourhoods by day. Salvador puts the music on trucks, the trios elétricos, and a million people follow them, alongside the Afro-Brazilian blocos that turned Carnival into a statement. Olinda and Recife dance frevo and maracatu through the streets, with giant puppets leading the way.\n\nWe help you choose the right city for you, then make it easy: rooms within walking distance, a local host who knows which bloco to join, camarote passes for a rest from the crowds, and transfers that avoid the closed roads. You bring the energy. We'll handle the logistics.": [
+  "data/experiences.ts:76"
+ ],
+ "Carnival week, in February or early March; the dates move each year with Easter, and we confirm yours.": [
+  "data/experiences.ts:79"
+ ],
+ "Jaguar safaris in the Pantanal": [
+  "data/experiences.ts:8"
+ ],
+ "Carnival dates, parade schedules and ticket and camarote prices change yearly.": [
+  "data/experiences.ts:81"
+ ],
+ "A street bloco dancing through the city at Carnival": [
+  "data/experiences.ts:82"
+ ],
+ "Festa Junina & São João": [
+  "data/experiences.ts:86"
+ ],
+ "Bonfires, corn cake, accordions and a whole country dressed for a country dance.": [
+  "data/experiences.ts:87"
+ ],
+ "In June, the Northeast celebrates its saints with the biggest party most visitors have never heard of. Towns string bunting across the streets, light bonfires, and dance quadrilha in checked shirts and straw hats, with forró playing until dawn. Campina Grande, inland from João Pessoa, and Caruaru, near Recife, each claim the largest São João in the world, and both make a convincing case.\n\nIt's food as much as music: canjica, pamonha, corn cake, peanut brittle and hot quentão. Smaller towns, such as Lençóis in the Chapada Diamantina, offer a more intimate version where you'll be pulled into the dance within the hour.": [
+  "data/experiences.ts:89"
+ ],
+ "Small boats, expert trackers, and the best odds of seeing a wild jaguar anywhere on Earth.": [
+  "data/experiences.ts:9"
+ ],
+ "Throughout June, peaking around São João on 23–24 June.": [
+  "data/experiences.ts:92"
+ ],
+ "Festival programmes and main-stage dates in Campina Grande and Caruaru each year.": [
+  "data/experiences.ts:94"
+ ],
+ "Bunting and bonfire at a Festa Junina celebration": [
+  "data/experiences.ts:95"
+ ],
+ "Capoeira in Salvador": [
+  "data/experiences.ts:99"
+ ],
+ "Verify against official Brazilian government sources (gov.br / your nearest Brazilian consulate) before travel.": [
+  "data/faq.ts:11"
+ ],
+ "Rio de Janeiro from above": [
+  "data/faq.ts:12"
+ ],
+ "What about yellow fever and other health advice?": [
+  "data/faq.ts:15"
+ ],
+ "Yellow fever vaccination is generally recommended for travel to many parts of Brazil, including the Amazon and the Pantanal. Brazil does not usually require a certificate on entry, but some onward destinations may.": [
+  "data/faq.ts:17"
+ ],
+ "See a travel clinic six to eight weeks before you go for personal advice on vaccinations, mosquito protection and anything else you might need.": [
+  "data/faq.ts:18"
+ ],
+ "Verify with your doctor, a travel clinic and official health guidance (e.g. WHO, CDC, NHS fitfortravel) before travel.": [
+  "data/faq.ts:20"
+ ],
+ "Traveller with binoculars": [
+  "data/faq.ts:21"
+ ],
+ "Rainforest canopy": [
+  "data/faq.ts:21"
+ ],
+ "Is Brazil safe to travel?": [
+  "data/faq.ts:24"
+ ],
+ "The places we send you are welcoming and well travelled, and you'll have guides and drivers who know them intimately. Like any big country, Brazil asks for some common sense in its cities: carry what you need for the day, keep your phone out of sight on busy streets, and use the transfers we arrange at night.": [
+  "data/faq.ts:26"
+ ],
+ "We brief you on each destination before you go, and your specialist is a message away throughout.": [
+  "data/faq.ts:27"
+ ],
+ "A guide with a small group": [
+  "data/faq.ts:29"
+ ],
+ "Colourful colonial buildings in Salvador": [
+  "data/faq.ts:29"
+ ],
+ "How do you get around such a big country?": [
+  "data/faq.ts:32"
+ ],
+ "By air, mostly. Brazil is bigger than the contiguous United States, and its regions are linked by internal flights of two to four hours. Most of our journeys use two to four flights; we choose routes and timings to keep connections sensible.": [
+  "data/faq.ts:34"
+ ],
+ "On the ground, you'll have private transfers, boats in the Amazon and Pantanal, and the occasional 4x4 over the dunes.": [
+  "data/faq.ts:35"
+ ],
+ "Dunes at Jericoacoara": [
+  "data/faq.ts:37"
+ ],
+ "A small plane over wetlands": [
+  "data/faq.ts:37"
+ ],
+ "When is the best time to visit?": [
+  "data/faq.ts:40"
+ ],
+ "There's a right place for every month. Roughly: the Pantanal's dry season (Jul–Oct) for jaguars; the Amazon's high water (Mar–Jul) for canoeing the flooded forest, or low water (Sep–Dec) for trails and beaches; Lençóis Maranhenses' lagoons are usually fullest around Jun–Sep; Bahia and Rio shine most of the year, with summer (Dec–Mar) hot and lively.": [
+  "data/faq.ts:42"
+ ],
+ "Tell us your dates and we'll tell you where Brazil is at its best.": [
+  "data/faq.ts:43"
+ ],
+ "Seasons are typical, not guaranteed. Verify each year.": [
+  "data/faq.ts:45"
+ ],
+ "Lagoons between white dunes": [
+  "data/faq.ts:46"
+ ],
+ "Pantanal riverbank in the dry season": [
+  "data/faq.ts:46"
+ ],
+ "How busy and expensive is Carnival?": [
+  "data/faq.ts:49"
+ ],
+ "Very, and worth it if you plan well. Carnival week is Brazil's biggest holiday: flights, hotels and event tickets rise sharply and sell out early, often six to twelve months ahead in Rio and Salvador.": [
+  "data/faq.ts:51"
+ ],
+ "Our Carnival chooser explains the differences honestly. We'll match you to the right city, book good seats or camarotes, and build in quiet time to recover.": [
+  "data/faq.ts:52"
+ ],
+ "Carnival dates move each year with Easter. Verify yearly.": [
+  "data/faq.ts:54"
+ ],
+ "Giant puppets in Olinda": [
+  "data/faq.ts:55"
+ ],
+ "Carnival costumes": [
+  "data/faq.ts:55"
+ ],
+ "Money, cards and tipping?": [
+  "data/faq.ts:58"
+ ],
+ "Do I need a visa for Brazil?": [
+  "data/faq.ts:6"
+ ],
+ "Brazil's currency is the real (BRL). Cards are accepted almost everywhere, and Pix, Brazil's instant payment system, is everywhere locals pay. Carry a little cash for markets, beach vendors and remote areas.": [
+  "data/faq.ts:60"
+ ],
+ "Restaurants usually add a 10% service charge to the bill. Tipping guides and drivers is appreciated; we'll give you a simple guide.": [
+  "data/faq.ts:61"
+ ],
+ "A Bahian moqueca": [
+  "data/faq.ts:63"
+ ],
+ "A fruit stall at a Brazilian market": [
+  "data/faq.ts:63"
+ ],
+ "Do I need to speak Portuguese?": [
+  "data/faq.ts:66"
+ ],
+ "No. Brazilians speak Portuguese, not Spanish, and English is less common outside hotels. That's why every journey includes private English-speaking guides.": [
+  "data/faq.ts:68"
+ ],
+ "A few words go a long way: bom dia (good morning), obrigado/obrigada (thank you), and tudo bem? (all good?).": [
+  "data/faq.ts:69"
+ ],
+ "Couples dancing forró": [
+  "data/faq.ts:71"
+ ],
+ "Musicians playing in the street": [
+  "data/faq.ts:71"
+ ],
+ "Are there visitor fees for Fernando de Noronha?": [
+  "data/faq.ts:74"
+ ],
+ "Yes. Visitors pay a daily environmental preservation fee (TPA) that increases with the length of stay, plus a separate entry ticket for the marine national park. Visitor numbers are managed to protect the islands.": [
+  "data/faq.ts:76"
+ ],
+ "We include and arrange both fees in your quote.": [
+  "data/faq.ts:77"
+ ],
+ "Fees and rules change. Verify current amounts with the official Noronha and ICMBio sources.": [
+  "data/faq.ts:79"
+ ],
+ "It depends on your passport. Many European passport holders, including UK citizens, can currently visit visa-free for tourism. Since April 2025, citizens of the United States, Canada and Australia need an e-visa, applied for online before travel.": [
+  "data/faq.ts:8"
+ ],
+ "A sea turtle underwater": [
+  "data/faq.ts:80"
+ ],
+ "Fernando de Noronha's twin peaks over the sea": [
+  "data/faq.ts:80"
+ ],
+ "Is Brazil good for children?": [
+  "data/faq.ts:83"
+ ],
+ "Wonderfully. Brazilians adore children, and kids love floating with fish in Bonito, the spray at Iguaçu, capybaras in the Pantanal and beaches with gentle water. We keep transfers short and days flexible.": [
+  "data/faq.ts:85"
+ ],
+ "Some activities have minimum ages, and health advice can differ for young children, so we'll tailor everything to your family.": [
+  "data/faq.ts:86"
+ ],
+ "A capybara by the water": [
+  "data/faq.ts:88"
+ ],
+ "Clear river in Bonito": [
+  "data/faq.ts:88"
+ ],
+ "Rules change, so please check the latest requirements for your nationality before booking flights. We'll remind you when your journey is confirmed.": [
+  "data/faq.ts:9"
+ ],
+ "How do deposits and cancellations work?": [
+  "data/faq.ts:91"
+ ],
+ "A deposit secures your journey, with the balance due before travel. Cancellation terms depend on your lodges and flights, and we explain them clearly in your proposal. See our booking terms for the details.": [
+  "data/faq.ts:93"
+ ],
+ "Comprehensive travel insurance is a condition of booking, so arrange it as soon as you book.": [
+  "data/faq.ts:94"
+ ],
+ "Sunrise over the sea": [
+  "data/faq.ts:96"
+ ],
+ "A beach pousada": [
+  "data/faq.ts:96"
+ ],
+ "A Day in the Pantanal": [
+  "data/home.ts:102"
+ ],
+ "The largest tropical wetland on Earth runs on a simple timetable: wake early, rest at midday, go out again when the light turns gold. Here's how a day unfolds.": [
+  "data/home.ts:104"
+ ],
+ "Dawn": [
+  "data/home.ts:107"
+ ],
+ "The birds start before you do.": [
+  "data/home.ts:108"
+ ],
+ "Parakeets, chachalacas and a hyacinth macaw with opinions. Coffee on the veranda while the mist lifts off the water and the caimans think about moving.": [
+  "data/home.ts:109"
+ ],
+ "On the river": [
+  "data/home.ts:113"
+ ],
+ "Boats, caimans, giant otters.": [
+  "data/home.ts:114"
+ ],
+ "A slow boat up a side channel. Caimans line the banks like logs that blink. Then a family of giant otters, loud and curious, swims over to see who you are.": [
+  "data/home.ts:115"
+ ],
+ "Midday": [
+  "data/home.ts:119"
+ ],
+ "Hammocks and lunch at the fazenda.": [
+  "data/home.ts:120"
+ ],
+ "Rice, beans, grilled fish and fruit from the garden. The heat says rest, and here everybody listens. Hammocks are not optional.": [
+  "data/home.ts:121"
+ ],
+ "Golden hour": [
+  "data/home.ts:125"
+ ],
+ "Searching the riverbanks for jaguars.": [
+  "data/home.ts:126"
+ ],
+ "Back on the water as the light softens. Your guide cuts the engine near a sandbank. Jaguars don't keep appointments, but in the dry season they're rarely late.": [
+  "data/home.ts:127"
+ ],
+ "Night": [
+  "data/home.ts:131"
+ ],
+ "A sky so full of stars it looks crowded.": [
+  "data/home.ts:132"
+ ],
+ "No towns, no glow, no noise but frogs. Lie back on the jetty and find the Southern Cross. Then find it again, because there are too many stars to be sure.": [
+  "data/home.ts:133"
+ ],
+ "Jaguars & the Pantanal": [
+  "data/home.ts:137",
+  "data/journeys.ts:82"
+ ],
+ "The sun rises in Brazil before anywhere else in the Americas. We like to think it's in a hurry to get here.": [
+  "data/home.ts:14"
+ ],
+ "Brazil, like a local": [
+  "data/home.ts:141"
+ ],
+ "Kiss": [
+  "data/home.ts:142"
+ ],
+ "Kiss hello": [
+  "data/home.ts:145"
+ ],
+ "One kiss on the cheek in São Paulo, two in Rio, sometimes three in Minas. If in doubt, follow their lead and enjoy the confusion.": [
+  "data/home.ts:146"
+ ],
+ "Say obrigado": [
+  "data/home.ts:149"
+ ],
+ "Brazilians speak Portuguese, not Spanish. Obrigado if you're a man, obrigada if you're a woman. A little effort gets a big smile.": [
+  "data/home.ts:150"
+ ],
+ "Check the bill": [
+  "data/home.ts:153"
+ ],
+ "Restaurants usually add a 10% service charge. It's shown as 'serviço'. Leave a little extra only if you'd like to.": [
+  "data/home.ts:154"
+ ],
+ "Share the sand": [
+  "data/home.ts:157"
+ ],
+ "Rent a chair and umbrella from the barraca, buy your coconut from the person who walks by, and never leave anything behind but footprints.": [
+  "data/home.ts:158"
+ ],
+ "Keep it low-key": [
+  "data/home.ts:161"
+ ],
+ "Leave the flashy watch at home and carry what you need for the day. It's what Brazilians do, and nobody notices a person who looks relaxed.": [
+  "data/home.ts:162"
+ ],
+ "Relax the clock": [
+  "data/home.ts:165"
+ ],
+ "Eight o'clock for dinner might mean nine. A party starting at ten warms up around midnight. You're on holiday. So is time.": [
+  "data/home.ts:166"
+ ],
+ "From first light": [
+  "data/home.ts:18"
+ ],
+ "Private journeys across Brazil: rivers and wetlands, dunes and reefs, colonial towns and city nights. We help you see the right parts, at the right time, with the right people.": [
+  "data/home.ts:20"
+ ],
+ "Sol nascente means rising sun. Every morning, the first sunrise in the Americas lands on Ponta do Seixas in Paraíba, the easternmost point of the continent's mainland. From there the light runs west across a country bigger than the contiguous United States: six biomes, a dozen musical traditions, and more ways to cook a fish than anyone has counted. We plan journeys through all of it, one traveller at a time.": [
+  "data/home.ts:21"
+ ],
+ "First light over the reef at Ponta do Seixas, Paraíba": [
+  "data/home.ts:22"
+ ],
+ "Alegria": [
+  "data/home.ts:27"
+ ],
+ "Joy, the Brazilian way": [
+  "data/home.ts:28"
+ ],
+ "Not the loud kind. The kind that finds a guitar at a bus stop, a party on a Tuesday, and something to celebrate in the rain. We plan for that feeling, then leave room for it to find you.": [
+  "data/home.ts:29"
+ ],
+ "Encontro": [
+  "data/home.ts:32"
+ ],
+ "Real meetings with real people": [
+  "data/home.ts:33"
+ ],
+ "A boatman who reads the river like a newspaper. A cook in Salvador who won't share the recipe but will share the table. Brazil is its people. We introduce you properly.": [
+  "data/home.ts:34"
+ ],
+ "Raiz": [
+  "data/home.ts:37"
+ ],
+ "Roots": [
+  "data/home.ts:38"
+ ],
+ "Local guides, local kitchens, local music, local money. We work with people who were born to the places we send you, and we make sure your journey leaves something good behind.": [
+  "data/home.ts:39"
+ ],
+ "Friends dancing in a sunlit street in Brazil": [
+  "data/home.ts:42"
+ ],
+ "Stay": [
+  "data/home.ts:45",
+  "config/site.ts:23"
+ ],
+ "River lodges on black water, fazendas on the floodplain, pousadas a flip-flop from the sea. We choose places that feel like where you are.": [
+  "data/home.ts:47"
+ ],
+ "Every stay we use is small, run by people who love it, and chosen for its setting before its thread count. Some have Wi-Fi. Some have hyacinth macaws on the roof instead.": [
+  "data/home.ts:48"
+ ],
+ "Hammocks strung across a shaded veranda": [
+  "data/home.ts:50"
+ ],
+ "A wooden river lodge on stilts above dark water": [
+  "data/home.ts:51"
+ ],
+ "every journey": [
+  "data/home.ts:56"
+ ],
+ "Included in": [
+  "data/home.ts:56"
+ ],
+ "Private English-speaking guides": [
+  "data/home.ts:59"
+ ],
+ "Your own guide in every region, chosen for the place: a naturalist in the Pantanal, a historian in Ouro Preto, a musician in Salvador.": [
+  "data/home.ts:60"
+ ],
+ "Internal flights, arranged": [
+  "data/home.ts:64"
+ ],
+ "Brazil is enormous. We book the flights, time the connections and handle the transfers, so the distances stay on the map and off your mind.": [
+  "data/home.ts:65"
+ ],
+ "A small aircraft over green wetlands": [
+  "data/home.ts:66"
+ ],
+ "Wildlife experts": [
+  "data/home.ts:69"
+ ],
+ "Jaguar trackers, otter whisperers, birders who can name a call at a hundred metres. The difference between seeing an animal and understanding it.": [
+  "data/home.ts:70"
+ ],
+ "A traveller with binoculars scanning a riverbank": [
+  "data/home.ts:71"
+ ],
+ "Food and music with locals": [
+  "data/home.ts:74"
+ ],
+ "A moqueca cooked in the kitchen it was invented in. A forró night where nobody minds that you can't dance yet. The best of Brazil happens at the table and on the floor.": [
+  "data/home.ts:75"
+ ],
+ "Hands preparing a Bahian dish together": [
+  "data/home.ts:76"
+ ],
+ "Your specialist, a message away": [
+  "data/home.ts:79"
+ ],
+ "The person who planned your trip stays with you while you travel. A question at midnight? A change of plan at noon? Send a message.": [
+  "data/home.ts:80"
+ ],
+ "A phone in hand on a sunny terrace": [
+  "data/home.ts:81"
+ ],
+ "Choose from river lodges, fazendas, beach pousadas and colonial houses, each with a view worth waking early for.": [
+  "data/home.ts:84"
+ ],
+ "Private journeys": [
+  "data/home.ts:9"
+ ],
+ "Brazil isn't one landscape. It's six, from the world's largest rainforest to its largest wetland, and each one changes the way you travel.": [
+  "data/home.ts:90"
+ ],
+ "Morning mist over the rainforest canopy": [
+  "data/home.ts:92"
+ ],
+ "Carnival Week, Day by Day": [
+  "data/home.ts:96"
+ ],
+ "Rio's Carnival is a show. Salvador's is a street party. Olinda's is a whole town in costume. Choose wisely, then pace yourself.": [
+  "data/home.ts:98"
+ ],
+ "Land in Cuiabá and head south past Poconé, where the tarmac gives way to red dirt and the first jabiru storks stand in the ditches like they own the place. Two nights at a fazenda: dawn walks, evening drives, and a spotlight on the eyes of a hundred caimans.": [
+  "data/journeys.ts:100"
+ ],
+ "Days 3–5": [
+  "data/journeys.ts:104"
+ ],
+ "Jaguar country": [
+  "data/journeys.ts:105"
+ ],
+ "Continue to Porto Jofre at the end of the road. Each day, a small boat takes you along the Cuiabá river and its side channels with an expert guide, looking for jaguars resting on the banks or swimming across. Giant otters are a very good consolation prize.": [
+  "data/journeys.ts:106"
+ ],
+ "North to south": [
+  "data/journeys.ts:111"
+ ],
+ "Back up the Transpantaneira to Cuiabá, a short flight to Campo Grande, and on by road to the southern Pantanal. It's a long day, with a cold drink waiting on the veranda at the end of it.": [
+  "data/journeys.ts:112"
+ ],
+ "Life on a working fazenda": [
+  "data/journeys.ts:117"
+ ],
+ "Ride out with the pantaneiro cowboys, canoe a quiet river, and walk at dawn for hyacinth macaws and giant anteaters. In the evening, the cook fires up the grill and the frogs start up the chorus.": [
+  "data/journeys.ts:118"
+ ],
+ "First Brazil: Rio, Iguaçu & Bahia": [
+  "data/journeys.ts:12"
+ ],
+ "Bonito's clear water": [
+  "data/journeys.ts:123"
+ ],
+ "Drive to Bonito and slip into the Rio da Prata, floating over shoals of dourado through water as clear as glass. Add a sinkhole full of red macaws and a blue cave lake, and let the town's early nights win you over.": [
+  "data/journeys.ts:124"
+ ],
+ "The mountains, the waterfalls and the drums. A first taste that leaves you hungry for more.": [
+  "data/journeys.ts:13"
+ ],
+ "Transfer to the airport for your flight home via São Paulo, binoculars still round your neck.": [
+  "data/journeys.ts:130"
+ ],
+ "Jaguar walking along a riverbank in the Pantanal": [
+  "data/journeys.ts:137"
+ ],
+ "Repeat visitors": [
+  "data/journeys.ts:138"
+ ],
+ "Birders": [
+  "data/journeys.ts:138"
+ ],
+ "Amazon by Water": [
+  "data/journeys.ts:142"
+ ],
+ "Two rivers, two lodges, and a forest that changes shape with the seasons.": [
+  "data/journeys.ts:143"
+ ],
+ "Start in Manaus, then travel up the black-water Rio Negro to the islands of the Anavilhanas. Fly west to the Mamirauá reserve, where you stay on the water in flooded forest and the people who live there are your guides.": [
+  "data/journeys.ts:145"
+ ],
+ "Begin in Rio, where the city and the forest share the same hillsides. Fly to Iguaçu to stand in the spray of the world's widest waterfall from both the Brazilian and Argentine sides, then finish in Bahia: Salvador's music and food, and a car-free island for barefoot days.": [
+  "data/journeys.ts:15"
+ ],
+ "Year-round. High water, roughly April to July, means canoeing through the treetops of the flooded forest. Low water, roughly September to December, reveals white-sand river beaches and forest trails.": [
+  "data/journeys.ts:150"
+ ],
+ "River levels, Manaus–Tefé flight schedules and Mamirauá lodge seasonal closures.": [
+  "data/journeys.ts:152"
+ ],
+ "Reaching Manaus from Rio or São Paulo is a four-hour domestic flight. From Manaus it's about three hours by road, across the Rio Negro bridge, to Novo Airão and your lodge in the Anavilhanas. For Mamirauá you fly Manaus to Tefé (just over an hour, and not every day) and then take a boat for about an hour and a half. Everything after that moves by canoe, at the speed of the river.": [
+  "data/journeys.ts:154"
+ ],
+ "Manaus": [
+  "data/journeys.ts:159"
+ ],
+ "Arrive in the forest's big city. Visit the opera house built on rubber money and the Adolpho Lisboa market, where fish the size of children lie gleaming on ice.": [
+  "data/journeys.ts:160"
+ ],
+ "The Anavilhanas archipelago": [
+  "data/journeys.ts:165"
+ ],
+ "Road and boat to your river lodge among hundreds of forested islands. Paddle the black-water channels at dawn, look for pink river dolphins, walk the forest with a guide who grew up here, and swim in water the colour of strong tea.": [
+  "data/journeys.ts:166"
+ ],
+ "Day 6": [
+  "data/journeys.ts:170",
+  "data/journeys.ts:110",
+  "data/journeys.ts:44"
+ ],
+ "West to Mamirauá": [
+  "data/journeys.ts:171"
+ ],
+ "Back to Manaus, a short flight to Tefé, then a boat upriver into the reserve. By evening you are sleeping on the water, and the forest is louder than any city.": [
+  "data/journeys.ts:172"
+ ],
+ "Days 7–9": [
+  "data/journeys.ts:176",
+  "data/journeys.ts:116"
+ ],
+ "The flooded forest": [
+  "data/journeys.ts:177"
+ ],
+ "Glide through várzea forest with local guides, looking for red-faced uakari monkeys, sloths and the three-toed kind of patience. Visit a riverside community that co-manages the reserve, and learn how pirarucu fishing went from collapse to comeback.": [
+  "data/journeys.ts:178"
+ ],
+ "Day 10": [
+  "data/journeys.ts:182"
+ ],
+ "Back to Manaus": [
+  "data/journeys.ts:183"
+ ],
+ "Boat and plane back to Manaus for a last night with a proper bed and a plate of grilled tambaqui.": [
+  "data/journeys.ts:184"
+ ],
+ "Day 11": [
+  "data/journeys.ts:188"
+ ],
+ "Meeting of the Waters": [
+  "data/journeys.ts:189"
+ ],
+ "Before your flight, take a boat to where the dark Rio Negro and the milky Solimões run side by side for kilometres without mixing. Then onward home.": [
+  "data/journeys.ts:190"
+ ],
+ "Canoe gliding through flooded Amazon forest": [
+  "data/journeys.ts:197"
+ ],
+ "Wildlife lovers": [
+  "data/journeys.ts:198",
+  "data/journeys.ts:138"
+ ],
+ "Lovely from April to November, when Rio is warm rather than sticky. Bahia is sunniest from September to March; Iguaçu is fullest from December to March.": [
+  "data/journeys.ts:20"
+ ],
+ "Dunes & Lagoons of the North": [
+  "data/journeys.ts:202"
+ ],
+ "Catch the first sunrise in the Americas, then follow the wind west across the dunes.": [
+  "data/journeys.ts:203"
+ ],
+ "Begin at Ponta do Seixas, the easternmost tip of the American mainland, then fly to Jericoacoara for sandy streets and sunset dunes. Cross the Rota das Emoções by 4x4 and boat to the Lençóis Maranhenses, where rainwater lagoons fill the hollows between white dunes.": [
+  "data/journeys.ts:205"
+ ],
+ "June to September, when the Lençóis lagoons are usually at their fullest and Jeri's winds are picking up. Late June can also catch the São João festivals.": [
+  "data/journeys.ts:210"
+ ],
+ "Lagoon levels vary with each year's rains; confirm before booking.": [
+  "data/journeys.ts:212"
+ ],
+ "This is a coast-hugging road trip with flights at either end. You fly into João Pessoa (usually via São Paulo or Recife), then fly to Fortaleza and drive about four to five hours to Jericoacoara; the last stretch is by 4x4 over the dunes. From Jeri, the Rota das Emoções runs west by 4x4, road and boat through the Parnaíba Delta to Barreirinhas or Atins, over two unhurried days. You finish with a four-hour drive to São Luís and a flight home via São Paulo or Brasília.": [
+  "data/journeys.ts:214"
+ ],
+ "João Pessoa": [
+  "data/journeys.ts:219"
+ ],
+ "Brazil is enormous, and this journey crosses a good part of it. You fly Rio to Iguaçu (about two hours), then Iguaçu to Salvador, which usually means a connection in São Paulo and most of a day. From Salvador, Boipeba is reached by road and boat, around four hours door to door, or by a 30-minute small plane. A final flight takes you back to São Paulo for your international connection. Every transfer is private, and someone is always waiting with your name.": [
+  "data/journeys.ts:22"
+ ],
+ "Arrive in an easy, green city by the sea. At sunset, head to Praia do Jacaré, where a saxophonist plays Ravel's Boléro from a boat as the sun goes down.": [
+  "data/journeys.ts:220"
+ ],
+ "Day 2": [
+  "data/journeys.ts:224"
+ ],
+ "The first sunrise": [
+  "data/journeys.ts:225"
+ ],
+ "An early start, and worth it: watch the sun rise at Ponta do Seixas, the first place on the American mainland it touches. Later, swim in the reef pools offshore at low tide.": [
+  "data/journeys.ts:226"
+ ],
+ "Days 3–6": [
+  "data/journeys.ts:230"
+ ],
+ "Fly to Fortaleza and roll into Jeri over the dunes. Days for Pedra Furada, the hammocks in Lagoa do Paraíso and a kite lesson if the wind obliges; evenings for the sunset dune and forró under the stars.": [
+  "data/journeys.ts:232"
+ ],
+ "Day 7": [
+  "data/journeys.ts:236",
+  "data/journeys.ts:50"
+ ],
+ "The Rota das Emoções": [
+  "data/journeys.ts:237"
+ ],
+ "Head west by 4x4 along the coast, then by boat into the Parnaíba Delta, a maze of mangroves, islands and red crabs. Overnight on the delta.": [
+  "data/journeys.ts:238"
+ ],
+ "Arrive in Atins or Barreirinhas and walk into the dunes. Swim in lagoons as warm as bathwater, fly over the park in a small plane, and watch the sand turn pink at dusk. Shrimp for dinner, every night, without regret.": [
+  "data/journeys.ts:244"
+ ],
+ "São Luís": [
+  "data/journeys.ts:249"
+ ],
+ "Drive to São Luís, a colonial city tiled in Portuguese azulejos, with a reggae soundtrack and a bumba-meu-boi tradition that takes over the streets in June.": [
+  "data/journeys.ts:250"
+ ],
+ "Transfer to the airport and fly home, with sand in places you didn't know existed.": [
+  "data/journeys.ts:256"
+ ],
+ "Blue lagoons between white dunes in Lençóis Maranhenses": [
+  "data/journeys.ts:263"
+ ],
+ "Second-timers": [
+  "data/journeys.ts:264"
+ ],
+ "Beach lovers": [
+  "data/journeys.ts:264"
+ ],
+ "Photographers": [
+  "data/journeys.ts:264",
+  "data/journeys.ts:138"
+ ],
+ "Adventurous couples": [
+  "data/journeys.ts:264"
+ ],
+ "Carnival, Done Properly": [
+  "data/journeys.ts:268"
+ ],
+ "Rio's Carnival is a show. Salvador's is a street party. Olinda's is a whole town in costume. We chose two.": [
+  "data/journeys.ts:269"
+ ],
+ "Hello, Rio": [
+  "data/journeys.ts:27"
+ ],
+ "Spend the opening days of Carnival in Salvador, dancing behind the trios elétricos and the great Afro-Brazilian blocos. Then fly to Olinda for frevo, maracatu and giant puppets in the hilltop streets, and finish with three quiet days on the beach to recover.": [
+  "data/journeys.ts:271"
+ ],
+ "Carnival week (dates move each year; we confirm yours). Carnival falls in February or early March, and the best rooms go a year ahead.": [
+  "data/journeys.ts:276"
+ ],
+ "Carnival dates, bloco schedules and camarote prices change each year.": [
+  "data/journeys.ts:278"
+ ],
+ "A driver meets you at the airport and takes the coast road into the city. Settle into your hillside room in Santa Teresa, then wander down for a first cold coconut with the bay below you.": [
+  "data/journeys.ts:28"
+ ],
+ "You fly into Salvador, usually via São Paulo or Lisbon, and spend Carnival's opening days there. Midway through, a short flight of about an hour and a half takes you to Recife, and Olinda is 20 minutes up the road. Driving inside both cities during Carnival is slow, so we base you within walking distance of the action and arrange private transfers outside the circuits. The recovery beach is about two hours south of Recife by road.": [
+  "data/journeys.ts:280"
+ ],
+ "Day 1": [
+  "data/journeys.ts:284",
+  "data/journeys.ts:218",
+  "data/journeys.ts:158"
+ ],
+ "Salvador, warming up": [
+  "data/journeys.ts:285"
+ ],
+ "Arrive the day before it all begins. Eat acarajé, get your abadá fitted, and have your Carnival briefing from a local who has danced through thirty of them.": [
+  "data/journeys.ts:286"
+ ],
+ "Days 2–5": [
+  "data/journeys.ts:290",
+  "data/journeys.ts:164"
+ ],
+ "Salvador's Carnival": [
+  "data/journeys.ts:291"
+ ],
+ "Follow the trios elétricos along the seafront circuit, watch Ilê Aiyê and Olodum lead their blocos afro, and see the white-robed Filhos de Gandhy fill the streets. Take a camarote for a breather when your feet ask for one.": [
+  "data/journeys.ts:292"
+ ],
+ "Days 6–9": [
+  "data/journeys.ts:296"
+ ],
+ "Olinda, the town in costume": [
+  "data/journeys.ts:297"
+ ],
+ "Fly to Recife and settle in Olinda. Join the small, joyful blocos that wind up and down the hill, dance frevo with an umbrella you'll never quite master, and cheer the giant puppets as they lurch past. It runs until Ash Wednesday, and so will you.": [
+  "data/journeys.ts:298"
+ ],
+ "Days 10–12": [
+  "data/journeys.ts:302",
+  "data/journeys.ts:122",
+  "data/journeys.ts:62"
+ ],
+ "Recover, beautifully": [
+  "data/journeys.ts:303"
+ ],
+ "Head south to Praia dos Carneiros: calm water, a little white church on the sand, and absolutely nothing on the schedule. Sleep. Swim. Repeat.": [
+  "data/journeys.ts:304"
+ ],
+ "Day 13": [
+  "data/journeys.ts:308",
+  "data/journeys.ts:254",
+  "data/journeys.ts:128"
+ ],
+ "Home, with stories": [
+  "data/journeys.ts:309"
+ ],
+ "Transfer to Recife airport for your flight home. Glitter optional, but it's coming with you anyway.": [
+  "data/journeys.ts:310"
+ ],
+ "Carnival revellers and giant puppets in the streets of Olinda": [
+  "data/journeys.ts:317"
+ ],
+ "Festival goers": [
+  "data/journeys.ts:318"
+ ],
+ "Groups of friends": [
+  "data/journeys.ts:318"
+ ],
+ "Music lovers": [
+  "data/journeys.ts:318",
+  "data/journeys.ts:78"
+ ],
+ "Days 2–4": [
+  "data/journeys.ts:32"
+ ],
+ "Bahia, Slowly": [
+  "data/journeys.ts:322"
+ ],
+ "One state, no hurry: city drums, mountain waterfalls and two coastlines worth the wait.": [
+  "data/journeys.ts:323"
+ ],
+ "Fall for Salvador, then head inland to the table mountains of the Chapada Diamantina. Come back to the coast through the Recôncavo, the birthplace of samba de roda, and finish with car-free Boipeba and the surf beaches of Itacaré.": [
+  "data/journeys.ts:325"
+ ],
+ "Mountains, forest and the beach in between": [
+  "data/journeys.ts:33"
+ ],
+ "September to March for the sunniest coast; April to October for the driest hiking in the Chapada. September to November gives you a fine balance of both.": [
+  "data/journeys.ts:330"
+ ],
+ "Almost all of this journey is by road and boat, which is the point. You fly into Salvador (often via São Paulo) and out of Ilhéus. The drive from Salvador to the Chapada takes six to seven hours with stops, and the return to the coast is split with a night in Cachoeira. Boipeba is reached by road to Valença and a boat across; from Boipeba to Itacaré it's about four hours of boat and road around the Camamu peninsula. We can swap the longest drives for a small plane if you'd rather.": [
+  "data/journeys.ts:332"
+ ],
+ "Walk the Pelourinho with a historian, cook moqueca and vatapá in a family kitchen, and spend a Tuesday night in the old town when the drums come out to rehearse.": [
+  "data/journeys.ts:338"
+ ],
+ "Go up Sugarloaf early, before the cable cars fill. Walk the Tijuca Forest with a naturalist, swim at Ipanema, and spend an evening in a Lapa samba bar where the band sits around a table and the whole room sings along.": [
+  "data/journeys.ts:34"
+ ],
+ "Days 4–7": [
+  "data/journeys.ts:342"
+ ],
+ "The Chapada Diamantina": [
+  "data/journeys.ts:343"
+ ],
+ "Drive inland to Lençóis, the old diamond town. Hike to the top of the Fumaça waterfall, climb Morro do Pai Inácio for sunset, and swim in caves where a single shaft of light turns the water electric blue.": [
+  "data/journeys.ts:344"
+ ],
+ "Day 8": [
+  "data/journeys.ts:348"
+ ],
+ "Cachoeira and the Recôncavo": [
+  "data/journeys.ts:349"
+ ],
+ "Break the journey in Cachoeira, a riverside town of colonial facades and deep Afro-Brazilian roots. If you're lucky, a samba de roda will break out after dinner.": [
+  "data/journeys.ts:350"
+ ],
+ "Days 9–11": [
+  "data/journeys.ts:354"
+ ],
+ "Boipeba": [
+  "data/journeys.ts:355",
+  "data/sunrise-coast.ts:26"
+ ],
+ "Road to Valença and a boat to Boipeba. Tide pools, fresh coconut, lobster on the sand at Moreré, and a pace measured in hammock-hours.": [
+  "data/journeys.ts:356"
+ ],
+ "Days 12–14": [
+  "data/journeys.ts:360"
+ ],
+ "Itacaré": [
+  "data/journeys.ts:361"
+ ],
+ "Round the Camamu peninsula to Itacaré, where every beach sits at the end of a forest trail. Take a surf lesson, walk to Prainha, and eat a final moqueca as the light goes.": [
+  "data/journeys.ts:362"
+ ],
+ "Day 15": [
+  "data/journeys.ts:366"
+ ],
+ "Fly home": [
+  "data/journeys.ts:367",
+  "data/journeys.ts:255"
+ ],
+ "An hour's drive to Ilhéus for your flight home via São Paulo.": [
+  "data/journeys.ts:368"
+ ],
+ "Coconut palms leaning over a quiet beach on Boipeba": [
+  "data/journeys.ts:375"
+ ],
+ "Food lovers": [
+  "data/journeys.ts:376",
+  "data/journeys.ts:78"
+ ],
+ "Hikers": [
+  "data/journeys.ts:376"
+ ],
+ "Slow travellers": [
+  "data/journeys.ts:376",
+  "data/journeys.ts:198"
+ ],
+ "Day 5": [
+  "data/journeys.ts:38"
+ ],
+ "Brazil with Kids": [
+  "data/journeys.ts:380"
+ ],
+ "Waterfalls, toucans and rivers full of fish. Short transfers, long swims, early nights.": [
+  "data/journeys.ts:381"
+ ],
+ "A gentle first Brazil for families: Rio's beaches and cable cars, the thunder of Iguaçu Falls, and Bonito's clear rivers, where even small swimmers can float with the fish. Plenty of pool time is built in.": [
+  "data/journeys.ts:383"
+ ],
+ "Lovely year-round. Northern-hemisphere summer holidays (June to August) are cool and dry in all three places; Christmas and Easter are hotter and busier.": [
+  "data/journeys.ts:388"
+ ],
+ "The Brazilian side of Iguaçu": [
+  "data/journeys.ts:39"
+ ],
+ "We keep the moving parts small. You fly into Rio, take a two-hour flight to Iguaçu, and then fly on to Bonito, which usually needs a connection via Campinas or São Paulo, or a flight to Campo Grande and a four-hour drive, so we plan that day around naps. You fly home from Bonito or Campo Grande. Car seats, early check-ins and snacks are arranged. Please check current vaccination advice with a travel clinic before you go, as recommendations vary by age and region.": [
+  "data/journeys.ts:390"
+ ],
+ "Days 1–4": [
+  "data/journeys.ts:394"
+ ],
+ "Rio for small explorers": [
+  "data/journeys.ts:395"
+ ],
+ "Cable cars up Sugarloaf, the little train through the forest to Christ the Redeemer, and long mornings on the beach with a fresh coconut each. Afternoons at the Botanical Garden, where the toucans and marmosets are the main event.": [
+  "data/journeys.ts:396"
+ ],
+ "Fly south to Foz do Iguaçu. In the afternoon, follow the trail along the gorge as the view widens, until you are out on the walkway with the falls on three sides and spray in your hair.": [
+  "data/journeys.ts:40"
+ ],
+ "Days 5–7": [
+  "data/journeys.ts:400"
+ ],
+ "Fly to Iguaçu and walk the Brazilian trails to the spray. Visit the bird park next door for close-up toucans and macaws, then cross to Argentina, where the little forest train takes tired legs to the catwalks over the Devil's Throat.": [
+  "data/journeys.ts:402"
+ ],
+ "Days 8–11": [
+  "data/journeys.ts:406",
+  "data/journeys.ts:242"
+ ],
+ "Snorkel the Rio da Prata in a wetsuit and life jacket, float like a leaf down gentle rivers, and gasp at a sinkhole full of red macaws. There's a natural swimming hole for every afternoon.": [
+  "data/journeys.ts:408"
+ ],
+ "Day 12": [
+  "data/journeys.ts:412",
+  "data/journeys.ts:248"
+ ],
+ "Home": [
+  "data/journeys.ts:413"
+ ],
+ "Fly home via São Paulo, with a full camera and a sleeping child or two.": [
+  "data/journeys.ts:414"
+ ],
+ "Family snorkelling in a crystal-clear river in Bonito": [
+  "data/journeys.ts:421"
+ ],
+ "Families": [
+  "data/journeys.ts:422"
+ ],
+ "Coast to Rainforest": [
+  "data/journeys.ts:426"
+ ],
+ "From Atlantic Forest falling into the sea to Amazon forest standing in the river.": [
+  "data/journeys.ts:427"
+ ],
+ "Start in Rio, then follow the Green Coast to colonial Paraty and car-free Ilha Grande. Fly north to Manaus and travel up the Rio Negro to a river lodge in the Anavilhanas: two great forests, one journey.": [
+  "data/journeys.ts:429"
+ ],
+ "April to June and September to November are lovely on the coast. In the Amazon, high water (roughly April to July) brings flooded-forest canoeing; low water (roughly September to December) brings river beaches.": [
+  "data/journeys.ts:434"
+ ],
+ "Amazon river levels vary yearly.": [
+  "data/journeys.ts:436"
+ ],
+ "The coastal half is by road and boat: about four hours from Rio to Paraty, then a short drive and boat to Ilha Grande, and back to Rio's airport in roughly three hours. From Rio you fly direct to Manaus, around four hours, then drive about three hours to the Anavilhanas. You fly home from Manaus, usually via São Paulo.": [
+  "data/journeys.ts:438"
+ ],
+ "Days 1–3": [
+  "data/journeys.ts:442",
+  "data/journeys.ts:336"
+ ],
+ "Settle into Santa Teresa and let the city introduce itself: Sugarloaf at sunrise, the Tijuca Forest at midday, a samba circle at night.": [
+  "data/journeys.ts:444"
+ ],
+ "Days 4–6": [
+  "data/journeys.ts:448"
+ ],
+ "Paraty": [
+  "data/journeys.ts:449"
+ ],
+ "Across the border to the Devil's Throat": [
+  "data/journeys.ts:45"
+ ],
+ "Drive the Green Coast to Paraty. Spend a day on a wooden schooner hopping between coves, another visiting cachaça stills in the hills, and evenings on the cobblestones under the lamps.": [
+  "data/journeys.ts:450"
+ ],
+ "Days 7–8": [
+  "data/journeys.ts:454"
+ ],
+ "Ilha Grande": [
+  "data/journeys.ts:455"
+ ],
+ "Boat across to an island with no cars. Hike through forest to Lopes Mendes, swim in the green water of the Blue Lagoon, and listen for howler monkeys at dusk.": [
+  "data/journeys.ts:456"
+ ],
+ "Cross into Argentina with your guide and take the catwalks out over the river to the Garganta del Diablo. The ground hums. The water vanishes. You will talk about it for years.": [
+  "data/journeys.ts:46"
+ ],
+ "Day 9": [
+  "data/journeys.ts:460"
+ ],
+ "North to Manaus": [
+  "data/journeys.ts:461"
+ ],
+ "Back to Rio by boat and road, then a direct flight north. Tonight, Manaus: warm air, river smells and a cold guaraná.": [
+  "data/journeys.ts:462"
+ ],
+ "Days 10–13": [
+  "data/journeys.ts:466"
+ ],
+ "The Rio Negro": [
+  "data/journeys.ts:467"
+ ],
+ "Road and boat to your lodge in the Anavilhanas. Canoe at first light, look for pink dolphins, learn the forest's medicine cabinet from a local guide, and sleep to the sound of rain on the leaves.": [
+  "data/journeys.ts:468"
+ ],
+ "Day 14": [
+  "data/journeys.ts:472"
+ ],
+ "Homeward": [
+  "data/journeys.ts:473",
+  "data/journeys.ts:129"
+ ],
+ "Return to Manaus for your flight home, via São Paulo.": [
+  "data/journeys.ts:474"
+ ],
+ "Rainforest canopy seen from above": [
+  "data/journeys.ts:481"
+ ],
+ "Couples": [
+  "data/journeys.ts:482",
+  "data/journeys.ts:376",
+  "data/journeys.ts:78"
+ ],
+ "First-timers": [
+  "data/journeys.ts:482",
+  "data/journeys.ts:422",
+  "data/journeys.ts:78"
+ ],
+ "Nature lovers": [
+  "data/journeys.ts:482",
+  "data/journeys.ts:422",
+  "data/journeys.ts:198"
+ ],
+ "North to Salvador": [
+  "data/journeys.ts:51"
+ ],
+ "A travel day, via São Paulo. Arrive in Salvador for a slow dinner of moqueca in the old town, still bubbling in its clay pot.": [
+  "data/journeys.ts:52"
+ ],
+ "Days 8–9": [
+  "data/journeys.ts:56"
+ ],
+ "Salvador's rhythm": [
+  "data/journeys.ts:57"
+ ],
+ "Walk the Pelourinho with a local historian, cook Bahian food with a family who has been doing it for generations, and watch a capoeira roda come alive to the twang of the berimbau.": [
+  "data/journeys.ts:58"
+ ],
+ "Boipeba, at tide speed": [
+  "data/journeys.ts:63"
+ ],
+ "Cross to Boipeba, where the only traffic is the odd tractor. Swim in the natural pools at low tide, eat grilled lobster on the sand at Moreré, and let the hammock decide the afternoon.": [
+  "data/journeys.ts:64"
+ ],
+ "Até logo": [
+  "data/journeys.ts:69"
+ ],
+ "Back to Salvador by boat and road, then onward to São Paulo for your flight home. Sandy feet are allowed.": [
+  "data/journeys.ts:70"
+ ],
+ "Rio de Janeiro's mountains and bay seen from above": [
+  "data/journeys.ts:77"
+ ],
+ "Big cats in daylight, macaws at breakfast, and rivers so clear you float with the fish.": [
+  "data/journeys.ts:83"
+ ],
+ "Track jaguars by boat along the rivers of the northern Pantanal, then ride, walk and canoe from a working fazenda in the quieter south. Finish in Bonito, drifting face-down through crystal springs.": [
+  "data/journeys.ts:85"
+ ],
+ "July to October, the dry season, is the time for jaguars: water gathers in the rivers and so do the animals. August and September are the peak months for sightings.": [
+  "data/journeys.ts:90"
+ ],
+ "Jaguar-boat season dates and Porto Jofre access depend on that year's water levels.": [
+  "data/journeys.ts:92"
+ ],
+ "You fly from São Paulo to Cuiabá, then drive the Transpantaneira, a dirt road of more than a hundred wooden bridges, about four to five hours to Porto Jofre at its end, with plenty of stops for wildlife. Moving from the northern to the southern Pantanal means driving back to Cuiabá and flying to Campo Grande, then two to four hours by road to the fazenda, so that day is a long one. Bonito is around three hours from the southern fazenda by road. You fly home from Bonito's small airport when schedules allow, or from Campo Grande, four hours' drive away.": [
+  "data/journeys.ts:94"
+ ],
+ "Days 1–2": [
+  "data/journeys.ts:98"
+ ],
+ "Onto the Transpantaneira": [
+  "data/journeys.ts:99"
+ ],
+ "Low sun glowing over the Atlantic from the beach at João Pessoa": [
+  "data/media.json"
+ ],
+ "Performers in colourful costumes dancing in a street parade on Avenida Paulista": [
+  "data/media.json"
+ ],
+ "Aerial view of the beaches and reefs of the João Pessoa coast": [
+  "data/media.json"
+ ],
+ "Dense green canopy of Brazil's Atlantic Forest": [
+  "data/media.json"
+ ],
+ "Percussionists drumming through the streets of Pelourinho, Salvador": [
+  "data/media.json"
+ ],
+ "A table set with Brazilian lunch dishes: meats, rice and sides": [
+  "data/media.json"
+ ],
+ "A tray of shrimp, rice and seafood at a Brazilian beach restaurant": [
+  "data/media.json"
+ ],
+ "Fruit and vegetable stalls at a Brazilian street market": [
+  "data/media.json"
+ ],
+ "Capoeira in the streets of Pelourinho, Salvador": [
+  "data/media.json"
+ ],
+ "A forró pé-de-serra band with zabumba, pífanos and triangle playing to a street crowd at São João de Caruaru": [
+  "data/media.json"
+ ],
+ "Aerial view of Rio de Janeiro between mountains and sea": [
+  "data/media.json"
+ ],
+ "Cobblestone street with café tables in Paraty's historic centre": [
+  "data/media.json"
+ ],
+ "A quiet beach backed by forested hills on Ilha Grande": [
+  "data/media.json"
+ ],
+ "São Paulo skyline at sunset": [
+  "data/media.json"
+ ],
+ "Colonial houses and churches across the hills of Ouro Preto": [
+  "data/media.json"
+ ],
+ "A row of brightly coloured art structures in the gardens of Inhotim": [
+  "data/media.json"
+ ],
+ "Cobblestone street leading to a blue church in Salvador": [
+  "data/media.json"
+ ],
+ "The little white church on the Quadrado in Trancoso": [
+  "data/media.json"
+ ],
+ "Sandy beach with palm trees and forested hills at Itacaré": [
+  "data/media.json"
+ ],
+ "Aerial view of Boipeba island's beach and reef": [
+  "data/media.json"
+ ],
+ "A hiker photographing the mesas of Chapada Diamantina": [
+  "data/media.json"
+ ],
+ "The river running through Recife": [
+  "data/media.json"
+ ],
+ "Colourful colonial houses in Olinda": [
+  "data/media.json"
+ ],
+ "Green-topped rock formations rising from the blue sea at Fernando de Noronha": [
+  "data/media.json"
+ ],
+ "Aerial view of a sandy beach in João Pessoa": [
+  "data/media.json"
+ ],
+ "White dunes and blue lagoons of Lençóis Maranhenses National Park": [
+  "data/media.json"
+ ],
+ "Sunset over the sea at Jericoacoara with people in the water": [
+  "data/media.json"
+ ],
+ "Manaus seen from above at golden hour": [
+  "data/media.json"
+ ],
+ "Rainforest bordering a wide, calm Amazonian river": [
+  "data/media.json"
+ ],
+ "A man paddling a wooden canoe on a forest lake in the Amazon": [
+  "data/media.json"
+ ],
+ "A jabiru stork (tuiuiú) flying low over the Paraguay River in the Pantanal": [
+  "data/media.json"
+ ],
+ "Aerial view of the clear Rio Sucuri winding through forest near Bonito": [
+  "data/media.json"
+ ],
+ "Iguaçu Falls cascading through green forest": [
+  "data/media.json"
+ ],
+ "Swimmers at a beach in Florianópolis": [
+  "data/media.json"
+ ],
+ "A calm blackwater river reflecting dense Amazon rainforest": [
+  "data/media.json"
+ ],
+ "Cerrado savanna with twisted trees and shrubs": [
+  "data/media.json"
+ ],
+ "Forest-covered mountains of the Atlantic Forest": [
+  "data/media.json"
+ ],
+ "A lone green tree in the dry caatinga scrubland": [
+  "data/media.json"
+ ],
+ "Gallery forest along a Pantanal river near Poconé": [
+  "data/media.json"
+ ],
+ "Rolling grassland and a pond in rural Rio Grande do Sul": [
+  "data/media.json"
+ ],
+ "A jaguar in the Pantanal": [
+  "data/media.json"
+ ],
+ "A giant river otter swimming in the Pantanal": [
+  "data/media.json"
+ ],
+ "Close-up of a yacare caiman in the Pantanal": [
+  "data/media.json"
+ ],
+ "A pair of hyacinth macaws at their tree-hole nest in the Pantanal": [
+  "data/media.json"
+ ],
+ "A toucan perched on a palm leaf": [
+  "data/media.json"
+ ],
+ "A capybara walking across a grassy field in Campo Grande": [
+  "data/media.json"
+ ],
+ "A sea turtle crawling onto a sandy beach": [
+  "data/media.json"
+ ],
+ "A man paddling a canoe through Amazon forest waters near Manaus": [
+  "data/media.json"
+ ],
+ "A boat on the sandy shore at Alter do Chão at sunset": [
+  "data/media.json"
+ ],
+ "Sunrise over flooded Pantanal waters and trees near Poconé": [
+  "data/media.json"
+ ],
+ "A jaguar walking along a sandy Pantanal riverbank": [
+  "data/media.json"
+ ],
+ "A wooden house on a lake at the edge of the Amazon rainforest near Manaus": [
+  "data/media.json"
+ ],
+ "A red-and-white farmhouse among trees in the Brazilian countryside": [
+  "data/media.json"
+ ],
+ "Poolside loungers and a hammock at a beach pousada in Praia do Forte": [
+  "data/media.json"
+ ],
+ "A white-and-teal colonial house in Santa Teresa, Rio": [
+  "data/media.json"
+ ],
+ "A whitewashed colonial building with palm trees in Paraty": [
+  "data/media.json"
+ ],
+ "A guest house tucked into lush green forest": [
+  "data/media.json"
+ ],
+ "A hammock on a porch overlooking a green valley": [
+  "data/media.json"
+ ],
+ "A small group hiking through green fields towards the mountains of Roraima": [
+  "data/media.json"
+ ],
+ "A small white propeller plane in the Amazonas sky": [
+  "data/media.json"
+ ],
+ "A man looking through binoculars in the woods": [
+  "data/media.json"
+ ],
+ "Friends gathered around a big pot on the stove at a festa junina in São Paulo": [
+  "data/media.json"
+ ],
+ "A woman laughing while looking at her smartphone": [
+  "data/media.json"
+ ],
+ "A dancer in an elaborate feathered costume at a samba-school parade": [
+  "data/media.json"
+ ],
+ "Percussion groups drumming through Pelourinho, Salvador": [
+  "data/media.json"
+ ],
+ "Colourful frevo umbrellas hanging overhead in Olinda": [
+  "data/media.json"
+ ],
+ "A crowd celebrating at a Rio de Janeiro street carnival bloco": [
+  "data/media.json"
+ ],
+ "Close-up of a Caboclo de Lança's vivid costume at Recife Carnival": [
+  "data/media.json"
+ ],
+ "Crowds under paper flags and lanterns at São João de Caruaru": [
+  "data/media.json"
+ ],
+ "Dancers in colourful folk-festival costumes performing on stage": [
+  "data/media.json"
+ ],
+ "Pink sunrise over still Pantanal water near Poconé": [
+  "data/media.json"
+ ],
+ "A small boat on calm water at golden hour": [
+  "data/media.json"
+ ],
+ "A girl relaxing in a green hammock outdoors": [
+  "data/media.json"
+ ],
+ "Trees silhouetted against a blazing sunset over the Paraguay River": [
+  "data/media.json"
+ ],
+ "The Milky Way over the countryside of São Paulo state": [
+  "data/media.json"
+ ],
+ "Aerial view of a tropical beach dotted with umbrellas": [
+  "data/media.json"
+ ],
+ "Pouring hot water for a filtered Brazilian coffee": [
+  "data/media.json"
+ ],
+ "A fresh green coconut with a straw on a beach overlooking the ocean": [
+  "data/media.json"
+ ],
+ "Portrait of Vitor, a smiling fisherman from Camburi das Pedras": [
+  "data/media.json"
+ ],
+ "A man laughing, Belo Horizonte": [
+  "data/media.json"
+ ],
+ "A young woman laughing on a city balcony": [
+  "data/media.json"
+ ],
+ "A smiling woman with long hair, João Pessoa": [
+  "data/media.json"
+ ],
+ "An older Brazilian woman in glasses smiling into the distance": [
+  "data/media.json"
+ ],
+ "A man in a yellow hoodie smiling at the camera": [
+  "data/media.json"
+ ],
+ "Fish swimming in the crystal-clear Rio Sucuri, Mato Grosso do Sul": [
+  "data/media.json"
+ ],
+ "Two scuba divers underwater": [
+  "data/media.json"
+ ],
+ "A surfer riding a wave in Brazil": [
+  "data/media.json"
+ ],
+ "Visitors at a viewpoint looking at the falls at Foz do Iguaçu": [
+  "data/media.json"
+ ],
+ "A white baroque church in Ouro Preto": [
+  "data/media.json"
+ ],
+ "People strolling the historic streets of Paraty": [
+  "data/media.json"
+ ],
+ "A carnival dancer in an elaborate costume with Brazilian flags": [
+  "data/media.json"
+ ],
+ "A lone tree standing in calm, shallow water at Alter do Chão": [
+  "data/media.json"
+ ],
+ "A fisherman casting a line at sunrise over the ocean": [
+  "data/media.json"
+ ],
+ "Drone shot of sunrise over a Florianópolis beach with gentle waves and boats": [
+  "data/media.json"
+ ],
+ "Aerial flight over Amazon rainforest and a winding river": [
+  "data/media.json"
+ ],
+ "Colonial pousada": [
+  "data/stays.ts:10"
+ ],
+ "A beach pousada on Boipeba": [
+  "data/stays.ts:103"
+ ],
+ "Under coconut palms on a quiet beach on Boipeba": [
+  "data/stays.ts:105"
+ ],
+ "7 bungalows": [
+  "data/stays.ts:106"
+ ],
+ "Couples, slow travellers": [
+  "data/stays.ts:108"
+ ],
+ "Eco-lodge": [
+  "data/stays.ts:11"
+ ],
+ "Thatched bungalows set back from the sand, each with a hammock and a view through the palms. The owners will arrange a fisherman's boat to the natural pools at low tide and a lobster lunch at Moreré.": [
+  "data/stays.ts:110"
+ ],
+ "Coconut palms leaning over the beach on Boipeba": [
+  "data/stays.ts:113"
+ ],
+ "Hammock on a bungalow veranda by the sea": [
+  "data/stays.ts:114"
+ ],
+ "A hillside house in Santa Teresa": [
+  "data/stays.ts:120"
+ ],
+ "A hillside mansion in Santa Teresa, above the bay": [
+  "data/stays.ts:122"
+ ],
+ "11 rooms": [
+  "data/stays.ts:123"
+ ],
+ "Up to 24": [
+  "data/stays.ts:124"
+ ],
+ "Couples, art lovers, first-timers": [
+  "data/stays.ts:125"
+ ],
+ "A restored early-twentieth-century house on the hill, with high ceilings, local art on the walls and a pool looking across to Sugarloaf. The neighbourhood's bars and studios are a stroll away down cobbled lanes.": [
+  "data/stays.ts:127"
+ ],
+ "Boutique hotel terrace with views over Rio's bay": [
+  "data/stays.ts:130"
+ ],
+ "Sugarloaf Mountain at dusk seen from Santa Teresa": [
+  "data/stays.ts:131"
+ ],
+ "A townhouse pousada in Paraty": [
+  "data/stays.ts:137"
+ ],
+ "A whitewashed townhouse in Paraty's historic centre": [
+  "data/stays.ts:139"
+ ],
+ "10 rooms": [
+  "data/stays.ts:140"
+ ],
+ "Up to 20": [
+  "data/stays.ts:141",
+  "data/stays.ts:39"
+ ],
+ "Couples, food and history lovers": [
+  "data/stays.ts:142"
+ ],
+ "Thick walls, a quiet courtyard garden and a small pool, all a few steps from the cobblestones and the harbour. The hosts know every schooner captain and cachaça maker in town.": [
+  "data/stays.ts:144"
+ ],
+ "Courtyard garden of a colonial pousada": [
+  "data/stays.ts:147"
+ ],
+ "Colonial streets of Paraty at dusk": [
+  "data/stays.ts:148"
+ ],
+ "A colonial house in Ouro Preto": [
+  "data/stays.ts:154"
+ ],
+ "An eighteenth-century house in the hills of Ouro Preto": [
+  "data/stays.ts:156"
+ ],
+ "8 rooms": [
+  "data/stays.ts:157",
+  "data/stays.ts:72"
+ ],
+ "Up to 16": [
+  "data/stays.ts:158",
+  "data/stays.ts:107"
+ ],
+ "History lovers, food lovers": [
+  "data/stays.ts:159"
+ ],
+ "Wide floorboards, carved doors and a breakfast table that groans with pão de queijo, cheeses and homemade jams. From the garden you can count church towers across the valley.": [
+  "data/stays.ts:161"
+ ],
+ "Colonial pousada room with wide floorboards and carved doors": [
+  "data/stays.ts:164"
+ ],
+ "Church towers across the hills of Ouro Preto": [
+  "data/stays.ts:165"
+ ],
+ "A beach pousada in Jericoacoara": [
+  "data/stays.ts:171"
+ ],
+ "On a sandy lane in Jericoacoara, near the sunset dune": [
+  "data/stays.ts:173"
+ ],
+ "12 rooms": [
+  "data/stays.ts:174"
+ ],
+ "Up to 26": [
+  "data/stays.ts:175"
+ ],
+ "Kitesurfers, couples, friends": [
+  "data/stays.ts:176"
+ ],
+ "Breezy rooms around a pool and a garden of cashew trees, a few minutes' barefoot walk from the beach. The team arranges kite lessons, 4x4 trips to the lagoons and a hammock for every afternoon.": [
+  "data/stays.ts:178"
+ ],
+ "A river lodge in the Anavilhanas": [
+  "data/stays.ts:18"
+ ],
+ "Breezy pousada with a pool in Jericoacoara": [
+  "data/stays.ts:181"
+ ],
+ "Sunset over the dunes at Jericoacoara": [
+  "data/stays.ts:182"
+ ],
+ "Black-water channels of the Anavilhanas archipelago": [
+  "data/stays.ts:20"
+ ],
+ "12 bungalows": [
+  "data/stays.ts:21"
+ ],
+ "Up to 28": [
+  "data/stays.ts:22"
+ ],
+ "Couples, birders, first Amazon trips": [
+  "data/stays.ts:23"
+ ],
+ "Wooden bungalows on stilts, joined by walkways through the trees and facing a quiet channel of the Rio Negro. Guides from nearby Novo Airão lead dawn paddles and night canoe outings, and dinner is whatever the river and the garden offered that day.": [
+  "data/stays.ts:25"
+ ],
+ "Stilted wooden bungalows above a black-water channel": [
+  "data/stays.ts:28"
+ ],
+ "Forested islands of the Anavilhanas at dawn": [
+  "data/stays.ts:29"
+ ],
+ "A floating lodge in Mamirauá": [
+  "data/stays.ts:35"
+ ],
+ "Floating in the flooded várzea forest of the Mamirauá reserve": [
+  "data/stays.ts:37"
+ ],
+ "10 floating cabins": [
+  "data/stays.ts:38"
+ ],
+ "Wildlife lovers, curious travellers": [
+  "data/stays.ts:40"
+ ],
+ "A cluster of floating cabins that rise and fall with the river, run in partnership with the communities who live in the reserve. Local guides lead you by canoe through the treetops at high water, and each stay helps fund the reserve's conservation and research work.": [
+  "data/stays.ts:42"
+ ],
+ "Floating cabins among flooded forest in Mamirauá": [
+  "data/stays.ts:45"
+ ],
+ "Hammocks on a wooden veranda over the water": [
+  "data/stays.ts:46"
+ ],
+ "A fazenda in the northern Pantanal": [
+  "data/stays.ts:52"
+ ],
+ "Northern Pantanal, just off the Transpantaneira": [
+  "data/stays.ts:54"
+ ],
+ "14 rooms": [
+  "data/stays.ts:55"
+ ],
+ "Up to 30": [
+  "data/stays.ts:56"
+ ],
+ "Wildlife photographers, birders": [
+  "data/stays.ts:57"
+ ],
+ "A working cattle ranch named for the jabiru stork that nests in the tree by the gate. Mornings start with hyacinth macaws on the fence posts; evenings with a spotlight drive and a long table under the veranda fans.": [
+  "data/stays.ts:59"
+ ],
+ "River lodge": [
+  "data/stays.ts:6"
+ ],
+ "Veranda of a Pantanal fazenda at dusk": [
+  "data/stays.ts:62"
+ ],
+ "Hyacinth macaws perched near the fazenda": [
+  "data/stays.ts:63"
+ ],
+ "A fazenda in the southern Pantanal": [
+  "data/stays.ts:69"
+ ],
+ "Fazenda": [
+  "data/stays.ts:7"
+ ],
+ "Open grasslands and gallery forest of the southern Pantanal": [
+  "data/stays.ts:71"
+ ],
+ "Up to 18": [
+  "data/stays.ts:73"
+ ],
+ "Families, riders, slow wildlife days": [
+  "data/stays.ts:74"
+ ],
+ "A family-run fazenda where cattle are still moved on horseback and the yellow ipê trees blaze in the dry season. Ride out with the pantaneiro cowboys, canoe the river behind the house, and look for giant anteaters on the evening drive.": [
+  "data/stays.ts:76"
+ ],
+ "Dry-season grasslands and palms in the southern Pantanal": [
+  "data/stays.ts:79"
+ ],
+ "Beach pousada": [
+  "data/stays.ts:8"
+ ],
+ "Capybaras grazing beside a Pantanal pond": [
+  "data/stays.ts:80"
+ ],
+ "A clifftop pousada in Trancoso": [
+  "data/stays.ts:86"
+ ],
+ "On the cliffs above the beach, a short walk from Trancoso's Quadrado": [
+  "data/stays.ts:88"
+ ],
+ "9 casas": [
+  "data/stays.ts:89"
+ ],
+ "Boutique hotel": [
+  "data/stays.ts:9"
+ ],
+ "Up to 22": [
+  "data/stays.ts:90"
+ ],
+ "Couples, honeymooners": [
+  "data/stays.ts:91"
+ ],
+ "Nine little houses in a garden of frangipani and cashew trees, with a path down to the sand. Breakfast is long and tropical; in the evening it's a stroll up to the Quadrado for dinner under the trees.": [
+  "data/stays.ts:93"
+ ],
+ "Garden pousada with a path to the beach": [
+  "data/stays.ts:96"
+ ],
+ "Painted houses around the grassy Quadrado in Trancoso": [
+  "data/stays.ts:97"
+ ],
+ "Where the Americas wake up.": [
+  "data/sunrise-coast.ts:10"
+ ],
+ "The easternmost point of the mainland Americas is a quiet reef, a red cliff and a lighthouse. Locals come to watch the first light with coffee in a flask. Then the whole city goes for a swim in the warm, glassy sea.": [
+  "data/sunrise-coast.ts:11"
+ ],
+ "First light over the reef at Ponta do Seixas": [
+  "data/sunrise-coast.ts:13"
+ ],
+ "Olinda": [
+  "data/sunrise-coast.ts:17"
+ ],
+ "The light climbs the hill before you do.": [
+  "data/sunrise-coast.ts:19"
+ ],
+ "Sunrise paints Olinda's churches orange one by one, starting with the highest. Below, Recife's reefs (the recifes that gave the city its name) catch the glow. Out at sea, Fernando de Noronha has had its sunrise already. Islands always cheat.": [
+  "data/sunrise-coast.ts:20"
+ ],
+ "Colourful colonial houses and churches of Olinda": [
+  "data/sunrise-coast.ts:22"
+ ],
+ "No cars, no hurry, no shadow on the sand.": [
+  "data/sunrise-coast.ts:28"
+ ],
+ "On this car-free island, the tide decides your schedule. At dawn, fishermen push off from the beach and the natural pools at low tide turn the colour of sky. By the time breakfast arrives, you'll have forgotten what day it is.": [
+  "data/sunrise-coast.ts:29"
+ ],
+ "Palm-lined beach on Boipeba island at dawn": [
+  "data/sunrise-coast.ts:31"
+ ],
+ "The sun rises behind Sugarloaf like it knows it's being watched.": [
+  "data/sunrise-coast.ts:37"
+ ],
+ "Early risers walk the Urca seawall or climb the Morro da Urca to watch the bay turn pink. Runners on Copacabana stop for a second, phones up. Rio claps for the sunset; at sunrise, it just quietly smiles.": [
+  "data/sunrise-coast.ts:38"
+ ],
+ "Sugarloaf Mountain over Guanabara Bay at sunrise": [
+  "data/sunrise-coast.ts:40"
+ ],
+ "Santa Catarina": [
+  "data/sunrise-coast.ts:43"
+ ],
+ "Florianópolis": [
+  "data/sunrise-coast.ts:44"
+ ],
+ "Surfers first, everyone else second.": [
+  "data/sunrise-coast.ts:46"
+ ],
+ "On the island of Santa Catarina, the dawn patrol is already in the water at Praia Mole when the sun comes up over the Atlantic. Behind them, lagoons, dunes and fishing villages wake up to fresh oysters and strong coffee.": [
+  "data/sunrise-coast.ts:47"
+ ],
+ "Surfers at dawn on a beach in Florianópolis": [
+  "data/sunrise-coast.ts:49"
+ ],
+ "Ponta do Seixas, João Pessoa": [
+  "data/sunrise-coast.ts:8"
+ ],
+ "The Amazon": [
+  "data/water-seasons.ts:11"
+ ],
+ "Around Manaus, the Rio Negro rises and falls by around ten metres a year. Same forest, two completely different trips.": [
+  "data/water-seasons.ts:13"
+ ],
+ "Rising water": [
+  "data/water-seasons.ts:16"
+ ],
+ "Falling water": [
+  "data/water-seasons.ts:17"
+ ],
+ "High water": [
+  "data/water-seasons.ts:23",
+  "data/water-seasons.ts:14"
+ ],
+ "Roughly March to July, peaking around June": [
+  "data/water-seasons.ts:25"
+ ],
+ "Canoe through the treetops": [
+  "data/water-seasons.ts:26"
+ ],
+ "The rivers spill into the forest and the igapó becomes a maze of flooded trees. You paddle silently between trunks at canopy height, where monkeys, sloths and birds are suddenly at eye level.": [
+  "data/water-seasons.ts:27"
+ ],
+ "Cooler, quieter boat days": [
+  "data/water-seasons.ts:28"
+ ],
+ "Pink river dolphins in the igapó": [
+  "data/water-seasons.ts:28"
+ ],
+ "Canopy-level wildlife": [
+  "data/water-seasons.ts:28"
+ ],
+ "Canoeing the flooded forest": [
+  "data/water-seasons.ts:28"
+ ],
+ "Low water": [
+  "data/water-seasons.ts:35",
+  "data/water-seasons.ts:14"
+ ],
+ "Roughly September to December, lowest around October–November": [
+  "data/water-seasons.ts:37"
+ ],
+ "Walk beneath the trees, swim from the beach": [
+  "data/water-seasons.ts:38"
+ ],
+ "The water drops and the forest floor returns. Jungle trails open up, white-sand river beaches appear along the Rio Negro, and fishing is at its best.": [
+  "data/water-seasons.ts:39"
+ ],
+ "Easier birding along the banks": [
+  "data/water-seasons.ts:40"
+ ],
+ "Best fishing": [
+  "data/water-seasons.ts:40"
+ ],
+ "River beaches and swimming": [
+  "data/water-seasons.ts:40"
+ ],
+ "Forest trails on foot": [
+  "data/water-seasons.ts:40"
+ ],
+ "White-sand river beach on the Rio Negro at low water": [
+  "data/water-seasons.ts:41"
+ ],
+ "The Pantanal floods every wet season and drains every dry season. The wildlife follows the water, and so do we.": [
+  "data/water-seasons.ts:51"
+ ],
+ "Waters receding": [
+  "data/water-seasons.ts:54"
+ ],
+ "First rains": [
+  "data/water-seasons.ts:55"
+ ],
+ "Wet season": [
+  "data/water-seasons.ts:61",
+  "data/water-seasons.ts:52"
+ ],
+ "Roughly December to March": [
+  "data/water-seasons.ts:63"
+ ],
+ "Floods, birds and a world of green": [
+  "data/water-seasons.ts:64"
+ ],
+ "Summer rains flood the plains into a shining mirror. Wading birds arrive in their thousands, the landscape turns a hundred shades of green, and you explore by boat, on horseback and on foot where the ground allows.": [
+  "data/water-seasons.ts:65"
+ ],
+ "Fewer visitors": [
+  "data/water-seasons.ts:66"
+ ],
+ "Horse riding through shallow water": [
+  "data/water-seasons.ts:66"
+ ],
+ "Lush, green landscapes": [
+  "data/water-seasons.ts:66"
+ ],
+ "Huge bird gatherings": [
+  "data/water-seasons.ts:66"
+ ],
+ "Flooded green plains of the Pantanal with wading birds": [
+  "data/water-seasons.ts:67"
+ ],
+ "Dry season": [
+  "data/water-seasons.ts:73",
+  "data/water-seasons.ts:52"
+ ],
+ "Roughly July to October": [
+  "data/water-seasons.ts:75"
+ ],
+ "The classic time for jaguars": [
+  "data/water-seasons.ts:76"
+ ],
+ "As the water retreats, animals gather along the rivers. Jaguars patrol the banks of the Cuiabá and its side channels, giant otters fish in the shallows, and the Transpantaneira is at its easiest.": [
+  "data/water-seasons.ts:77"
+ ],
+ "Dry roads, easy access": [
+  "data/water-seasons.ts:78"
+ ],
+ "Wildlife concentrated on rivers": [
+  "data/water-seasons.ts:78"
+ ],
+ "Giant otter families": [
+  "data/water-seasons.ts:78"
+ ],
+ "Peak jaguar sightings": [
+  "data/water-seasons.ts:78"
+ ],
+ "Dry riverbank in the Pantanal at golden hour": [
+  "data/water-seasons.ts:79"
+ ],
+ "US$9,000+ per person": [
+  "lib/enquiry.ts:10"
+ ],
+ "Not sure yet": [
+  "lib/enquiry.ts:11"
+ ],
+ "Phone call": [
+  "lib/enquiry.ts:13"
+ ],
+ "Pampa": [
+  "lib/enquiry.ts:14",
+  "data/biomes.ts:98"
+ ],
+ "Caatinga": [
+  "lib/enquiry.ts:14",
+  "data/biomes.ts:62"
+ ],
+ "Atlantic Forest": [
+  "lib/enquiry.ts:14",
+  "data/biomes.ts:44"
+ ],
+ "Cerrado": [
+  "lib/enquiry.ts:14",
+  "data/biomes.ts:26"
+ ],
+ "Choose a month, or 'Flexible'": [
+  "lib/enquiry.ts:18"
+ ],
+ "Up to 60 days": [
+  "lib/enquiry.ts:20"
+ ],
+ "At least 3 days": [
+  "lib/enquiry.ts:20"
+ ],
+ "Adventure": [
+  "lib/enquiry.ts:3"
+ ],
+ "Food": [
+  "lib/enquiry.ts:3"
+ ],
+ "Music": [
+  "lib/enquiry.ts:3"
+ ],
+ "Culture": [
+  "lib/enquiry.ts:3",
+  "data/home.ts:10"
+ ],
+ "Beaches": [
+  "lib/enquiry.ts:3"
+ ],
+ "Wildlife": [
+  "lib/enquiry.ts:3",
+  "data/home.ts:9"
+ ],
+ "Please tell us your name": [
+  "lib/enquiry.ts:30"
+ ],
+ "Please enter a valid email": [
+  "lib/enquiry.ts:31"
+ ],
+ "Full and active": [
+  "lib/enquiry.ts:4"
+ ],
+ "Balanced": [
+  "lib/enquiry.ts:4"
+ ],
+ "Slow and easy": [
+  "lib/enquiry.ts:4"
+ ],
+ "A mix": [
+  "lib/enquiry.ts:5"
+ ],
+ "Colonial pousadas": [
+  "lib/enquiry.ts:5"
+ ],
+ "Boutique hotels": [
+  "lib/enquiry.ts:5"
+ ],
+ "Beach pousadas": [
+  "lib/enquiry.ts:5"
+ ],
+ "Fazendas": [
+  "lib/enquiry.ts:5"
+ ],
+ "River lodges": [
+  "lib/enquiry.ts:5"
+ ],
+ "Under US$4,000 per person": [
+  "lib/enquiry.ts:7"
+ ],
+ "US$4,000–6,000 per person": [
+  "lib/enquiry.ts:8"
+ ],
+ "US$6,000–9,000 per person": [
+  "lib/enquiry.ts:9"
+ ],
+ "en-GB": [
+  "lib/locale.ts:10"
+ ],
+ "en_GB": [
+  "lib/locale.ts:12"
+ ],
+ "English": [
+  "lib/locale.ts:19"
+ ],
+ "Français": [
+  "lib/locale.ts:20"
+ ],
+ "Deutsch": [
+  "lib/locale.ts:21"
+ ],
+ "Español": [
+  "lib/locale.ts:22"
+ ],
+ "Year-round": [
+  "lib/seasons.ts:14"
+ ],
+ "Changing water": [
+  "lib/seasons.ts:22"
+ ],
+ "June": [
+  "lib/seasons.ts:4",
+  "data/carnival.ts:143"
+ ],
+ "April": [
+  "lib/seasons.ts:4",
+  "data/carnival.ts:143"
+ ],
+ "March": [
+  "lib/seasons.ts:4",
+  "data/carnival.ts:143"
+ ],
+ "February": [
+  "lib/seasons.ts:4",
+  "data/carnival.ts:143"
+ ],
+ "January": [
+  "lib/seasons.ts:4",
+  "data/carnival.ts:143"
+ ],
+ "December": [
+  "lib/seasons.ts:5",
+  "data/carnival.ts:143"
+ ],
+ "November": [
+  "lib/seasons.ts:5",
+  "data/carnival.ts:143"
+ ],
+ "October": [
+  "lib/seasons.ts:5",
+  "data/carnival.ts:143"
+ ],
+ "September": [
+  "lib/seasons.ts:5",
+  "data/carnival.ts:143"
+ ],
+ "August": [
+  "lib/seasons.ts:5",
+  "data/carnival.ts:143"
+ ],
+ "July": [
+  "lib/seasons.ts:5",
+  "data/carnival.ts:143"
+ ],
+ "Dec": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Nov": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Oct": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Sep": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Aug": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Jul": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Jun": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "May": [
+  "lib/seasons.ts:7",
+  "lib/seasons.ts:4",
+  "data/carnival.ts:143"
+ ],
+ "Apr": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Mar": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Feb": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ],
+ "Jan": [
+  "lib/seasons.ts:7",
+  "data/carnival.ts:142"
+ ]
+}
