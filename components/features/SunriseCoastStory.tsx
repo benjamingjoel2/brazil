@@ -4,7 +4,6 @@ import Link from "next/link";
 import { m as motion, useReducedMotion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { sunriseCoast } from "@/data/sunrise-coast";
-import { brazilMap, project } from "@/lib/map";
 import { formatTime, sunTimes } from "@/lib/solar";
 import { Img } from "@/components/ui/Img";
 
@@ -33,41 +32,18 @@ export function SunriseCoastStory({ destinationNames }: { destinationNames: Reco
     return () => io.disconnect();
   }, []);
 
-  const pts = sunriseCoast.map((s) => project(s.coords[0], s.coords[1]));
-  // Crop the map to the coast: from just north of Paraíba to Santa Catarina.
-  const [x0, y0] = project(-1, -52);
-  const [x1, y1] = project(-30, -27);
-
   return (
     <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
       <div className="hidden lg:block">
-        <div className="sticky top-[calc(var(--header-h)+1.5rem)] h-[calc(100svh-var(--header-h)-3rem)]">
-          <svg viewBox={`${x0} ${y0} ${x1 - x0} ${y1 - y0}`} className="h-full w-full" role="img" aria-label="Map of Brazil's Atlantic coast with the five sunrise stops">
-            <defs>
-              <radialGradient id="sun-glow">
-                <stop offset="0" stopColor="var(--color-gold)" stopOpacity="0.9" />
-                <stop offset="1" stopColor="var(--color-gold)" stopOpacity="0" />
-              </radialGradient>
-            </defs>
-            <path d={brazilMap.outline} fill="var(--color-sand)" stroke="var(--color-forest)" strokeOpacity="0.3" strokeWidth="2" />
-            <polyline points={pts.map((p) => p.join(",")).join(" ")} fill="none" stroke="var(--color-coral)" strokeWidth="3" strokeDasharray="6 10" strokeLinecap="round" />
-            {pts.map(([x, y], i) => (
-              <g key={i} transform={`translate(${x} ${y})`}>
-                <circle r={i === active ? 12 : 8} fill={i <= active ? "var(--color-coral)" : "var(--color-off)"} stroke="var(--color-coral)" strokeWidth="3" className="transition-all duration-500" />
-                <text x="22" y={i === 1 ? 34 : i === 0 ? -6 : 8} fontSize="26" fontWeight={i === active ? 700 : 500} fill="var(--color-forest)" opacity={i === active ? 1 : 0.6}>
-                  {sunriseCoast[i].state}
-                </text>
-              </g>
-            ))}
-            <motion.circle
-              r="60"
-              fill="url(#sun-glow)"
-              animate={{ cx: pts[active][0], cy: pts[active][1] }}
-              initial={false}
-              transition={reduce ? { duration: 0 } : { type: "spring", stiffness: 60, damping: 16 }}
-            />
-          </svg>
-        </div>
+        <ol className="sticky top-[calc(var(--header-h)+1.5rem)] divide-y divide-forest/15 border-y border-forest/15" aria-label="The five sunrise stops">
+          {sunriseCoast.map((s, i) => (
+            <li key={s.state} className={`flex items-baseline gap-4 py-4 transition-colors duration-500 ${i === active ? "text-coral-deep" : "text-forest/75"}`}>
+              <span className="t-label w-8 shrink-0">{String(i + 1).padStart(2, "0")}</span>
+              <span className={`font-display text-xl ${i === active ? "font-bold" : "font-semibold"}`}>{s.state}</span>
+              {times && <span className="ml-auto text-sm tabular-nums">{times[i].time}</span>}
+            </li>
+          ))}
+        </ol>
       </div>
 
       <ol className="grid gap-[12vh]">

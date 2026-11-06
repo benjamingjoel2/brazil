@@ -1,6 +1,7 @@
 {
  "About us": [
-  "app/(en)/about/page.tsx:11"
+  "app/(en)/about/page.tsx:11",
+  "components/layout/Footer.tsx:79"
  ],
  "Sol Nascente plans private journeys across Brazil, from first light at Ponta do Seixas to the waterfalls of Iguaçu.": [
   "app/(en)/about/page.tsx:12"
@@ -8,10 +9,11 @@
  "About": [
   "app/(en)/about/page.tsx:20",
   "components/features/CarnivalQuiz.tsx:142",
-  "config/site.ts:41"
+  "components/layout/Footer.tsx:23"
  ],
  "Brazil, from first light": [
-  "app/(en)/about/page.tsx:21"
+  "app/(en)/about/page.tsx:21",
+  "data/home.ts:6"
  ],
  "The sun rises in Brazil before anywhere else in the Americas. We like to think it's in a hurry to get here. So are we, every time.": [
   "app/(en)/about/page.tsx:22"
@@ -40,7 +42,7 @@
  "Plan with us": [
   "app/(en)/about/page.tsx:64",
   "app/(en)/biomes/page.tsx:55",
-  "app/(en)/destinations/[slug]/page.tsx:123"
+  "app/(en)/destinations/[slug]/page.tsx:121"
  ],
  "How we travel": [
   "app/(en)/about/page.tsx:66"
@@ -102,6 +104,7 @@
  ],
  "Carnival chooser": [
   "app/(en)/carnival/page.tsx:36",
+  "components/layout/Footer.tsx:12",
   "config/site.ts:35"
  ],
  "Every Carnival, honestly": [
@@ -133,51 +136,52 @@
  "On an island in the Amazon, two rival groups, Garantido (red) and Caprichoso (blue), stage enormous boi-bumbá performances: giant puppets, Amazonian legends and drums you feel in your ribs. Reached by plane or riverboat from Manaus.": [
   "app/(en)/carnival/page.tsx:92"
  ],
- "Best months": [
-  "app/(en)/destinations/[slug]/page.tsx:101",
-  "components/features/BiomeExplorer.tsx:161"
- ],
  "Water season": [
-  "app/(en)/destinations/[slug]/page.tsx:111"
+  "app/(en)/destinations/[slug]/page.tsx:109"
  ],
  "High water or low? →": [
-  "app/(en)/destinations/[slug]/page.tsx:114"
+  "app/(en)/destinations/[slug]/page.tsx:112"
  ],
  "Where to stay": [
-  "app/(en)/destinations/[slug]/page.tsx:130",
+  "app/(en)/destinations/[slug]/page.tsx:128",
   "components/features/WaterToggle.tsx:134"
  ],
  "Things we love here": [
-  "app/(en)/destinations/[slug]/page.tsx:142"
+  "app/(en)/destinations/[slug]/page.tsx:140"
  ],
  "Journeys": [
-  "app/(en)/destinations/[slug]/page.tsx:153",
+  "app/(en)/destinations/[slug]/page.tsx:151",
   "app/(en)/journeys/page.tsx:19",
   "app/(en)/journeys/page.tsx:10"
  ],
  "into tailor-made journeys. Tell us how long you have and we&apos;ll suggest the best way to fit it in.": [
-  "app/(en)/destinations/[slug]/page.tsx:164"
+  "app/(en)/destinations/[slug]/page.tsx:162"
  ],
  "We build": [
-  "app/(en)/destinations/[slug]/page.tsx:164"
+  "app/(en)/destinations/[slug]/page.tsx:162"
  ],
  "About this destination": [
-  "app/(en)/destinations/[slug]/page.tsx:53"
+  "app/(en)/destinations/[slug]/page.tsx:52"
  ],
  "What to eat": [
-  "app/(en)/destinations/[slug]/page.tsx:65"
+  "app/(en)/destinations/[slug]/page.tsx:64"
  ],
  "Music of the region": [
-  "app/(en)/destinations/[slug]/page.tsx:76"
+  "app/(en)/destinations/[slug]/page.tsx:75"
  ],
  "State": [
-  "app/(en)/destinations/[slug]/page.tsx:91"
+  "app/(en)/destinations/[slug]/page.tsx:89"
  ],
  "Biome": [
-  "app/(en)/destinations/[slug]/page.tsx:93"
+  "app/(en)/destinations/[slug]/page.tsx:91"
+ ],
+ "Best months": [
+  "app/(en)/destinations/[slug]/page.tsx:99",
+  "components/features/BiomeExplorer.tsx:102"
  ],
  "Destinations": [
   "app/(en)/destinations/page.tsx:10",
+  "components/layout/Footer.tsx:10",
   "config/site.ts:33"
  ],
  "Rio, Bahia, the Amazon, the Pantanal, Lençóis Maranhenses, Iguaçu and more: sixteen places we know and love across Brazil.": [
@@ -200,7 +204,7 @@
  ],
  "Where we go": [
   "app/(en)/destinations/page.tsx:29",
-  "components/features/BiomeExplorer.tsx:168"
+  "components/features/BiomeExplorer.tsx:109"
  ],
  "Sixteen Brazils we know by heart": [
   "app/(en)/destinations/page.tsx:30"
@@ -243,7 +247,7 @@
  "Journal": [
   "app/(en)/journal/page.tsx:23",
   "app/(en)/journal/page.tsx:11",
-  "config/site.ts:40"
+  "components/layout/Footer.tsx:25"
  ],
  "Notes from first light": [
   "app/(en)/journal/page.tsx:24"
@@ -289,8 +293,8 @@
  ],
  "Biomes": [
   "app/(en)/journeys/[slug]/page.tsx:70",
-  "components/features/BiomeExplorer.tsx:101",
-  "data/home.ts:88"
+  "components/features/BiomeExplorer.tsx:41",
+  "data/home.ts:89"
  ],
  "Internal flights": [
   "app/(en)/journeys/[slug]/page.tsx:71"
@@ -328,253 +332,17 @@
  "%s · {0}": [
   "app/(en)/layout.tsx:19"
  ],
- "Privacy policy": [
-  "app/(en)/legal/[slug]/page.tsx:101",
-  "config/site.ts:47"
- ],
- "How {0} collects, uses and protects the personal information you share when you plan a journey.": [
-  "app/(en)/legal/[slug]/page.tsx:102"
- ],
- "What we collect when you enquire, why, who else handles it, how long we keep it, and your rights.": [
-  "app/(en)/legal/[slug]/page.tsx:103"
- ],
- "Who we are": [
-  "app/(en)/legal/[slug]/page.tsx:106"
- ],
- "plans private, tailor-made journeys in Brazil and is responsible for the personal information described here. Our address is": [
-  "app/(en)/legal/[slug]/page.tsx:108"
- ],
- ". You can contact us about privacy at": [
-  "app/(en)/legal/[slug]/page.tsx:109"
- ],
- "What we collect": [
-  "app/(en)/legal/[slug]/page.tsx:111"
- ],
- "When you send an enquiry we collect what you choose to give us: your name and email address, a phone number if you add one, your travel month and length of trip, the number of adults and children and the children&apos;s ages, your interests, pace, preferred stays, budget range and anything you write in your notes.": [
-  "app/(en)/legal/[slug]/page.tsx:113"
- ],
- "If you go on to book, we also collect what is needed to arrange your journey, such as passport details, dates of birth, dietary and mobility needs, insurance details and emergency contacts. Please share health information only when it is needed for your trip, and with the agreement of the people it concerns.": [
-  "app/(en)/legal/[slug]/page.tsx:118"
- ],
- "How we use it": [
-  "app/(en)/legal/[slug]/page.tsx:122"
- ],
- "To reply to your enquiry and prepare proposals (steps you ask us to take before a contract).": [
-  "app/(en)/legal/[slug]/page.tsx:124"
- ],
- "To book and run your journey (performance of our contract with you).": [
-  "app/(en)/legal/[slug]/page.tsx:125"
- ],
- "To keep the records the law requires and protect our legal rights (legal obligation and legitimate interests).": [
-  "app/(en)/legal/[slug]/page.tsx:126"
- ],
- "We do not sell your data, and we do not use it for advertising or automated decisions.": [
-  "app/(en)/legal/[slug]/page.tsx:128"
- ],
- "Who we share it with": [
-  "app/(en)/legal/[slug]/page.tsx:129"
- ],
- "Only the suppliers needed to deliver your journey (lodges, hotels, airlines, transport companies and guides), and the service providers that help us run our business, such as email and website hosting. Each receives only what it needs. Some are in Brazil or other countries outside your own; where the law requires it, we use appropriate safeguards for these transfers.": [
-  "app/(en)/legal/[slug]/page.tsx:131"
- ],
- "How long we keep it": [
-  "app/(en)/legal/[slug]/page.tsx:135"
- ],
- "Enquiries that do not lead to a booking are kept for up to two years and then deleted. Booking records are kept for as long as tax and accounting law requires.": [
-  "app/(en)/legal/[slug]/page.tsx:137"
- ],
- "Your rights": [
-  "app/(en)/legal/[slug]/page.tsx:140"
- ],
- "Under Brazil&apos;s LGPD and, where they apply, the UK and EU GDPR, you can ask to access, correct, delete or receive a copy of your data, object to or restrict how we use it, and withdraw consent at any time. Write to": [
-  "app/(en)/legal/[slug]/page.tsx:142"
- ],
- "and we will reply within one month. You can also complain to the data protection authority in your country (in Brazil, the ANPD).": [
-  "app/(en)/legal/[slug]/page.tsx:143"
- ],
- "Security": [
-  "app/(en)/legal/[slug]/page.tsx:146"
- ],
- "We use reputable providers, encrypted connections and limited access to keep your data safe. No system is perfectly secure, but we take care to protect what you share with us.": [
-  "app/(en)/legal/[slug]/page.tsx:148"
- ],
- "Cookies": [
-  "app/(en)/legal/[slug]/page.tsx:151"
- ],
- ". We may update this policy from time to time; the date above shows when it last changed.": [
-  "app/(en)/legal/[slug]/page.tsx:153"
- ],
- "cookie policy": [
-  "app/(en)/legal/[slug]/page.tsx:153"
- ],
- "See our": [
-  "app/(en)/legal/[slug]/page.tsx:153"
- ],
- "Cookie policy": [
-  "app/(en)/legal/[slug]/page.tsx:160",
-  "config/site.ts:48"
- ],
- "The cookies and browser storage the {0} website uses, and how to control them.": [
-  "app/(en)/legal/[slug]/page.tsx:161"
- ],
- "This site keeps things simple: no advertising, tracking or analytics cookies.": [
-  "app/(en)/legal/[slug]/page.tsx:162"
- ],
- "What cookies are": [
-  "app/(en)/legal/[slug]/page.tsx:165"
- ],
- "Cookies and similar browser storage are small pieces of information a website saves on your device so it can remember something about your visit.": [
-  "app/(en)/legal/[slug]/page.tsx:167"
- ],
- "Booking terms": [
-  "app/(en)/legal/[slug]/page.tsx:17",
-  "config/site.ts:46"
- ],
- "What this website uses": [
-  "app/(en)/legal/[slug]/page.tsx:170"
- ],
- "): when you choose a currency for prices, your browser remembers it so prices show in that currency next time. It stays on your device until you clear it and is never sent to us.": [
-  "app/(en)/legal/[slug]/page.tsx:173"
- ],
- "(local storage, key": [
-  "app/(en)/legal/[slug]/page.tsx:173"
- ],
- "Currency preference": [
-  "app/(en)/legal/[slug]/page.tsx:173"
- ],
- "We set no cookies, and we use no advertising, tracking or analytics tools.": [
-  "app/(en)/legal/[slug]/page.tsx:178"
- ],
- "The enquiry form": [
-  "app/(en)/legal/[slug]/page.tsx:179"
- ],
- "The terms on which {0} plans and arranges private, tailor-made journeys in Brazil.": [
-  "app/(en)/legal/[slug]/page.tsx:18"
- ],
- "When you send an enquiry, your answers are sent to us once. We do not set a cookie to do this.": [
-  "app/(en)/legal/[slug]/page.tsx:180"
- ],
- "Third-party content": [
-  "app/(en)/legal/[slug]/page.tsx:181"
- ],
- "Photographs and films load from our image and video delivery providers. Your browser sends them your IP address to fetch the files; they set no cookies through this website. Our hosting provider keeps standard server logs (such as IP address, browser type and the pages requested) for security.": [
-  "app/(en)/legal/[slug]/page.tsx:183"
- ],
- "Consent and how to withdraw it": [
-  "app/(en)/legal/[slug]/page.tsx:187"
- ],
- "The currency setting is strictly necessary to give you the display you asked for, so it does not need consent. You can clear it at any time in your browser settings (usually under privacy or site data); prices then show in US dollars again. If we ever add analytics or other non-essential cookies, we will ask for your consent first and update this policy.": [
-  "app/(en)/legal/[slug]/page.tsx:189"
- ],
- "How a journey goes from first enquiry to coming home, and what you and we can expect of each other.": [
-  "app/(en)/legal/[slug]/page.tsx:19"
- ],
- "Contact": [
-  "app/(en)/legal/[slug]/page.tsx:193"
- ],
- "Questions about this policy:": [
-  "app/(en)/legal/[slug]/page.tsx:195"
- ],
- "About these terms": [
-  "app/(en)/legal/[slug]/page.tsx:22"
- ],
  "Sunrise over the Atlantic": [
-  "app/(en)/legal/[slug]/page.tsx:220",
+  "app/(en)/legal/[slug]/page.tsx:48",
   "app/(en)/plan/page.tsx:23",
   "app/(en)/sunrise-coast/page.tsx:23"
  ],
  "Legal": [
-  "app/(en)/legal/[slug]/page.tsx:220"
+  "app/(en)/legal/[slug]/page.tsx:48",
+  "components/layout/Footer.tsx:80"
  ],
  "Last updated": [
-  "app/(en)/legal/[slug]/page.tsx:223"
- ],
- ". They form the contract between us and the person who books on behalf of everyone travelling (&ldquo;you&rdquo;). Please read them before you confirm a booking.": [
-  "app/(en)/legal/[slug]/page.tsx:24"
- ],
- "(&ldquo;we&rdquo;, &ldquo;us&rdquo;),": [
-  "app/(en)/legal/[slug]/page.tsx:24"
- ],
- "These terms apply to every journey planned and arranged by": [
-  "app/(en)/legal/[slug]/page.tsx:24"
- ],
- "Enquiries and proposals": [
-  "app/(en)/legal/[slug]/page.tsx:28"
- ],
- "Sending an enquiry is free and commits you to nothing. We reply with ideas and, when you are ready, a written proposal showing the itinerary, what is included and the price for your dates. Prices on this website are guide prices that show what a journey usually costs from, per person. Your proposal is the price that applies. Proposals reflect availability when we write them; lodges, flights and guides are not held until you book.": [
-  "app/(en)/legal/[slug]/page.tsx:30"
- ],
- "Confirming a booking": [
-  "app/(en)/legal/[slug]/page.tsx:35"
- ],
- "Your booking is confirmed when you accept our written proposal and we receive the deposit stated in it. We then send you a booking confirmation. Please check every name and date on it and tell us straight away if anything is wrong.": [
-  "app/(en)/legal/[slug]/page.tsx:37"
- ],
- "Deposit and balance": [
-  "app/(en)/legal/[slug]/page.tsx:40"
- ],
- "The deposit secures your journey and lets us commit to lodges, flights and other services, some of which are non-refundable once paid. The balance is due by the date shown in your proposal and confirmation. If it is not paid on time, we may treat the booking as cancelled by you, and the cancellation terms below apply.": [
-  "app/(en)/legal/[slug]/page.tsx:42"
- ],
- "Changes you make": [
-  "app/(en)/legal/[slug]/page.tsx:46"
- ],
- "Tell us in writing if you would like to change your journey and we will do our best to help. Changes depend on availability and may involve supplier charges and an administration cost, which we confirm before making them.": [
-  "app/(en)/legal/[slug]/page.tsx:48"
- ],
- "If you cancel": [
   "app/(en)/legal/[slug]/page.tsx:51"
- ],
- "You can cancel at any time by writing to us. Cancellation charges rise as your departure date gets closer and reflect the costs that we and our suppliers cannot recover. The charges that apply to your journey are set out in your proposal and confirmation. Services already paid on non-refundable terms cannot be refunded.": [
-  "app/(en)/legal/[slug]/page.tsx:53"
- ],
- "If we change or cancel": [
-  "app/(en)/legal/[slug]/page.tsx:57"
- ],
- "We rarely need to change a confirmed journey, but sometimes must. If we make a significant change or cancel for a reason other than non-payment, we will tell you as soon as possible and offer a comparable alternative or a refund of the money you have paid us for the affected services. We are not responsible for changes caused by events beyond our control, such as extreme weather, river levels, natural disasters, strikes, closures or government action.": [
-  "app/(en)/legal/[slug]/page.tsx:59"
- ],
- "Passports, visas and health": [
-  "app/(en)/legal/[slug]/page.tsx:64"
- ],
- "You are responsible for holding a valid passport, any visa or electronic travel authorisation you need, and for meeting health and vaccination requirements, including those for the Amazon and the Pantanal. We give general guidance in good faith, but rules change: check them with the relevant embassy and your doctor before you travel.": [
-  "app/(en)/legal/[slug]/page.tsx:66"
- ],
- "Travel insurance": [
-  "app/(en)/legal/[slug]/page.tsx:70"
- ],
- "Comprehensive travel insurance is a condition of booking. It should cover cancellation, medical treatment, emergency evacuation (including from remote areas) and repatriation, and the activities you plan. Please send us your policy details before you travel.": [
-  "app/(en)/legal/[slug]/page.tsx:72"
- ],
- "During your journey": [
-  "app/(en)/legal/[slug]/page.tsx:75"
- ],
- "Please follow the reasonable instructions of guides and suppliers, respect local laws and customs, and look after your belongings. We may end the journey of anyone whose behaviour puts others at risk, without a refund.": [
-  "app/(en)/legal/[slug]/page.tsx:77"
- ],
- "Our responsibility": [
-  "app/(en)/legal/[slug]/page.tsx:80"
- ],
- "We plan your journey with care and choose suppliers we trust. We accept responsibility for the services we agree to provide, as far as the law allows. We are not liable for losses that were not foreseeable, for anything caused by you or by third parties unconnected with your journey, or for events beyond our control. Nothing in these terms limits liability that cannot be limited by law.": [
-  "app/(en)/legal/[slug]/page.tsx:82"
- ],
- "Complaints": [
-  "app/(en)/legal/[slug]/page.tsx:87"
- ],
- "If something is not right during your journey, tell your guide or contact us straight away so we can try to put it right there and then. If it is not resolved, write to": [
-  "app/(en)/legal/[slug]/page.tsx:89"
- ],
- "31 October 2026": [
-  "app/(en)/legal/[slug]/page.tsx:9"
- ],
- "within 28 days of your return and we will reply in full.": [
-  "app/(en)/legal/[slug]/page.tsx:90"
- ],
- "Governing law": [
-  "app/(en)/legal/[slug]/page.tsx:92"
- ],
- "These terms are governed by the law that applies to the contract between you and us. Nothing in them affects your statutory rights as a consumer in your country of residence.": [
-  "app/(en)/legal/[slug]/page.tsx:94"
  ],
  "This path hasn&apos;t seen the sun yet": [
   "app/(en)/not-found.tsx:10"
@@ -590,11 +358,12 @@
  ],
  "Private journeys across Brazil": [
   "app/(en)/opengraph-image.tsx:30",
+  "data/home.ts:7",
   "config/brand.ts:8"
  ],
  "Sol Nascente": [
   "app/(en)/opengraph-image.tsx:31",
-  "components/layout/Footer.tsx:18",
+  "components/layout/Footer.tsx:84",
   "components/ui/SunMark.tsx:30"
  ],
  "Sol Nascente: Brazil, from first light": [
@@ -666,7 +435,7 @@
  "Responsible travel": [
   "app/(en)/responsible-travel/page.tsx:46",
   "app/(en)/responsible-travel/page.tsx:8",
-  "config/site.ts:42"
+  "components/layout/Footer.tsx:24"
  ],
  "Raiz: travelling from the roots": [
   "app/(en)/responsible-travel/page.tsx:47"
@@ -676,7 +445,7 @@
  ],
  "A local guide leading a small group along a forest trail": [
   "app/(en)/responsible-travel/page.tsx:49",
-  "data/home.ts:61"
+  "data/home.ts:62"
  ],
  "Questions about how we work, or ideas for how we could do better? We&apos;d genuinely love to hear them.": [
   "app/(en)/responsible-travel/page.tsx:62"
@@ -714,7 +483,8 @@
  ],
  "Type": [
   "app/(en)/stays/page.tsx:56",
-  "components/home/StaySlider.tsx:82"
+  "components/home/StaySlider.tsx:82",
+  "data/legal.ts:273"
  ],
  "Setting": [
   "app/(en)/stays/page.tsx:57",
@@ -760,6 +530,7 @@
  ],
  "Wild Seasons": [
   "app/(en)/wild-seasons/page.tsx:20",
+  "components/layout/Footer.tsx:13",
   "config/site.ts:36"
  ],
  "Same forest, two different trips": [
@@ -776,33 +547,10 @@
   "app/(en)/wild-seasons/page.tsx:38"
  ],
  "What it looks like": [
-  "components/features/BiomeExplorer.tsx:144"
+  "components/features/BiomeExplorer.tsx:85"
  ],
  "What lives there": [
-  "components/features/BiomeExplorer.tsx:148"
- ],
- "Map of Brazil's six biomes. Choose a biome.": [
-  "components/features/BiomeExplorer.tsx:53"
- ],
- "ArrowDown": [
-  "components/features/BiomeExplorer.tsx:55"
- ],
- "ArrowRight": [
-  "components/features/BiomeExplorer.tsx:55",
-  "components/home/StaySlider.tsx:29"
- ],
- "ArrowUp": [
-  "components/features/BiomeExplorer.tsx:59"
- ],
- "ArrowLeft": [
-  "components/features/BiomeExplorer.tsx:59",
-  "components/home/StaySlider.tsx:30"
- ],
- "Enter": [
-  "components/features/BiomeExplorer.tsx:83"
- ],
- "Simplified map; biome boundaries are approximate (after IBGE).": [
-  "components/features/BiomeExplorer.tsx:99"
+  "components/features/BiomeExplorer.tsx:89"
  ],
  "Your Carnival": [
   "components/features/CarnivalQuiz.tsx:106"
@@ -831,21 +579,21 @@
  "← Back": [
   "components/features/CarnivalQuiz.tsx:95"
  ],
- ", moments after Ponta do Seixas": [
-  "components/features/SunriseCoastStory.tsx:100"
- ],
- ", {0} min after Ponta do Seixas": [
-  "components/features/SunriseCoastStory.tsx:100"
- ],
  "America/Sao_Paulo": [
-  "components/features/SunriseCoastStory.tsx:27",
+  "components/features/SunriseCoastStory.tsx:26",
   "components/home/LiveInfo.tsx:14"
  ],
- "Map of Brazil's Atlantic coast with the five sunrise stops": [
-  "components/features/SunriseCoastStory.tsx:45"
+ "The five sunrise stops": [
+  "components/features/SunriseCoastStory.tsx:38"
  ],
  "· Sunrise today": [
-  "components/features/SunriseCoastStory.tsx:99"
+  "components/features/SunriseCoastStory.tsx:75"
+ ],
+ ", moments after Ponta do Seixas": [
+  "components/features/SunriseCoastStory.tsx:76"
+ ],
+ ", {0} min after Ponta do Seixas": [
+  "components/features/SunriseCoastStory.tsx:76"
  ],
  "Right now, typically:": [
   "components/features/WaterToggle.tsx:45"
@@ -928,7 +676,8 @@
   "components/forms/PlanForm.tsx:264"
  ],
  "Children": [
-  "components/forms/PlanForm.tsx:268"
+  "components/forms/PlanForm.tsx:268",
+  "data/legal.ts:233"
  ],
  "Children&apos;s ages": [
   "components/forms/PlanForm.tsx:272"
@@ -946,7 +695,8 @@
   "components/forms/PlanForm.tsx:291"
  ],
  "Name": [
-  "components/forms/PlanForm.tsx:294"
+  "components/forms/PlanForm.tsx:294",
+  "data/legal.ts:270"
  ],
  "Email": [
   "components/forms/PlanForm.tsx:299",
@@ -997,24 +747,14 @@
  ],
  "start start": [
   "components/home/BiomesReveal.tsx:29",
-  "components/home/Hero.tsx:26",
-  "components/home/PantanalStory.tsx:18"
+  "components/home/PantanalStory.tsx:18",
+  "components/home/Values.tsx:29"
  ],
  "Explore the six biomes": [
   "components/home/BiomesReveal.tsx:84"
  ],
  "High water or low?": [
   "components/home/BiomesReveal.tsx:86"
- ],
- "Rio": [
-  "components/home/BrazilMiniMap.tsx:22"
- ],
- "Ponta do Seixas": [
-  "components/home/BrazilMiniMap.tsx:27",
-  "lib/solar.ts:10"
- ],
- "Map of Brazil marking Ponta do Seixas, the easternmost point, and Rio de Janeiro": [
-  "components/home/BrazilMiniMap.tsx:9"
  ],
  "Day": [
   "components/home/CarnivalWeek.tsx:109"
@@ -1044,12 +784,6 @@
  "Good questions, honest answers. Anything marked": [
   "components/home/Faq.tsx:110"
  ],
- "end start": [
-  "components/home/Hero.tsx:26"
- ],
- "Sol Nascente: private journeys across Brazil": [
-  "components/home/Hero.tsx:57"
- ],
  "Item {0} of {1}": [
   "components/home/IncludedStack.tsx:27"
  ],
@@ -1063,7 +797,7 @@
  "Brazil": [
   "components/home/LiveInfo.tsx:47",
   "lib/seo.tsx:49",
-  "data/home.ts:10"
+  "config/site.ts:7"
  ],
  "Country": [
   "components/home/LiveInfo.tsx:47"
@@ -1108,6 +842,12 @@
  "Show {0}": [
   "components/home/StaySlider.tsx:106"
  ],
+ "ArrowRight": [
+  "components/home/StaySlider.tsx:29"
+ ],
+ "ArrowLeft": [
+  "components/home/StaySlider.tsx:30"
+ ],
  "Next stay": [
   "components/home/StaySlider.tsx:43"
  ],
@@ -1125,66 +865,64 @@
  "Back to top": [
   "components/layout/BackToTop.tsx:26"
  ],
- "Homepage sections": [
-  "components/layout/Footer.tsx:29"
+ "Six Biomes": [
+  "components/layout/Footer.tsx:11",
+  "config/site.ts:34"
+ ],
+ "Sunrise Coast": [
+  "components/layout/Footer.tsx:14",
+  "config/site.ts:37"
+ ],
+ "Low sun over the Atlantic from the beach at João Pessoa": [
+  "components/layout/Footer.tsx:51"
+ ],
+ "Plan a journey": [
+  "components/layout/Footer.tsx:54"
+ ],
+ "Brazil, from first light.": [
+  "components/layout/Footer.tsx:63",
+  "components/layout/Nav.tsx:227",
+  "config/brand.ts:7"
  ],
  "Explore": [
-  "components/layout/Footer.tsx:45",
-  "components/layout/Nav.tsx:192",
-  "components/layout/Nav.tsx:115"
- ],
- "Plan with us →": [
-  "components/layout/Footer.tsx:56"
+  "components/layout/Footer.tsx:77",
+  "components/layout/Nav.tsx:193",
+  "components/layout/Nav.tsx:116"
  ],
  "Show prices in": [
-  "components/layout/Footer.tsx:64"
- ],
- "Sol": [
-  "components/layout/Footer.tsx:72",
-  "data/home.ts:6"
- ],
- "Nascente": [
-  "components/layout/Footer.tsx:73",
-  "data/home.ts:7"
- ],
- "Sol Nascente. Brazil, from first light.": [
-  "components/layout/Footer.tsx:77"
+  "components/layout/Footer.tsx:86"
  ],
  "Language": [
   "components/layout/LanguageSwitcher.tsx:14",
-  "components/layout/Nav.tsx:213"
+  "components/layout/Nav.tsx:214"
  ],
  "Menu": [
-  "components/layout/Nav.tsx:115",
-  "components/layout/Nav.tsx:115"
+  "components/layout/Nav.tsx:116",
+  "components/layout/Nav.tsx:116"
  ],
  "Close": [
-  "components/layout/Nav.tsx:115"
+  "components/layout/Nav.tsx:116"
  ],
  "Escape": [
-  "components/layout/Nav.tsx:141"
- ],
- "Tab": [
   "components/layout/Nav.tsx:142"
  ],
+ "Tab": [
+  "components/layout/Nav.tsx:143"
+ ],
  "Site menu": [
-  "components/layout/Nav.tsx:168"
+  "components/layout/Nav.tsx:169"
  ],
  "The homepage": [
-  "components/layout/Nav.tsx:176"
+  "components/layout/Nav.tsx:177"
  ],
  "On this page": [
-  "components/layout/Nav.tsx:176"
+  "components/layout/Nav.tsx:177"
  ],
  "Tell us when and how you like to travel. A Brazil specialist replies within two working days.": [
-  "components/layout/Nav.tsx:206"
+  "components/layout/Nav.tsx:207"
  ],
  "Write to us": [
-  "components/layout/Nav.tsx:217"
- ],
- "Brazil, from first light.": [
-  "components/layout/Nav.tsx:226",
-  "config/brand.ts:7"
+  "components/layout/Nav.tsx:218"
  ],
  "Skip to content": [
   "components/layout/Nav.tsx:64"
@@ -1197,9 +935,6 @@
  ],
  "Verify before relying on this": [
   "components/ui/Badges.tsx:11"
- ],
- "Map of Brazil showing {0}": [
-  "components/ui/BrazilPin.tsx:7"
  ],
  "internal flights": [
   "components/ui/Cards.tsx:17"
@@ -1263,12 +998,6 @@
  ],
  "Like a Local": [
   "config/site.ts:26"
- ],
- "Six Biomes": [
-  "config/site.ts:34"
- ],
- "Sunrise Coast": [
-  "config/site.ts:37"
  ],
  "solnascente@tourground.com": [
   "config/site.ts:5"
@@ -1676,6 +1405,7 @@
  ],
  "Salvador": [
   "data/carnival.ts:29",
+  "data/home.ts:12",
   "data/journeys.ts:337"
  ],
  "The biggest street party on the planet, powered by Afro-Brazilian rhythm.": [
@@ -2040,6 +1770,7 @@
  ],
  "Lençóis Maranhenses": [
   "data/destinations.ts:247",
+  "data/home.ts:10",
   "data/journeys.ts:243"
  ],
  "Maranhão": [
@@ -2903,229 +2634,235 @@
  "A beach pousada": [
   "data/faq.ts:96"
  ],
+ "White dunes and blue lagoons of Lençóis Maranhenses": [
+  "data/home.ts:10"
+ ],
  "A Day in the Pantanal": [
-  "data/home.ts:102"
+  "data/home.ts:103"
  ],
  "The largest tropical wetland on Earth runs on a simple timetable: wake early, rest at midday, go out again when the light turns gold. Here's how a day unfolds.": [
-  "data/home.ts:104"
+  "data/home.ts:105"
  ],
  "Dawn": [
-  "data/home.ts:107"
- ],
- "The birds start before you do.": [
   "data/home.ts:108"
  ],
- "Parakeets, chachalacas and a hyacinth macaw with opinions. Coffee on the veranda while the mist lifts off the water and the caimans think about moving.": [
+ "The birds start before you do.": [
   "data/home.ts:109"
  ],
- "On the river": [
-  "data/home.ts:113"
+ "A jabiru stork over the Paraguay River in the Pantanal": [
+  "data/home.ts:11"
  ],
- "Boats, caimans, giant otters.": [
+ "Parakeets, chachalacas and a hyacinth macaw with opinions. Coffee on the veranda while the mist lifts off the water and the caimans think about moving.": [
+  "data/home.ts:110"
+ ],
+ "On the river": [
   "data/home.ts:114"
  ],
- "A slow boat up a side channel. Caimans line the banks like logs that blink. Then a family of giant otters, loud and curious, swims over to see who you are.": [
+ "Boats, caimans, giant otters.": [
   "data/home.ts:115"
  ],
- "Midday": [
-  "data/home.ts:119"
+ "A slow boat up a side channel. Caimans line the banks like logs that blink. Then a family of giant otters, loud and curious, swims over to see who you are.": [
+  "data/home.ts:116"
  ],
- "Hammocks and lunch at the fazenda.": [
+ "Cobblestone street leading to a church in Salvador": [
+  "data/home.ts:12"
+ ],
+ "Midday": [
   "data/home.ts:120"
  ],
- "Rice, beans, grilled fish and fruit from the garden. The heat says rest, and here everybody listens. Hammocks are not optional.": [
+ "Hammocks and lunch at the fazenda.": [
   "data/home.ts:121"
  ],
- "Golden hour": [
-  "data/home.ts:125"
+ "Rice, beans, grilled fish and fruit from the garden. The heat says rest, and here everybody listens. Hammocks are not optional.": [
+  "data/home.ts:122"
  ],
- "Searching the riverbanks for jaguars.": [
+ "Golden hour": [
   "data/home.ts:126"
  ],
- "Back on the water as the light softens. Your guide cuts the engine near a sandbank. Jaguars don't keep appointments, but in the dry season they're rarely late.": [
+ "Searching the riverbanks for jaguars.": [
   "data/home.ts:127"
  ],
- "Night": [
-  "data/home.ts:131"
+ "Back on the water as the light softens. Your guide cuts the engine near a sandbank. Jaguars don't keep appointments, but in the dry season they're rarely late.": [
+  "data/home.ts:128"
  ],
- "A sky so full of stars it looks crowded.": [
+ "Night": [
   "data/home.ts:132"
  ],
- "No towns, no glow, no noise but frogs. Lie back on the jetty and find the Southern Cross. Then find it again, because there are too many stars to be sure.": [
+ "A sky so full of stars it looks crowded.": [
   "data/home.ts:133"
  ],
+ "No towns, no glow, no noise but frogs. Lie back on the jetty and find the Southern Cross. Then find it again, because there are too many stars to be sure.": [
+  "data/home.ts:134"
+ ],
  "Jaguars & the Pantanal": [
-  "data/home.ts:137",
+  "data/home.ts:138",
   "data/journeys.ts:82"
  ],
- "The sun rises in Brazil before anywhere else in the Americas. We like to think it's in a hurry to get here.": [
-  "data/home.ts:14"
- ],
  "Brazil, like a local": [
-  "data/home.ts:141"
- ],
- "Kiss": [
   "data/home.ts:142"
  ],
- "Kiss hello": [
-  "data/home.ts:145"
+ "Kiss": [
+  "data/home.ts:143"
  ],
- "One kiss on the cheek in São Paulo, two in Rio, sometimes three in Minas. If in doubt, follow their lead and enjoy the confusion.": [
+ "Kiss hello": [
   "data/home.ts:146"
  ],
- "Say obrigado": [
-  "data/home.ts:149"
+ "One kiss on the cheek in São Paulo, two in Rio, sometimes three in Minas. If in doubt, follow their lead and enjoy the confusion.": [
+  "data/home.ts:147"
  ],
- "Brazilians speak Portuguese, not Spanish. Obrigado if you're a man, obrigada if you're a woman. A little effort gets a big smile.": [
+ "The sun rises in Brazil before anywhere else in the Americas. We like to think it's in a hurry to get here.": [
+  "data/home.ts:15"
+ ],
+ "Say obrigado": [
   "data/home.ts:150"
  ],
- "Check the bill": [
-  "data/home.ts:153"
+ "Brazilians speak Portuguese, not Spanish. Obrigado if you're a man, obrigada if you're a woman. A little effort gets a big smile.": [
+  "data/home.ts:151"
  ],
- "Restaurants usually add a 10% service charge. It's shown as 'serviço'. Leave a little extra only if you'd like to.": [
+ "Check the bill": [
   "data/home.ts:154"
  ],
- "Share the sand": [
-  "data/home.ts:157"
+ "Restaurants usually add a 10% service charge. It's shown as 'serviço'. Leave a little extra only if you'd like to.": [
+  "data/home.ts:155"
  ],
- "Rent a chair and umbrella from the barraca, buy your coconut from the person who walks by, and never leave anything behind but footprints.": [
+ "Share the sand": [
   "data/home.ts:158"
  ],
- "Keep it low-key": [
-  "data/home.ts:161"
+ "Rent a chair and umbrella from the barraca, buy your coconut from the person who walks by, and never leave anything behind but footprints.": [
+  "data/home.ts:159"
  ],
- "Leave the flashy watch at home and carry what you need for the day. It's what Brazilians do, and nobody notices a person who looks relaxed.": [
+ "Keep it low-key": [
   "data/home.ts:162"
  ],
- "Relax the clock": [
-  "data/home.ts:165"
+ "Leave the flashy watch at home and carry what you need for the day. It's what Brazilians do, and nobody notices a person who looks relaxed.": [
+  "data/home.ts:163"
  ],
- "Eight o'clock for dinner might mean nine. A party starting at ten warms up around midnight. You're on holiday. So is time.": [
+ "Relax the clock": [
   "data/home.ts:166"
  ],
+ "Eight o'clock for dinner might mean nine. A party starting at ten warms up around midnight. You're on holiday. So is time.": [
+  "data/home.ts:167"
+ ],
  "From first light": [
-  "data/home.ts:18"
+  "data/home.ts:19"
  ],
  "Private journeys across Brazil: rivers and wetlands, dunes and reefs, colonial towns and city nights. We help you see the right parts, at the right time, with the right people.": [
-  "data/home.ts:20"
- ],
- "Sol nascente means rising sun. Every morning, the first sunrise in the Americas lands on Ponta do Seixas in Paraíba, the easternmost point of the continent's mainland. From there the light runs west across a country bigger than the contiguous United States: six biomes, a dozen musical traditions, and more ways to cook a fish than anyone has counted. We plan journeys through all of it, one traveller at a time.": [
   "data/home.ts:21"
  ],
- "First light over the reef at Ponta do Seixas, Paraíba": [
+ "Sol nascente means rising sun. Every morning, the first sunrise in the Americas lands on Ponta do Seixas in Paraíba, the easternmost point of the continent's mainland. From there the light runs west across a country bigger than the contiguous United States: six biomes, a dozen musical traditions, and more ways to cook a fish than anyone has counted. We plan journeys through all of it, one traveller at a time.": [
   "data/home.ts:22"
  ],
- "Alegria": [
-  "data/home.ts:27"
+ "First light over the reef at Ponta do Seixas, Paraíba": [
+  "data/home.ts:23"
  ],
- "Joy, the Brazilian way": [
+ "Alegria": [
   "data/home.ts:28"
  ],
- "Not the loud kind. The kind that finds a guitar at a bus stop, a party on a Tuesday, and something to celebrate in the rain. We plan for that feeling, then leave room for it to find you.": [
+ "Joy, the Brazilian way": [
   "data/home.ts:29"
  ],
- "Encontro": [
-  "data/home.ts:32"
+ "Not the loud kind. The kind that finds a guitar at a bus stop, a party on a Tuesday, and something to celebrate in the rain. We plan for that feeling, then leave room for it to find you.": [
+  "data/home.ts:30"
  ],
- "Real meetings with real people": [
+ "Encontro": [
   "data/home.ts:33"
  ],
- "A boatman who reads the river like a newspaper. A cook in Salvador who won't share the recipe but will share the table. Brazil is its people. We introduce you properly.": [
+ "Real meetings with real people": [
   "data/home.ts:34"
  ],
- "Raiz": [
-  "data/home.ts:37"
+ "A boatman who reads the river like a newspaper. A cook in Salvador who won't share the recipe but will share the table. Brazil is its people. We introduce you properly.": [
+  "data/home.ts:35"
  ],
- "Roots": [
+ "Raiz": [
   "data/home.ts:38"
  ],
- "Local guides, local kitchens, local music, local money. We work with people who were born to the places we send you, and we make sure your journey leaves something good behind.": [
+ "Roots": [
   "data/home.ts:39"
  ],
+ "Local guides, local kitchens, local music, local money. We work with people who were born to the places we send you, and we make sure your journey leaves something good behind.": [
+  "data/home.ts:40"
+ ],
  "Friends dancing in a sunlit street in Brazil": [
-  "data/home.ts:42"
+  "data/home.ts:43"
  ],
  "Stay": [
-  "data/home.ts:45",
+  "data/home.ts:46",
   "config/site.ts:23"
  ],
  "River lodges on black water, fazendas on the floodplain, pousadas a flip-flop from the sea. We choose places that feel like where you are.": [
-  "data/home.ts:47"
- ],
- "Every stay we use is small, run by people who love it, and chosen for its setting before its thread count. Some have Wi-Fi. Some have hyacinth macaws on the roof instead.": [
   "data/home.ts:48"
  ],
- "Hammocks strung across a shaded veranda": [
-  "data/home.ts:50"
+ "Every stay we use is small, run by people who love it, and chosen for its setting before its thread count. Some have Wi-Fi. Some have hyacinth macaws on the roof instead.": [
+  "data/home.ts:49"
  ],
- "A wooden river lodge on stilts above dark water": [
+ "Hammocks strung across a shaded veranda": [
   "data/home.ts:51"
  ],
+ "A wooden river lodge on stilts above dark water": [
+  "data/home.ts:52"
+ ],
  "every journey": [
-  "data/home.ts:56"
+  "data/home.ts:57"
  ],
  "Included in": [
-  "data/home.ts:56"
+  "data/home.ts:57"
  ],
  "Private English-speaking guides": [
-  "data/home.ts:59"
- ],
- "Your own guide in every region, chosen for the place: a naturalist in the Pantanal, a historian in Ouro Preto, a musician in Salvador.": [
   "data/home.ts:60"
  ],
- "Internal flights, arranged": [
-  "data/home.ts:64"
+ "Your own guide in every region, chosen for the place: a naturalist in the Pantanal, a historian in Ouro Preto, a musician in Salvador.": [
+  "data/home.ts:61"
  ],
- "Brazil is enormous. We book the flights, time the connections and handle the transfers, so the distances stay on the map and off your mind.": [
+ "Internal flights, arranged": [
   "data/home.ts:65"
  ],
- "A small aircraft over green wetlands": [
+ "Brazil is enormous. We book the flights, time the connections and handle the transfers, so the distances stay on the map and off your mind.": [
   "data/home.ts:66"
  ],
- "Wildlife experts": [
-  "data/home.ts:69"
+ "A small aircraft over green wetlands": [
+  "data/home.ts:67"
  ],
- "Jaguar trackers, otter whisperers, birders who can name a call at a hundred metres. The difference between seeing an animal and understanding it.": [
+ "Wildlife experts": [
   "data/home.ts:70"
  ],
- "A traveller with binoculars scanning a riverbank": [
+ "Jaguar trackers, otter whisperers, birders who can name a call at a hundred metres. The difference between seeing an animal and understanding it.": [
   "data/home.ts:71"
  ],
- "Food and music with locals": [
-  "data/home.ts:74"
+ "A traveller with binoculars scanning a riverbank": [
+  "data/home.ts:72"
  ],
- "A moqueca cooked in the kitchen it was invented in. A forró night where nobody minds that you can't dance yet. The best of Brazil happens at the table and on the floor.": [
+ "Food and music with locals": [
   "data/home.ts:75"
  ],
- "Hands preparing a Bahian dish together": [
+ "A moqueca cooked in the kitchen it was invented in. A forró night where nobody minds that you can't dance yet. The best of Brazil happens at the table and on the floor.": [
   "data/home.ts:76"
  ],
- "Your specialist, a message away": [
-  "data/home.ts:79"
+ "Hands preparing a Bahian dish together": [
+  "data/home.ts:77"
  ],
- "The person who planned your trip stays with you while you travel. A question at midnight? A change of plan at noon? Send a message.": [
+ "Your specialist, a message away": [
   "data/home.ts:80"
  ],
- "A phone in hand on a sunny terrace": [
+ "The person who planned your trip stays with you while you travel. A question at midnight? A change of plan at noon? Send a message.": [
   "data/home.ts:81"
  ],
- "Choose from river lodges, fazendas, beach pousadas and colonial houses, each with a view worth waking early for.": [
-  "data/home.ts:84"
+ "A phone in hand on a sunny terrace": [
+  "data/home.ts:82"
  ],
- "Private journeys": [
-  "data/home.ts:9"
+ "Choose from river lodges, fazendas, beach pousadas and colonial houses, each with a view worth waking early for.": [
+  "data/home.ts:85"
  ],
  "Brazil isn't one landscape. It's six, from the world's largest rainforest to its largest wetland, and each one changes the way you travel.": [
-  "data/home.ts:90"
+  "data/home.ts:91"
  ],
  "Morning mist over the rainforest canopy": [
-  "data/home.ts:92"
+  "data/home.ts:93"
  ],
  "Carnival Week, Day by Day": [
-  "data/home.ts:96"
+  "data/home.ts:97"
  ],
  "Rio's Carnival is a show. Salvador's is a street party. Olinda's is a whole town in costume. Choose wisely, then pace yourself.": [
-  "data/home.ts:98"
+  "data/home.ts:99"
  ],
  "Land in Cuiabá and head south past Poconé, where the tarmac gives way to red dirt and the first jabiru storks stand in the ditches like they own the place. Two nights at a fazenda: dawn walks, evening drives, and a spotlight on the eyes of a hundred caimans.": [
   "data/journeys.ts:100"
@@ -3721,6 +3458,379 @@
  ],
  "Onto the Transpantaneira": [
   "data/journeys.ts:99"
+ ],
+ "Booking terms": [
+  "data/legal.ts:10",
+  "config/site.ts:46"
+ ],
+ "Passports, visas and health": [
+  "data/legal.ts:102"
+ ],
+ "Each traveller is responsible for holding a passport valid for the whole journey (many countries require at least six months’ validity beyond your return), any visa or entry authorisation needed, and for meeting all health and vaccination requirements. Requirements depend on your nationality and change, so please check official government sources and take medical advice in good time. Our [FAQ](/#faq) explains who needs a visa for Brazil.": [
+  "data/legal.ts:104"
+ ],
+ "We are not liable if you cannot travel, or incur costs, because you do not have the right documents. Please tell us before booking about any medical condition or reduced mobility, so we can check the arrangements suit you.": [
+  "data/legal.ts:105"
+ ],
+ "Our responsibility": [
+  "data/legal.ts:109"
+ ],
+ "The terms on which Sol Nascente plans and arranges private, tailor-made journeys in Brazil.": [
+  "data/legal.ts:11"
+ ],
+ "We arrange your journey with reasonable skill and care and are responsible for providing the services in your booking confirmation. If you are in difficulty during your journey, we will give you prompt and appropriate assistance.": [
+  "data/legal.ts:111"
+ ],
+ "We are not liable where a problem is caused by you or a member of your party, by a third party unconnected with the services we provide, or by unusual and unforeseeable circumstances beyond our control. Where international conventions limit what a carrier or hotel must pay, our liability is limited in the same way. Except for death or personal injury caused by our negligence, or where the law does not allow a limit, our liability is limited to three times the price of your journey. Nothing in these terms affects your statutory rights as a consumer.": [
+  "data/legal.ts:112"
+ ],
+ "Behaviour": [
+  "data/legal.ts:116"
+ ],
+ "Please follow the reasonable instructions of drivers, hosts and suppliers, particularly on safety, and respect local laws, customs and the places you visit. If your behaviour puts others at risk or causes serious disruption or damage, we or a supplier may end your arrangements without refund.": [
+  "data/legal.ts:118"
+ ],
+ "How a journey goes from first enquiry to coming home, and what you and we can expect of each other.": [
+  "data/legal.ts:12"
+ ],
+ "Complaints": [
+  "data/legal.ts:122"
+ ],
+ "If something is not right during your journey, tell the supplier concerned and us straight away, so we can put it right on the spot. If you are still unhappy, write to solnascente@tourground.com within 28 days of your return; we will acknowledge your complaint promptly and reply in full within 28 days.": [
+  "data/legal.ts:124"
+ ],
+ "Force majeure": [
+  "data/legal.ts:128"
+ ],
+ "We are not liable, and pay no compensation, where we cannot perform or must change our obligations because of unavoidable and extraordinary circumstances beyond our control, such as war, civil unrest, terrorism, natural disasters, extreme weather, epidemics, government action or official travel advice against travel, or the closure of airports or borders. If such circumstances lead us to cancel, we will refund what you have paid us as set out above.": [
+  "data/legal.ts:130"
+ ],
+ "Data protection": [
+  "data/legal.ts:134"
+ ],
+ "We use your personal data to arrange your journey as described in our [Privacy Policy](/legal/privacy).": [
+  "data/legal.ts:136"
+ ],
+ "Governing law": [
+  "data/legal.ts:140"
+ ],
+ "These terms and any booking are governed by the law of the Federative Republic of Brazil, and the courts of São Paulo have jurisdiction. If you are a consumer, you keep the protection of the mandatory laws of your country of residence and may bring proceedings there where those laws allow. We will always try to resolve a complaint by agreement first.": [
+  "data/legal.ts:142"
+ ],
+ "Privacy policy": [
+  "data/legal.ts:154",
+  "config/site.ts:47"
+ ],
+ "How Sol Nascente collects, uses and protects your personal data.": [
+  "data/legal.ts:155"
+ ],
+ "What we collect when you plan a journey with us, why, and the rights you have.": [
+  "data/legal.ts:156"
+ ],
+ "Who we are": [
+  "data/legal.ts:159",
+  "data/legal.ts:15"
+ ],
+ "Sol Nascente (“we”, “us”) plans and arranges tailor-made journeys in Brazil. Sol Nascente is the controller of the personal data described in this policy.": [
+  "data/legal.ts:161"
+ ],
+ "Business address: Cubo Itaú, Alameda Vicente Pinzon, 54, Vila Olímpia, São Paulo – SP, 04547-130, Brazil. Email: solnascente@tourground.com.": [
+  "data/legal.ts:162"
+ ],
+ "What we collect": [
+  "data/legal.ts:166"
+ ],
+ "When you send an enquiry or use our planning form: your name, email address, country of residence, preferred travel dates, number of travellers (and the ages of any children), interests, budget range and anything else you write in your message.": [
+  "data/legal.ts:168"
+ ],
+ "When you book: the names of all travellers as shown on their passports, dates of birth, nationality and passport details where a supplier or authority requires them, flight details, dietary requirements, an emergency contact, and records of your payments. If you tell us about a medical condition or mobility needs, we use that information only to arrange your journey safely, with your explicit consent.": [
+  "data/legal.ts:169"
+ ],
+ "These terms apply to every journey arranged by Sol Nascente, Cubo Itaú, Alameda Vicente Pinzon, 54, Vila Olímpia, São Paulo – SP, 04547-130, Brazil (email solnascente@tourground.com). By confirming a booking, the lead traveller accepts them on behalf of everyone named on it.": [
+  "data/legal.ts:17"
+ ],
+ "Emails and other messages you exchange with us.": [
+  "data/legal.ts:170"
+ ],
+ "Technical data when you visit this website: your IP address, browser and device type, the pages requested and the date and time, recorded in our hosting provider’s server logs to deliver the site and keep it secure. We do not use analytics, advertising or tracking tools on this website.": [
+  "data/legal.ts:171"
+ ],
+ "Why we use it and our legal bases": [
+  "data/legal.ts:175"
+ ],
+ "To answer your enquiry and prepare proposals: steps taken at your request before entering into a contract (Article 6(1)(b) GDPR).": [
+  "data/legal.ts:177"
+ ],
+ "To book, arrange and look after your journey, including passing details to the suppliers who provide it: performance of our contract with you (Article 6(1)(b) GDPR).": [
+  "data/legal.ts:178"
+ ],
+ "To use health or mobility information you choose to give us: your explicit consent (Article 9(2)(a) GDPR), which you can withdraw at any time.": [
+  "data/legal.ts:179"
+ ],
+ "To keep accounting and tax records: compliance with our legal obligations (Article 6(1)(c) GDPR).": [
+  "data/legal.ts:180"
+ ],
+ "To keep this website secure, prevent misuse of our forms, improve our service and establish or defend legal claims: our legitimate interests (Article 6(1)(f) GDPR), balanced against your rights.": [
+  "data/legal.ts:181"
+ ],
+ "To send you occasional news about our journeys, only if you have asked for it: your consent (Article 6(1)(a) GDPR). Every message has an unsubscribe link, or you can simply email us.": [
+  "data/legal.ts:182"
+ ],
+ "We do not sell your personal data, and we do not make decisions about you by automated means.": [
+  "data/legal.ts:183"
+ ],
+ "Who we share it with": [
+  "data/legal.ts:187"
+ ],
+ "Travel suppliers in Brazil and elsewhere who provide the services in your journey, such as accommodation, transport and activity providers, and only the details each of them needs.": [
+  "data/legal.ts:189"
+ ],
+ "Service providers who process data on our behalf under a written contract and only on our instructions:": [
+  "data/legal.ts:190"
+ ],
+ "Vercel Inc. (United States), which hosts this website and keeps short-lived server logs;": [
+  "data/legal.ts:191"
+ ],
+ "our email provider, which stores the messages you send to solnascente@tourground.com and our replies.": [
+  "data/legal.ts:192"
+ ],
+ "Public authorities, insurers or professional advisers, where the law requires it, to protect someone’s vital interests, or to establish or defend legal claims.": [
+  "data/legal.ts:193"
+ ],
+ "International transfers": [
+  "data/legal.ts:197"
+ ],
+ "Some of the providers above are based in the United States, and arranging your journey means sharing details with suppliers in Brazil. When personal data leaves the European Economic Area, the United Kingdom or Switzerland, we rely on an adequacy decision (for example the EU–US Data Privacy Framework, where the provider is certified) or on the European Commission’s Standard Contractual Clauses. Transfers to suppliers delivering your journey are also necessary to perform our contract with you. You can ask us for a copy of the safeguards we use.": [
+  "data/legal.ts:199"
+ ],
+ "How long we keep it": [
+  "data/legal.ts:203"
+ ],
+ "Enquiries that do not lead to a booking: up to two years after our last contact, then deleted.": [
+  "data/legal.ts:205"
+ ],
+ "Booking and payment records: seven years after the end of your journey, for accounting, tax and legal claims.": [
+  "data/legal.ts:206"
+ ],
+ "Health and mobility information: deleted within three months of your return, unless it is needed for a claim.": [
+  "data/legal.ts:207"
+ ],
+ "Newsletter details: until you unsubscribe. Server logs: a short period set by our hosting provider, then deleted automatically.": [
+  "data/legal.ts:208"
+ ],
+ "How a booking is made": [
+  "data/legal.ts:21"
+ ],
+ "How we protect it": [
+  "data/legal.ts:212"
+ ],
+ "This website is served only over an encrypted (HTTPS) connection. Access to your data is limited to the people who need it to plan and look after your journey, and we choose providers for their security standards.": [
+  "data/legal.ts:214"
+ ],
+ "Your rights": [
+  "data/legal.ts:218"
+ ],
+ "You have the right to access the personal data we hold about you; to have it rectified; to have it erased; to restrict how we use it; to receive it in a portable format; to object to processing based on our legitimate interests, and at any time to direct marketing; and to withdraw any consent you have given, without affecting what we did before.": [
+  "data/legal.ts:220"
+ ],
+ "To exercise any of these rights, email solnascente@tourground.com. It is free, and we will reply within one month. We may ask you to confirm your identity first.": [
+  "data/legal.ts:221"
+ ],
+ "You also have the right to lodge a complaint with a data protection supervisory authority, in particular in the country where you live or work, or where you believe your rights were infringed. We would appreciate the chance to deal with your concern first.": [
+  "data/legal.ts:222"
+ ],
+ "Because we are based in Brazil, we also handle your personal data in line with the General Data Protection Law (LGPD, Law No. 13,709/2018), and you may complain to the National Data Protection Authority (ANPD).": [
+  "data/legal.ts:223"
+ ],
+ "Cookies": [
+  "data/legal.ts:227"
+ ],
+ "This website stores only what is needed for features you use, and no tracking cookies. Our [Cookie Policy](/legal/cookies) lists every item.": [
+  "data/legal.ts:229"
+ ],
+ "Every journey is tailor-made. You tell us what you would like, and we send you a written proposal and quote setting out the itinerary, what is included and excluded, the price and the payment dates.": [
+  "data/legal.ts:23"
+ ],
+ "This website is not intended for children under 16, and we do not knowingly collect their data directly. Details of children who travel with their families are provided by, and used on behalf of, a parent or guardian.": [
+  "data/legal.ts:235"
+ ],
+ "Changes to this policy": [
+  "data/legal.ts:239"
+ ],
+ "Prices on this website are shown “From”: a per-person guide to the starting cost of a journey of that kind. They are not an offer. The final price is the one confirmed to you in writing in your quote, which is valid for the period stated on it and subject to availability until your booking is confirmed.": [
+  "data/legal.ts:24"
+ ],
+ "We may update this policy. The date at the top shows when it last changed; if a change matters to you, we will tell you before it applies.": [
+  "data/legal.ts:241"
+ ],
+ "Sol Nascente, Cubo Itaú, Alameda Vicente Pinzon, 54, Vila Olímpia, São Paulo – SP, 04547-130, Brazil. Email: solnascente@tourground.com.": [
+  "data/legal.ts:247",
+  "data/legal.ts:148"
+ ],
+ "The person making the booking must be at least 18 years old and is responsible for payments and for passing on all information about the journey to the other travellers.": [
+  "data/legal.ts:25"
+ ],
+ "Cookie policy": [
+  "data/legal.ts:253",
+  "config/site.ts:48"
+ ],
+ "Exactly what solnascente.tourground.com stores on your device, and how to control it.": [
+  "data/legal.ts:254"
+ ],
+ "One small preference in your browser, and nothing that tracks you.": [
+  "data/legal.ts:255"
+ ],
+ "What cookies are": [
+  "data/legal.ts:258"
+ ],
+ "Cookies are small text files a website places in your browser. Websites can also keep information on your device with similar technologies such as local storage and session storage. This policy covers all of them and applies to solnascente.tourground.com.": [
+  "data/legal.ts:260"
+ ],
+ "What this website stores": [
+  "data/legal.ts:264"
+ ],
+ "We do not use analytics, advertising or social-media cookies, and nothing below is used to track you or is shared with anyone. This is the complete list:": [
+  "data/legal.ts:266"
+ ],
+ "Purpose": [
+  "data/legal.ts:271"
+ ],
+ "Duration": [
+  "data/legal.ts:272"
+ ],
+ "Remembers the display currency you choose for prices.": [
+  "data/legal.ts:278"
+ ],
+ "Until you clear it": [
+  "data/legal.ts:279"
+ ],
+ "Local storage, strictly necessary (preference)": [
+  "data/legal.ts:280"
+ ],
+ "Consent": [
+  "data/legal.ts:286"
+ ],
+ "Everything listed is strictly necessary for a feature you choose to use, or keeps your own preference on your own device, so the law does not require consent and we show no cookie banner. If we ever add analytics or other optional cookies, we will ask for your consent first and update this page.": [
+  "data/legal.ts:288"
+ ],
+ "Confirmation": [
+  "data/legal.ts:29"
+ ],
+ "Hosting and third-party content": [
+  "data/legal.ts:292"
+ ],
+ "Pages are delivered by our hosting provider, Vercel, which processes your IP address and request details in its server logs to serve the site and protect it from attacks. It sets no tracking cookies on this site.": [
+  "data/legal.ts:294"
+ ],
+ "Photographs are optimised by our hosting provider and delivered from our own domain, and video clips are served from our own domain, so your browser does not contact a third-party media service.": [
+  "data/legal.ts:295"
+ ],
+ "Fonts are served from our own domain, so no font service receives your data.": [
+  "data/legal.ts:296"
+ ],
+ "How to manage or delete them": [
+  "data/legal.ts:300"
+ ],
+ "You can delete everything this website stores at any time by clearing your browser’s cookies and site data for it, and you can block cookies and site storage in your browser settings. The site will still work; you will simply lose the saved preference.": [
+  "data/legal.ts:302"
+ ],
+ "Changes": [
+  "data/legal.ts:306"
+ ],
+ "We will update this page whenever the way this website stores information changes. The date at the top shows when it last changed.": [
+  "data/legal.ts:308"
+ ],
+ "Your booking is confirmed, and a contract between you and us is formed, when you have accepted your quote in writing, we have received your deposit, and we have sent you a written booking confirmation. Please check it carefully and tell us straight away if anything is wrong.": [
+  "data/legal.ts:31"
+ ],
+ "Contact": [
+  "data/legal.ts:312",
+  "data/legal.ts:245",
+  "data/legal.ts:146"
+ ],
+ "Questions about this policy: solnascente@tourground.com. Sol Nascente, Cubo Itaú, Alameda Vicente Pinzon, 54, Vila Olímpia, São Paulo – SP, 04547-130, Brazil. See also our [Privacy Policy](/legal/privacy).": [
+  "data/legal.ts:314"
+ ],
+ "Deposit and balance": [
+  "data/legal.ts:35"
+ ],
+ "A deposit of 25% of the total price is payable when you confirm, unless your quote states a different amount. The balance is due 60 days before departure; if you book within 60 days of departure, the full price is payable at booking.": [
+  "data/legal.ts:37"
+ ],
+ "Some services, such as certain flights, permits or small lodges, must be paid in full when booked; your quote will say so. If the balance is not paid on time, we may treat the booking as cancelled by you and apply the charges below.": [
+  "data/legal.ts:38"
+ ],
+ "Once your booking is confirmed, we will not increase its price, except to pass on new or higher government taxes, fees or fuel surcharges imposed after confirmation. We will not do so within 20 days of departure, and if an increase would exceed 8% of the total price you may cancel with a full refund.": [
+  "data/legal.ts:39"
+ ],
+ "What is included": [
+  "data/legal.ts:43"
+ ],
+ "Your journey includes exactly the services listed in your quote and booking confirmation, typically accommodation, the transport, transfers and activities named in the itinerary, and the meals stated.": [
+  "data/legal.ts:45"
+ ],
+ "Unless your quote says otherwise, it does not include international flights, travel insurance, visas and entry fees, vaccinations, meals and drinks not listed, tips, optional activities, excess baggage or personal expenses.": [
+  "data/legal.ts:46"
+ ],
+ "Changes by you": [
+  "data/legal.ts:50"
+ ],
+ "If you want to change your arrangements after booking, write to us and we will do our best to help. Changes depend on availability and may carry supplier costs and a reasonable administration charge, which we will confirm before making them. You may transfer your booking to another person who meets its conditions if you tell us at least 7 days before departure; you and they are jointly responsible for the price and any costs of the transfer.": [
+  "data/legal.ts:52"
+ ],
+ "Cancellation by you": [
+  "data/legal.ts:56"
+ ],
+ "You may cancel at any time by writing to us; cancellation takes effect on the day we receive it. Because we commit money to suppliers on your behalf, the following charges apply, calculated on the total price:": [
+  "data/legal.ts:58"
+ ],
+ "1 November 2026": [
+  "data/legal.ts:6"
+ ],
+ "When we receive your cancellation": [
+  "data/legal.ts:62"
+ ],
+ "Cancellation charge": [
+  "data/legal.ts:63"
+ ],
+ "More than 60 days before departure": [
+  "data/legal.ts:67"
+ ],
+ "The deposit": [
+  "data/legal.ts:68"
+ ],
+ "60 to 31 days before departure": [
+  "data/legal.ts:71"
+ ],
+ "50% of the total price": [
+  "data/legal.ts:72"
+ ],
+ "30 to 15 days before departure": [
+  "data/legal.ts:75"
+ ],
+ "75% of the total price": [
+  "data/legal.ts:76"
+ ],
+ "100% of the total price": [
+  "data/legal.ts:80"
+ ],
+ "Services your confirmation lists as non-refundable once booked (such as some flights or permits) are charged in full in addition to the scale above where they exceed it. You will not pay a cancellation charge if unavoidable and extraordinary circumstances at your destination significantly affect the journey. We strongly recommend insurance that covers cancellation from the day you book.": [
+  "data/legal.ts:85"
+ ],
+ "Changes and cancellation by us": [
+  "data/legal.ts:89"
+ ],
+ "Travel is shaped by weather, seasons and local conditions, so minor changes (a different vehicle, a revised route, a comparable lodge) may be needed and do not give rise to compensation.": [
+  "data/legal.ts:91"
+ ],
+ "If we have to make a significant change before departure, we will tell you as soon as possible and you may accept it, take a comparable alternative, or cancel with a full refund of everything you have paid us. If we must cancel your journey, we will refund all money you have paid us or, if you prefer, offer an alternative. We are not responsible for costs outside your booking with us, such as flights you arranged yourself.": [
+  "data/legal.ts:92"
+ ],
+ "Travel insurance": [
+  "data/legal.ts:96"
+ ],
+ "Comprehensive travel insurance is a condition of travelling with us. It must cover cancellation and curtailment, medical treatment, emergency evacuation and repatriation, and the activities in your itinerary. Please send us your policy details before departure.": [
+  "data/legal.ts:98"
  ],
  "Low sun glowing over the Atlantic from the beach at João Pessoa": [
   "data/media.json"
@@ -4490,15 +4600,13 @@
   "lib/enquiry.ts:3"
  ],
  "Culture": [
-  "lib/enquiry.ts:3",
-  "data/home.ts:10"
+  "lib/enquiry.ts:3"
  ],
  "Beaches": [
   "lib/enquiry.ts:3"
  ],
  "Wildlife": [
-  "lib/enquiry.ts:3",
-  "data/home.ts:9"
+  "lib/enquiry.ts:3"
  ],
  "Please tell us your name": [
   "lib/enquiry.ts:30"
@@ -4658,5 +4766,8 @@
  "Jan": [
   "lib/seasons.ts:7",
   "data/carnival.ts:142"
+ ],
+ "Ponta do Seixas": [
+  "lib/solar.ts:10"
  ]
 }

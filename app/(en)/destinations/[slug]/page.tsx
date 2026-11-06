@@ -11,7 +11,6 @@ import { SpecTable } from "@/components/ui/SpecTable";
 import { Verify } from "@/components/ui/Badges";
 import { ButtonLink } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
-import { BrazilPin } from "@/components/ui/BrazilPin";
 import { ExperienceCard, JourneyCard, StayCard } from "@/components/ui/Cards";
 import { JsonLd, pageMeta } from "@/lib/seo";
 import { site } from "@/config/site";
@@ -85,7 +84,6 @@ export default async function DestinationPage({ params }: PageProps<"/destinatio
           </div>
         </Reveal>
         <Reveal delay={0.1} className="bg-sand/70 p-6 md:p-8">
-          <BrazilPin lat={d.coords[0]} lng={d.coords[1]} label={d.name} className="mx-auto mb-6 w-full max-w-[14rem]" />
           <SpecTable
             rows={[
               { label: "State", value: d.state },

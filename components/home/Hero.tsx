@@ -1,64 +1,44 @@
-"use client";
-
-import { m as motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
 import { hero } from "@/data/home";
-import { VideoPlayer } from "@/components/ui/VideoPlayer";
-import { SunArcs } from "@/components/ui/SunArcs";
 import { Img } from "@/components/ui/Img";
+import { ButtonLink } from "@/components/ui/Button";
 
-/** Letters rise like the sun. Pure CSS (compositor-only), so it costs no main-thread time. */
-function RiseLetters({ word, delay = 0 }: { word: string; delay?: number }) {
-  return (
-    <span className="block overflow-hidden pb-[0.06em]" aria-hidden>
-      {word.split("").map((ch, i) => (
-        <span key={i} className="rise-letter inline-block" style={{ animationDelay: `${delay + i * 0.03}s` }}>
-          {ch}
-        </span>
-      ))}
-    </span>
-  );
-}
-
+/**
+ * Mosaic hero: headline, one line and one link beside three photos of different
+ * places in Brazil. Server-rendered; the first photo is preloaded.
+ */
 export function Hero() {
-  const ref = useRef<HTMLElement>(null);
-  const reduce = useReducedMotion();
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
-  const videoScale = useTransform(scrollYProgress, [0, 1], [1, reduce ? 1 : 1.12]);
-  const titleY = useTransform(scrollYProgress, [0, 1], ["0%", reduce ? "0%" : "35%"]);
-
+  const [first, ...rest] = hero.mosaic;
   return (
-    <section ref={ref} id="sol-nascente" aria-labelledby="hero-title" className="relative h-svh min-h-[34rem] overflow-hidden bg-forest text-off">
-      <motion.div className="absolute inset-0" style={{ scale: videoScale }}>
-        {/* Poster as a priority image: paints fast (good LCP) and sits under the video. */}
-        {hero.video.poster && <Img media={{ src: hero.video.poster, alt: "" }} priority sizes="100vw" quality={60} />}
-        <VideoPlayer media={hero.video} priority controlsClassName="right-[var(--gutter)] top-[calc(var(--header-h)+0.5rem)]" />
-      </motion.div>
-      {/* Warm dawn wash + legibility gradient */}
-      <div className="absolute inset-0 bg-linear-to-b from-ink/45 via-transparent to-ink/70" aria-hidden />
-      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-coral/25 to-transparent mix-blend-soft-light" aria-hidden />
-      <SunArcs className="absolute -bottom-[2vw] left-1/2 w-[120vw] max-w-none -translate-x-1/2 opacity-30" rings={7} color="var(--color-gold)" />
-
-      <motion.div style={{ y: titleY }} className="px-gutter relative flex h-full flex-col justify-end pb-[max(1.25rem,2vw)]">
-        <div className="mb-3 flex items-end justify-between gap-6 text-sm font-medium md:text-base">
-          {hero.tags.map((group, gi) => (
-            <ul key={gi} className={gi === 1 ? "flex gap-x-5 text-right" : "flex gap-x-5"}>
-              {group.map((t) => (
-                <li key={t} className="flex items-center gap-2">
-                  {gi === 0 && <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-gold" />}
-                  {t}
-                  {gi === 1 && <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-gold" />}
-                </li>
-              ))}
-            </ul>
-          ))}
+    <section
+      id="sol-nascente"
+      aria-labelledby="hero-title"
+      className="px-gutter relative bg-forest pb-[clamp(2.5rem,5vw,5rem)] pt-[calc(var(--header-h)+clamp(1.5rem,4vw,4rem))] text-off"
+    >
+      <div className="grid items-end gap-8 lg:grid-cols-[5fr_7fr] lg:gap-[4vw]">
+        <div className="max-w-xl lg:pb-4">
+          <p className="t-label text-gold">{hero.eyebrow}</p>
+          <h1 id="hero-title" className="mt-4 font-display text-[clamp(2.25rem,4.6vw,4.5rem)] font-bold leading-[1.02] tracking-[-0.03em] text-balance">
+            {hero.title}
+          </h1>
+          <p className="t-lead mt-5 text-off/85">{hero.intro}</p>
+          <div className="mt-8">
+            <ButtonLink href="/plan">Plan with us</ButtonLink>
+          </div>
         </div>
-        <h1 id="hero-title" className="t-mega flex flex-wrap justify-between gap-x-[3vw]">
-          <span className="sr-only">Sol Nascente: private journeys across Brazil</span>
-          <RiseLetters word={hero.titleTop} delay={0.05} />
-          <RiseLetters word={hero.titleBottom} delay={0.15} />
-        </h1>
-      </motion.div>
+
+        <ul className="grid grid-cols-2 gap-3 md:gap-4 lg:h-[min(72svh,44rem)] lg:grid-rows-2">
+          <li className="relative col-span-2 aspect-[16/10] overflow-hidden lg:col-span-1 lg:row-span-2 lg:aspect-auto">
+            <Img media={first.image} priority sizes="(min-width: 1024px) 29vw, 100vw" />
+            <span className="absolute bottom-3 left-3 rounded-pill bg-ink/55 px-3 py-1 text-xs font-semibold backdrop-blur-sm">{first.place}</span>
+          </li>
+          {rest.map((m) => (
+            <li key={m.place} className="relative aspect-[4/5] overflow-hidden lg:aspect-auto">
+              <Img media={m.image} sizes="(min-width: 1024px) 29vw, 50vw" />
+              <span className="absolute bottom-3 left-3 rounded-pill bg-ink/55 px-3 py-1 text-xs font-semibold backdrop-blur-sm">{m.place}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }

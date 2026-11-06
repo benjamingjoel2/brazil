@@ -4,7 +4,6 @@ import { AnimatePresence, m as motion, useReducedMotion } from "framer-motion";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
 import { biomes } from "@/data/biomes";
-import { brazilMap } from "@/lib/map";
 import { rangeLabel } from "@/lib/seasons";
 import type { BiomeSlug } from "@/lib/types";
 import { Img } from "@/components/ui/Img";
@@ -14,12 +13,10 @@ import { LinkList } from "@/components/ui/Cards";
 type LinkItem = { href: string; label: string };
 
 /**
- * Interactive biome map. Each region is a focusable button (Enter/Space to choose,
- * arrow keys to move); a plain button list sits beside it as a simple fallback.
+ * Biome explorer: a plain list of the six biomes beside the chosen biome's photo and details.
  */
 export function BiomeExplorer({ links }: { links: Record<BiomeSlug, { where: LinkItem[]; journeys: LinkItem[] }> }) {
   const [active, setActive] = useState<BiomeSlug>("amazon");
-  const [hover, setHover] = useState<BiomeSlug | null>(null);
   const reduce = useReducedMotion();
 
   useEffect(() => {
@@ -36,70 +33,13 @@ export function BiomeExplorer({ links }: { links: Record<BiomeSlug, { where: Lin
     setActive(slug);
     history.replaceState(null, "", `#${slug}`);
   };
-  const move = (d: number) => {
-    const i = biomes.findIndex((b) => b.slug === active);
-    choose(biomes[(i + d + biomes.length) % biomes.length].slug);
-  };
   const b = biomes.find((x) => x.slug === active)!;
-  const lit = hover ?? active;
 
   return (
-    <div className="grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-14">
+    <div className="grid gap-10 lg:grid-cols-[1fr_2fr] lg:gap-14">
       <div className="lg:sticky lg:top-[calc(var(--header-h)+1.5rem)] lg:self-start">
-        <svg
-          viewBox={`0 0 ${brazilMap.width} ${brazilMap.height}`}
-          className="w-full"
-          role="group"
-          aria-label="Map of Brazil's six biomes. Choose a biome."
-          onKeyDown={(e) => {
-            if (e.key === "ArrowRight" || e.key === "ArrowDown") {
-              e.preventDefault();
-              move(1);
-            }
-            if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
-              e.preventDefault();
-              move(-1);
-            }
-          }}
-        >
-          <defs>
-            <clipPath id="brazil-clip">
-              <path d={brazilMap.outline} />
-            </clipPath>
-          </defs>
-          <path d={brazilMap.outline} fill="var(--color-sand)" />
-          <g clipPath="url(#brazil-clip)">
-            {biomes.map((x) => (
-              <path
-                key={x.slug}
-                d={brazilMap.biomes[x.slug]}
-                fill={x.color}
-                role="button"
-                tabIndex={x.slug === active ? 0 : -1}
-                aria-label={`${x.name}: ${x.short}`}
-                aria-pressed={x.slug === active}
-                onClick={() => choose(x.slug)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    choose(x.slug);
-                  }
-                }}
-                onMouseEnter={() => setHover(x.slug)}
-                onMouseLeave={() => setHover(null)}
-                className="cursor-pointer outline-none transition-[opacity,filter] duration-300 focus-visible:brightness-125"
-                style={{ opacity: lit === x.slug ? 1 : 0.35 }}
-                stroke="var(--color-off)"
-                strokeWidth={3}
-              />
-            ))}
-          </g>
-          <path d={brazilMap.outline} fill="none" stroke="var(--color-forest)" strokeOpacity="0.4" strokeWidth="2.5" />
-        </svg>
-        <p className="mt-2 text-xs text-ink/70">Simplified map; biome boundaries are approximate (after IBGE).</p>
-
-        <div className="mt-6" role="group" aria-label="Biomes">
-          <ul className="flex flex-wrap gap-2">
+        <div role="group" aria-label="Biomes">
+          <ul className="divide-y divide-forest/15 border-y border-forest/15">
             {biomes.map((x) => (
               <li key={x.slug}>
                 <button
@@ -107,12 +47,13 @@ export function BiomeExplorer({ links }: { links: Record<BiomeSlug, { where: Lin
                   aria-pressed={x.slug === active}
                   onClick={() => choose(x.slug)}
                   className={clsx(
-                    "inline-flex items-center gap-2 rounded-pill border-2 px-3.5 py-1.5 text-sm font-semibold transition",
-                    x.slug === active ? "border-forest bg-forest text-off" : "border-forest/20 text-forest hover:border-forest",
+                    "flex w-full items-center gap-3 py-3 text-left font-display text-lg font-semibold transition-colors",
+                    x.slug === active ? "text-coral-deep" : "text-forest hover:text-coral-deep",
                   )}
                 >
-                  <span aria-hidden className="h-2.5 w-2.5 rounded-full" style={{ background: x.color }} />
-                  {x.name}
+                  <span aria-hidden className="h-3 w-3 shrink-0 rounded-full" style={{ background: x.color }} />
+                  <span className={clsx(x.slug === active && "underline decoration-2 underline-offset-4")}>{x.name}</span>
+                  <span className="ml-auto text-xs font-normal text-ink/70">{x.area}</span>
                 </button>
               </li>
             ))}
