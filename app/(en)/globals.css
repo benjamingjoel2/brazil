@@ -93,33 +93,20 @@ html.lenis body {
   }
 
   /* Type scale. Display face is wide, so sizes sit a touch below the reference. */
+  /* Large section word. Capped well under the giant-word limit (max 96px). */
   .t-mega {
     font-family: var(--font-display);
     font-weight: 800;
-    font-size: 12.2vw;
-    line-height: 0.88;
-    white-space: nowrap;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-  }
-  @media (min-width: 768px) {
-    .t-mega {
-      font-size: 9.4vw;
-    }
-  }
-  .t-wordmark {
-    font-family: var(--font-display);
-    font-weight: 800;
-    font-size: 9.6vw;
+    font-size: clamp(2.5rem, 6.5vw, 6rem);
     line-height: 0.9;
-    letter-spacing: -0.045em;
+    letter-spacing: -0.04em;
     text-transform: uppercase;
   }
   .t-h1 {
     font-family: var(--font-display);
     font-weight: 700;
-    font-size: clamp(2.5rem, 8vw, 8rem);
-    line-height: 0.95;
+    font-size: clamp(2.5rem, 6vw, 5.5rem);
+    line-height: 0.98;
     letter-spacing: -0.035em;
   }
   .t-h2 {
@@ -202,19 +189,6 @@ html.lenis body {
     padding-left: 1rem;
     font-size: 1.2rem;
   }
-}
-
-@keyframes rise-letter {
-  from {
-    transform: translate3d(0, 105%, 0);
-  }
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
-.rise-letter {
-  animation: rise-letter 0.9s var(--ease-sun) both;
-  will-change: transform;
 }
 
 @layer utilities {

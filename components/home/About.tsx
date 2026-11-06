@@ -2,7 +2,6 @@ import { about } from "@/data/home";
 import { Img } from "@/components/ui/Img";
 import { Reveal, RiseWords } from "@/components/ui/Reveal";
 import { LiveInfo } from "./LiveInfo";
-import { BrazilMiniMap } from "./BrazilMiniMap";
 
 export function About() {
   return (
@@ -25,8 +24,7 @@ export function About() {
           </p>
         </Reveal>
 
-        <Reveal delay={0.15} className="flex flex-col justify-between gap-8 bg-sand/60 p-6">
-          <BrazilMiniMap className="mx-auto w-full max-w-[18rem]" />
+        <Reveal delay={0.15} className="flex flex-col justify-end gap-8 bg-sand/60 p-6">
           <LiveInfo />
         </Reveal>
       </div>
