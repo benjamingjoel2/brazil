@@ -29,7 +29,7 @@ export function PageHero({
       <SunArcs className="absolute -bottom-6 left-1/2 w-[110vw] max-w-none -translate-x-1/2 opacity-25" rings={6} />
       <div className="px-gutter relative pb-[max(2.5rem,5vw)] pt-[calc(var(--header-h)+3rem)]">
         {label && <p className="t-label mb-4 inline-flex rounded-pill bg-ink/45 px-3 py-1.5 text-gold backdrop-blur-sm">{label}</p>}
-        <h1 className="t-h1 max-w-5xl">
+        <h1 className="t-hero-h1 max-w-5xl">
           <RiseWords text={title} />
         </h1>
         {lead && <div className="t-lead mt-6 max-w-2xl text-off/90">{lead}</div>}
