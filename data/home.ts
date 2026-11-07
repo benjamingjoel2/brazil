@@ -3,14 +3,13 @@ import { img, video } from "@/lib/media";
 /** Homepage copy that isn't a reusable collection elsewhere. */
 
 export const hero = {
-  eyebrow: "Brazil, from first light",
-  title: "Private journeys across Brazil",
-  /** Three different places, shown as the hero mosaic. */
-  mosaic: [
-    { place: "Lençóis Maranhenses", image: img("lencois-maranhenses", "White dunes and blue lagoons of Lençóis Maranhenses") },
-    { place: "Pantanal", image: img("pantanal", "A jabiru stork over the Paraguay River in the Pantanal") },
-    { place: "Salvador", image: img("salvador", "Cobblestone street leading to a church in Salvador") },
+  titleTop: "Sol",
+  titleBottom: "Nascente",
+  tags: [
+    ["Private journeys", "Wildlife"],
+    ["Culture", "Brazil"],
   ],
+  video: video("hero-sunrise"),
   intro:
     "The sun rises in Brazil before anywhere else in the Americas. We like to think it's in a hurry to get here.",
 };

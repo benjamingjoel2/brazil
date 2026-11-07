@@ -109,6 +109,28 @@ html.lenis body {
     line-height: 0.98;
     letter-spacing: -0.035em;
   }
+  /* Hero headlines keep their original size (owner decision, 7 Nov 2026). */
+  .t-hero-mega {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 12.2vw;
+    line-height: 0.88;
+    white-space: nowrap;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+  }
+  @media (min-width: 768px) {
+    .t-hero-mega {
+      font-size: 9.4vw;
+    }
+  }
+  .t-hero-h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 8vw, 8rem);
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+  }
   .t-h2 {
     font-family: var(--font-display);
     font-weight: 700;
@@ -189,6 +211,19 @@ html.lenis body {
     padding-left: 1rem;
     font-size: 1.2rem;
   }
+}
+
+@keyframes rise-letter {
+  from {
+    transform: translate3d(0, 105%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.rise-letter {
+  animation: rise-letter 0.9s var(--ease-sun) both;
+  will-change: transform;
 }
 
 @layer utilities {
